@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2026-02-04T10:21:14.312175+01:00" required="2.1.0" version="2.4.0">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2026-04-03T15:14:07.088673+02:00" required="2.1.0" version="2.4.2">
 	<catalog dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo-interdisciplinary-workflow-catalog">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo-interdisciplinary-workflow-catalog</uri_path>
@@ -818,8 +818,6 @@
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/software/programming-language" order="3"/>
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/software/dependency" order="4"/>
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/software/version" order="5"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/software/published" order="6"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/software/documented" order="7"/>
 		</questions>
 		<conditions/>
 	</questionset>
@@ -989,64 +987,6 @@
 		<unit/>
 		<width/>
 		<optionsets/>
-		<conditions/>
-	</question>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/software/published">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/process-information/software/published</uri_path>
-		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/software/published"/>
-		<is_collection>False</is_collection>
-		<is_optional>False</is_optional>
-		<help lang="en">If yes, provide the full link to the source code repository.</help>
-		<text lang="en">Is the Source Code of the Software published?</text>
-		<default_text lang="en"/>
-		<verbose_name lang="en"/>
-		<help lang="de">Falls ja geben Sie den kompletten Link zum Source Code Repositorium an.</help>
-		<text lang="de">Ist der Source Code der Software veröffentlicht?</text>
-		<default_text lang="de"/>
-		<verbose_name lang="de"/>
-		<default_option/>
-		<default_external_id/>
-		<widget_type>radio</widget_type>
-		<value_type>text</value_type>
-		<maximum/>
-		<minimum/>
-		<step/>
-		<unit/>
-		<width/>
-		<optionsets>
-			<optionset dc:uri="https://rdmorganiser.github.io/terms/options/yes_with_text_no"/>
-		</optionsets>
-		<conditions/>
-	</question>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-information/software/documented">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/process-information/software/documented</uri_path>
-		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/software/documented"/>
-		<is_collection>False</is_collection>
-		<is_optional>False</is_optional>
-		<help lang="en">If yes, provide the full link to the documentation / manual.</help>
-		<text lang="en">Is the Software documented?</text>
-		<default_text lang="en"/>
-		<verbose_name lang="en"/>
-		<help lang="de">Falls ja geben Sie den kompletten Link zur Dokumentation / Anleitung an.</help>
-		<text lang="de">Ist die Software dokumentiert?</text>
-		<default_text lang="de"/>
-		<verbose_name lang="de"/>
-		<default_option/>
-		<default_external_id/>
-		<widget_type>radio</widget_type>
-		<value_type>text</value_type>
-		<maximum/>
-		<minimum/>
-		<step/>
-		<unit/>
-		<width/>
-		<optionsets>
-			<optionset dc:uri="https://rdmorganiser.github.io/terms/options/yes_with_text_no"/>
-		</optionsets>
 		<conditions/>
 	</question>
 	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-informatttion/software/id">
