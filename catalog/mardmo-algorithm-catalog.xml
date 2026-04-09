@@ -1,14 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2026-02-04T10:21:07.653566+01:00" required="2.1.0" version="2.4.0">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2026-04-09T16:59:26.703002+02:00" required="2.1.0" version="2.4.2">
 	<catalog dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo-algorithm-catalog">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo-algorithm-catalog</uri_path>
-		<dc:comment/>
+		<dc:comment>&lt;p&gt;Dieser Katalog hilft dabei, mathematische Modelle anhand der MathModDB-Ontologie zu beschreiben. Er umfasst zentrale Elemente wie das Modell selbst, Berechnungsaufgaben, mathematische Ausdrücke, Größen, Forschungsprobleme, wissenschaftliche Disziplinen und Publikationen. Bestehende Einträge aus dem MaRDI-Portal oder Wikidata können wiederverwendet oder neue erstellt werden. Der Katalog unterstützt die Dokumentation neuer Modelle, das Hinzufügen von Forschungsproblemen oder Berechnungsaufgaben. Er folgt den FAIR-Prinzipien, um Modelle auffindbar, zugänglich, interoperabel und wiederverwendbar zu machen, und ist Teil des MaRDMO-Projekts innerhalb der MaRDI-Initiative.  Abgeschlossene Dokumentationen können direkt in das MaRDI-Portal exportiert werden.&lt;/p&gt;
+
+&lt;p&gt;Sehen Sie sich &lt;a href=&quot;https://www.youtube.com/watch?v=UmbBNUZJ994&amp;list=PLgoPZ7uPWbo-jqDXzx4fSm_4JyAYEMPjn&quot;&gt;MaRDMO Model Documentation&lt;/a&gt; an, in dem die Dokumentation und der anschließende Export vorgestellt werden.&lt;/p&gt;</dc:comment>
 		<order>0</order>
 		<title lang="en">MaRDMO: Questionnaire for Algorithms</title>
-		<help lang="en">This catalog helps you document algorithms using the MathAlgoDB ontology. It covers key aspects such as the algorithm itself, algorithmic tasks, software, benchmarks, and publications. You can reuse existing entries from the MathAlgoDB Knowledge Graph, MaRDI Portal or Wikidata, or create new ones. The catalog supports documenting new algorithms, adding tasks, software, or benchmarks to existing ones. It follows the FAIR principles to make algorithms findable, accessible, interoperable, and reusable, and is part of the MaRDMO project developed within the MaRDI initiative.</help>
+		<help lang="en">&lt;p&gt;This catalog helps you document algorithms using the MathAlgoDB ontology. It covers key aspects such as the algorithm itself, algorithmic tasks, software, benchmarks, and publications. You can reuse existing entries from the MaRDI Portal or Wikidata, or create new ones. The catalog supports documenting new algorithms, adding tasks, software, or benchmarks. It follows the FAIR principles to make algorithms findable, accessible, interoperable, and reusable, and is part of the MaRDMO project developed within the MaRDI initiative. Completed documentations can be exported directly to the MaRDI Portal.&lt;/p&gt;
+
+&lt;p&gt;Check out &lt;a href=&quot;https://www.youtube.com/playlist?list=PLgoPZ7uPWbo-aC9pnVMYRZYM3iygBYWwn&quot;&gt;MaRDMO Algorithm Documentation&lt;/a&gt; showcasing the documentation and subsequent export.&lt;/p&gt;</help>
 		<title lang="de">MaRDMO: Fragenkatalog für Algorithmen</title>
-		<help lang="de">Dieser Katalog hilft dabei, Algorithmen anhand der MathAlgoDB-Ontologie zu dokumentieren. Er umfasst zentrale Elemente wie den Algorithmus selbst, algorithmische Aufgaben, Software, Benchmarks und Publikationen. Bestehende Einträge aus dem MathAlgoDB Knowledge Graph, MaRDI Portal oder Wikidata können wiederverwendet oder neue erstellt werden. Der Katalog unterstützt die Dokumentation neuer Algorithmen sowie das Hinzufügen von Aufgaben, Software oder Benchmarks zu bestehenden Einträgen. Er folgt den FAIR-Prinzipien, um Algorithmen auffindbar, zugänglich, interoperabel und wiederverwendbar zu machen, und ist Teil des MaRDMO-Projekts innerhalb der MaRDI-Initiative.</help>
+		<help lang="de">&lt;p&gt;Dieser Katalog hilft dabei, Algorithmen anhand der MathAlgoDB-Ontologie zu beschreiben. Er umfasst zentrale Elemente wie den Algorithmus selbst, algorithmische Aufgaben, Software, Benchmarks und Publikationen. Bestehende Einträge aus dem MaRDI-Portal oder Wikidata können wiederverwendet oder neue erstellt werden. Der Katalog unterstützt die Dokumentation neuer Algorithmen, das Hinzufügen von Aufgaben, Software oder Benchmarks . Er folgt den FAIR-Prinzipien, um Algorithmen auffindbar, zugänglich, interoperabel und wiederverwendbar zu machen, und ist Teil des MaRDMO-Projekts innerhalb der MaRDI-Initiative. Abgeschlossene Dokumentationen können direkt in das MaRDI-Portal exportiert werden.&lt;/p&gt;
+
+&lt;p&gt;Sehen Sie sich &lt;a href=&quot;https://www.youtube.com/playlist?list=PLgoPZ7uPWbo-aC9pnVMYRZYM3iygBYWwn&quot;&gt;MaRDMO Algorithmus Documentation&lt;/a&gt; an, in dem die Dokumentation und der anschließende Export vorgestellt werden.&lt;/p&gt;</help>
 		<sections>
 			<section dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/algorithm" order="1"/>
 			<section dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/publication-algorithm" order="2"/>
@@ -19,9 +25,9 @@
 		<uri_path>mardmo/algorithm</uri_path>
 		<dc:comment/>
 		<title lang="en">Documentation</title>
-		<short_title lang="en"/>
+		<short_title lang="en">Documentation</short_title>
 		<title lang="de">Dokumentation</title>
-		<short_title lang="de"/>
+		<short_title lang="de">Dokumentation</short_title>
 		<pages>
 			<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/algorithm-introduction" order="0"/>
 			<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/algorithm/algorithm" order="1"/>
@@ -39,7 +45,7 @@
 		<title lang="en">Welcome to the MathAlgoDB Interview</title>
 		<short_title lang="en">Introduction</short_title>
 		<help lang="en">&lt;p&gt;This guided interview helps you document algorithms using the &lt;em&gt;&lt;a href=&quot;https://mardi4nfdi.github.io/MathAlgoDB/&quot; target=&quot;_blank&quot;&gt;MathAlgoDB ontology&lt;/a&gt;&lt;/em&gt;.&lt;/p&gt;
-  &lt;p&gt;The interview is structured by the key classes of the ontology:&lt;/p&gt; 
+  &lt;p&gt;The interview is structured by the classes of the ontology:&lt;/p&gt; 
 &lt;ul&gt; 
 &lt;li&gt;&lt;em&gt;Algorithm&lt;/em&gt;&lt;/li&gt;
 &lt;li&gt;&lt;em&gt;Algorithmic Task&lt;/em&gt;&lt;/li&gt; 
@@ -47,8 +53,8 @@
 &lt;li&gt;&lt;em&gt;Benchmark&lt;/em&gt;&lt;/li&gt;
 &lt;li&gt;&lt;em&gt;Publication&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;
-  &lt;p&gt;For each class, you can reuse existing entries from the &lt;em&gt;&lt;a href=&quot;https://cordi2025.m1.mardi.ovh/&quot; target=&quot;_blank&quot;&gt;MathAlgoDB Knowledge Graph&lt;/a&gt;&lt;/em&gt; or &lt;em&gt;&lt;a href=&quot;https://www.wikidata.org/&quot; target=&quot;_blank&quot;&gt;Wikidata&lt;/a&gt;&lt;/em&gt;, or define new ones.&lt;/p&gt;
-  &lt;p&gt;The interview supports three main use cases:&lt;/p&gt;
+  &lt;p&gt;For each class, you can reuse existing entries from the &lt;em&gt;&lt;a href=&quot;https://portal.mardi4nfdi.de/&quot; target=&quot;_blank&quot;&gt;MaRDI Portal&lt;/a&gt;&lt;/em&gt; or &lt;em&gt;&lt;a href=&quot;https://www.wikidata.org/&quot; target=&quot;_blank&quot;&gt;Wikidata&lt;/a&gt;&lt;/em&gt;, or define new ones.&lt;/p&gt;
+  &lt;p&gt;The interview supports four main use cases:&lt;/p&gt;
   &lt;ul&gt;
     &lt;li&gt;Documenting a new algorithm&lt;/li&gt;
     &lt;li&gt;Adding an algorithmic task to an existing algorithm&lt;/li&gt;
@@ -61,7 +67,7 @@
 		<title lang="de">Willkommen zum MathAlgoDB-Interview</title>
 		<short_title lang="de">Einführung</short_title>
 		<help lang="de">&lt;p&gt;Dieses geführte Interview unterstützt Sie bei der Dokumentation von Algorithmen mithilfe der &lt;em&gt;&lt;a href=&quot;https://mardi4nfdi.github.io/MathAlgoDB/&quot; target=&quot;_blank&quot;&gt;MathAlgoDB-Ontologie&lt;/a&gt;&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;Das Interview orientiert sich an den zentralen Klassen der Ontologie:&lt;/p&gt; 
+&lt;p&gt;Das Interview orientiert sich an den Klassen der Ontologie:&lt;/p&gt; 
 &lt;ul&gt; 
 &lt;li&gt;&lt;em&gt;Algorithmus&lt;/em&gt;&lt;/li&gt;
 &lt;li&gt;&lt;em&gt;Algorithmische Aufgabe&lt;/em&gt;&lt;/li&gt; 
@@ -69,8 +75,8 @@
 &lt;li&gt;&lt;em&gt;Benchmark&lt;/em&gt;&lt;/li&gt;
 &lt;li&gt;&lt;em&gt;Publikation&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Für jede Klasse können vorhandene Einträge aus dem &lt;em&gt;&lt;a href=&quot;https://cordi2025.m1.mardi.ovh/&quot; target=&quot;_blank&quot;&gt;MathAlgoDB Knowledge Graph&lt;/a&gt;&lt;/em&gt; oder &lt;em&gt;&lt;a href=&quot;https://www.wikidata.org/&quot; target=&quot;_blank&quot;&gt;Wikidata&lt;/a&gt;&lt;/em&gt; wiederverwendet oder neue Einträge definiert werden.&lt;/p&gt;
-&lt;p&gt;Das Interview unterstützt drei Hauptanwendungsfälle:&lt;/p&gt;
+&lt;p&gt;Für jede Klasse können vorhandene Einträge aus dem &lt;em&gt;&lt;a href=&quot;https://portal.mardi4nfdi.de/&quot; target=&quot;_blank&quot;&gt;MaRDI-Portal&lt;/a&gt;&lt;/em&gt; oder &lt;em&gt;&lt;a href=&quot;https://www.wikidata.org/&quot; target=&quot;_blank&quot;&gt;Wikidata&lt;/a&gt;&lt;/em&gt; wiederverwendet oder neue Einträge definiert werden.&lt;/p&gt;
+&lt;p&gt;Das Interview unterstützt vier Hauptanwendungsfälle:&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Dokumentation eines neuen Algorithmus&lt;/li&gt;
   &lt;li&gt;Hinzufügen einer algorithmischen Aufgabe zu einem bestehenden Algorithmus&lt;/li&gt;
@@ -78,7 +84,7 @@
   &lt;li&gt;Hinzufügen eines Benchmarks zu einer bestehenden algorithmischen Aufgabe oder Software&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Alle Informationen sind gemäß den FAIR-Prinzipien strukturiert – Ihre Algorithmen werden dadurch &lt;strong&gt;auffindbar, zugänglich, interoperabel und wiederverwendbar&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;Dieser Katalog ist Teil von &lt;strong&gt;&lt;a href=&quot;https://github.com/MarcoReidelbach/MaRDMO-Plugin&quot; target=&quot;_blank&quot;&gt;MaRDMO&lt;/a&gt;&lt;/strong&gt; und wird im Rahmen des Task Area 4 der &lt;strong&gt;&lt;a href=&quot;https://www.mardi4nfdi.de/&quot; target=&quot;_blank&quot;&gt;Mathematical Research Data Initiative (MaRDI)&lt;/a&gt;&lt;/strong&gt; entwickelt. Ziel ist es, Forschende aller Disziplinen bei der systematischen Dokumentation mathematischer Forschungsdaten zu unterstützen.&lt;/p&gt;</help>
+&lt;p&gt;Dieser Katalog ist Teil von &lt;strong&gt;&lt;a href=&quot;https://github.com/MarcoReidelbach/MaRDMO-Plugin&quot; target=&quot;_blank&quot;&gt;MaRDMO&lt;/a&gt;&lt;/strong&gt; und wird im Rahmen der Task Area 4 der &lt;strong&gt;&lt;a href=&quot;https://www.mardi4nfdi.de/&quot; target=&quot;_blank&quot;&gt;Mathematical Research Data Initiative (MaRDI)&lt;/a&gt;&lt;/strong&gt; entwickelt. Ziel ist es, Forschende aller Disziplinen bei der systematischen Dokumentation mathematischer Forschungsdaten zu unterstützen.&lt;/p&gt;</help>
 		<verbose_name lang="de"/>
 		<questionsets/>
 		<questions/>
@@ -91,24 +97,28 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/algorithm"/>
 		<is_collection>True</is_collection>
 		<title lang="en">Algorithm</title>
-		<short_title lang="en"/>
-		<help lang="en">&lt;p&gt;On this page, you can define new algorithms or select existing ones from the MathAlgoDB Knowledge Graph, MaRDI Portal or Wikidata. When an existing algorithm is selected, all available information from the relevant source is retrieved and integrated into the interview. Retrieved data can be completed and extended with new relations (e.g., a newly solved task or an additional software).&lt;/p&gt;
+		<short_title lang="en">Algorithm</short_title>
+		<help lang="en">&lt;p&gt;On this page, you can define new algorithms or select existing ones from the MaRDI Portal or Wikidata. When an existing algorithm is selected, all available information from the relevant source is retrieved and integrated into the interview. Retrieved data can be completed and extended with new relations (e.g., a newly solved task or an additional software).&lt;/p&gt;
 
 &lt;p&gt;In addition to enhancing existing algorithms, they can also serve as templates for creating new ones. To use an algorithm as a template, the reference to the external source must be removed after importing the available information.&lt;/p&gt;
 
-&lt;p&gt;For a smooth export to the MathAlgoDB Knowledge Graph, all &lt;strong&gt;non-optional&lt;/strong&gt; questions must be answered completely.&lt;/p&gt;
+&lt;p&gt;For a smooth export to the MaRDI Portal, all &lt;strong&gt;non-optional&lt;/strong&gt; questions must be answered completely.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; If an algorithm is selected from the MathAlgoDB Knowledge Graph and not used as a template, its existing information &lt;u&gt;cannot&lt;/u&gt; be edited or deleted via MaRDMO. Any changes or deletions made regardless will be ignored or shown alongside the original information in the MathAlgoDB Knowledge Graph.&lt;/p&gt;</help>
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; If an algorithm is selected from the MaRDI Portal and not used as a template, its existing information &lt;u&gt;cannot&lt;/u&gt; be edited or deleted via MaRDMO. Any changes or deletions made regardless will be ignored or shown alongside the original information in the MaRDI Portal.&lt;/p&gt;
+
+&lt;p&gt;Check out &lt;a href=&quot;https://www.youtube.com/watch?v=30LK9q30UT0&amp;list=PLgoPZ7uPWbo-aC9pnVMYRZYM3iygBYWwn&amp;index=1&amp;t=1s&quot;&gt;Algorithm&lt;/a&gt; showcasing the documentation.&lt;/p&gt;</help>
 		<verbose_name lang="en">Add Algorithm</verbose_name>
 		<title lang="de">Algorithmus</title>
 		<short_title lang="de"/>
-		<help lang="de">&lt;p&gt;Auf dieser Seite können neue Algorithmen definiert oder bereits bestehende Algorithmen aus dem MathAlgoDB Knowledge Graph, MaRDI Portal oder Wikidata ausgewählt werden. Wird ein bestehender Algorithmus ausgewählt, werden alle verfügbaren Informationen aus der jeweiligen Quelle abgerufen und in das Interview integriert. Die abgerufenen Informationen können ergänzt und um neue Relationen erweitert werden (z.&amp;nbsp;B. eine neue zu lösende algorithmische Aufgabe oder eine zusätzliche Software).&lt;/p&gt;
+		<help lang="de">&lt;p&gt;Auf dieser Seite können neue Algorithmen definiert oder bereits bestehende Algorithmen aus dem MaRDI Portal oder Wikidata ausgewählt werden. Wird ein bestehender Algorithmus ausgewählt, werden alle verfügbaren Informationen aus der jeweiligen Quelle abgerufen und in das Interview integriert. Die abgerufenen Informationen können ergänzt und um neue Relationen erweitert werden (z.&amp;nbsp;B. eine neue zu lösende algorithmische Aufgabe oder eine zusätzliche Software).&lt;/p&gt;
 
 &lt;p&gt;Bestehende Algorithmen können nicht nur erweitert, sondern auch als Vorlage für neue Algorithmen verwendet werden. Hierfür ist es erforderlich, nach dem Abruf der Informationen den Bezug zur externen Quelle zu entfernen.&lt;/p&gt;
 
-&lt;p&gt;Für einen reibungslosen Export in den MathAlgoDB Knowledge Graph müssen alle &lt;strong&gt;nicht-optionalen&lt;/strong&gt; Fragen vollständig beantwortet sein.&lt;/p&gt;
+&lt;p&gt;Für einen reibungslosen Export in das MaRDI Portal müssen alle &lt;strong&gt;nicht-optionalen&lt;/strong&gt; Fragen vollständig beantwortet sein.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Hinweis:&lt;/strong&gt; Wird ein Algorithmus aus dem MathAlgoBD Knowledge Graph ausgewählt und nicht als Vorlage verwendet, können bestehende Informationen über MaRDMO &lt;u&gt;nicht&lt;/u&gt; editiert oder gelöscht werden. Änderungen oder Löschungen, die dennoch vorgenommen werden, werden ignoriert oder zusätzlich zu den bestehenden Informationen im MathAlgoDB Knowledge Graph angezeigt.&lt;/p&gt;</help>
+&lt;p&gt;&lt;strong&gt;Hinweis:&lt;/strong&gt; Wird ein Algorithmus aus dem MaRDI Portal ausgewählt und nicht als Vorlage verwendet, können bestehende Informationen über MaRDMO &lt;u&gt;nicht&lt;/u&gt; editiert oder gelöscht werden. Änderungen oder Löschungen, die dennoch vorgenommen werden, werden ignoriert oder zusätzlich zu den bestehenden Informationen im MaRDI Portal angezeigt.&lt;/p&gt;
+
+&lt;p&gt;Sehen Sie sich &lt;a href=&quot;https://www.youtube.com/watch?v=30LK9q30UT0&amp;list=PLgoPZ7uPWbo-aC9pnVMYRZYM3iygBYWwn&amp;index=1&amp;t=1s&quot;&gt;Algorithm&lt;/a&gt; an in dem die Dokumentation vorgestellt wird.&lt;/p&gt;</help>
 		<verbose_name lang="de">Algorithmus Hinzufügen</verbose_name>
 		<questionsets>
 			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/algorithm/algorithm/information" order="1"/>
@@ -238,7 +248,7 @@
 		<text lang="en">Software implementing the Algorithm?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en">Add Software</verbose_name>
-		<help lang="de">&lt;p&gt;Wählen Sie einen oder mehrere Software aus. Für alle Software wird &lt;em&gt;Name (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Wenn eine Software ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls keine passende Software im MaRDI Portal oder Wikidata vorhanden ist, definieren Sie eine neue Software mit &lt;em&gt;Name (Beschreibung)&lt;/em&gt;.&lt;/p&gt;</help>
+		<help lang="de">&lt;p&gt;Wählen Sie eine oder mehrere Software aus. Für alle Software wird &lt;em&gt;Name (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Wenn eine Software ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls keine passende Software im MaRDI Portal oder Wikidata vorhanden ist, definieren Sie eine neue Software mit &lt;em&gt;Name (Beschreibung)&lt;/em&gt;.&lt;/p&gt;</help>
 		<text lang="de">Software welche den Algorithmus implementiert?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de">Software Hinzufügen</verbose_name>
@@ -266,7 +276,7 @@
 		<help lang="en">&lt;p&gt;To relate the algorithm with other algorithms, select additional algorithms and specify the relations.&lt;/p&gt;</help>
 		<verbose_name lang="en">Add Algorithm Relation</verbose_name>
 		<title lang="de">Algorithmus - Algorithmus Beziehungen</title>
-		<help lang="de">&lt;p&gt;Um den Algorithmusl mit anderen Algorithmen zu verknüpfen, wählen Sie weitere Algorithmen aus und geben Sie die Relationen an.&lt;/p&gt;</help>
+		<help lang="de">&lt;p&gt;Um den Algorithmus mit anderen Algorithmen zu verknüpfen, wählen Sie weitere Algorithmen aus und geben Sie die Relationen an.&lt;/p&gt;</help>
 		<verbose_name lang="de">Algorithmus Relation Hinzufügen</verbose_name>
 		<questionsets/>
 		<questions>
@@ -373,24 +383,28 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/problem"/>
 		<is_collection>True</is_collection>
 		<title lang="en">Algorithmic Task</title>
-		<short_title lang="en"/>
-		<help lang="en">&lt;p&gt;On this page, you can define new tasks or select existing ones from the MathAlgoDB Knowledge Graph, MaRDI Portal or Wikidata. When an existing task is selected, all available information from the relevant source is retrieved and integrated into the interview. Retrieved data can be completed and extended with new relations (e.g., instantiated benchmarks).&lt;/p&gt;
+		<short_title lang="en">Task</short_title>
+		<help lang="en">&lt;p&gt;On this page, you can define new tasks or select existing ones from the MaRDI Portal or Wikidata. When an existing task is selected, all available information from the relevant source is retrieved and integrated into the interview. Retrieved data can be completed and extended with new relations (e.g., instantiated benchmarks).&lt;/p&gt;
 
 &lt;p&gt;In addition to enhancing existing tasks, they can also serve as templates for creating new ones. To use a task as a template, the reference to the external source must be removed after importing the available information.&lt;/p&gt;
 
-&lt;p&gt;For a smooth export to the MathAlgoDB Knowledge Graph, all &lt;strong&gt;non-optional&lt;/strong&gt; questions must be answered completely.&lt;/p&gt;
+&lt;p&gt;For a smooth export to the MaRDI Portal, all &lt;strong&gt;non-optional&lt;/strong&gt; questions must be answered completely.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; If a task is selected from the MathAlgoDB Knowledge Graph and not used as a template, its existing information &lt;u&gt;cannot&lt;/u&gt; be edited or deleted via MaRDMO. Any changes or deletions made regardless will be ignored or shown alongside the original information in the MathAlgoDB Knowledge Graph.&lt;/p&gt;</help>
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; If a task is selected from the MaRDI Portal and not used as a template, its existing information &lt;u&gt;cannot&lt;/u&gt; be edited or deleted via MaRDMO. Any changes or deletions made regardless will be ignored or shown alongside the original information in the MaRDI Portal.&lt;/p&gt;
+
+&lt;p&gt;Check out &lt;a href=&quot;https://www.youtube.com/watch?v=UOtLELvv4No&amp;list=PLgoPZ7uPWbo-aC9pnVMYRZYM3iygBYWwn&amp;index=2&quot;&gt;Algorithmic Task&lt;/a&gt; showcasing the documentation.&lt;/p&gt;</help>
 		<verbose_name lang="en">Add Algorithmic Task</verbose_name>
 		<title lang="de">Algorithmische Aufgabe</title>
-		<short_title lang="de"/>
-		<help lang="de">&lt;p&gt;Auf dieser Seite können neue Aufgaben definiert oder bereits bestehende Aufgaben aus dem MathAlgoDB Knowledge Graph, MaRDI Portal oder Wikidata ausgewählt werden. Wird eine bestehende Aufgabe ausgewählt, werden alle verfügbaren Informationen aus der jeweiligen Quelle abgerufen und in das Interview integriert. Die abgerufenen Informationen können ergänzt und um neue Relationen erweitert werden (z.&amp;nbsp;B. instanziierte Benchmarks).&lt;/p&gt;
+		<short_title lang="de">Aufgabe</short_title>
+		<help lang="de">&lt;p&gt;Auf dieser Seite können neue Aufgaben definiert oder bereits bestehende Aufgaben aus dem MaRDI Portal oder Wikidata ausgewählt werden. Wird eine bestehende Aufgabe ausgewählt, werden alle verfügbaren Informationen aus der jeweiligen Quelle abgerufen und in das Interview integriert. Die abgerufenen Informationen können ergänzt und um neue Relationen erweitert werden (z.&amp;nbsp;B. instanziierte Benchmarks).&lt;/p&gt;
 
 &lt;p&gt;Bestehende Aufgaben können nicht nur erweitert, sondern auch als Vorlage für neue Aufgaben verwendet werden. Hierfür ist es erforderlich, nach dem Abruf der Informationen den Bezug zur externen Quelle zu entfernen.&lt;/p&gt;
 
 &lt;p&gt;Für einen reibungslosen Export in das MaRDI Portal müssen alle &lt;strong&gt;nicht-optionalen&lt;/strong&gt; Fragen vollständig beantwortet sein.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Hinweis:&lt;/strong&gt; Wird eine Aufgabe aus dem MathAlgoDB Knowledge Graph ausgewählt und nicht als Vorlage verwendet, können bestehende Informationen über MaRDMO &lt;u&gt;nicht&lt;/u&gt; editiert oder gelöscht werden. Änderungen oder Löschungen, die dennoch vorgenommen werden, werden ignoriert oder zusätzlich zu den bestehenden Informationen im MathAlgoDB Knowledge Graph angezeigt.&lt;/p&gt;</help>
+&lt;p&gt;&lt;strong&gt;Hinweis:&lt;/strong&gt; Wird eine Aufgabe aus dem MaRDI Portal ausgewählt und nicht als Vorlage verwendet, können bestehende Informationen über MaRDMO &lt;u&gt;nicht&lt;/u&gt; editiert oder gelöscht werden. Änderungen oder Löschungen, die dennoch vorgenommen werden, werden ignoriert oder zusätzlich zu den bestehenden Informationen im MaRDI Portal angezeigt.&lt;/p&gt;
+
+&lt;p&gt;Sehen Sie sich &lt;a href=&quot;https://www.youtube.com/watch?v=UOtLELvv4No&amp;list=PLgoPZ7uPWbo-aC9pnVMYRZYM3iygBYWwn&amp;index=3&quot;&gt;Algorithmic Task&lt;/a&gt; an in dem die Dokumentation vorgestellt wird.&lt;/p&gt;</help>
 		<verbose_name lang="de">Algorithmische Aufgabe Hinzufügen</verbose_name>
 		<questionsets>
 			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/algorithm/problem/information" order="1"/>
@@ -625,24 +639,28 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/software"/>
 		<is_collection>True</is_collection>
 		<title lang="en">Software</title>
-		<short_title lang="en"/>
-		<help lang="en">&lt;p&gt;On this page, you can define new software or select existing ones from the MathAlgoDB Knowledge Graph, MaRDI Portal or Wikidata. When an existing software is selected, all available information from the relevant source is retrieved and integrated into the interview. Retrieved data can be completed and extended with new relations (e.g., tested benchmarks).&lt;/p&gt;
+		<short_title lang="en">Software</short_title>
+		<help lang="en">&lt;p&gt;On this page, you can define new software or select existing ones from the MaRDI Portal or Wikidata. When an existing software is selected, all available information from the relevant source is retrieved and integrated into the interview. Retrieved data can be completed and extended with new relations (e.g., tested benchmarks).&lt;/p&gt;
 
 &lt;p&gt;In addition to enhancing existing software, it can also serve as templates for creating new ones. To use a software as a template, the reference to the external source must be removed after importing the available information.&lt;/p&gt;
 
-&lt;p&gt;For a smooth export to the MathAlgoDB Knowledge Graph, all &lt;strong&gt;non-optional&lt;/strong&gt; questions must be answered completely.&lt;/p&gt;
+&lt;p&gt;For a smooth export to the MaRDI Portal, all &lt;strong&gt;non-optional&lt;/strong&gt; questions must be answered completely.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; If a software is selected from the MathAlgoDB Knowledge Graph and not used as a template, its existing information &lt;u&gt;cannot&lt;/u&gt; be edited or deleted via MaRDMO. Any changes or deletions made regardless will be ignored or shown alongside the original information in the MathAlgoDB Knowledge Graph.&lt;/p&gt;</help>
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; If a software is selected from the MaRDI Portal and not used as a template, its existing information &lt;u&gt;cannot&lt;/u&gt; be edited or deleted via MaRDMO. Any changes or deletions made regardless will be ignored or shown alongside the original information in the MaRDI Portal.&lt;/p&gt;
+
+&lt;p&gt;Check out &lt;a href=&quot;https://www.youtube.com/watch?v=p01PcZ8VajY&amp;list=PLgoPZ7uPWbo-aC9pnVMYRZYM3iygBYWwn&amp;index=3&quot;&gt;Software&lt;/a&gt; showcasing the documentation.&lt;/p&gt;</help>
 		<verbose_name lang="en">Add Software</verbose_name>
 		<title lang="de">Software</title>
-		<short_title lang="de"/>
-		<help lang="de">&lt;p&gt;Auf dieser Seite kann neue Software definiert oder bereits bestehende Software aus dem MathAlgoDB Knowledge Graph, MaRDI Portal oder Wikidata ausgewählt werden. Wird eine bestehende Software ausgewählt, werden alle verfügbaren Informationen aus der jeweiligen Quelle abgerufen und in das Interview integriert. Die abgerufenen Informationen können ergänzt und um neue Relationen erweitert werden (z.&amp;nbsp;B. getestete Benchmarks).&lt;/p&gt;
+		<short_title lang="de">Software</short_title>
+		<help lang="de">&lt;p&gt;Auf dieser Seite kann neue Software definiert oder bereits bestehende Software aus dem MaRDI Portal oder Wikidata ausgewählt werden. Wird eine bestehende Software ausgewählt, werden alle verfügbaren Informationen aus der jeweiligen Quelle abgerufen und in das Interview integriert. Die abgerufenen Informationen können ergänzt und um neue Relationen erweitert werden (z.&amp;nbsp;B. getestete Benchmarks).&lt;/p&gt;
 
 &lt;p&gt;Bestehende Software kann nicht nur erweitert, sondern auch als Vorlage für neue Software verwendet werden. Hierfür ist es erforderlich, nach dem Abruf der Informationen den Bezug zur externen Quelle zu entfernen.&lt;/p&gt;
 
-&lt;p&gt;Für einen reibungslosen Export in den MathAlgoDB Knowledge Graph müssen alle &lt;strong&gt;nicht-optionalen&lt;/strong&gt; Fragen vollständig beantwortet sein.&lt;/p&gt;
+&lt;p&gt;Für einen reibungslosen Export in das MaRDI Portal müssen alle &lt;strong&gt;nicht-optionalen&lt;/strong&gt; Fragen vollständig beantwortet sein.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Hinweis:&lt;/strong&gt; Wird eine Software aus dem MathAlgoDB Knowledge Graph ausgewählt und nicht als Vorlage verwendet, können bestehende Informationen über MaRDMO &lt;u&gt;nicht&lt;/u&gt; editiert oder gelöscht werden. Änderungen oder Löschungen, die dennoch vorgenommen werden, werden ignoriert oder zusätzlich zu den bestehenden Informationen im MathAlgoDB Knowledge Graph angezeigt.&lt;/p&gt;</help>
+&lt;p&gt;&lt;strong&gt;Hinweis:&lt;/strong&gt; Wird eine Software aus dem MaRDI Portal ausgewählt und nicht als Vorlage verwendet, können bestehende Informationen über MaRDMO &lt;u&gt;nicht&lt;/u&gt; editiert oder gelöscht werden. Änderungen oder Löschungen, die dennoch vorgenommen werden, werden ignoriert oder zusätzlich zu den bestehenden Informationen im MaRDI Portal angezeigt.&lt;/p&gt;
+
+&lt;p&gt;Sehen Sie sich &lt;a href=&quot;https://www.youtube.com/watch?v=p01PcZ8VajY&amp;list=PLgoPZ7uPWbo-aC9pnVMYRZYM3iygBYWwn&amp;index=3&quot;&gt;Software&lt;/a&gt; an in dem die Dokumentation vorgestellt wird.&lt;/p&gt;</help>
 		<verbose_name lang="de">Software Hinzufügen</verbose_name>
 		<questionsets>
 			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/algorithm/software/information" order="1"/>
@@ -829,24 +847,28 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/benchmark"/>
 		<is_collection>True</is_collection>
 		<title lang="en">Benchmark</title>
-		<short_title lang="en"/>
-		<help lang="en">&lt;p&gt;On this page, you can define new benchmarks or select existing ones from the MathAlgoDB Knowledge Graph, MaRDI Portal or Wikidata. When an existing benchmark is selected, all available information from the relevant source is retrieved and integrated into the interview. Retrieved data can be completed.&lt;/p&gt;
+		<short_title lang="en">Benchmark</short_title>
+		<help lang="en">&lt;p&gt;On this page, you can define new benchmarks or select existing ones from the MaRDI Portal or Wikidata. When an existing benchmark is selected, all available information from the relevant source is retrieved and integrated into the interview. Retrieved data can be completed.&lt;/p&gt;
 
 &lt;p&gt;In addition to enhancing existing benchmarks, they can also serve as templates for creating new ones. To use a benchmark as a template, the reference to the external source must be removed after importing the available information.&lt;/p&gt;
 
-&lt;p&gt;For a smooth export to the MathAlgoDB Knowledge Graph, all &lt;strong&gt;non-optional&lt;/strong&gt; questions must be answered completely.&lt;/p&gt;
+&lt;p&gt;For a smooth export to the MaRDI Portal, all &lt;strong&gt;non-optional&lt;/strong&gt; questions must be answered completely.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; If a benchmark is selected from the MathAlgoDB Knowledge Graph and not used as a template, its existing information &lt;u&gt;cannot&lt;/u&gt; be edited or deleted via MaRDMO. Any changes or deletions made regardless will be ignored or shown alongside the original information in the MathAlgoDB Knowledge Graph.&lt;/p&gt;</help>
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; If a benchmark is selected from the MaRDI Portal and not used as a template, its existing information &lt;u&gt;cannot&lt;/u&gt; be edited or deleted via MaRDMO. Any changes or deletions made regardless will be ignored or shown alongside the original information in the MaRDI Portal.&lt;/p&gt;
+
+&lt;p&gt;Check out &lt;a href=&quot;https://www.youtube.com/watch?v=a3qRyd_4IWA&amp;list=PLgoPZ7uPWbo-aC9pnVMYRZYM3iygBYWwn&amp;index=4&quot;&gt;Benchmark&lt;/a&gt; showcasing the documentation.&lt;/p&gt;</help>
 		<verbose_name lang="en">Add Benchmark</verbose_name>
 		<title lang="de">Benchmark</title>
-		<short_title lang="de"/>
-		<help lang="de">&lt;p&gt;Auf dieser Seite können neue Benchmarks definiert oder bereits bestehende Benchmarks aus dem MathAlgoDB Knowledge Graph, MaRDI Portal oder Wikidata ausgewählt werden. Wird ein bestehender Benchmark ausgewählt, werden alle verfügbaren Informationen aus der jeweiligen Quelle abgerufen und in das Interview integriert. Die abgerufenen Informationen können ergänzt werden.&lt;/p&gt;
+		<short_title lang="de">Benchmark</short_title>
+		<help lang="de">&lt;p&gt;Auf dieser Seite können neue Benchmarks definiert oder bereits bestehende Benchmarks aus dem MaRDI Portal oder Wikidata ausgewählt werden. Wird ein bestehender Benchmark ausgewählt, werden alle verfügbaren Informationen aus der jeweiligen Quelle abgerufen und in das Interview integriert. Die abgerufenen Informationen können ergänzt werden.&lt;/p&gt;
 
 &lt;p&gt;Bestehende Benchmarks können nicht nur erweitert, sondern auch als Vorlage für neue Benchmarks verwendet werden. Hierfür ist es erforderlich, nach dem Abruf der Informationen den Bezug zur externen Quelle zu entfernen.&lt;/p&gt;
 
-&lt;p&gt;Für einen reibungslosen Export in den MathAlgoDB Knowledge Graph müssen alle &lt;strong&gt;nicht-optionalen&lt;/strong&gt; Fragen vollständig beantwortet sein.&lt;/p&gt;
+&lt;p&gt;Für einen reibungslosen Export in das MaRDI Portal müssen alle &lt;strong&gt;nicht-optionalen&lt;/strong&gt; Fragen vollständig beantwortet sein.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Hinweis:&lt;/strong&gt; Wird ein Benchmark aus dem MathAlgoDB Knowledge Graph ausgewählt und nicht als Vorlage verwendet, können bestehende Informationen über MaRDMO &lt;u&gt;nicht&lt;/u&gt; editiert oder gelöscht werden. Änderungen oder Löschungen, die dennoch vorgenommen werden, werden ignoriert oder zusätzlich zu den bestehenden Informationen im MathAlgoDB Knowledge Graph angezeigt.&lt;/p&gt;</help>
+&lt;p&gt;&lt;strong&gt;Hinweis:&lt;/strong&gt; Wird ein Benchmark aus dem MaRDI Portal ausgewählt und nicht als Vorlage verwendet, können bestehende Informationen über MaRDMO &lt;u&gt;nicht&lt;/u&gt; editiert oder gelöscht werden. Änderungen oder Löschungen, die dennoch vorgenommen werden, werden ignoriert oder zusätzlich zu den bestehenden Informationen im MaRDI Portal angezeigt.&lt;/p&gt;
+
+&lt;p&gt;Sehen Sie sich &lt;a href=&quot;https://www.youtube.com/watch?v=a3qRyd_4IWA&amp;list=PLgoPZ7uPWbo-aC9pnVMYRZYM3iygBYWwn&amp;index=4&quot;&gt;Benchmark&lt;/a&gt; an in dem die Dokumentation vorgestellt wird.&lt;/p&gt;</help>
 		<verbose_name lang="de">Benchmark Hinzufügen</verbose_name>
 		<questionsets>
 			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/algorithm/benchmark/information" order="1"/>
@@ -1016,15 +1038,19 @@
 		<is_collection>True</is_collection>
 		<title lang="en">Publication</title>
 		<short_title lang="en">Publication</short_title>
-		<help lang="en">&lt;p&gt;On this page, you can define new publications or select existing ones from the MaRDI Portal, MathAlgoDB or Wikidata. When an existing publication is selected, all available information from the relevant source is retrieved and integrated into the interview. Retrieved data can be extended with new relations (e.g., connections to algorithm entities).&lt;/p&gt;
+		<help lang="en">&lt;p&gt;On this page, you can define new publications or select existing ones from the MaRDI Portal or Wikidata. When an existing publication is selected, all available information from the relevant source is retrieved and integrated into the interview. Retrieved data can be extended with new relations (e.g., connections to algorithm entities).&lt;/p&gt;
 
-&lt;p&gt;For a smooth export to the MathAlgoDB Knowledge Graph, all &lt;strong&gt;non-optional&lt;/strong&gt; questions must be answered completely.&lt;/p&gt;</help>
+&lt;p&gt;For a smooth export to the MaRDI Portal, all &lt;strong&gt;non-optional&lt;/strong&gt; questions must be answered completely.&lt;/p&gt;
+
+&lt;p&gt;Check out &lt;a href=&quot;https://www.youtube.com/watch?v=ES2vrQMvh40&amp;list=PLgoPZ7uPWbo-aC9pnVMYRZYM3iygBYWwn&amp;index=5&quot;&gt;Publication&lt;/a&gt; showcasing the documentation.&lt;/p&gt;</help>
 		<verbose_name lang="en"/>
 		<title lang="de">Publikation</title>
 		<short_title lang="de">Publikation</short_title>
-		<help lang="de">&lt;p&gt;Auf dieser Seite können neue Publikationen definiert oder bereits bestehende Publikationen aus dem MaRDI Portal, MathAlgoDB oder Wikidata ausgewählt werden. Wird eine bestehende Publikation ausgewählt, werden alle verfügbaren Informationen aus der jeweiligen Quelle abgerufen und in das Interview integriert. Die abgerufenen Informationen können um neue Relationen erweitert werden (z.&amp;nbsp;B. Verbindungen zu verschiedenen Algorithmus-Entitäten).&lt;/p&gt;
+		<help lang="de">&lt;p&gt;Auf dieser Seite können neue Publikationen definiert oder bereits bestehende Publikationen aus dem MaRDI Portal oder Wikidata ausgewählt werden. Wird eine bestehende Publikation ausgewählt, werden alle verfügbaren Informationen aus der jeweiligen Quelle abgerufen und in das Interview integriert. Die abgerufenen Informationen können um neue Relationen erweitert werden (z.&amp;nbsp;B. Verbindungen zu verschiedenen Algorithmus-Entitäten).&lt;/p&gt;
 
-&lt;p&gt;Für einen reibungslosen Export in den MathAlgoDB Knowledge Graph müssen alle &lt;strong&gt;nicht-optionalen&lt;/strong&gt; Fragen vollständig beantwortet sein.&lt;/p&gt;</help>
+&lt;p&gt;Für einen reibungslosen Export in das MaRDI Portal müssen alle &lt;strong&gt;nicht-optionalen&lt;/strong&gt; Fragen vollständig beantwortet sein.&lt;/p&gt;
+
+&lt;p&gt;Sehen Sie sich &lt;a href=&quot;https://www.youtube.com/watch?v=ES2vrQMvh40&amp;list=PLgoPZ7uPWbo-aC9pnVMYRZYM3iygBYWwn&amp;index=5&quot;&gt;Publication&lt;/a&gt; an in dem die Dokumentation vorgestellt wird.&lt;/p&gt;</help>
 		<verbose_name lang="de"/>
 		<questionsets>
 			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/publication/publication-to-algorithm" order="3"/>
