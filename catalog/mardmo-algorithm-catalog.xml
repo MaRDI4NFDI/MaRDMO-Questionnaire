@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2026-04-30T10:11:03.773280+02:00" required="2.1.0" version="2.4.2">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2026-04-30T15:57:11.628835+02:00" required="2.1.0" version="2.4.2">
 	<catalog dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo-algorithm-catalog">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo-algorithm-catalog</uri_path>
@@ -805,7 +805,7 @@
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mardi-and-wikidata-search"/>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/programming-language-relatant-with-creation"/>
 		</optionsets>
 		<conditions/>
 	</question>
@@ -817,11 +817,11 @@
 		<is_collection>True</is_collection>
 		<is_optional>True</is_optional>
 		<help lang="en">&lt;p&gt;Choose one or more dependencies. For all dependencies &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. If a dependency is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate dependency is present in the MaRDI Portal or Wikidata, define a new dependency as &lt;em&gt;label (description)&lt;/em&gt;.&lt;/p&gt;</help>
-		<text lang="en">Dependency of the Software?</text>
+		<text lang="en">Software Dependency of the Software?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de">&lt;p&gt;Wählen Sie eine oder mehrere Abhängigkeiten aus. Für alle Abhängigkeiten wird &lt;em&gt;Name (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Wenn eine Abhängigkeit ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls keine passende Abhängigkeit im MaRDI Portal oder Wikidata vorhanden ist, definieren Sie eine neue Abhängigkeit mit &lt;em&gt;Name (Beschreibung)&lt;/em&gt;.&lt;/p&gt;</help>
-		<text lang="de">Abhängigkeit der Software?</text>
+		<text lang="de">Software-Abhängigkeit der Software?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -834,7 +834,7 @@
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mardi-and-wikidata-search"/>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/software-relatant-with-creation"/>
 		</optionsets>
 		<conditions/>
 	</question>
