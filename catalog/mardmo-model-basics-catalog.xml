@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2026-02-04T10:21:28.183117+01:00" required="2.1.0" version="2.4.0">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2026-04-30T10:10:48.955351+02:00" required="2.1.0" version="2.4.2">
 	<catalog dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo-model-basics-catalog">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo-model-basics-catalog</uri_path>
@@ -22,13 +22,13 @@ Dieser Katalog bietet eine schlanke und vereinfachte Möglichkeit, mathematische
 Sehen Sie sich &lt;a href=&quot;https://www.youtube.com/watch?v=UmbBNUZJ994&amp;list=PLgoPZ7uPWbo-jqDXzx4fSm_4JyAYEMPjn&quot;&gt;MaRDMO Model Documentation&lt;/a&gt; an. Das Video zeigt die Dokumentation anhand des &lt;em&gt;vollständigen Modellkatalogs&lt;/em&gt;, einschließlich des Exports in das MaRDI-Portal.
 &lt;/p&gt;</help>
 		<sections>
-			<section dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model-definition-basics" order="1"/>
+			<section dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model-documentation-basics" order="1"/>
 			<section dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/publication-model" order="2"/>
 		</sections>
 	</catalog>
-	<section dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model-definition-basics">
+	<section dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model-documentation-basics">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/model-definition-basics</uri_path>
+		<uri_path>mardmo/model-documentation-basics</uri_path>
 		<dc:comment/>
 		<title lang="en">Documentation</title>
 		<short_title lang="en">Documentation</short_title>
@@ -36,10 +36,10 @@ Sehen Sie sich &lt;a href=&quot;https://www.youtube.com/watch?v=UmbBNUZJ994&amp;
 		<short_title lang="de">Dokumentation</short_title>
 		<pages>
 			<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model-introduction-basic" order="0"/>
-			<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model-basics" order="1"/>
-			<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task-basics" order="2"/>
-			<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation-basics" order="3"/>
-			<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/problem-basics" order="4"/>
+			<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model-basics" order="1"/>
+			<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/task-basics" order="2"/>
+			<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/formulation-basics" order="3"/>
+			<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/problem-basics" order="4"/>
 		</pages>
 	</section>
 	<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model-introduction-basic">
@@ -98,9 +98,9 @@ Sehen Sie sich &lt;a href=&quot;https://www.youtube.com/watch?v=UmbBNUZJ994&amp;
 		<questions/>
 		<conditions/>
 	</page>
-	<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model-basics">
+	<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model-basics">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/model/model-basics</uri_path>
+		<uri_path>mardmo/model-basics</uri_path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/model"/>
 		<is_collection>True</is_collection>
@@ -129,17 +129,17 @@ Sehen Sie sich &lt;a href=&quot;https://www.youtube.com/watch?v=UmbBNUZJ994&amp;
 &lt;p&gt;Sehen Sie sich &lt;a href=&quot;https://www.youtube.com/watch?v=UmbBNUZJ994&amp;t=3s&quot;&gt;Mathematical Model&lt;/a&gt; an in dem die Dokumentation vorgestellt wird.&lt;/p&gt;</help>
 		<verbose_name lang="de">Mathematisches Modell Hinzufügen</verbose_name>
 		<questionsets>
-			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model/information-basics" order="1"/>
-			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model/model-to-model" order="3"/>
+			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/information-basics" order="1"/>
+			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model-to-model" order="3"/>
 		</questionsets>
 		<questions>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model/id" order="0"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/id" order="0"/>
 		</questions>
 		<conditions/>
 	</page>
-	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model/information-basics">
+	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/information-basics">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/model/model/information-basics</uri_path>
+		<uri_path>mardmo/model/information-basics</uri_path>
 		<dc:comment/>
 		<attribute/>
 		<is_collection>False</is_collection>
@@ -150,20 +150,20 @@ Sehen Sie sich &lt;a href=&quot;https://www.youtube.com/watch?v=UmbBNUZJ994&amp;
 		<help lang="de"/>
 		<verbose_name lang="de"/>
 		<questionsets>
-			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model/model-to-formulation-basics" order="6"/>
+			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model-to-formulation-basics" order="6"/>
 		</questionsets>
 		<questions>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model/name" order="0"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model/description" order="1"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model/properties" order="3"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model/problem-relatant" order="4"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model/task-relatant" order="5"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/information/name" order="0"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/information/description" order="1"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/information/properties" order="3"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/information/problem-relatant" order="4"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/information/task-relatant" order="5"/>
 		</questions>
 		<conditions/>
 	</questionset>
-	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model/model-to-formulation-basics">
+	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model-to-formulation-basics">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/model/model/model-to-formulation-basics</uri_path>
+		<uri_path>mardmo/model/model-to-formulation-basics</uri_path>
 		<dc:comment/>
 		<attribute/>
 		<is_collection>True</is_collection>
@@ -175,14 +175,14 @@ Sehen Sie sich &lt;a href=&quot;https://www.youtube.com/watch?v=UmbBNUZJ994&amp;
 		<verbose_name lang="de">Mathematischen Ausdruck Relation Hinzufügen</verbose_name>
 		<questionsets/>
 		<questions>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model/model-to-formulation/model-relation" order="0"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/information/model-to-formulation/model-relation" order="0"/>
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model/model-to-formulation/formulation-relatant-basics" order="1"/>
 		</questions>
 		<conditions/>
 	</questionset>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model/model-to-formulation/model-relation">
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/information/model-to-formulation/model-relation">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/model/model/model-to-formulation/model-relation</uri_path>
+		<uri_path>mardmo/model/information/model-to-formulation/model-relation</uri_path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/model/formulation-relation"/>
 		<is_collection>False</is_collection>
@@ -238,9 +238,9 @@ Sehen Sie sich &lt;a href=&quot;https://www.youtube.com/watch?v=UmbBNUZJ994&amp;
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model/name">
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/information/name">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/model/model/name</uri_path>
+		<uri_path>mardmo/model/information/name</uri_path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/model/name"/>
 		<is_collection>False</is_collection>
@@ -265,9 +265,9 @@ Sehen Sie sich &lt;a href=&quot;https://www.youtube.com/watch?v=UmbBNUZJ994&amp;
 		<optionsets/>
 		<conditions/>
 	</question>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model/description">
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/information/description">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/model/model/description</uri_path>
+		<uri_path>mardmo/model/information/description</uri_path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/model/description"/>
 		<is_collection>False</is_collection>
@@ -296,9 +296,9 @@ Sehen Sie sich &lt;a href=&quot;https://www.youtube.com/watch?v=UmbBNUZJ994&amp;
 		<optionsets/>
 		<conditions/>
 	</question>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model/properties">
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/information/properties">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/model/model/properties</uri_path>
+		<uri_path>mardmo/model/information/properties</uri_path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/model/properties"/>
 		<is_collection>True</is_collection>
@@ -325,9 +325,9 @@ Sehen Sie sich &lt;a href=&quot;https://www.youtube.com/watch?v=UmbBNUZJ994&amp;
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model/problem-relatant">
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/information/problem-relatant">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/model/model/problem-relatant</uri_path>
+		<uri_path>mardmo/model/information/problem-relatant</uri_path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/model/problem-relatant"/>
 		<is_collection>True</is_collection>
@@ -354,9 +354,9 @@ Sehen Sie sich &lt;a href=&quot;https://www.youtube.com/watch?v=UmbBNUZJ994&amp;
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model/task-relatant">
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/information/task-relatant">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/model/model/task-relatant</uri_path>
+		<uri_path>mardmo/model/information/task-relatant</uri_path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/model/task-relatant"/>
 		<is_collection>True</is_collection>
@@ -383,9 +383,9 @@ Sehen Sie sich &lt;a href=&quot;https://www.youtube.com/watch?v=UmbBNUZJ994&amp;
 		</optionsets>
 		<conditions/>
 	</question>
-	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model/model-to-model">
+	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model-to-model">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/model/model/model-to-model</uri_path>
+		<uri_path>mardmo/model/model-to-model</uri_path>
 		<dc:comment/>
 		<attribute/>
 		<is_collection>True</is_collection>
@@ -397,15 +397,15 @@ Sehen Sie sich &lt;a href=&quot;https://www.youtube.com/watch?v=UmbBNUZJ994&amp;
 		<verbose_name lang="de">Mathematisches Modell Relation Hinzufügen</verbose_name>
 		<questionsets/>
 		<questions>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model/model-to-model/model-relation" order="0"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model/model-to-model/model-relatant" order="1"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model/model-to-model/assumption" order="2"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model-to-model/model-relation" order="0"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model-to-model/model-relatant" order="1"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model-to-model/assumption" order="2"/>
 		</questions>
 		<conditions/>
 	</questionset>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model/model-to-model/model-relation">
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model-to-model/model-relation">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/model/model/model-to-model/model-relation</uri_path>
+		<uri_path>mardmo/model/model-to-model/model-relation</uri_path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/model/model-relation"/>
 		<is_collection>False</is_collection>
@@ -432,9 +432,9 @@ Sehen Sie sich &lt;a href=&quot;https://www.youtube.com/watch?v=UmbBNUZJ994&amp;
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model/model-to-model/model-relatant">
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model-to-model/model-relatant">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/model/model/model-to-model/model-relatant</uri_path>
+		<uri_path>mardmo/model/model-to-model/model-relatant</uri_path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/model/model-relatant"/>
 		<is_collection>True</is_collection>
@@ -461,9 +461,9 @@ Sehen Sie sich &lt;a href=&quot;https://www.youtube.com/watch?v=UmbBNUZJ994&amp;
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model/model-to-model/assumption">
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model-to-model/assumption">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/model/model/model-to-model/assumption</uri_path>
+		<uri_path>mardmo/model/model-to-model/assumption</uri_path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/model/model-assumption"/>
 		<is_collection>True</is_collection>
@@ -494,9 +494,9 @@ Sehen Sie sich &lt;a href=&quot;https://www.youtube.com/watch?v=UmbBNUZJ994&amp;
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model/id">
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/id">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/model/model/id</uri_path>
+		<uri_path>mardmo/model/id</uri_path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/model/id"/>
 		<is_collection>False</is_collection>
@@ -527,9 +527,9 @@ Sehen Sie sich &lt;a href=&quot;https://www.youtube.com/watch?v=UmbBNUZJ994&amp;
 		</optionsets>
 		<conditions/>
 	</question>
-	<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task-basics">
+	<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/task-basics">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/model/task-basics</uri_path>
+		<uri_path>mardmo/task-basics</uri_path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/task"/>
 		<is_collection>True</is_collection>
@@ -558,17 +558,17 @@ Sehen Sie sich &lt;a href=&quot;https://www.youtube.com/watch?v=UmbBNUZJ994&amp;
 &lt;p&gt;Sehen Sie sich &lt;a href=&quot;https://www.youtube.com/watch?v=bf--qp3g7aY&amp;t=8s&quot;&gt;Computational Task&lt;/a&gt; an in dem die Dokumentation vorgestellt wird..&lt;/p&gt;</help>
 		<verbose_name lang="de">Berechnungsaufgabe Hinzufügen</verbose_name>
 		<questionsets>
-			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/information-basics" order="1"/>
-			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/task-to-task" order="2"/>
+			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/task/information-basics" order="1"/>
+			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/task/task-to-task" order="2"/>
 		</questionsets>
 		<questions>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/id" order="0"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/task/id" order="0"/>
 		</questions>
 		<conditions/>
 	</page>
-	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/information-basics">
+	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/task/information-basics">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/model/task/information-basics</uri_path>
+		<uri_path>mardmo/task/information-basics</uri_path>
 		<dc:comment/>
 		<attribute/>
 		<is_collection>False</is_collection>
@@ -579,18 +579,18 @@ Sehen Sie sich &lt;a href=&quot;https://www.youtube.com/watch?v=UmbBNUZJ994&amp;
 		<help lang="de"/>
 		<verbose_name lang="de"/>
 		<questionsets>
-			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/task-to-formulation" order="4"/>
+			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/task/information/task-to-formulation" order="4"/>
 		</questionsets>
 		<questions>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/name" order="0"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/description" order="1"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/properties" order="3"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/task/information/name" order="0"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/task/information/description" order="1"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/task/information/properties" order="3"/>
 		</questions>
 		<conditions/>
 	</questionset>
-	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/task-to-formulation">
+	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/task/information/task-to-formulation">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/model/task/task-to-formulation</uri_path>
+		<uri_path>mardmo/task/information/task-to-formulation</uri_path>
 		<dc:comment/>
 		<attribute/>
 		<is_collection>True</is_collection>
@@ -602,14 +602,14 @@ Sehen Sie sich &lt;a href=&quot;https://www.youtube.com/watch?v=UmbBNUZJ994&amp;
 		<verbose_name lang="de">Mathematischen Ausdruck Relation Hinzufügen</verbose_name>
 		<questionsets/>
 		<questions>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/task-to-formulation/relation" order="0"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/formulation-relatant" order="1"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/task/information/task-to-formulation/relation" order="0"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/task/information/formulation-relatant" order="1"/>
 		</questions>
 		<conditions/>
 	</questionset>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/task-to-formulation/relation">
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/task/information/task-to-formulation/relation">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/model/task/task-to-formulation/relation</uri_path>
+		<uri_path>mardmo/task/information/task-to-formulation/relation</uri_path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/task/formulation-relation"/>
 		<is_collection>False</is_collection>
@@ -636,9 +636,9 @@ Sehen Sie sich &lt;a href=&quot;https://www.youtube.com/watch?v=UmbBNUZJ994&amp;
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/formulation-relatant">
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/task/information/formulation-relatant">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/model/task/formulation-relatant</uri_path>
+		<uri_path>mardmo/task/information/formulation-relatant</uri_path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/task/formulation-relatant"/>
 		<is_collection>True</is_collection>
@@ -665,9 +665,9 @@ Sehen Sie sich &lt;a href=&quot;https://www.youtube.com/watch?v=UmbBNUZJ994&amp;
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/name">
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/task/information/name">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/model/task/name</uri_path>
+		<uri_path>mardmo/task/information/name</uri_path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/task/name"/>
 		<is_collection>False</is_collection>
@@ -692,9 +692,9 @@ Sehen Sie sich &lt;a href=&quot;https://www.youtube.com/watch?v=UmbBNUZJ994&amp;
 		<optionsets/>
 		<conditions/>
 	</question>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/description">
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/task/information/description">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/model/task/description</uri_path>
+		<uri_path>mardmo/task/information/description</uri_path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/task/description"/>
 		<is_collection>False</is_collection>
@@ -723,9 +723,9 @@ Sehen Sie sich &lt;a href=&quot;https://www.youtube.com/watch?v=UmbBNUZJ994&amp;
 		<optionsets/>
 		<conditions/>
 	</question>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/properties">
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/task/information/properties">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/model/task/properties</uri_path>
+		<uri_path>mardmo/task/information/properties</uri_path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/task/properties"/>
 		<is_collection>True</is_collection>
@@ -752,9 +752,9 @@ Sehen Sie sich &lt;a href=&quot;https://www.youtube.com/watch?v=UmbBNUZJ994&amp;
 		</optionsets>
 		<conditions/>
 	</question>
-	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/task-to-task">
+	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/task/task-to-task">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/model/task/task-to-task</uri_path>
+		<uri_path>mardmo/task/task-to-task</uri_path>
 		<dc:comment/>
 		<attribute/>
 		<is_collection>True</is_collection>
@@ -766,16 +766,16 @@ Sehen Sie sich &lt;a href=&quot;https://www.youtube.com/watch?v=UmbBNUZJ994&amp;
 		<verbose_name lang="de">Berechnungsaufgabe Relation Hinzufügen</verbose_name>
 		<questionsets/>
 		<questions>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/task-to-task/relation" order="0"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/task-to-task/relatant" order="1"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/task-to-task/assumption" order="2"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/task-to-task/order-number" order="3"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/task/task-to-task/relation" order="0"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/task/task-to-task/relatant" order="1"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/task/task-to-task/assumption" order="2"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/task/task-to-task/order-number" order="3"/>
 		</questions>
 		<conditions/>
 	</questionset>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/task-to-task/relation">
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/task/task-to-task/relation">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/model/task/task-to-task/relation</uri_path>
+		<uri_path>mardmo/task/task-to-task/relation</uri_path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/task/task-relation"/>
 		<is_collection>False</is_collection>
@@ -802,9 +802,9 @@ Sehen Sie sich &lt;a href=&quot;https://www.youtube.com/watch?v=UmbBNUZJ994&amp;
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/task-to-task/relatant">
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/task/task-to-task/relatant">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/model/task/task-to-task/relatant</uri_path>
+		<uri_path>mardmo/task/task-to-task/relatant</uri_path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/task/task-relatant"/>
 		<is_collection>True</is_collection>
@@ -831,9 +831,9 @@ Sehen Sie sich &lt;a href=&quot;https://www.youtube.com/watch?v=UmbBNUZJ994&amp;
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/task-to-task/assumption">
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/task/task-to-task/assumption">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/model/task/task-to-task/assumption</uri_path>
+		<uri_path>mardmo/task/task-to-task/assumption</uri_path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/task/task-assumption"/>
 		<is_collection>True</is_collection>
@@ -864,9 +864,9 @@ Sehen Sie sich &lt;a href=&quot;https://www.youtube.com/watch?v=UmbBNUZJ994&amp;
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/task-to-task/order-number">
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/task/task-to-task/order-number">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/model/task/task-to-task/order-number</uri_path>
+		<uri_path>mardmo/task/task-to-task/order-number</uri_path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/task/task-order-number"/>
 		<is_collection>False</is_collection>
@@ -895,9 +895,9 @@ Sehen Sie sich &lt;a href=&quot;https://www.youtube.com/watch?v=UmbBNUZJ994&amp;
 		<optionsets/>
 		<conditions/>
 	</question>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/task/id">
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/task/id">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/model/task/id</uri_path>
+		<uri_path>mardmo/task/id</uri_path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/task/id"/>
 		<is_collection>False</is_collection>
@@ -928,9 +928,9 @@ Sehen Sie sich &lt;a href=&quot;https://www.youtube.com/watch?v=UmbBNUZJ994&amp;
 		</optionsets>
 		<conditions/>
 	</question>
-	<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation-basics">
+	<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/formulation-basics">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/model/formulation-basics</uri_path>
+		<uri_path>mardmo/formulation-basics</uri_path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/formulation"/>
 		<is_collection>True</is_collection>
@@ -959,17 +959,17 @@ Sehen Sie sich &lt;a href=&quot;https://www.youtube.com/watch?v=UmbBNUZJ994&amp;
 &lt;p&gt;Sehen Sie sich &lt;a href=&quot;https://www.youtube.com/watch?v=NpdyXsvlSKo&quot;&gt;Mathematical Expression&lt;/a&gt; an in dem die Dokumentation vorgestellt wird.&lt;/p&gt;</help>
 		<verbose_name lang="de">Mathematischen Ausdruck Hinzufügen</verbose_name>
 		<questionsets>
-			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/information-basics" order="1"/>
-			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/formulation-to-formulation-basics" order="2"/>
+			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/formulation/information-basics" order="1"/>
+			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/formulation/formulation-to-formulation-basics" order="2"/>
 		</questionsets>
 		<questions>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/id" order="0"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/formulation/id" order="0"/>
 		</questions>
 		<conditions/>
 	</page>
-	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/information-basics">
+	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/formulation/information-basics">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/model/formulation/information-basics</uri_path>
+		<uri_path>mardmo/formulation/information-basics</uri_path>
 		<dc:comment/>
 		<attribute/>
 		<is_collection>False</is_collection>
@@ -981,16 +981,16 @@ Sehen Sie sich &lt;a href=&quot;https://www.youtube.com/watch?v=UmbBNUZJ994&amp;
 		<verbose_name lang="de"/>
 		<questionsets/>
 		<questions>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/name" order="0"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/description" order="1"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/properties" order="2"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/reference" order="3"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/formulation/information/name" order="0"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/formulation/information/description" order="1"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/formulation/information/properties" order="2"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/formulation/reference" order="3"/>
 		</questions>
 		<conditions/>
 	</questionset>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/name">
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/formulation/information/name">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/model/formulation/name</uri_path>
+		<uri_path>mardmo/formulation/information/name</uri_path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/formulation/name"/>
 		<is_collection>False</is_collection>
@@ -1015,9 +1015,9 @@ Sehen Sie sich &lt;a href=&quot;https://www.youtube.com/watch?v=UmbBNUZJ994&amp;
 		<optionsets/>
 		<conditions/>
 	</question>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/description">
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/formulation/information/description">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/model/formulation/description</uri_path>
+		<uri_path>mardmo/formulation/information/description</uri_path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/formulation/description"/>
 		<is_collection>False</is_collection>
@@ -1046,9 +1046,9 @@ Sehen Sie sich &lt;a href=&quot;https://www.youtube.com/watch?v=UmbBNUZJ994&amp;
 		<optionsets/>
 		<conditions/>
 	</question>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/properties">
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/formulation/information/properties">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/model/formulation/properties</uri_path>
+		<uri_path>mardmo/formulation/information/properties</uri_path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/formulation/properties"/>
 		<is_collection>True</is_collection>
@@ -1075,9 +1075,9 @@ Sehen Sie sich &lt;a href=&quot;https://www.youtube.com/watch?v=UmbBNUZJ994&amp;
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/reference">
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/formulation/reference">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/model/formulation/reference</uri_path>
+		<uri_path>mardmo/formulation/reference</uri_path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/formulation/reference"/>
 		<is_collection>False</is_collection>
@@ -1111,9 +1111,9 @@ Sehen Sie sich &lt;a href=&quot;https://www.youtube.com/watch?v=UmbBNUZJ994&amp;
 		<optionsets/>
 		<conditions/>
 	</question>
-	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/formulation-to-formulation-basics">
+	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/formulation/formulation-to-formulation-basics">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/model/formulation/formulation-to-formulation-basics</uri_path>
+		<uri_path>mardmo/formulation/formulation-to-formulation-basics</uri_path>
 		<dc:comment/>
 		<attribute/>
 		<is_collection>True</is_collection>
@@ -1125,15 +1125,15 @@ Sehen Sie sich &lt;a href=&quot;https://www.youtube.com/watch?v=UmbBNUZJ994&amp;
 		<verbose_name lang="de">Mathematischen Ausdruck Relation Hinzufügen</verbose_name>
 		<questionsets/>
 		<questions>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/formulation-to-formulation-2/formulation-relation" order="0"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/formulation-to-formulation-2/formulation-relatant" order="1"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/formulation-to-formulation-2/assumption" order="2"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/formulation/formulation-to-formulation-2/formulation-relation" order="0"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/formulation/formulation-to-formulation-2/formulation-relatant" order="1"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/formulation/formulation-to-formulation-2/assumption" order="2"/>
 		</questions>
 		<conditions/>
 	</questionset>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/formulation-to-formulation-2/formulation-relation">
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/formulation/formulation-to-formulation-2/formulation-relation">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/model/formulation/formulation-to-formulation-2/formulation-relation</uri_path>
+		<uri_path>mardmo/formulation/formulation-to-formulation-2/formulation-relation</uri_path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/formulation/formulation-relation-2"/>
 		<is_collection>False</is_collection>
@@ -1160,9 +1160,9 @@ Sehen Sie sich &lt;a href=&quot;https://www.youtube.com/watch?v=UmbBNUZJ994&amp;
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/formulation-to-formulation-2/formulation-relatant">
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/formulation/formulation-to-formulation-2/formulation-relatant">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/model/formulation/formulation-to-formulation-2/formulation-relatant</uri_path>
+		<uri_path>mardmo/formulation/formulation-to-formulation-2/formulation-relatant</uri_path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/formulation/formulation-relatant-2"/>
 		<is_collection>True</is_collection>
@@ -1189,9 +1189,9 @@ Sehen Sie sich &lt;a href=&quot;https://www.youtube.com/watch?v=UmbBNUZJ994&amp;
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/formulation-to-formulation-2/assumption">
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/formulation/formulation-to-formulation-2/assumption">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/model/formulation/formulation-to-formulation-2/assumption</uri_path>
+		<uri_path>mardmo/formulation/formulation-to-formulation-2/assumption</uri_path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/formulation/formulation-assumption"/>
 		<is_collection>True</is_collection>
@@ -1222,9 +1222,9 @@ Sehen Sie sich &lt;a href=&quot;https://www.youtube.com/watch?v=UmbBNUZJ994&amp;
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/formulation/id">
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/formulation/id">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/model/formulation/id</uri_path>
+		<uri_path>mardmo/formulation/id</uri_path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/formulation/id"/>
 		<is_collection>False</is_collection>
@@ -1255,9 +1255,9 @@ Sehen Sie sich &lt;a href=&quot;https://www.youtube.com/watch?v=UmbBNUZJ994&amp;
 		</optionsets>
 		<conditions/>
 	</question>
-	<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/problem-basics">
+	<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/problem-basics">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/model/problem-basics</uri_path>
+		<uri_path>mardmo/problem-basics</uri_path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/problem"/>
 		<is_collection>True</is_collection>
@@ -1286,17 +1286,17 @@ Sehen Sie sich &lt;a href=&quot;https://www.youtube.com/watch?v=UmbBNUZJ994&amp;
 &lt;p&gt;Sehen Sich sich &lt;a href=&quot;https://www.youtube.com/watch?v=Llp5CiPkE0Y&quot;&gt;Research Problem&lt;/a&gt; an in dem die Dokumentation vorgestellt wird.&lt;/p&gt;</help>
 		<verbose_name lang="de">Forschungsproblem Hinzufügen</verbose_name>
 		<questionsets>
-			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/problem/information-basics" order="1"/>
-			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/problem/problem-to-problem" order="2"/>
+			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/problem/information-basics" order="1"/>
+			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/problem/problem-to-problem" order="2"/>
 		</questionsets>
 		<questions>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/problem/id" order="0"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/problem/id" order="0"/>
 		</questions>
 		<conditions/>
 	</page>
-	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/problem/information-basics">
+	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/problem/information-basics">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/model/problem/information-basics</uri_path>
+		<uri_path>mardmo/problem/information-basics</uri_path>
 		<dc:comment/>
 		<attribute/>
 		<is_collection>False</is_collection>
@@ -1308,14 +1308,14 @@ Sehen Sie sich &lt;a href=&quot;https://www.youtube.com/watch?v=UmbBNUZJ994&amp;
 		<verbose_name lang="de"/>
 		<questionsets/>
 		<questions>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/problem/name" order="0"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/problem/description" order="1"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/problem/information/name" order="0"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/problem/information/description" order="1"/>
 		</questions>
 		<conditions/>
 	</questionset>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/problem/name">
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/problem/information/name">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/model/problem/name</uri_path>
+		<uri_path>mardmo/problem/information/name</uri_path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/problem/name"/>
 		<is_collection>False</is_collection>
@@ -1340,9 +1340,9 @@ Sehen Sie sich &lt;a href=&quot;https://www.youtube.com/watch?v=UmbBNUZJ994&amp;
 		<optionsets/>
 		<conditions/>
 	</question>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/problem/description">
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/problem/information/description">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/model/problem/description</uri_path>
+		<uri_path>mardmo/problem/information/description</uri_path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/problem/description"/>
 		<is_collection>False</is_collection>
@@ -1371,9 +1371,9 @@ Sehen Sie sich &lt;a href=&quot;https://www.youtube.com/watch?v=UmbBNUZJ994&amp;
 		<optionsets/>
 		<conditions/>
 	</question>
-	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/problem/problem-to-problem">
+	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/problem/problem-to-problem">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/model/problem/problem-to-problem</uri_path>
+		<uri_path>mardmo/problem/problem-to-problem</uri_path>
 		<dc:comment/>
 		<attribute/>
 		<is_collection>True</is_collection>
@@ -1385,14 +1385,14 @@ Sehen Sie sich &lt;a href=&quot;https://www.youtube.com/watch?v=UmbBNUZJ994&amp;
 		<verbose_name lang="de">Forschungsproblem Relation Hinzufügen</verbose_name>
 		<questionsets/>
 		<questions>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/problem/problem-to-problem/problem-relation" order="0"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/problem/problem-to-problem/problem-relatant" order="1"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/problem/problem-to-problem/problem-relation" order="0"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/problem/problem-to-problem/problem-relatant" order="1"/>
 		</questions>
 		<conditions/>
 	</questionset>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/problem/problem-to-problem/problem-relation">
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/problem/problem-to-problem/problem-relation">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/model/problem/problem-to-problem/problem-relation</uri_path>
+		<uri_path>mardmo/problem/problem-to-problem/problem-relation</uri_path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/problem/problem-relation"/>
 		<is_collection>False</is_collection>
@@ -1419,9 +1419,9 @@ Sehen Sie sich &lt;a href=&quot;https://www.youtube.com/watch?v=UmbBNUZJ994&amp;
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/problem/problem-to-problem/problem-relatant">
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/problem/problem-to-problem/problem-relatant">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/model/problem/problem-to-problem/problem-relatant</uri_path>
+		<uri_path>mardmo/problem/problem-to-problem/problem-relatant</uri_path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/problem/problem-relatant"/>
 		<is_collection>True</is_collection>
@@ -1448,9 +1448,9 @@ Sehen Sie sich &lt;a href=&quot;https://www.youtube.com/watch?v=UmbBNUZJ994&amp;
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/problem/id">
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/problem/id">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/model/problem/id</uri_path>
+		<uri_path>mardmo/problem/id</uri_path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/problem/id"/>
 		<is_collection>False</is_collection>
