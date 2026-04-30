@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2026-04-09T16:58:46.905332+02:00" required="2.1.0" version="2.4.2">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2026-04-30T10:10:26.768501+02:00" required="2.1.0" version="2.4.2">
 	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/algorithm">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>algorithm</uri_path>
 		<dc:comment/>
 		<provider_key>Algorithm</provider_key>
+		<options/>
+		<conditions/>
+	</optionset>
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/algorithm-relatant-with-creation">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>algorithm-relatant-with-creation</uri_path>
+		<dc:comment/>
+		<provider_key>RelatedAlgorithmWithCreation</provider_key>
 		<options/>
 		<conditions/>
 	</optionset>
@@ -426,6 +434,14 @@
 		<options/>
 		<conditions/>
 	</optionset>
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/data-set-relatant-with-creation">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>data-set-relatant-with-creation</uri_path>
+		<dc:comment/>
+		<provider_key>RelatedDataSetWithCreation</provider_key>
+		<options/>
+		<conditions/>
+	</optionset>
 	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/data-set-size">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>data-set-size</uri_path>
@@ -510,14 +526,31 @@
 		<view_text lang="de"/>
 		<additional_input>text</additional_input>
 	</option>
-	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/discipline">
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/doi-url-reference">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>discipline</uri_path>
+		<uri_path>doi-url-reference</uri_path>
 		<dc:comment/>
-		<provider_key>Discipline</provider_key>
-		<options/>
+		<provider_key/>
+		<options>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/doi" order="0"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/url" order="1"/>
+		</options>
 		<conditions/>
 	</optionset>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/url">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>url</uri_path>
+		<dc:comment/>
+		<text lang="en">URL</text>
+		<help lang="en"/>
+		<default_text lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">URL</text>
+		<help lang="de"/>
+		<default_text lang="de"/>
+		<view_text lang="de"/>
+		<additional_input>text</additional_input>
+	</option>
 	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/entity-relatant-without-creation">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>entity-relatant-without-creation</uri_path>
@@ -1253,11 +1286,19 @@
 		<options/>
 		<conditions/>
 	</optionset>
-	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/instrument">
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/hardware-relatant-with-creation">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>instrument</uri_path>
+		<uri_path>hardware-relatant-with-creation</uri_path>
 		<dc:comment/>
-		<provider_key>Instrument</provider_key>
+		<provider_key>RelatedHardwareWithCreation</provider_key>
+		<options/>
+		<conditions/>
+	</optionset>
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/instrument-relatant-with-creation">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>instrument-relatant-with-creation</uri_path>
+		<dc:comment/>
+		<provider_key>RelatedInstrumentWithCreation</provider_key>
 		<options/>
 		<conditions/>
 	</optionset>
@@ -1300,14 +1341,6 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/main-model">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>main-model</uri_path>
-		<dc:comment/>
-		<provider_key>MainMathematicalModel</provider_key>
-		<options/>
-		<conditions/>
-	</optionset>
 	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mardi-and-wikidata-search">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardi-and-wikidata-search</uri_path>
@@ -1324,11 +1357,11 @@
 		<options/>
 		<conditions/>
 	</optionset>
-	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/method">
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/method-relatant-with-creation">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>method</uri_path>
+		<uri_path>method-relatant-with-creation</uri_path>
 		<dc:comment/>
-		<provider_key>Method</provider_key>
+		<provider_key>RelatedMethodWithCreation</provider_key>
 		<options/>
 		<conditions/>
 	</optionset>
@@ -1511,6 +1544,14 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/model_workflow">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>model_workflow</uri_path>
+		<dc:comment/>
+		<provider_key>MathematicalModel</provider_key>
+		<options/>
+		<conditions/>
+	</optionset>
 	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/problem">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>problem</uri_path>
@@ -1760,30 +1801,6 @@
 		</options>
 		<conditions/>
 	</optionset>
-	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/related-data-set">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>related-data-set</uri_path>
-		<dc:comment/>
-		<provider_key>RelatedDataSet</provider_key>
-		<options/>
-		<conditions/>
-	</optionset>
-	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/related-instrument">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>related-instrument</uri_path>
-		<dc:comment/>
-		<provider_key>RelatedInstrument</provider_key>
-		<options/>
-		<conditions/>
-	</optionset>
-	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/related-method">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>related-method</uri_path>
-		<dc:comment/>
-		<provider_key>RelatedMethod</provider_key>
-		<options/>
-		<conditions/>
-	</optionset>
 	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/search-options">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>search-options</uri_path>
@@ -1878,6 +1895,14 @@
 		<uri_path>software-relatant-with-creation</uri_path>
 		<dc:comment/>
 		<provider_key>RelatedSoftwareWithCreation</provider_key>
+		<options/>
+		<conditions/>
+	</optionset>
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/step-relatant-with-creation">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>step-relatant-with-creation</uri_path>
+		<dc:comment/>
+		<provider_key>RelatedStepWithCreation</provider_key>
 		<options/>
 		<conditions/>
 	</optionset>
@@ -2046,16 +2071,30 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/to-publish">
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/task_workflow">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>to-publish</uri_path>
+		<uri_path>task_workflow</uri_path>
+		<dc:comment/>
+		<provider_key>Task</provider_key>
+		<options/>
+		<conditions/>
+	</optionset>
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/workflow">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>workflow</uri_path>
+		<dc:comment/>
+		<provider_key>Workflow</provider_key>
+		<options/>
+		<conditions/>
+	</optionset>
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/yes_no">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>yes_no</uri_path>
 		<dc:comment/>
 		<provider_key/>
 		<options>
 			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/yes_no/yes" order="0"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/doi" order="1"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/url" order="2"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/yes_no/no" order="3"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/yes_no/no" order="1"/>
 		</options>
 		<conditions/>
 	</optionset>
@@ -2073,20 +2112,6 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/url">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>url</uri_path>
-		<dc:comment/>
-		<text lang="en">URL</text>
-		<help lang="en"/>
-		<default_text lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">URL</text>
-		<help lang="de"/>
-		<default_text lang="de"/>
-		<view_text lang="de"/>
-		<additional_input>text</additional_input>
-	</option>
 	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/yes_no/no">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>yes_no/no</uri_path>
@@ -2101,37 +2126,32 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/workflow-relevant-task">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>workflow-relevant-task</uri_path>
-		<dc:comment/>
-		<provider_key>WorkflowTask</provider_key>
-		<options/>
-		<conditions/>
-	</optionset>
-	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/yes_no">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>yes_no</uri_path>
-		<dc:comment/>
-		<provider_key/>
-		<options>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/yes_no/yes" order="0"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/yes_no/no" order="1"/>
-		</options>
-		<conditions/>
-	</optionset>
 	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/yes_no_not_relevant">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>yes_no_not_relevant</uri_path>
 		<dc:comment/>
 		<provider_key/>
 		<options>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/yes_no/yes" order="0"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/yes_no_not_relevant/yes" order="0"/>
 			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/yes_no/no" order="1"/>
 			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/yes_no_not_relevant/not_relevant" order="2"/>
 		</options>
 		<conditions/>
 	</optionset>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/yes_no_not_relevant/yes">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>yes_no_not_relevant/yes</uri_path>
+		<dc:comment/>
+		<text lang="en">Yes</text>
+		<help lang="en"/>
+		<default_text lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Ja</text>
+		<help lang="de"/>
+		<default_text lang="de"/>
+		<view_text lang="de"/>
+		<additional_input>textarea</additional_input>
+	</option>
 	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/yes_no_not_relevant/not_relevant">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>yes_no_not_relevant/not_relevant</uri_path>
