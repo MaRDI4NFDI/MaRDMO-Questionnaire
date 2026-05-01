@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2026-04-30T15:56:48.180894+02:00" required="2.1.0" version="2.4.2">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2026-05-01T19:43:56.154220+02:00" required="2.1.0" version="2.4.2">
 	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/algorithm">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>algorithm</uri_path>
@@ -426,6 +426,14 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/cpu-model-relatant-with-creation">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>cpu-model-relatant-with-creation</uri_path>
+		<dc:comment/>
+		<provider_key>RelatedCPUModelWithCreation</provider_key>
+		<options/>
+		<conditions/>
+	</optionset>
 	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/data-set">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>data-set</uri_path>

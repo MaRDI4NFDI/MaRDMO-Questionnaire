@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2026-04-30T15:57:22.250866+02:00" required="2.1.0" version="2.4.2">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2026-05-01T19:44:48.670770+02:00" required="2.1.0" version="2.4.2">
 	<catalog dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo-interdisciplinary-workflow-catalog">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo-interdisciplinary-workflow-catalog</uri_path>
@@ -1707,7 +1707,7 @@
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mardi-and-wikidata-search"/>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/cpu-model-relatant-with-creation"/>
 		</optionsets>
 		<conditions/>
 	</question>
