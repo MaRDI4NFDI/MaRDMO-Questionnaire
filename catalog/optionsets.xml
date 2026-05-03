@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2026-05-01T19:43:56.154220+02:00" required="2.1.0" version="2.4.2">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2026-05-03T17:50:34.007164+02:00" required="2.1.0" version="2.4.2">
 	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/algorithm">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>algorithm</uri_path>
@@ -255,30 +255,19 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/benchmark">
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/all-publication-relations">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>benchmark</uri_path>
-		<dc:comment/>
-		<provider_key>Benchmark</provider_key>
-		<options/>
-		<conditions/>
-	</optionset>
-	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/benchmark-or-software-relatant-without-creation">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>benchmark-or-software-relatant-without-creation</uri_path>
-		<dc:comment/>
-		<provider_key>RelatedBenchmarkOrSoftwareWithoutCreation</provider_key>
-		<options/>
-		<conditions/>
-	</optionset>
-	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/benchmark-or-software-relation">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>benchmark-or-software-relation</uri_path>
+		<uri_path>all-publication-relations</uri_path>
 		<dc:comment/>
 		<provider_key/>
 		<options>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathalgodb/documents" order="0"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathalgodb/uses" order="1"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathalgodb/analyzes" order="0"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathalgodb/applies" order="1"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathalgodb/documents" order="2"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathalgodb/invents" order="3"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathalgodb/studies" order="4"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathalgodb/surveys" order="5"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathalgodb/uses" order="6"/>
 		</options>
 		<conditions/>
 	</optionset>
@@ -310,6 +299,22 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/benchmark">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>benchmark</uri_path>
+		<dc:comment/>
+		<provider_key>Benchmark</provider_key>
+		<options/>
+		<conditions/>
+	</optionset>
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/benchmark-or-software-relatant-without-creation">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>benchmark-or-software-relatant-without-creation</uri_path>
+		<dc:comment/>
+		<provider_key>RelatedBenchmarkOrSoftwareWithoutCreation</provider_key>
+		<options/>
+		<conditions/>
+	</optionset>
 	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/benchmark-reference">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>benchmark-reference</uri_path>
@@ -534,6 +539,17 @@
 		<view_text lang="de"/>
 		<additional_input>text</additional_input>
 	</option>
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/documents-uses-relation">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>documents-uses-relation</uri_path>
+		<dc:comment/>
+		<provider_key/>
+		<options>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathalgodb/documents" order="0"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathalgodb/uses" order="1"/>
+		</options>
+		<conditions/>
+	</optionset>
 	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/doi-url-reference">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>doi-url-reference</uri_path>
@@ -729,14 +745,6 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/formula">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>formula</uri_path>
-		<dc:comment/>
-		<provider_key>Formula</provider_key>
-		<options/>
-		<conditions/>
-	</optionset>
 	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/formulation">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>formulation</uri_path>
@@ -1294,6 +1302,14 @@
 		<options/>
 		<conditions/>
 	</optionset>
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/hardware-or-software-relatant-without-creation">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>hardware-or-software-relatant-without-creation</uri_path>
+		<dc:comment/>
+		<provider_key>RelatedHardwareOrSoftwareWithoutCreation</provider_key>
+		<options/>
+		<conditions/>
+	</optionset>
 	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/hardware-relatant-with-creation">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>hardware-relatant-with-creation</uri_path>
@@ -1815,6 +1831,14 @@
 			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/specialized-by" order="7"/>
 			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/specializes" order="8"/>
 		</options>
+		<conditions/>
+	</optionset>
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/remaining-workflow-entity-relatant-without-creation">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>remaining-workflow-entity-relatant-without-creation</uri_path>
+		<dc:comment/>
+		<provider_key>RelatedWorkflowEntityWithoutCreation</provider_key>
+		<options/>
 		<conditions/>
 	</optionset>
 	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/search-options">

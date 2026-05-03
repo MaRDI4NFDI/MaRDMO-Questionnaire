@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2026-05-01T19:44:48.670770+02:00" required="2.1.0" version="2.4.2">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2026-05-03T17:51:09.161082+02:00" required="2.1.0" version="2.4.2">
 	<catalog dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo-interdisciplinary-workflow-catalog">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo-interdisciplinary-workflow-catalog</uri_path>
@@ -2218,33 +2218,35 @@
 		<title lang="de">Referenzen</title>
 		<short_title lang="de">Referenzen</short_title>
 		<pages>
-			<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/publication/citation-and-relation-model" order="0"/>
+			<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/publication/citation-and-relation-workflow" order="0"/>
 		</pages>
 	</section>
-	<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/publication/citation-and-relation-model">
+	<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/publication/citation-and-relation-workflow">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/publication/citation-and-relation-model</uri_path>
+		<uri_path>mardmo/publication/citation-and-relation-workflow</uri_path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/publication"/>
 		<is_collection>True</is_collection>
 		<title lang="en">Publication</title>
 		<short_title lang="en">Publication</short_title>
-		<help lang="en">&lt;p&gt;On this page, you can define new publications or select existing ones from the MaRDI Portal, MathAlgoDB or Wikidata. When an existing publication is selected, all available information from the relevant source is retrieved and integrated into the interview. Retrieved data can be extended with new relations (e.g., connections to model entities).&lt;/p&gt;
+		<help lang="en">&lt;p&gt;On this page, you can define new publications or select existing ones from the MaRDI Portal orWikidata. When an existing publication is selected, all available information from the relevant source is retrieved and integrated into the interview. Retrieved data can be extended with new relations (e.g., connections to workflow entities).&lt;/p&gt;
 
 &lt;p&gt;For a smooth export to the MaRDI Portal, all &lt;strong&gt;non-optional&lt;/strong&gt; questions must be answered completely.&lt;/p&gt;
 
-&lt;p&gt;Check out &lt;a href=&quot;https://www.youtube.com/watch?v=qfb6xVytzZU&quot;&gt;Publication&lt;/a&gt; showcasing the documentation.&lt;/p&gt;</help>
+&lt;p&gt;Check out &lt;a href=&quot;&quot;&gt;Publication&lt;/a&gt; showcasing the documentation.&lt;/p&gt;</help>
 		<verbose_name lang="en">Add Publication</verbose_name>
 		<title lang="de">Publikation</title>
 		<short_title lang="de">Publikation</short_title>
-		<help lang="de">&lt;p&gt;Auf dieser Seite können neue Publikationen definiert oder bereits bestehende Publikationen aus dem MaRDI Portal, MathAlgoDB oder Wikidata ausgewählt werden. Wird eine bestehende Publikation ausgewählt, werden alle verfügbaren Informationen aus der jeweiligen Quelle abgerufen und in das Interview integriert. Die abgerufenen Informationen können um neue Relationen erweitert werden (z.&amp;nbsp;B. Verbindungen zu verschiedenen Modell-Entitäten).&lt;/p&gt;
+		<help lang="de">&lt;p&gt;Auf dieser Seite können neue Publikationen definiert oder bereits bestehende Publikationen aus dem MaRDI Portal oder Wikidata ausgewählt werden. Wird eine bestehende Publikation ausgewählt, werden alle verfügbaren Informationen aus der jeweiligen Quelle abgerufen und in das Interview integriert. Die abgerufenen Informationen können um neue Relationen erweitert werden (z.&amp;nbsp;B. Verbindungen zu verschiedenen Workflow-Entitäten).&lt;/p&gt;
 
 &lt;p&gt;Für einen reibungslosen Export in das MaRDI Portal müssen alle &lt;strong&gt;nicht-optionalen&lt;/strong&gt; Fragen vollständig beantwortet sein.&lt;/p&gt;
 
-&lt;p&gt;Sehen Sie sich &lt;a href=&quot;https://www.youtube.com/watch?v=qfb6xVytzZU&quot;&gt;Publication&lt;/a&gt; an in dem die Dokumentation vorgestellt wird.&lt;/p&gt;</help>
+&lt;p&gt;Sehen Sie sich &lt;a href=&quot;&quot;&gt;Publication&lt;/a&gt; an in dem die Dokumentation vorgestellt wird.&lt;/p&gt;</help>
 		<verbose_name lang="de">Publikation Hinzufügen</verbose_name>
 		<questionsets>
-			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/publication/publication-to-entity" order="3"/>
+			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/publication/publication-to-hardware-or-software" order="2"/>
+			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/publication/publication-to-algorithm" order="3"/>
+			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/publication/publication-to-remaining-workflow-entities" order="4"/>
 		</questionsets>
 		<questions>
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/publication/id" order="0"/>
@@ -2252,34 +2254,34 @@
 		</questions>
 		<conditions/>
 	</page>
-	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/publication/publication-to-entity">
+	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/publication/publication-to-hardware-or-software">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/model/publication/publication-to-entity</uri_path>
+		<uri_path>mardmo/publication/publication-to-hardware-or-software</uri_path>
 		<dc:comment/>
 		<attribute/>
 		<is_collection>True</is_collection>
-		<title lang="en">Publication Relations</title>
-		<help lang="en">&lt;p&gt;To relate the publication with individual model entities, select the entities and specify the relations.&lt;/p&gt;</help>
+		<title lang="en">Publication - Hardware or Software Relations</title>
+		<help lang="en">&lt;p&gt;To relate the publication with hardware or software, select hardware or software and specify the relations.&lt;/p&gt;</help>
 		<verbose_name lang="en">Add Publication Relation</verbose_name>
-		<title lang="de">Publikation Beziehungen</title>
-		<help lang="de">&lt;p&gt;Um die Publikation mit individuellen Entitäten des Modells zu verknüpfen, wählen Sie die Entitäten aus und geben Sie die Relationen an.&lt;/p&gt;</help>
+		<title lang="de">Publikation - Hardware oder Software Beziehungen</title>
+		<help lang="de">&lt;p&gt;Um die Publikation mit Hardware oder Software zu verknüpfen, wählen Sie Hardware oder Software aus und geben Sie die Relationen an.&lt;/p&gt;</help>
 		<verbose_name lang="de">Publikation Relation Hinzufügen</verbose_name>
 		<questionsets/>
 		<questions>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/publication/entity-relation" order="0"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/publication/entity-relatant" order="1"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/publication/documents-uses-relation" order="0"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/publication/hardware-or-software-relatant" order="1"/>
 		</questions>
 		<conditions/>
 	</questionset>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/publication/entity-relation">
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/publication/documents-uses-relation">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/model/publication/entity-relation</uri_path>
+		<uri_path>mardmo/publication/documents-uses-relation</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/publication/entity-relation"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/publication/documents-uses-relation"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
-		<text lang="en">The publication...</text>
+		<text lang="en">The Publication...</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
@@ -2296,25 +2298,25 @@
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/entity-relation"/>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/documents-uses-relation"/>
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/publication/entity-relatant">
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/publication/hardware-or-software-relatant">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/model/publication/entity-relatant</uri_path>
+		<uri_path>mardmo/publication/hardware-or-software-relatant</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/publication/entity-relatant"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/publication/hardware-or-software-relatant"/>
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">&lt;p&gt;Choose one or more entities to be linked by the selected relation. For all entities &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. Only entities from the MaRDI Portal and those selected or defined within the interview can be chosen.&lt;/p&gt;</help>
-		<text lang="en">...a previously selected or defined entity of the mathematical model.</text>
+		<help lang="en">&lt;p&gt;Choose one or more hardware or software to be linked by the selected relation. For all hardware or software &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. Only hardware or software from the MaRDI Portal and those selected or defined within the interview can be chosen.&lt;/p&gt;</help>
+		<text lang="en">...a Hardware or Software.</text>
 		<default_text lang="en"/>
-		<verbose_name lang="en">Add Entity of Model Mathematical</verbose_name>
-		<help lang="de">&lt;p&gt;Wählen Sie eine oder mehrere Entitäten aus, die über die ausgewählte Relation verknüpft werden sollen. Für alle Entitäten wird &lt;em&gt;Label (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Es können nur Entitäten aus dem MaRDI-Portal sowie solche ausgewählt oder definiert werden, die im Interview verwendet werden.&lt;/p&gt;</help>
-		<text lang="de">...eine zuvor ausgewählte oder definierte Entität des mathematischen Models.</text>
+		<verbose_name lang="en">Add Benchmark or Software</verbose_name>
+		<help lang="de">&lt;p&gt;Wählen Sie eine oder mehrere Hardware oder Software aus, die über die ausgewählte Relation verknüpft werden sollen. Für alle Hardware oder Software wird &lt;em&gt;Label (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Es können nur Hardware oder Software aus dem MaRDI Portal sowie solche ausgewählt oder definiert werden, die im Interview verwendet werden.&lt;/p&gt;</help>
+		<text lang="de">...eine Hardware oder Software.</text>
 		<default_text lang="de"/>
-		<verbose_name lang="de">Entität des mathematischen Modells Hinzufügen</verbose_name>
+		<verbose_name lang="de">Benchmark oder Software Hinzufügen</verbose_name>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>select</widget_type>
@@ -2325,7 +2327,161 @@
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/entity-relatant-without-creation"/>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/hardware-or-software-relatant-without-creation"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/publication/publication-to-algorithm">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/publication/publication-to-algorithm</uri_path>
+		<dc:comment/>
+		<attribute/>
+		<is_collection>True</is_collection>
+		<title lang="en">Publication - Algorithm Relations</title>
+		<help lang="en">&lt;p&gt;To relate the publication with algorithms, select algorithms and specify the relations.&lt;/p&gt;</help>
+		<verbose_name lang="en">Add Publication Relation</verbose_name>
+		<title lang="de">Publikation - Algorithmus Beziehungen</title>
+		<help lang="de">&lt;p&gt;Um die Publikation mit Algorithmen zu verknüpfen, wählen Sie Algorithmen aus und geben Sie die Relationen an.&lt;/p&gt;</help>
+		<verbose_name lang="de">Publikation Relation Hinzufügen</verbose_name>
+		<questionsets/>
+		<questions>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/publication/algorithm-relation" order="2"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/publication/algorithm-relatant" order="3"/>
+		</questions>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/publication/algorithm-relation">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/publication/algorithm-relation</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/publication/algorithm-relation"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">The Publication...</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Der Algorithmus...</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>select</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/algorithm-relation-2"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/publication/algorithm-relatant">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/publication/algorithm-relatant</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/publication/algorithm-relatant"/>
+		<is_collection>True</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en">&lt;p&gt;Choose one or more algorithms to be linked by the selected relation. For all algorithms &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. Only algorithms from the MaRDI Portal and those selected or defined within the interview can be chosen.&lt;/p&gt;</help>
+		<text lang="en">...an Algorithm.</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en">Add Algorithm</verbose_name>
+		<help lang="de">&lt;p&gt;Wählen Sie einen oder mehrere Algorithmen aus, die über die ausgewählte Relation verknüpft werden sollen. Für alle Algorithmen wird &lt;em&gt;Label (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Es können nur Algorithmen aus dem MaRDI Portal sowie solche ausgewählt oder definiert werden, die im Interview verwendet werden.&lt;/p&gt;</help>
+		<text lang="de">...einen Algorithmus.</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de">Algorithmus Hinzufügen</verbose_name>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>select</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/algorithm-relatant-without-creation"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/publication/publication-to-remaining-workflow-entities">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/publication/publication-to-remaining-workflow-entities</uri_path>
+		<dc:comment/>
+		<attribute/>
+		<is_collection>True</is_collection>
+		<title lang="en">Publication - Remaining Workflow Entity Relations</title>
+		<help lang="en">&lt;p&gt;To relate the publication with the remaining workflow entities, select entities and specify the relations.&lt;/p&gt;</help>
+		<verbose_name lang="en">Add Publication Relation</verbose_name>
+		<title lang="de">Publikation - Verbliebende Workflow-Entität Beziehungen</title>
+		<help lang="de">&lt;p&gt;Um die Publikation mit verbliebenden Workflow-Entitäten zu verknüpfen, wählen Sie Entitäten aus und geben Sie die Relationen an.&lt;/p&gt;</help>
+		<verbose_name lang="de">Publikation Relation Hinzufügen</verbose_name>
+		<questionsets/>
+		<questions>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/publication/remaining-workflow-entity-relation" order="0"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/publication/remaining-workflow-entity-relatant" order="1"/>
+		</questions>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/publication/remaining-workflow-entity-relation">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/publication/remaining-workflow-entity-relation</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/publication/remaining-workflow-entity-relation"/>
+		<is_collection>False</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en"/>
+		<text lang="en">The Publication...</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Der Algorithmus...</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>select</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/all-publication-relations"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/publication/remaining-workflow-entity-relatant">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/publication/remaining-workflow-entity-relatant</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/publication/remaining-workflow-entity-relatant"/>
+		<is_collection>True</is_collection>
+		<is_optional>False</is_optional>
+		<help lang="en">&lt;p&gt;Choose one or more entities to be linked by the selected relation. For all entities &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. Only entities from the MaRDI Portal and those selected or defined within the interview can be chosen.&lt;/p&gt;</help>
+		<text lang="en">...an Interdisciplinary Workflow, Process Step or Data Set.</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en">Add Workflow Entity</verbose_name>
+		<help lang="de">&lt;p&gt;Wählen Sie eine oder mehrere Entitäten aus, die über die ausgewählte Relation verknüpft werden sollen. Für alle Entitäten wird &lt;em&gt;Label (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Es können nur Entitäten aus dem MaRDI Portal sowie solche ausgewählt oder definiert werden, die im Interview verwendet werden.&lt;/p&gt;</help>
+		<text lang="de">...einen interdisziplinären Workflow, Prozessschritt oder Datensatz.</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de">Worflow-Entität Hinzufügen</verbose_name>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>select</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/remaining-workflow-entity-relatant-without-creation"/>
 		</optionsets>
 		<conditions/>
 	</question>
