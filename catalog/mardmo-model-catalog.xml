@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2026-05-03T17:50:48.901777+02:00" required="2.1.0" version="2.4.2">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2026-05-06T22:46:09.180078+02:00" required="2.1.0" version="2.4.2">
 	<catalog dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo-model-catalog">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo-model-catalog</uri_path>
 		<dc:comment/>
 		<order>0</order>
 		<title lang="en">MaRDMO: Questionnaire for Mathematical Models</title>
-		<help lang="en">&lt;p&gt;This catalog helps you describe mathematical models using the MathModDB ontology. It covers key elements such as the model itself, computational tasks, mathematical expressions, quantities, research problems, academic disciplines, and publications. You can reuse existing entries from the MaRDI Portal or Wikidata, or create new ones. The catalog supports documenting new models, adding research problems, or adding computational tasks. It follows the FAIR principles to make models findable, accessible, interoperable, and reusable, and is part of the MaRDMO project developed within the MaRDI initiative. Completed documentations can be exported directly to the MaRDI Portal.&lt;/p&gt;
+		<help lang="en">&lt;p&gt;This catalog helps you describe mathematical models using the MathModDB ontology. It covers key elements such as the model itself, computational tasks, formulas, quantities, research problems, academic disciplines, and publications. You can reuse existing entries from the MaRDI Portal or Wikidata, or create new ones. The catalog supports documenting new models, adding research problems, or adding computational tasks. It follows the FAIR principles to make models findable, accessible, interoperable, and reusable, and is part of the MaRDMO project developed within the MaRDI initiative. Completed documentations can be exported directly to the MaRDI Portal.&lt;/p&gt;
 
 &lt;p&gt;Check out &lt;a href=&quot;https://www.youtube.com/watch?v=UmbBNUZJ994&amp;list=PLgoPZ7uPWbo-jqDXzx4fSm_4JyAYEMPjn&quot;&gt;MaRDMO Model Documentation&lt;/a&gt; showcasing the documentation and subsequent export.&lt;/p&gt;</help>
 		<title lang="de">MaRDMO: Fragenkatalog für mathematische Modelle</title>
-		<help lang="de">&lt;p&gt;Dieser Katalog hilft dabei, mathematische Modelle anhand der MathModDB-Ontologie zu beschreiben. Er umfasst zentrale Elemente wie das Modell selbst, Berechnungsaufgaben, mathematische Ausdrücke, Größen, Forschungsprobleme, wissenschaftliche Disziplinen und Publikationen. Bestehende Einträge aus dem MaRDI-Portal oder Wikidata können wiederverwendet oder neue erstellt werden. Der Katalog unterstützt die Dokumentation neuer Modelle, das Hinzufügen von Forschungsproblemen oder Berechnungsaufgaben. Er folgt den FAIR-Prinzipien, um Modelle auffindbar, zugänglich, interoperabel und wiederverwendbar zu machen, und ist Teil des MaRDMO-Projekts innerhalb der MaRDI-Initiative.  Abgeschlossene Dokumentationen können direkt in das MaRDI-Portal exportiert werden.&lt;/p&gt;
+		<help lang="de">&lt;p&gt;Dieser Katalog hilft dabei, mathematische Modelle anhand der MathModDB-Ontologie zu beschreiben. Er umfasst zentrale Elemente wie das Modell selbst, Berechnungsaufgaben, Formeln, Größen, Forschungsprobleme, wissenschaftliche Disziplinen und Publikationen. Bestehende Einträge aus dem MaRDI-Portal oder Wikidata können wiederverwendet oder neue erstellt werden. Der Katalog unterstützt die Dokumentation neuer Modelle, das Hinzufügen von Forschungsproblemen oder Berechnungsaufgaben. Er folgt den FAIR-Prinzipien, um Modelle auffindbar, zugänglich, interoperabel und wiederverwendbar zu machen, und ist Teil des MaRDMO-Projekts innerhalb der MaRDI-Initiative.  Abgeschlossene Dokumentationen können direkt in das MaRDI-Portal exportiert werden.&lt;/p&gt;
 
 &lt;p&gt;Sehen Sie sich &lt;a href=&quot;https://www.youtube.com/watch?v=UmbBNUZJ994&amp;list=PLgoPZ7uPWbo-jqDXzx4fSm_4JyAYEMPjn&quot;&gt;MaRDMO Model Documentation&lt;/a&gt; an, in dem die Dokumentation und der anschließende Export vorgestellt werden.&lt;/p&gt;</help>
 		<sections>
@@ -49,7 +49,7 @@
 &lt;ul&gt; 
 &lt;li&gt;&lt;em&gt;Mathematical Model&lt;/em&gt;&lt;/li&gt;
 &lt;li&gt;&lt;em&gt;Computational Task&lt;/em&gt;&lt;/li&gt; 
-&lt;li&gt;&lt;em&gt;Mathematical Expression&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Formula&lt;/em&gt;&lt;/li&gt;
 &lt;li&gt;&lt;em&gt;Quantity [Kind]&lt;/em&gt;&lt;/li&gt; 
 &lt;li&gt;&lt;em&gt;Research Problem&lt;/em&gt;&lt;/li&gt;
 &lt;li&gt;&lt;em&gt;Academic Discipline&lt;/em&gt;&lt;/li&gt;
@@ -72,7 +72,7 @@
 &lt;ul&gt; 
 &lt;li&gt;&lt;em&gt;Mathematisches Modell&lt;/em&gt;&lt;/li&gt;
 &lt;li&gt;&lt;em&gt;Berechnungsaufgabe&lt;/em&gt;&lt;/li&gt; 
-&lt;li&gt;&lt;em&gt;Mathematischer Ausdruck&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Formel&lt;/em&gt;&lt;/li&gt;
 &lt;li&gt;&lt;em&gt;Quantität[sart]&lt;/em&gt;&lt;/li&gt; 
 &lt;li&gt;&lt;em&gt;Forschungsproblem&lt;/em&gt;&lt;/li&gt;
 &lt;li&gt;&lt;em&gt;Akademische Disziplin&lt;/em&gt;&lt;/li&gt;
@@ -163,12 +163,12 @@
 		<dc:comment/>
 		<attribute/>
 		<is_collection>True</is_collection>
-		<title lang="en">Mathematical Model - Mathematical Expression Relations</title>
-		<help lang="en">&lt;p&gt;To add expressions to the model, select or define an expression and specify its role.&lt;/p&gt;</help>
-		<verbose_name lang="en">Add Mathematical Expression Relation</verbose_name>
-		<title lang="de">Mathematisches Modell - Mathematischer Ausdruck Beziehungen</title>
-		<help lang="de">&lt;p&gt;Um Ausdrücke zum Modell hinzuzufügen, wählen oder definieren Sie einen Ausdruck und geben Sie dessen Rolle an.&lt;/p&gt;</help>
-		<verbose_name lang="de">Mathematischen Ausdruck Relation Hinzufügen</verbose_name>
+		<title lang="en">Mathematical Model - Formula Relations</title>
+		<help lang="en">&lt;p&gt;To add formulas to the model, select or define a formula and specify its role.&lt;/p&gt;</help>
+		<verbose_name lang="en">Add Formula Relation</verbose_name>
+		<title lang="de">Mathematisches Modell - Formel Beziehungen</title>
+		<help lang="de">&lt;p&gt;Um Formeln zum Modell hinzuzufügen, wählen oder definieren Sie eine Formel und geben Sie dessen Rolle an.&lt;/p&gt;</help>
+		<verbose_name lang="de">Formel Relation Hinzufügen</verbose_name>
 		<questionsets/>
 		<questions>
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/information/model-to-formulation/model-relation" order="0"/>
@@ -184,11 +184,11 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/model/formulation-relation"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">&lt;p&gt;Use &lt;em&gt;assumes&lt;/em&gt; for assumptions, &lt;em&gt;contains&lt;/em&gt; for expressions without a specific role, and the other relations for expressions with dedicated roles.&lt;/p&gt;</help>
+		<help lang="en">&lt;p&gt;Use &lt;em&gt;assumes&lt;/em&gt; for assumptions, &lt;em&gt;contains&lt;/em&gt; for formulas without a specific role, and the other relations for formulas with dedicated roles.&lt;/p&gt;</help>
 		<text lang="en">The Mathematical Model...</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">&lt;p&gt;Verwenden Sie &lt;em&gt;nimmt an&lt;/em&gt; für Annahmen, &lt;em&gt;beinhaltet&lt;/em&gt; für Ausdrücke ohne spezifische Rolle und die anderen Relationen für Ausdrücke mit festgelegter Rolle.&lt;/p&gt;</help>
+		<help lang="de">&lt;p&gt;Verwenden Sie &lt;em&gt;nimmt an&lt;/em&gt; für Annahmen, &lt;em&gt;beinhaltet&lt;/em&gt; für Formeln ohne spezifische Rolle und die anderen Relationen für Formeln mit festgelegter Rolle.&lt;/p&gt;</help>
 		<text lang="de">Das mathematische Modell...</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -213,14 +213,14 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/model/formulation-relatant"/>
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">&lt;p&gt;Choose one or more expressions to be linked by the selected relation (including possible order numbers). For all expressions &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. If an expression is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate expression is present in the MaRDI Portal or Wikidata, define a new expression as &lt;em&gt;label (description)&lt;/em&gt;.&lt;/p&gt;</help>
-		<text lang="en">...a Mathematical Expression.</text>
+		<help lang="en">&lt;p&gt;Choose one or more formulas to be linked by the selected relation (including possible order numbers). For all formulas &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. If a formula is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate formula is present in the MaRDI Portal or Wikidata, define a new formula as &lt;em&gt;label (description)&lt;/em&gt;.&lt;/p&gt;</help>
+		<text lang="en">...a Formula.</text>
 		<default_text lang="en"/>
-		<verbose_name lang="en">Add Mathematical Expression</verbose_name>
-		<help lang="de">&lt;p&gt;Wählen Sie einen oder mehrere Ausdrücke aus, die über die ausgewählte Relation verknüpft werden sollen (einschließlich möglicher Ordnungszahlen). Für alle Ausdrücke wird &lt;em&gt;Name (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Wenn ein Ausdruck ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls kein passender Ausdruck im MaRDI Portal oder Wikidata vorhanden ist, definieren Sie einen neuen Ausdruck mit &lt;em&gt;Name (Beschreibung)&lt;/em&gt;.&lt;/p&gt;</help>
-		<text lang="de">...einen mathematischen Ausdruck.</text>
+		<verbose_name lang="en">Add Formula</verbose_name>
+		<help lang="de">&lt;p&gt;Wählen Sie eine oder mehrere Formeln aus, die über die ausgewählte Relation verknüpft werden sollen (einschließlich möglicher Ordnungszahlen). Für alle Formeln wird &lt;em&gt;Name (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Wenn eine Formel ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls keine passende Formel im MaRDI Portal oder Wikidata vorhanden ist, definieren Sie eine neue Formel mit &lt;em&gt;Name (Beschreibung)&lt;/em&gt;.&lt;/p&gt;</help>
+		<text lang="de">...eine Formel.</text>
 		<default_text lang="de"/>
-		<verbose_name lang="de">Mathematischen Ausdruck Hinzufügen</verbose_name>
+		<verbose_name lang="de">Formel Hinzufügen</verbose_name>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>select_creatable</widget_type>
@@ -242,12 +242,12 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/model/formulation-order-number"/>
 		<is_collection>False</is_collection>
 		<is_optional>True</is_optional>
-		<help lang="en">Order numbers, starting from 1, to  can be used to define the sequence in which the related expressions are displayed on the MaRDI Portal. If order numbers are provided, all expressions within the model must have one. If no order numbers are provided, expressions linked via 'contains' and 'assumes' are shown first, followed by the individual conditions.</help>
-		<text lang="en">Order Number of the Mathematical Expression within the Mathematical Model.</text>
+		<help lang="en">Order numbers, starting from 1, to  can be used to define the sequence in which the related formulas are displayed on the MaRDI Portal. If order numbers are provided, all formulas within the model must have one. If no order numbers are provided, formulas linked via 'contains' and 'assumes' are shown first, followed by the individual conditions.</help>
+		<text lang="en">Order Number of the Formula within the Mathematical Model.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Positionsnummern, von 1 an, können verwendet werden, um die Reihenfolge festzulegen, in der die zugehörigen Ausdrücke auf dem MaRDI-Portal angezeigt werden. Wenn Positionsnummern angegeben werden, muss jeder Ausdruck innerhalb des mathematischen Modells eine haben. Werden keine Positionsnummern vergeben, werden zuerst die über 'beinhaltet' und 'nimmt an' verknüpften Ausdrücke angezeigt, gefolgt von den einzelnen Bedingungen.</help>
-		<text lang="de">Positionsnummer des mathematischen Ausdrucks im mathematischen Modell.</text>
+		<help lang="de">Positionsnummern, von 1 an, können verwendet werden, um die Reihenfolge festzulegen, in der die zugehörigen Formeln auf dem MaRDI-Portal angezeigt werden. Wenn Positionsnummern angegeben werden, muss jede Formel innerhalb des mathematischen Modells eine haben. Werden keine Positionsnummern vergeben, werden zuerst die über 'beinhaltet' und 'nimmt an' verknüpften Formeln angezeigt, gefolgt von den einzelnen Bedingungen.</help>
+		<text lang="de">Positionsnummer der Formel im mathematischen Modell.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -548,16 +548,16 @@
 		<is_optional>True</is_optional>
 		<help lang="en">&lt;p&gt;Only required if the option &lt;strong&gt;is specialized by&lt;/strong&gt; or &lt;strong&gt;specializes&lt;/strong&gt; is selected for the model.&lt;/p&gt;
 
-&lt;p&gt;For all expressions &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. If an expression is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate expression is present in the MaRDI Portal or Wikidata, define a new expression as &lt;em&gt;label (description)&lt;/em&gt;.&lt;/p&gt;</help>
+&lt;p&gt;For all formulas &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. If a formula is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate formula is present in the MaRDI Portal or Wikidata, define a new formula as &lt;em&gt;label (description)&lt;/em&gt;.&lt;/p&gt;</help>
 		<text lang="en">Assumption to reduce the general Mathematical Model to its specialized form.</text>
 		<default_text lang="en"/>
-		<verbose_name lang="en">Add Mathematical Expression</verbose_name>
+		<verbose_name lang="en">Add Formula</verbose_name>
 		<help lang="de">&lt;p&gt;Nur erforderlich, wenn für das Modell die Option &lt;strong&gt;wird spezialisiert durch&lt;/strong&gt; oder &lt;strong&gt;spezialisiert&lt;/strong&gt; gewählt wurde.&lt;/p&gt;
 
-&lt;p&gt;Für alle Ausdrücke wird &lt;em&gt;Name (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Wenn ein Ausdruck ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls kein passender Ausdruck im MaRDI Portal oder Wikidata vorhanden ist, definieren Sie einen neuen Ausdruck mit &lt;em&gt;Name (Beschreibung)&lt;/em&gt;.&lt;/p&gt;</help>
+&lt;p&gt;Für alle Formeln wird &lt;em&gt;Name (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Wenn eine Formel ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls keine passende Formel im MaRDI Portal oder Wikidata vorhanden ist, definieren Sie eine neue Formel mit &lt;em&gt;Name (Beschreibung)&lt;/em&gt;.&lt;/p&gt;</help>
 		<text lang="de">Annahme zur Reduzierung des allgemeinen mathematischen Modells auf seine spezielle Form.</text>
 		<default_text lang="de"/>
-		<verbose_name lang="de">Mathematischen Ausdruck Hinzufügen</verbose_name>
+		<verbose_name lang="de">Formel Hinzufügen</verbose_name>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>select_creatable</widget_type>
@@ -675,12 +675,12 @@
 		<dc:comment/>
 		<attribute/>
 		<is_collection>True</is_collection>
-		<title lang="en">Mathematical Expression Relations</title>
-		<help lang="en">&lt;p&gt;To add expressions to the task, select or define an expression and specify its role.&lt;/p&gt;</help>
-		<verbose_name lang="en">Add Mathematical Expression Relation</verbose_name>
-		<title lang="de">Mathematischer Ausdruck Beziehungen</title>
-		<help lang="de">&lt;p&gt;Um Ausdrücke zur Aufgabe hinzuzufügen, wählen oder definieren Sie einen Ausdruck und geben Sie dessen Rolle an.&lt;/p&gt;</help>
-		<verbose_name lang="de">Mathematischen Ausdruck Relation Hinzufügen</verbose_name>
+		<title lang="en">Formula Relations</title>
+		<help lang="en">&lt;p&gt;To add formulas to the task, select or define a formula and specify its role.&lt;/p&gt;</help>
+		<verbose_name lang="en">Add Formula Relation</verbose_name>
+		<title lang="de">Formel Beziehungen</title>
+		<help lang="de">&lt;p&gt;Um Formeln zur Aufgabe hinzuzufügen, wählen oder definieren Sie eine Formel und geben Sie dessen Rolle an.&lt;/p&gt;</help>
+		<verbose_name lang="de">Formel Relation Hinzufügen</verbose_name>
 		<questionsets/>
 		<questions>
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/task/information/task-to-formulation/relation" order="0"/>
@@ -695,11 +695,11 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/task/formulation-relation"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">&lt;p&gt;Use &lt;em&gt;assumes&lt;/em&gt; for assumptions, &lt;em&gt;contains&lt;/em&gt; for expressions without a specific role, and the other relations for expressions with dedicated roles.&lt;/p&gt;</help>
+		<help lang="en">&lt;p&gt;Use &lt;em&gt;assumes&lt;/em&gt; for assumptions, &lt;em&gt;contains&lt;/em&gt; for formulas without a specific role, and the other relations for formulas with dedicated roles.&lt;/p&gt;</help>
 		<text lang="en">The Computational Task...</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">&lt;p&gt;Verwenden Sie &lt;em&gt;nimmt an&lt;/em&gt; für Annahmen, &lt;em&gt;beinhaltet&lt;/em&gt; für Ausdrücke ohne spezifische Rolle und die anderen Relationen für Ausdrücke mit festgelegter Rolle.&lt;/p&gt;</help>
+		<help lang="de">&lt;p&gt;Verwenden Sie &lt;em&gt;nimmt an&lt;/em&gt; für Annahmen, &lt;em&gt;beinhaltet&lt;/em&gt; für Formeln ohne spezifische Rolle und die anderen Relationen für Formeln mit festgelegter Rolle.&lt;/p&gt;</help>
 		<text lang="de">Die Berechnungsaufgabe...</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -724,14 +724,14 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/task/formulation-relatant"/>
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">&lt;p&gt;Choose one or more expressions to be linked by the selected relation. For all expressions &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. If an expression is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate expression is present in the MaRDI Portal or Wikidata, define a new expression as &lt;em&gt;label (description)&lt;/em&gt;.&lt;/p&gt;</help>
-		<text lang="en">...a Mathematical Expression.</text>
+		<help lang="en">&lt;p&gt;Choose one or more formulas to be linked by the selected relation. For all formulas &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. If a formula is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate formula is present in the MaRDI Portal or Wikidata, define a new formula as &lt;em&gt;label (description)&lt;/em&gt;.&lt;/p&gt;</help>
+		<text lang="en">...a Formula.</text>
 		<default_text lang="en"/>
-		<verbose_name lang="en">Add Mathematical Expression</verbose_name>
-		<help lang="de">&lt;p&gt;Wählen Sie einen oder mehrere Ausdrücke aus, die über die ausgewählte Relation verknüpft werden sollen. Für alle Ausdrücke wird &lt;em&gt;Name (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Wenn ein Ausdruck ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls kein passender Ausdruck im MaRDI Portal oder Wikidata vorhanden ist, definieren Sie einen neuen Ausdruck mit &lt;em&gt;Name (Beschreibung)&lt;/em&gt;.&lt;/p&gt;</help>
-		<text lang="de">...einen mathematischen Ausdruck.</text>
+		<verbose_name lang="en">Add Formula</verbose_name>
+		<help lang="de">&lt;p&gt;Wählen Sie eine oder mehrere Formeln aus, die über die ausgewählte Relation verknüpft werden sollen. Für alle Formeln wird &lt;em&gt;Name (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Wenn eine Formel ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls keine passende Formel im MaRDI Portal oder Wikidata vorhanden ist, definieren Sie eine neue Formel mit &lt;em&gt;Name (Beschreibung)&lt;/em&gt;.&lt;/p&gt;</help>
+		<text lang="de">...eine Formel.</text>
 		<default_text lang="de"/>
-		<verbose_name lang="de">Mathematischen Ausdruck Hinzufügen</verbose_name>
+		<verbose_name lang="de">Formeln Hinzufügen</verbose_name>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>select_creatable</widget_type>
@@ -1052,16 +1052,16 @@
 		<is_optional>True</is_optional>
 		<help lang="en">&lt;p&gt;Only required if the option &lt;strong&gt;is specialized by&lt;/strong&gt; or &lt;strong&gt;specializes&lt;/strong&gt; is selected for the task.&lt;/p&gt;
 
-&lt;p&gt;For all expressions &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. If an expression is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate expression is present in the MaRDI Portal or Wikidata, define a new expression as &lt;em&gt;label (description)&lt;/em&gt;.&lt;/p&gt;</help>
+&lt;p&gt;For all formulas &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. If a formula is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate formula is present in the MaRDI Portal or Wikidata, define a new formula as &lt;em&gt;label (description)&lt;/em&gt;.&lt;/p&gt;</help>
 		<text lang="en">Assumption to reduce the general Computational Task to its specialized form.</text>
 		<default_text lang="en"/>
-		<verbose_name lang="en">Add Mathematical Expression</verbose_name>
+		<verbose_name lang="en">Add Formula</verbose_name>
 		<help lang="de">&lt;p&gt;Nur erforderlich, wenn für die Aufgabe die Option &lt;strong&gt;wird spezialisiert durch&lt;/strong&gt; oder &lt;strong&gt;spezialisiert&lt;/strong&gt; gewählt wurde.&lt;/p&gt;
 
-&lt;p&gt;Für alle Ausdrücke wird &lt;em&gt;Name (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Wenn ein Ausdruck ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls kein passender Ausdruck im MaRDI Portal oder Wikidata vorhanden ist, definieren Sie einen neuen Ausdruck mit &lt;em&gt;Name (Beschreibung)&lt;/em&gt;.&lt;/p&gt;</help>
+&lt;p&gt;Für alle Formeln wird &lt;em&gt;Name (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Wenn eine Formel ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls keine passende Formel im MaRDI Portal oder Wikidata vorhanden ist, definieren Sie eine neue Formel mit &lt;em&gt;Name (Beschreibung)&lt;/em&gt;.&lt;/p&gt;</help>
 		<text lang="de">Annahme zur Reduzierung der allgemeinen Berechnungsaufgabe auf seine spezielle Form.</text>
 		<default_text lang="de"/>
-		<verbose_name lang="de">Mathematischen Ausdruck Hinzufügen</verbose_name>
+		<verbose_name lang="de">Formel Hinzufügen</verbose_name>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>select_creatable</widget_type>
@@ -1146,30 +1146,30 @@
 		<dc:comment/>
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/formulation"/>
 		<is_collection>True</is_collection>
-		<title lang="en">Mathematical Expression</title>
-		<short_title lang="en">Expression</short_title>
-		<help lang="en">&lt;p&gt;On this page, you can define new expressions or select existing ones from the MaRDI Portal or Wikidata. When an existing expression is selected, all available information from the relevant source is retrieved and integrated into the interview. Retrieved data can be completed and extended with new relations (e.g., connections to other expressions).&lt;/p&gt;
+		<title lang="en">Formula</title>
+		<short_title lang="en">Formula</short_title>
+		<help lang="en">&lt;p&gt;On this page, you can define new formulas or select existing ones from the MaRDI Portal or Wikidata. When an existing formula is selected, all available information from the relevant source is retrieved and integrated into the interview. Retrieved data can be completed and extended with new relations (e.g., connections to other formulas).&lt;/p&gt;
 
-&lt;p&gt;In addition to enhancing existing expressions, they can also serve as templates for creating new ones. To use an expression as a template, the reference to the external source must be removed after importing the available information.&lt;/p&gt;
+&lt;p&gt;In addition to enhancing existing formulas, they can also serve as templates for creating new ones. To use a formula as a template, the reference to the external source must be removed after importing the available information.&lt;/p&gt;
 
 &lt;p&gt;For a smooth export to the MaRDI Portal, all &lt;strong&gt;non-optional&lt;/strong&gt; questions must be answered completely.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; If an expression is selected from the MaRDI Portal and not used as a template, its existing information &lt;u&gt;cannot&lt;/u&gt; be edited or deleted via MaRDMO. Any changes or deletions made regardless will be ignored or shown alongside the original information in the MaRDI Portal.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; If a formula is selected from the MaRDI Portal and not used as a template, its existing information &lt;u&gt;cannot&lt;/u&gt; be edited or deleted via MaRDMO. Any changes or deletions made regardless will be ignored or shown alongside the original information in the MaRDI Portal.&lt;/p&gt;
 
-&lt;p&gt;Check out &lt;a href=&quot;https://www.youtube.com/watch?v=NpdyXsvlSKo&quot;&gt;Mathematical Expression&lt;/a&gt; showcasing the documentation.&lt;/p&gt;</help>
-		<verbose_name lang="en">Add Mathematical Expression</verbose_name>
-		<title lang="de">Mathematischer Ausdruck</title>
-		<short_title lang="de">Ausdruck</short_title>
-		<help lang="de">&lt;p&gt;Auf dieser Seite können neue Ausdrücke definiert oder bereits bestehende Ausdrücke aus dem MaRDI Portal oder Wikidata ausgewählt werden. Wird ein bestehender Ausdruck ausgewählt, werden alle verfügbaren Informationen aus der jeweiligen Quelle abgerufen und in das Interview integriert. Die abgerufenen Informationen können ergänzt und um neue Relationen erweitert werden (z.&amp;nbsp;B. Verbindungen zu anderen Ausdrücken).&lt;/p&gt;
+&lt;p&gt;Check out &lt;a href=&quot;https://www.youtube.com/watch?v=NpdyXsvlSKo&quot;&gt;Formula&lt;/a&gt; showcasing the documentation.&lt;/p&gt;</help>
+		<verbose_name lang="en">Add Formula</verbose_name>
+		<title lang="de">Formel</title>
+		<short_title lang="de">Formel</short_title>
+		<help lang="de">&lt;p&gt;Auf dieser Seite können neue Formeln definiert oder bereits bestehende Formeln aus dem MaRDI Portal oder Wikidata ausgewählt werden. Wird eine bestehende Formel ausgewählt, werden alle verfügbaren Informationen aus der jeweiligen Quelle abgerufen und in das Interview integriert. Die abgerufenen Informationen können ergänzt und um neue Relationen erweitert werden (z.&amp;nbsp;B. Verbindungen zu anderen Formeln).&lt;/p&gt;
 
-&lt;p&gt;Bestehende Ausdrücke können nicht nur erweitert, sondern auch als Vorlage für neue Ausdrücke verwendet werden. Hierfür ist es erforderlich, nach dem Abruf der Informationen den Bezug zur externen Quelle zu entfernen.&lt;/p&gt;
+&lt;p&gt;Bestehende Formeln können nicht nur erweitert, sondern auch als Vorlage für neue Formeln verwendet werden. Hierfür ist es erforderlich, nach dem Abruf der Informationen den Bezug zur externen Quelle zu entfernen.&lt;/p&gt;
 
 &lt;p&gt;Für einen reibungslosen Export in das MaRDI Portal müssen alle &lt;strong&gt;nicht-optionalen&lt;/strong&gt; Fragen vollständig beantwortet sein.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Hinweis:&lt;/strong&gt; Wird ein Ausdruck aus dem MaRDI Portal ausgewählt und nicht als Vorlage verwendet, können bestehende Informationen über MaRDMO &lt;u&gt;nicht&lt;/u&gt; editiert oder gelöscht werden. Änderungen oder Löschungen, die dennoch vorgenommen werden, werden ignoriert oder zusätzlich zu den bestehenden Informationen im MaRDI Portal angezeigt.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Hinweis:&lt;/strong&gt; Wird eine Formel aus dem MaRDI Portal ausgewählt und nicht als Vorlage verwendet, können bestehende Informationen über MaRDMO &lt;u&gt;nicht&lt;/u&gt; editiert oder gelöscht werden. Änderungen oder Löschungen, die dennoch vorgenommen werden, werden ignoriert oder zusätzlich zu den bestehenden Informationen im MaRDI Portal angezeigt.&lt;/p&gt;
 
-&lt;p&gt;Sehen Sie sich &lt;a href=&quot;https://www.youtube.com/watch?v=NpdyXsvlSKo&quot;&gt;Mathematical Expression&lt;/a&gt; an in dem die Dokumentation vorgestellt wird.&lt;/p&gt;</help>
-		<verbose_name lang="de">Mathematischen Ausdruck Hinzufügen</verbose_name>
+&lt;p&gt;Sehen Sie sich &lt;a href=&quot;https://www.youtube.com/watch?v=NpdyXsvlSKo&quot;&gt;Formula&lt;/a&gt; an in dem die Dokumentation vorgestellt wird.&lt;/p&gt;</help>
+		<verbose_name lang="de">Formel Hinzufügen</verbose_name>
 		<questionsets>
 			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/formulation/information" order="1"/>
 			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/formulation/formulation-to-formulation-2" order="2"/>
@@ -1185,10 +1185,10 @@
 		<dc:comment/>
 		<attribute/>
 		<is_collection>False</is_collection>
-		<title lang="en">Mathematical Expression Information</title>
+		<title lang="en">Formula Information</title>
 		<help lang="en"/>
 		<verbose_name lang="en"/>
-		<title lang="de">Mathematischer Ausdruck Informationen</title>
+		<title lang="de">Formel Informationen</title>
 		<help lang="de"/>
 		<verbose_name lang="de"/>
 		<questionsets>
@@ -1210,10 +1210,10 @@
 		<dc:comment/>
 		<attribute/>
 		<is_collection>False</is_collection>
-		<title lang="en">Notation of the Mathematical Expression</title>
+		<title lang="en">Notation of the Formula</title>
 		<help lang="en"/>
 		<verbose_name lang="en"/>
-		<title lang="de">Notation des mathematischen Ausdrucks</title>
+		<title lang="de">Notation der Formel</title>
 		<help lang="de"/>
 		<verbose_name lang="de"/>
 		<questionsets>
@@ -1306,14 +1306,14 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/formulation/formula"/>
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">&lt;p&gt;Provide the formula in LaTeX format, &lt;strong&gt;without&lt;/strong&gt; surroundings like &lt;code&gt;$...$&lt;/code&gt; or &lt;code&gt;\(...\)&lt;/code&gt;. A list of LaTeX commands available in MediaWiki can be found &lt;a href=&quot;https://mirror.physik.tu-berlin.de/pub/CTAN/macros/latex/contrib/texvc/texvc.pdf&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;</help>
-		<text lang="en">Formula of the Mathematical Expression</text>
+		<help lang="en">&lt;p&gt;Provide the defining formula in LaTeX format, &lt;strong&gt;without&lt;/strong&gt; surroundings like &lt;code&gt;$...$&lt;/code&gt; or &lt;code&gt;\(...\)&lt;/code&gt;. A list of LaTeX commands available in MediaWiki can be found &lt;a href=&quot;https://mirror.physik.tu-berlin.de/pub/CTAN/macros/latex/contrib/texvc/texvc.pdf&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;</help>
+		<text lang="en">Defining Formula of the Formula</text>
 		<default_text lang="en"/>
-		<verbose_name lang="en">Add Formula</verbose_name>
-		<help lang="de">&lt;p&gt;Geben Sie die Formel im LaTeX-Format an, &lt;strong&gt;ohne&lt;/strong&gt; Umschließungen wie &lt;code&gt;$...$&lt;/code&gt; oder &lt;code&gt;\(...\)&lt;/code&gt;. Eine Liste der in MediaWiki verfügbaren LaTeX Befehle findet sich &lt;a href=&quot;https://mirror.physik.tu-berlin.de/pub/CTAN/macros/latex/contrib/texvc/texvc.pdf&quot;&gt;hier&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;</help>
-		<text lang="de">Formel des mathematischen Ausdrucks</text>
+		<verbose_name lang="en">Add defining Formula</verbose_name>
+		<help lang="de">&lt;p&gt;Geben Sie die definierende Formel im LaTeX-Format an, &lt;strong&gt;ohne&lt;/strong&gt; Umschließungen wie &lt;code&gt;$...$&lt;/code&gt; oder &lt;code&gt;\(...\)&lt;/code&gt;. Eine Liste der in MediaWiki verfügbaren LaTeX Befehle findet sich &lt;a href=&quot;https://mirror.physik.tu-berlin.de/pub/CTAN/macros/latex/contrib/texvc/texvc.pdf&quot;&gt;hier&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;</help>
+		<text lang="de">Definierende Formel der Formel</text>
 		<default_text lang="de"/>
-		<verbose_name lang="de">Formel Hinzufügen</verbose_name>
+		<verbose_name lang="de">Definierende Formel Hinzufügen</verbose_name>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>text</widget_type>
@@ -1332,12 +1332,12 @@
 		<dc:comment/>
 		<attribute/>
 		<is_collection>True</is_collection>
-		<title lang="en">Mathematical Expression - Mathematical Expression Relations I</title>
-		<help lang="en">&lt;p&gt;To add expressions to the expression, select or define an expression and specify its role.&lt;/p&gt;</help>
-		<verbose_name lang="en">Add Mathematical Expression Relation</verbose_name>
-		<title lang="de">Mathematischer Ausdruck - Mathematischer Ausdruck Beziehungen I</title>
-		<help lang="de">&lt;p&gt;Um Ausdrücke zum Ausdruck hinzuzufügen, wählen oder definieren Sie einen Ausdruck und geben Sie dessen Rolle an.&lt;/p&gt;</help>
-		<verbose_name lang="de">Mathematischen Ausdruck Relation Hinzufügen</verbose_name>
+		<title lang="en">Formula - Formula Relations I</title>
+		<help lang="en">&lt;p&gt;To add formulas to the formula, select or define a formula and specify its role.&lt;/p&gt;</help>
+		<verbose_name lang="en">Add Formula Relation</verbose_name>
+		<title lang="de">Formel - Formel Beziehungen I</title>
+		<help lang="de">&lt;p&gt;Um Formeln zur Formel hinzuzufügen, wählen oder definieren Sie eine Formel und geben Sie deren Rolle an.&lt;/p&gt;</help>
+		<verbose_name lang="de">Formel Relation Hinzufügen</verbose_name>
 		<questionsets/>
 		<questions>
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/formulation/information/formulation-to-formulation-1/formulation-relation" order="0"/>
@@ -1352,12 +1352,12 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/formulation/formulation-relation-1"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">&lt;p&gt;Use &lt;em&gt;assumes&lt;/em&gt; for assumptions, &lt;em&gt;contains&lt;/em&gt; for expressions without a specific role, and the other relations for expressions with dedicated roles.&lt;/p&gt;</help>
-		<text lang="en">The Mathematical Expression...</text>
+		<help lang="en">&lt;p&gt;Use &lt;em&gt;assumes&lt;/em&gt; for assumptions, &lt;em&gt;contains&lt;/em&gt; for formulas without a specific role, and the other relations for formulas with dedicated roles.&lt;/p&gt;</help>
+		<text lang="en">The Formula...</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">&lt;p&gt;Verwenden Sie &lt;em&gt;assumes&lt;/em&gt; für Annahmen, &lt;em&gt;contains&lt;/em&gt; für Ausdrücke ohne spezifische Rolle und die anderen Relationen für Ausdrücke mit festgelegter Rolle.&lt;/p&gt;</help>
-		<text lang="de">Der mathematische Ausdruck...</text>
+		<help lang="de">&lt;p&gt;Verwenden Sie &lt;em&gt;assumes&lt;/em&gt; für Annahmen, &lt;em&gt;contains&lt;/em&gt; für Formeln ohne spezifische Rolle und die anderen Relationen für Formeln mit festgelegter Rolle.&lt;/p&gt;</help>
+		<text lang="de">Die Formel...</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -1381,14 +1381,14 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/formulation/formulation-relatant-1"/>
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">&lt;p&gt;Choose one or more expressions to be linked by the selected relation. For all expressions &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. If an expression is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate expression is present in the MaRDI Portal or Wikidata, define a new expression as &lt;em&gt;label (description)&lt;/em&gt;.&lt;/p&gt;</help>
-		<text lang="en">...another Mathematical Expression.</text>
+		<help lang="en">&lt;p&gt;Choose one or more formulas to be linked by the selected relation. For all formulas &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. If a formula is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate formula is present in the MaRDI Portal or Wikidata, define a new formula as &lt;em&gt;label (description)&lt;/em&gt;.&lt;/p&gt;</help>
+		<text lang="en">...another Formula.</text>
 		<default_text lang="en"/>
-		<verbose_name lang="en">Add Mathematical Expression</verbose_name>
-		<help lang="de">&lt;p&gt;Wählen Sie einen oder mehrere Ausdrücke aus, die über die ausgewählte Relation verknüpft werden sollen. Für alle Ausdrücke wird &lt;em&gt;Name (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Wenn ein Ausdruck ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls kein passender Ausdruck im MaRDI Portal oder Wikidata vorhanden ist, definieren Sie einen neuen Ausdruck mit &lt;em&gt;Name (Beschreibung)&lt;/em&gt;.&lt;/p&gt;</help>
-		<text lang="de">...einer weiteren mathematischen Ausdruck.</text>
+		<verbose_name lang="en">Add Formula</verbose_name>
+		<help lang="de">&lt;p&gt;Wählen Sie eine oder mehrere Formeln aus, die über die ausgewählte Relation verknüpft werden sollen. Für alle Formeln wird &lt;em&gt;Name (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Wenn eine Formel ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls keine passende Formel im MaRDI Portal oder Wikidata vorhanden ist, definieren Sie eine neue Formel mit &lt;em&gt;Name (Beschreibung)&lt;/em&gt;.&lt;/p&gt;</help>
+		<text lang="de">...einer weiteren Formel.</text>
 		<default_text lang="de"/>
-		<verbose_name lang="de">Mathematischen Ausdruck Hinzufügen</verbose_name>
+		<verbose_name lang="de">Formel Hinzufügen</verbose_name>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>select_creatable</widget_type>
@@ -1410,12 +1410,12 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/formulation/name"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; If you use the expression as a template, don’t forget to update the name.&lt;/p&gt;</help>
-		<text lang="en">Name of the Mathematical Expression</text>
+		<help lang="en">&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; If you use the formula as a template, don’t forget to update the name.&lt;/p&gt;</help>
+		<text lang="en">Name of the Formula</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">&lt;p&gt;&lt;strong&gt;Hinweis:&lt;/strong&gt; Wenn Sie den Ausdruck als Vorlage verwenden, denken Sie daran, den Namen anzupassen.&lt;/p&gt;</help>
-		<text lang="de">Name des mathematischen Ausdrucks</text>
+		<help lang="de">&lt;p&gt;&lt;strong&gt;Hinweis:&lt;/strong&gt; Wenn Sie die Formel als Vorlage verwenden, denken Sie daran, den Namen anzupassen.&lt;/p&gt;</help>
+		<text lang="de">Name der Formel</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -1439,14 +1439,14 @@
 		<is_optional>False</is_optional>
 		<help lang="en">&lt;p&gt;Short description of 2–12 words (max. 250 characters), lowercase only except for proper names, minimal punctuation.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; If you use the expression as a template, don’t forget to update the short description.&lt;/p&gt;</help>
-		<text lang="en">Short Description of the Mathematical Expression</text>
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; If you use the formula as a template, don’t forget to update the short description.&lt;/p&gt;</help>
+		<text lang="en">Short Description of the Formula</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de">&lt;p&gt;Kurze Beschreibung mit 2–12 Wörtern (max. 250 Zeichen), nur Kleinschreibung außer bei Eigennamen, minimale Zeichensetzung.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Hinweis:&lt;/strong&gt; Wenn Sie den Ausdruck als Vorlage verwenden, denken Sie daran, die Kurzbeschreibung anzupassen.&lt;/p&gt;</help>
-		<text lang="de">Kurze Beschreibung des mathematischen Ausdrucks</text>
+&lt;p&gt;&lt;strong&gt;Hinweis:&lt;/strong&gt; Wenn Sie die Formel als Vorlage verwenden, denken Sie daran, die Kurzbeschreibung anzupassen.&lt;/p&gt;</help>
+		<text lang="de">Kurze Beschreibung der Formel</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -1469,11 +1469,11 @@
 		<is_collection>True</is_collection>
 		<is_optional>True</is_optional>
 		<help lang="en"/>
-		<text lang="en">Alias of the Mathematical Expression</text>
+		<text lang="en">Alias of the Formula</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en">Add Alias</verbose_name>
 		<help lang="de"/>
-		<text lang="de">Alias des mathematischen Ausdrucks</text>
+		<text lang="de">Alias der Formel</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de">Alias Hinzufügen</verbose_name>
 		<default_option/>
@@ -1496,11 +1496,11 @@
 		<is_collection>True</is_collection>
 		<is_optional>True</is_optional>
 		<help lang="en">&lt;p&gt;Provide additional context or background information if needed.&lt;/p&gt;</help>
-		<text lang="en">Detailed Description of the Mathematical Expression</text>
+		<text lang="en">Detailed Description of the Formula</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en">Add Description</verbose_name>
 		<help lang="de">&lt;p&gt;Geben Sie bei Bedarf weitere Details oder Hintergrundinformationen an.&lt;/p&gt;</help>
-		<text lang="de">Detaillierte Beschreibung des mathematischen Ausdrucks</text>
+		<text lang="de">Detaillierte Beschreibung der Formel</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de">Beschreibung Hinzufügen</verbose_name>
 		<default_option/>
@@ -1523,11 +1523,11 @@
 		<is_collection>True</is_collection>
 		<is_optional>True</is_optional>
 		<help lang="en">&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Selecting contradictory properties prevents a successful export.&lt;/p&gt;</help>
-		<text lang="en">Properties of the Mathematical Expression</text>
+		<text lang="en">Properties of the Formula</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en">Add Property</verbose_name>
 		<help lang="de">&lt;p&gt;&lt;strong&gt;Hinweis:&lt;/strong&gt; Die Auswahl widersprüchlicher Eigenschaften verhindert den Export.&lt;/p&gt;</help>
-		<text lang="de">Eigenschaften des mathematischen Ausdrucks</text>
+		<text lang="de">Eigenschaften der Formel</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de">Eigenschaft Hinzufügen</verbose_name>
 		<default_option/>
@@ -1550,12 +1550,12 @@
 		<dc:comment/>
 		<attribute/>
 		<is_collection>True</is_collection>
-		<title lang="en">Mathematical Expression - Mathematical Expression Relations  II</title>
-		<help lang="en">&lt;p&gt;To relate the expression with other expressions, select additional expressions and specify the relations.&lt;/p&gt;</help>
-		<verbose_name lang="en">Add Mathematical Expression Relation</verbose_name>
-		<title lang="de">Mathematischer Ausdruck - Mathematischer Ausdruck Beziehungen  II</title>
-		<help lang="de">&lt;p&gt;Um den Ausdruck mit anderen Ausdrücken zu verknüpfen, wählen Sie weitere Ausdrücke aus und geben Sie die Relationen an.&lt;/p&gt;</help>
-		<verbose_name lang="de">Mathematischen Ausdruck Relation Hinzufügen</verbose_name>
+		<title lang="en">Formula - Formula Relations  II</title>
+		<help lang="en">&lt;p&gt;To relate the formula with other formulas, select additional formulas and specify the relations.&lt;/p&gt;</help>
+		<verbose_name lang="en">Add Formula Relation</verbose_name>
+		<title lang="de">Formel - Formel Beziehungen  II</title>
+		<help lang="de">&lt;p&gt;Um die Formel mit anderen Formeln zu verknüpfen, wählen Sie weitere Formeln aus und geben Sie die Relationen an.&lt;/p&gt;</help>
+		<verbose_name lang="de">Formel Relation Hinzufügen</verbose_name>
 		<questionsets/>
 		<questions>
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/formulation/formulation-to-formulation-2/formulation-relation" order="0"/>
@@ -1572,11 +1572,11 @@
 		<is_collection>False</is_collection>
 		<is_optional>True</is_optional>
 		<help lang="en"/>
-		<text lang="en">The Mathematical Expression...</text>
+		<text lang="en">The Formula...</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
-		<text lang="de">Der mathematische Ausdruck...</text>
+		<text lang="de">Die Formel...</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -1600,14 +1600,14 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/formulation/formulation-relatant-2"/>
 		<is_collection>True</is_collection>
 		<is_optional>True</is_optional>
-		<help lang="en">&lt;p&gt;Choose one or more expressions to be linked by the selected relation (including possible assumptions). For all expressions &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. Only expressions from the MaRDI Portal and those selected or defined within the interview can be chosen.&lt;/p&gt;</help>
-		<text lang="en">...another Mathematical Expression.</text>
+		<help lang="en">&lt;p&gt;Choose one or more formulas to be linked by the selected relation (including possible assumptions). For all formulas &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. Only formulas from the MaRDI Portal and those selected or defined within the interview can be chosen.&lt;/p&gt;</help>
+		<text lang="en">...another Formula.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en">Add Mathematical Relation</verbose_name>
-		<help lang="de">&lt;p&gt;Wählen Sie einen oder mehrere Ausdrücke aus, die über die ausgewählte Relation verknüpft werden sollen (einschließlich möglicher Annahmen). Für alle Ausdrücke wird &lt;em&gt;Label (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Es können nur Ausdrücke aus dem MaRDI-Portal sowie solche ausgewählt oder definiert werden, die im Interview verwendet werden.&lt;/p&gt;</help>
-		<text lang="de">...einen weiteren mathematischen Ausdruck.</text>
+		<help lang="de">&lt;p&gt;Wählen Sie eine oder mehrere Formeln aus, die über die ausgewählte Relation verknüpft werden sollen (einschließlich möglicher Annahmen). Für alle Formeln wird &lt;em&gt;Label (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Es können nur Formeln aus dem MaRDI-Portal sowie solche ausgewählt oder definiert werden, die im Interview verwendet werden.&lt;/p&gt;</help>
+		<text lang="de">...eine weitere Formel.</text>
 		<default_text lang="de"/>
-		<verbose_name lang="de">Mathematischen Ausdruck Hinzufügen</verbose_name>
+		<verbose_name lang="de">Formel Hinzufügen</verbose_name>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>select_creatable</widget_type>
@@ -1629,18 +1629,18 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/formulation/formulation-assumption"/>
 		<is_collection>True</is_collection>
 		<is_optional>True</is_optional>
-		<help lang="en">&lt;p&gt;Only required if the option &lt;strong&gt;is specialized by&lt;/strong&gt; or &lt;strong&gt;specializes&lt;/strong&gt; is selected for the expression.&lt;/p&gt;
+		<help lang="en">&lt;p&gt;Only required if the option &lt;strong&gt;is specialized by&lt;/strong&gt; or &lt;strong&gt;specializes&lt;/strong&gt; is selected for the formula.&lt;/p&gt;
 
-&lt;p&gt;For all expressions &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. If an expression is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate expression is present in the MaRDI Portal or Wikidata, define a new expression as &lt;em&gt;label (description)&lt;/em&gt;.&lt;/p&gt;</help>
-		<text lang="en">Assumption to reduce the general Mathematical Expression to its specialized form.</text>
+&lt;p&gt;For all formulas &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. If a formula is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate formula is present in the MaRDI Portal or Wikidata, define a new formula as &lt;em&gt;label (description)&lt;/em&gt;.&lt;/p&gt;</help>
+		<text lang="en">Assumption to reduce the general Formula to its specialized form.</text>
 		<default_text lang="en"/>
-		<verbose_name lang="en">Add Mathematical Expression</verbose_name>
-		<help lang="de">&lt;p&gt;Nur erforderlich, wenn für den Ausdruck die Option &lt;strong&gt;wird spezialisiert durch&lt;/strong&gt; oder &lt;strong&gt;spezialisiert&lt;/strong&gt; gewählt wurde.&lt;/p&gt;
+		<verbose_name lang="en">Add Formula</verbose_name>
+		<help lang="de">&lt;p&gt;Nur erforderlich, wenn für die Formel die Option &lt;strong&gt;wird spezialisiert durch&lt;/strong&gt; oder &lt;strong&gt;spezialisiert&lt;/strong&gt; gewählt wurde.&lt;/p&gt;
 
-&lt;p&gt;Für alle Ausdrücke wird &lt;em&gt;Name (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Wenn ein Ausdruck ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls kein passender Ausdruck im MaRDI Portal oder Wikidata vorhanden ist, definieren Sie einen neuen Ausdruck mit &lt;em&gt;Name (Beschreibung)&lt;/em&gt;.&lt;/p&gt;</help>
-		<text lang="de">Annahme zur Reduzierung des allgemeinen mathematischen Ausdrucks auf seine spezielle Form.</text>
+&lt;p&gt;Für alle Formeln wird &lt;em&gt;Name (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Wenn eine Formel ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls keine passende Formel im MaRDI Portal oder Wikidata vorhanden ist, definieren Sie eine neue Formel mit &lt;em&gt;Name (Beschreibung)&lt;/em&gt;.&lt;/p&gt;</help>
+		<text lang="de">Annahme zur Reduzierung der allgemeinen Formel auf ihre spezielle Form.</text>
 		<default_text lang="de"/>
-		<verbose_name lang="de">Mathematischen Ausdruck Hinzufügen</verbose_name>
+		<verbose_name lang="de">Formel Hinzufügen</verbose_name>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>select_creatable</widget_type>
@@ -1662,16 +1662,16 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/formulation/id"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">&lt;p&gt;For all expressions &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. If an expression is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate expression is present in the MaRDI Portal or Wikidata, choose &lt;em&gt;not found&lt;/em&gt;.&lt;/p&gt;
+		<help lang="en">&lt;p&gt;For all formulas &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. If a formula is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate formula is present in the MaRDI Portal or Wikidata, choose &lt;em&gt;not found&lt;/em&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; To use an existing expression as a template, first select the expression, wait for the information to load, and then change the answer to &lt;em&gt;not found&lt;/em&gt; to remove the external reference.&lt;/p&gt;</help>
-		<text lang="en">Select a Mathematical Expression related to the Mathematical Model!</text>
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; To use an existing formula as a template, first select the formula, wait for the information to load, and then change the answer to &lt;em&gt;not found&lt;/em&gt; to remove the external reference.&lt;/p&gt;</help>
+		<text lang="en">Select a Formula related to the Mathematical Model!</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">&lt;p&gt;Für alle Ausdrücke wird &lt;em&gt;Name (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Wenn ein Ausdruck ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls kein passender Ausdruck im MaRDI Portal oder Wikidata vorhanden ist, wählen Sie &lt;em&gt;not found&lt;/em&gt;.&lt;/p&gt;
+		<help lang="de">&lt;p&gt;Für alle Formeln wird &lt;em&gt;Name (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Wenn eine Formel ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls keine passende Formel im MaRDI Portal oder Wikidata vorhanden ist, wählen Sie &lt;em&gt;not found&lt;/em&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Hinweis:&lt;/strong&gt; Um einen bestehenden Ausdruck als Vorlage zu verwenden, wählen Sie zunächst den Ausdruck aus, warten Sie, bis alle Informationen geladen wurden, und setzen Sie anschließend die Antwort auf &lt;em&gt;not found&lt;/em&gt;, um den Bezug zur externen Quelle zu entfernen.&lt;/p&gt;</help>
-		<text lang="de">Wählen Sie einen mathematischen Ausdruck der mit dem mathematischen Modell im Zusammenhang steht!</text>
+&lt;p&gt;&lt;strong&gt;Hinweis:&lt;/strong&gt; Um eine bestehende Formel als Vorlage zu verwenden, wählen Sie zunächst die Formel aus, warten Sie, bis alle Informationen geladen wurden, und setzen Sie anschließend die Antwort auf &lt;em&gt;not found&lt;/em&gt;, um den Bezug zur externen Quelle zu entfernen.&lt;/p&gt;</help>
+		<text lang="de">Wählen Sie eine Formel die mit dem mathematischen Modell im Zusammenhang steht!</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
