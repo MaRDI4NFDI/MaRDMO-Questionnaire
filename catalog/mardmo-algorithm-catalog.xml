@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2026-05-03T17:51:02.393629+02:00" required="2.1.0" version="2.4.2">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2026-05-07T09:46:25.532911+02:00" required="2.1.0" version="2.4.2">
 	<catalog dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo-algorithm-catalog">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo-algorithm-catalog</uri_path>
@@ -499,7 +499,7 @@
 		<dc:comment/>
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/problem/benchmark-relatant"/>
 		<is_collection>True</is_collection>
-		<is_optional>False</is_optional>
+		<is_optional>True</is_optional>
 		<help lang="en">&lt;p&gt;Choose one or more benchmarks. For all benchmarks &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. If a benchmark is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate benchmark is present in the MaRDI Portal or Wikidata, define a new benchmark as &lt;em&gt;label (description)&lt;/em&gt;.&lt;/p&gt;</help>
 		<text lang="en">Benchmark instantiated by the Algorithmic Task</text>
 		<default_text lang="en"/>
@@ -844,7 +844,7 @@
 		<dc:comment/>
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/software/benchmark-relatant"/>
 		<is_collection>True</is_collection>
-		<is_optional>False</is_optional>
+		<is_optional>True</is_optional>
 		<help lang="en">&lt;p&gt;Choose one or more benchmarks. For all benchmarks &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. If a benchmark is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate benchmark is present in the MaRDI Portal or Wikidata, define a new benchmark as &lt;em&gt;label (description)&lt;/em&gt;.&lt;/p&gt;</help>
 		<text lang="en">Benchmark tested by the Software</text>
 		<default_text lang="en"/>
