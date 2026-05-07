@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2026-05-03T17:50:21.865322+02:00" required="2.1.0" version="2.4.2">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2026-05-07T19:52:59.047231+02:00" required="2.1.0" version="2.4.2">
 	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/algorithm">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<key>algorithm</key>
@@ -91,75 +91,75 @@
 		<dc:comment/>
 		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/benchmark"/>
 	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/data-set">
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/dataset">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>data-set</key>
-		<path>data-set</path>
+		<key>dataset</key>
+		<path>dataset</path>
 		<dc:comment/>
 		<parent/>
 	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/data-set/binary-or-text">
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/dataset/binary-or-text">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<key>binary-or-text</key>
-		<path>data-set/binary-or-text</path>
+		<path>dataset/binary-or-text</path>
 		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/data-set"/>
+		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/dataset"/>
 	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/data-set/description">
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/dataset/description">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<key>description</key>
-		<path>data-set/description</path>
+		<path>dataset/description</path>
 		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/data-set"/>
+		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/dataset"/>
 	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/data-set/file-format">
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/dataset/file-format">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<key>file-format</key>
-		<path>data-set/file-format</path>
+		<path>dataset/file-format</path>
 		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/data-set"/>
+		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/dataset"/>
 	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/data-set/id">
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/dataset/id">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<key>id</key>
-		<path>data-set/id</path>
+		<path>dataset/id</path>
 		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/data-set"/>
+		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/dataset"/>
 	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/data-set/name">
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/dataset/name">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<key>name</key>
-		<path>data-set/name</path>
+		<path>dataset/name</path>
 		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/data-set"/>
+		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/dataset"/>
 	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/data-set/proprietary">
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/dataset/proprietary">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<key>proprietary</key>
-		<path>data-set/proprietary</path>
+		<path>dataset/proprietary</path>
 		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/data-set"/>
+		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/dataset"/>
 	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/data-set/size">
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/dataset/size">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<key>size</key>
-		<path>data-set/size</path>
+		<path>dataset/size</path>
 		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/data-set"/>
+		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/dataset"/>
 	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/data-set/to-archive">
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/dataset/to-archive">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<key>to-archive</key>
-		<path>data-set/to-archive</path>
+		<path>dataset/to-archive</path>
 		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/data-set"/>
+		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/dataset"/>
 	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/data-set/to-publish">
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/dataset/to-publish">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<key>to-publish</key>
-		<path>data-set/to-publish</path>
+		<path>dataset/to-publish</path>
 		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/data-set"/>
+		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/dataset"/>
 	</attribute>
 	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/field">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
@@ -581,117 +581,117 @@
 		<dc:comment/>
 		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/problem"/>
 	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/process-step">
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/processstep">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>process-step</key>
-		<path>process-step</path>
+		<key>processstep</key>
+		<path>processstep</path>
 		<dc:comment/>
 		<parent/>
 	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/process-step/algorithm-parameter">
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/processstep/algorithm-parameter">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<key>algorithm-parameter</key>
-		<path>process-step/algorithm-parameter</path>
+		<path>processstep/algorithm-parameter</path>
 		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/process-step"/>
+		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/processstep"/>
 	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/process-step/algorithm-relatant">
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/processstep/algorithm-relatant">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<key>algorithm-relatant</key>
-		<path>process-step/algorithm-relatant</path>
+		<path>processstep/algorithm-relatant</path>
 		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/process-step"/>
+		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/processstep"/>
 	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/process-step/description">
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/processstep/description">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<key>description</key>
-		<path>process-step/description</path>
+		<path>processstep/description</path>
 		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/process-step"/>
+		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/processstep"/>
 	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/process-step/field-relatant">
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/processstep/field-relatant">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<key>field-relatant</key>
-		<path>process-step/field-relatant</path>
+		<path>processstep/field-relatant</path>
 		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/process-step"/>
+		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/processstep"/>
 	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/process-step/hardware-relatant">
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/processstep/hardware-relatant">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<key>hardware-relatant</key>
-		<path>process-step/hardware-relatant</path>
+		<path>processstep/hardware-relatant</path>
 		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/process-step"/>
+		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/processstep"/>
 	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/process-step/id">
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/processstep/id">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<key>id</key>
-		<path>process-step/id</path>
+		<path>processstep/id</path>
 		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/process-step"/>
+		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/processstep"/>
 	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/process-step/input-data-set-relatant">
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/processstep/input-data-set-relatant">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<key>input-data-set-relatant</key>
-		<path>process-step/input-data-set-relatant</path>
+		<path>processstep/input-data-set-relatant</path>
 		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/process-step"/>
+		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/processstep"/>
 	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/process-step/instrument-relatant">
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/processstep/instrument-relatant">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<key>instrument-relatant</key>
-		<path>process-step/instrument-relatant</path>
+		<path>processstep/instrument-relatant</path>
 		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/process-step"/>
+		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/processstep"/>
 	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/process-step/method-documentation">
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/processstep/method-documentation">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<key>method-documentation</key>
-		<path>process-step/method-documentation</path>
+		<path>processstep/method-documentation</path>
 		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/process-step"/>
+		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/processstep"/>
 	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/process-step/method-parameter">
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/processstep/method-parameter">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<key>method-parameter</key>
-		<path>process-step/method-parameter</path>
+		<path>processstep/method-parameter</path>
 		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/process-step"/>
+		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/processstep"/>
 	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/process-step/method-relatant">
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/processstep/method-relatant">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<key>method-relatant</key>
-		<path>process-step/method-relatant</path>
+		<path>processstep/method-relatant</path>
 		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/process-step"/>
+		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/processstep"/>
 	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/process-step/name">
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/processstep/name">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<key>name</key>
-		<path>process-step/name</path>
+		<path>processstep/name</path>
 		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/process-step"/>
+		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/processstep"/>
 	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/process-step/output-data-set-relatant">
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/processstep/output-data-set-relatant">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<key>output-data-set-relatant</key>
-		<path>process-step/output-data-set-relatant</path>
+		<path>processstep/output-data-set-relatant</path>
 		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/process-step"/>
+		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/processstep"/>
 	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/process-step/software-documentation">
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/processstep/software-documentation">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<key>software-documentation</key>
-		<path>process-step/software-documentation</path>
+		<path>processstep/software-documentation</path>
 		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/process-step"/>
+		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/processstep"/>
 	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/process-step/software-relatant">
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/processstep/software-relatant">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<key>software-relatant</key>
-		<path>process-step/software-relatant</path>
+		<path>processstep/software-relatant</path>
 		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/process-step"/>
+		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/processstep"/>
 	</attribute>
 	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/publication">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2026-05-03T17:51:09.161082+02:00" required="2.1.0" version="2.4.2">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2026-05-07T19:53:34.956106+02:00" required="2.1.0" version="2.4.2">
 	<catalog dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo-interdisciplinary-workflow-catalog">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo-interdisciplinary-workflow-catalog</uri_path>
@@ -599,7 +599,7 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo/process-step</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/process-step"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/processstep"/>
 		<is_collection>True</is_collection>
 		<title lang="en">Process Step</title>
 		<short_title lang="en">Process Step</short_title>
@@ -684,7 +684,7 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo/process-step/information/computational/algorithm</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/process-step/algorithm-relatant"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/processstep/algorithm-relatant"/>
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en">&lt;p&gt;Choose an algorithm. For all algorithms &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. If an algorithm is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate algorithm is present in the MaRDI Portal or Wikidata, define a new algorithm as &lt;em&gt;label (description)&lt;/em&gt;.&lt;/p&gt;
@@ -717,7 +717,7 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo/process-step/information/computational/parameter</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/process-step/algorithm-parameter"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/processstep/algorithm-parameter"/>
 		<is_collection>True</is_collection>
 		<is_optional>True</is_optional>
 		<help lang="en">If necessary, provide relevant, workflow-specific parameters of the algorithm.</help>
@@ -744,7 +744,7 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo/process-step/information/computational/software-environment</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/process-step/software-relatant"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/processstep/software-relatant"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en">&lt;p&gt;The software environment is the software in which the algorithm is executed (e.g. MATLAB, Jupyter Notebook).&lt;/p&gt;
@@ -777,7 +777,7 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo/process-step/information/computational/software-documentation</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/process-step/software-documentation"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/processstep/software-documentation"/>
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en">&lt;p&gt;Provide the DOI or URL of a file documenting the software environment (e.g. requirements.txt, environment.yml, Dockerfile, or a container image on Docker Hub, Zenodo, or a similar repository).&lt;/p&gt;
@@ -810,7 +810,7 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo/process-step/information/computational/hardware-environment</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/process-step/hardware-relatant"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/processstep/hardware-relatant"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en">&lt;p&gt;The hardware environment is the hardware on which the software is executed (e.g. HPC cluster, Laptop).&lt;/p&gt;
@@ -864,7 +864,7 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo/process-step/information/experimental/method</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/process-step/method-relatant"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/processstep/method-relatant"/>
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en">&lt;p&gt;Choose a method. For all methods &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. If a method is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate method is present in the MaRDI Portal or Wikidata, define a new method as &lt;em&gt;label (description)&lt;/em&gt;.&lt;/p&gt;</help>
@@ -893,7 +893,7 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo/process-step/information/experimental/parameter</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/process-step/method-parameter"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/processstep/method-parameter"/>
 		<is_collection>True</is_collection>
 		<is_optional>True</is_optional>
 		<help lang="en">If necessary, provide relevant, workflow-specific parameters of the experimental method.</help>
@@ -920,7 +920,7 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo/process-step/information/experimental/method-documentation</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/process-step/method-documentation"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/processstep/method-documentation"/>
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en">&lt;p&gt;Provide the DOI or URL of the protocol followed in the experimental method (e.g. from &lt;a href=&quot;https://www.protocols.io&quot;&gt;protocols.io&lt;/a&gt;, Zenodo, or a publication).&lt;/p&gt;
@@ -953,7 +953,7 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo/process-step/information/experimental/instrument-environment</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/process-step/instrument-relatant"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/processstep/instrument-relatant"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en">&lt;p&gt;Choose an equipment. For all equipments &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. If an equipment is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate equipment is present in the MaRDI Portal or Wikidata, define a new equipment as &lt;em&gt;label (description)&lt;/em&gt;.&lt;/p&gt;</help>
@@ -982,7 +982,7 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo/process-step/information/name</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/process-step/name"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/processstep/name"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en">&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; If you use the process step as a template, don’t forget to update the name.&lt;/p&gt;</help>
@@ -1009,7 +1009,7 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo/process-step/information/description</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/process-step/description"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/processstep/description"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en">&lt;p&gt;Short description of 2–12 words (max. 250 characters), lowercase only except for proper names, minimal punctuation.&lt;/p&gt;
@@ -1040,7 +1040,7 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo/process-step/information/input</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/process-step/input-data-set-relatant"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/processstep/input-data-set-relatant"/>
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en">&lt;p&gt;Choose one or more data sets. For all data sets &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. If a data set is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate data set is present in the MaRDI Portal or Wikidata, define a new data set as &lt;em&gt;label (description)&lt;/em&gt;.&lt;/p&gt;</help>
@@ -1069,7 +1069,7 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo/process-step/information/output</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/process-step/output-data-set-relatant"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/processstep/output-data-set-relatant"/>
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en">&lt;p&gt;Choose one or more data sets. For all data sets &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. If a data set is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate data set is present in the MaRDI Portal or Wikidata, define a new data set as &lt;em&gt;label (description)&lt;/em&gt;.&lt;/p&gt;</help>
@@ -1098,7 +1098,7 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo/process-step/field-relatant</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/process-step/field-relatant"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/processstep/field-relatant"/>
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en">&lt;p&gt;Choose one or more disciplines. For all disciplines &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. If a discipline is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate discipline is present in the MaRDI Portal or Wikidata, define a new discipline as &lt;em&gt;label (description)&lt;/em&gt;.&lt;/p&gt;</help>
@@ -1127,7 +1127,7 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo/process-step/id</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/process-step/id"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/processstep/id"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en">&lt;p&gt;For all process steps &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. If a process step is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate process step is present in the MaRDI Portal or Wikidata, choose &lt;em&gt;not found&lt;/em&gt;.&lt;/p&gt;
@@ -1887,7 +1887,7 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo/data-set</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/data-set"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/dataset"/>
 		<is_collection>True</is_collection>
 		<title lang="en">Data Set</title>
 		<short_title lang="en">Data Set</short_title>
@@ -1950,7 +1950,7 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo/data-set/information/name</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/data-set/name"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/dataset/name"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en">&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; If you use the data set as a template, don’t forget to update the name.&lt;/p&gt;</help>
@@ -1977,7 +1977,7 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo/data-set/information/description</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/data-set/description"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/dataset/description"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en">&lt;p&gt;Short description of 2–12 words (max. 250 characters), lowercase only except for proper names, minimal punctuation.&lt;/p&gt;
@@ -2008,7 +2008,7 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo/data-set/information/binary-or-text</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/data-set/binary-or-text"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/dataset/binary-or-text"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
@@ -2037,7 +2037,7 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo/data-set/information/proprietary</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/data-set/proprietary"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/dataset/proprietary"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
@@ -2066,7 +2066,7 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo/data-set/information/file-format</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/data-set/file-format"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/dataset/file-format"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en">e.g. csv, xtc, png</help>
@@ -2093,7 +2093,7 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo/data-set/information/size</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/data-set/size"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/dataset/size"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en">Provide the size of the data set or, if more appropriate, the number of items in the data set.</help>
@@ -2122,7 +2122,7 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo/data-set/information/to-publish</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/data-set/to-publish"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/dataset/to-publish"/>
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en">If yes, provide the DOI where available.</help>
@@ -2151,7 +2151,7 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo/data-set/information/to-archive</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/data-set/to-archive"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/dataset/to-archive"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en">If yes, up to which year?</help>
@@ -2180,7 +2180,7 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo/data-set/id</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/data-set/id"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/dataset/id"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en">&lt;p&gt;For all data sets &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. If a data set is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate data set is present in the MaRDI Portal or Wikidata, choose &lt;em&gt;not found&lt;/em&gt;.&lt;/p&gt;
