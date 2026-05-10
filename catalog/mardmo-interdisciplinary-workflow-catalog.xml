@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2026-05-07T19:53:34.956106+02:00" required="2.1.0" version="2.4.2">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2026-05-10T13:06:22.003556+02:00" required="2.1.0" version="2.4.2">
 	<catalog dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo-interdisciplinary-workflow-catalog">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo-interdisciplinary-workflow-catalog</uri_path>
@@ -110,6 +110,7 @@
 		<verbose_name lang="de"/>
 		<questionsets>
 			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/workflow/information" order="1"/>
+			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/workflow/workflow-to-workflow" order="2"/>
 		</questionsets>
 		<questions>
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/workflow/id" order="0"/>
@@ -541,7 +542,7 @@
 		<dc:comment/>
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/workflow/transferability"/>
 		<is_collection>True</is_collection>
-		<is_optional>False</is_optional>
+		<is_optional>True</is_optional>
 		<help lang="en">e.g. other parameters, models, ...</help>
 		<text lang="en">Transferability to...</text>
 		<default_text lang="en"/>
@@ -560,6 +561,83 @@
 		<unit/>
 		<width>12</width>
 		<optionsets/>
+		<conditions/>
+	</question>
+	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/workflow/workflow-to-workflow">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/workflow/workflow-to-workflow</uri_path>
+		<dc:comment/>
+		<attribute/>
+		<is_collection>True</is_collection>
+		<title lang="en">Interdisciplinary Workflow - Interdisciplinary Workflow Relations</title>
+		<help lang="en">&lt;p&gt;To relate the workflow with other workflow, select additional workflows and specify the relations.&lt;/p&gt;</help>
+		<verbose_name lang="en">Add Interdisciplinary Workflow Relation</verbose_name>
+		<title lang="de">Interdisziplinärer Workflow - Interdisziplinärer Workflow Beziehungen</title>
+		<help lang="de">&lt;p&gt;Um den Workflow mit anderen Workflows zu verknüpfen, wählen Sie weitere Workflows aus und geben Sie die Relationen an.&lt;/p&gt;</help>
+		<verbose_name lang="de">Interdisziplinärer Workflow Relation Hinzufügen</verbose_name>
+		<questionsets/>
+		<questions>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/workflow/workflow-to-workflow/workflow-relation" order="0"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/workflow/workflow-to-workflow/workflow-relatant" order="1"/>
+		</questions>
+		<conditions/>
+	</questionset>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/workflow/workflow-to-workflow/workflow-relation">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/workflow/workflow-to-workflow/workflow-relation</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/workflow/workflow-relation"/>
+		<is_collection>False</is_collection>
+		<is_optional>True</is_optional>
+		<help lang="en"/>
+		<text lang="en">The Interdisciplinary Workflow...</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de"/>
+		<text lang="de">Der interdisziplinäre Workflow...</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>select</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/workflow-relation"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/workflow/workflow-to-workflow/workflow-relatant">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/workflow/workflow-to-workflow/workflow-relatant</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/workflow/workflow-relatant"/>
+		<is_collection>True</is_collection>
+		<is_optional>True</is_optional>
+		<help lang="en">&lt;p&gt;Choose one or more workflows to be linked by the selected relation. For all workflows &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. Only workflows from the MaRDI Portal and those selected or defined within the interview can be chosen.&lt;/p&gt;</help>
+		<text lang="en">...another Interdisciplinary Workflow.</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en">Add Interdisciplinary Workflow</verbose_name>
+		<help lang="de">&lt;p&gt;Wählen Sie einen oder mehrere Workflows aus, die über die ausgewählte Relation verknüpft werden sollen. Für alle Workflows wird &lt;em&gt;Label (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Es können nur Workflows aus dem MaRDI Portal sowie solche ausgewählt oder definiert werden, die im Interview verwendet werden.&lt;/p&gt;</help>
+		<text lang="de">...ein weiterer interdisziplinärer Workflow.</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de">Interdisziplinären Workflow Hinzufügen</verbose_name>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>select</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/workflow-relatant-without-creation"/>
+		</optionsets>
 		<conditions/>
 	</question>
 	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/workflow/id">
