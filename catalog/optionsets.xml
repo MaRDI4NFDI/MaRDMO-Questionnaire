@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2026-05-10T13:05:45.146179+02:00" required="2.1.0" version="2.4.2">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2026-05-12T07:00:36.639039+02:00" required="2.1.0" version="2.4.2">
 	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/algorithm">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>algorithm</uri_path>
@@ -114,17 +114,17 @@
 		<dc:comment/>
 		<provider_key/>
 		<options>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathalgodb/analyzes" order="0"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathalgodb/applies" order="1"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathalgodb/invents" order="2"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathalgodb/studies" order="3"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathalgodb/surveys" order="4"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mardmo/analyzes" order="0"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mardmo/applies" order="1"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mardmo/invents" order="2"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mardmo/studies" order="3"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mardmo/surveys" order="4"/>
 		</options>
 		<conditions/>
 	</optionset>
-	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathalgodb/analyzes">
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mardmo/analyzes">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mathalgodb/analyzes</uri_path>
+		<uri_path>mardmo/analyzes</uri_path>
 		<dc:comment/>
 		<text lang="en">analyzes&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Item:Q6825292&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="en"/>
@@ -136,9 +136,9 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathalgodb/applies">
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mardmo/applies">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mathalgodb/applies</uri_path>
+		<uri_path>mardmo/applies</uri_path>
 		<dc:comment/>
 		<text lang="en">applies&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Item:Q6825298&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="en"/>
@@ -150,9 +150,9 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathalgodb/invents">
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mardmo/invents">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mathalgodb/invents</uri_path>
+		<uri_path>mardmo/invents</uri_path>
 		<dc:comment/>
 		<text lang="en">invents&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Item:Q6672344&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="en"/>
@@ -164,9 +164,9 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathalgodb/studies">
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mardmo/studies">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mathalgodb/studies</uri_path>
+		<uri_path>mardmo/studies</uri_path>
 		<dc:comment/>
 		<text lang="en">studies&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Item:Q6775621&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="en"/>
@@ -178,9 +178,9 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathalgodb/surveys">
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mardmo/surveys">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mathalgodb/surveys</uri_path>
+		<uri_path>mardmo/surveys</uri_path>
 		<dc:comment/>
 		<text lang="en">surveys&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Item:Q6672366&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="en"/>
@@ -261,19 +261,19 @@
 		<dc:comment/>
 		<provider_key/>
 		<options>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathalgodb/analyzes" order="0"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathalgodb/applies" order="1"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathalgodb/documents" order="2"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathalgodb/invents" order="3"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathalgodb/studies" order="4"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathalgodb/surveys" order="5"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathalgodb/uses" order="6"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mardmo/analyzes" order="0"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mardmo/applies" order="1"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mardmo/documents" order="2"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mardmo/invents" order="3"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mardmo/studies" order="4"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mardmo/surveys" order="5"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mardmo/uses" order="8"/>
 		</options>
 		<conditions/>
 	</optionset>
-	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathalgodb/documents">
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mardmo/documents">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mathalgodb/documents</uri_path>
+		<uri_path>mardmo/documents</uri_path>
 		<dc:comment/>
 		<text lang="en">documents&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Item:Q6672349&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="en"/>
@@ -285,9 +285,9 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathalgodb/uses">
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mardmo/uses">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mathalgodb/uses</uri_path>
+		<uri_path>mardmo/uses</uri_path>
 		<dc:comment/>
 		<text lang="en">uses&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Item:Q6480405&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="en"/>
@@ -545,8 +545,8 @@
 		<dc:comment/>
 		<provider_key/>
 		<options>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathalgodb/documents" order="0"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathalgodb/uses" order="1"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mardmo/documents" order="0"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mardmo/uses" order="3"/>
 		</options>
 		<conditions/>
 	</optionset>
@@ -589,84 +589,14 @@
 		<dc:comment/>
 		<provider_key/>
 		<options>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/documents" order="1"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/invents" order="2"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/studies" order="3"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/surveys" order="4"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/uses" order="5"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mardmo/documents" order="1"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mardmo/invents" order="2"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mardmo/studies" order="3"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mardmo/surveys" order="4"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mardmo/uses" order="5"/>
 		</options>
 		<conditions/>
 	</optionset>
-	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/documents">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mathmoddb/documents</uri_path>
-		<dc:comment/>
-		<text lang="en">documents&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Item:Q6672349&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
-		<help lang="en"/>
-		<default_text lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">dokumentiert&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Item:Q6672349&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
-		<help lang="de"/>
-		<default_text lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
-	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/invents">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mathmoddb/invents</uri_path>
-		<dc:comment/>
-		<text lang="en">invents&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Item:Q6672344&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
-		<help lang="en"/>
-		<default_text lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">erfindet&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Item:Q6672344&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
-		<help lang="de"/>
-		<default_text lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
-	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/studies">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mathmoddb/studies</uri_path>
-		<dc:comment/>
-		<text lang="en">studies&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Item:Q6775621&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
-		<help lang="en"/>
-		<default_text lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">untersucht&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Item:Q6775621&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
-		<help lang="de"/>
-		<default_text lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
-	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/surveys">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mathmoddb/surveys</uri_path>
-		<dc:comment/>
-		<text lang="en">surveys&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Item:Q6672366&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
-		<help lang="en"/>
-		<default_text lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">erhebt&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Item:Q6672366&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
-		<help lang="de"/>
-		<default_text lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
-	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/uses">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mathmoddb/uses</uri_path>
-		<dc:comment/>
-		<text lang="en">uses&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Item:Q6480405&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
-		<help lang="en"/>
-		<default_text lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">nutzt&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Item:Q6480405&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
-		<help lang="de"/>
-		<default_text lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
 	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/field">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>field</uri_path>
@@ -1365,14 +1295,6 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mardi-and-wikidata-search">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardi-and-wikidata-search</uri_path>
-		<dc:comment/>
-		<provider_key>MaRDIAndWikidataSearch</provider_key>
-		<options/>
-		<conditions/>
-	</optionset>
 	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mardi-search">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardi-search</uri_path>
