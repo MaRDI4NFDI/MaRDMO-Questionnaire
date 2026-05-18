@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2026-05-16T22:02:58.401821+02:00" required="2.1.0" version="2.4.2">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2026-05-18T14:05:01.778621+02:00" required="2.1.0" version="2.4.2">
 	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/algorithm">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>algorithm</uri_path>
 		<dc:comment/>
 		<provider_key>Algorithm</provider_key>
+		<options/>
+		<conditions/>
+	</optionset>
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/algorithm-mardi-only">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>algorithm-mardi-only</uri_path>
+		<dc:comment/>
+		<provider_key>AlgorithmMaRDIOnly</provider_key>
 		<options/>
 		<conditions/>
 	</optionset>
@@ -255,6 +263,14 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/algorithmic-task-mardi-only">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>algorithmic-task-mardi-only</uri_path>
+		<dc:comment/>
+		<provider_key>AlgorithmicProblemMaRDIOnly</provider_key>
+		<options/>
+		<conditions/>
+	</optionset>
 	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/all-publication-relations">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>all-publication-relations</uri_path>
@@ -431,6 +447,14 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/compuational-task-mardi-only">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>compuational-task-mardi-only</uri_path>
+		<dc:comment/>
+		<provider_key>ComputationalTaskMaRDIOnly</provider_key>
+		<options/>
+		<conditions/>
+	</optionset>
 	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/cpu-model-relatant-with-creation">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>cpu-model-relatant-with-creation</uri_path>
@@ -539,6 +563,14 @@
 		<view_text lang="de"/>
 		<additional_input>text</additional_input>
 	</option>
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/dataset-mardi-only">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>dataset-mardi-only</uri_path>
+		<dc:comment/>
+		<provider_key>DataSetMaRDIOnly</provider_key>
+		<options/>
+		<conditions/>
+	</optionset>
 	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/documents-uses-relation">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>documents-uses-relation</uri_path>
@@ -602,6 +634,14 @@
 		<uri_path>field</uri_path>
 		<dc:comment/>
 		<provider_key>ResearchField</provider_key>
+		<options/>
+		<conditions/>
+	</optionset>
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/field-mardi-only">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>field-mardi-only</uri_path>
+		<dc:comment/>
+		<provider_key>ResearchFieldMaRDIOnly</provider_key>
 		<options/>
 		<conditions/>
 	</optionset>
@@ -675,6 +715,14 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/formula-mardi-only">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>formula-mardi-only</uri_path>
+		<dc:comment/>
+		<provider_key>FormulaMaRDIOnly</provider_key>
+		<options/>
+		<conditions/>
+	</optionset>
 	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/formulation">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>formulation</uri_path>
@@ -1232,6 +1280,14 @@
 		<options/>
 		<conditions/>
 	</optionset>
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/hardware-mardi-only">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>hardware-mardi-only</uri_path>
+		<dc:comment/>
+		<provider_key>HardwareMaRDIOnly</provider_key>
+		<options/>
+		<conditions/>
+	</optionset>
 	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/hardware-or-software-relatant-without-creation">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>hardware-or-software-relatant-without-creation</uri_path>
@@ -1245,6 +1301,14 @@
 		<uri_path>hardware-relatant-with-creation</uri_path>
 		<dc:comment/>
 		<provider_key>RelatedHardwareWithCreation</provider_key>
+		<options/>
+		<conditions/>
+	</optionset>
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/instrument-mardi-only">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>instrument-mardi-only</uri_path>
+		<dc:comment/>
+		<provider_key>InstrumentMaRDIOnly</provider_key>
 		<options/>
 		<conditions/>
 	</optionset>
@@ -1295,11 +1359,11 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mardi-search">
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/method-mardi-only">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardi-search</uri_path>
+		<uri_path>method-mardi-only</uri_path>
 		<dc:comment/>
-		<provider_key>MaRDISearch</provider_key>
+		<provider_key>MethodMaRDIOnly</provider_key>
 		<options/>
 		<conditions/>
 	</optionset>
@@ -1316,6 +1380,14 @@
 		<uri_path>model</uri_path>
 		<dc:comment/>
 		<provider_key>MathematicalModel</provider_key>
+		<options/>
+		<conditions/>
+	</optionset>
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/model-mardi-only">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>model-mardi-only</uri_path>
+		<dc:comment/>
+		<provider_key>MathematicalModelMaRDIOnly</provider_key>
 		<options/>
 		<conditions/>
 	</optionset>
@@ -1506,6 +1578,14 @@
 		<options/>
 		<conditions/>
 	</optionset>
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/problem-mardi-only">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>problem-mardi-only</uri_path>
+		<dc:comment/>
+		<provider_key>ResearchProblemMaRDIOnly</provider_key>
+		<options/>
+		<conditions/>
+	</optionset>
 	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/problem-relatant-with-creation">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>problem-relatant-with-creation</uri_path>
@@ -1598,6 +1678,14 @@
 		<options>
 			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/specialized-by" order="4"/>
 		</options>
+		<conditions/>
+	</optionset>
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/quantity-mardi-only">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>quantity-mardi-only</uri_path>
+		<dc:comment/>
+		<provider_key>QuantityOrQuantityKindMaRDIOnly</provider_key>
+		<options/>
 		<conditions/>
 	</optionset>
 	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/quantity-or-quantity-kind">
@@ -1822,6 +1910,14 @@
 		<uri_path>software</uri_path>
 		<dc:comment/>
 		<provider_key>Software</provider_key>
+		<options/>
+		<conditions/>
+	</optionset>
+	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/software-mardi-only">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>software-mardi-only</uri_path>
+		<dc:comment/>
+		<provider_key>SoftwareMaRDIOnly</provider_key>
 		<options/>
 		<conditions/>
 	</optionset>

@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2026-02-04T06:57:58.418228+01:00" required="2.1.0" version="2.4.0">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2026-05-18T14:05:33.917871+02:00" required="2.1.0" version="2.4.2">
 	<catalog dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo-search-catalog">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo-search-catalog</uri_path>
 		<dc:comment/>
 		<order>0</order>
 		<title lang="en">MaRDMO: Search Interdisciplinary Workflows, Mathematical Models and Algorithms</title>
-		<help lang="en"/>
+		<help lang="en">&lt;p&gt;This catalog helps you search for mathematical models, algorithms, and interdisciplinary workflows documented in the MaRDI Portal. It covers key search elements such as research problems, academic disciplines, computational tasks, formulas, quantities, software, hardware, and benchmarks. Searches can be based on existing entries from the MaRDI Portal or on provided keywords. The catalog builds structured SPARQL queries automatically — no SPARQL knowledge required. It is part of the MaRDMO project developed within the MaRDI initiative.&lt;/p&gt;
+&lt;p&gt;Check out &lt;a href=&quot;&quot;&gt;MaRDMO Search&lt;/a&gt; showcasing the generation and execution of SPARQL queries.&lt;/p&gt;</help>
 		<title lang="de">MaRDMO: Suche interdisziplinäre Workflows, mathematisches Modelle und Algorithmen</title>
-		<help lang="de"/>
+		<help lang="de">&lt;p&gt;Dieser Katalog hilft dabei, mathematische Modelle, Algorithmen und interdisziplinäre Workflows im MaRDI-Portal zu suchen. Er umfasst zentrale Suchelemente wie Forschungsprobleme, wissenschaftliche Disziplinen, Berechnungsaufgaben, Formeln, Größen, Software, Hardware und Benchmarks. Suchen können auf bestehenden Einträgen aus dem MaRDI-Portal oder auf eingegebenen Schlüsselwörtern basieren. Der Katalog erstellt strukturierte SPARQL-Abfragen automatisch – ohne SPARQL-Kenntnisse. Er ist Teil des MaRDMO-Projekts innerhalb der MaRDI-Initiative.&lt;/p&gt;
+&lt;p&gt;Sehen Sie sich &lt;a href=&quot;&quot;&gt;MaRDMO Search&lt;/a&gt; an, das die Generierung und Ausführung von SPARQL-Abfragen demonstriert.&lt;/p&gt;</help>
 		<sections>
 			<section dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/search" order="0"/>
 		</sections>
@@ -17,17 +19,66 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo/search</uri_path>
 		<dc:comment/>
-		<title lang="en">Search</title>
-		<short_title lang="en"/>
-		<title lang="de">Suche</title>
-		<short_title lang="de"/>
+		<title lang="en">Mathematical Objects Search</title>
+		<short_title lang="en">Search</short_title>
+		<title lang="de">Suche Mathematische Objekte</title>
+		<short_title lang="de">Suche</short_title>
 		<pages>
-			<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/search/search-type" order="0"/>
-			<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/search/workflow-search" order="1"/>
-			<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/search/model-search" order="2"/>
-			<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/search/algorithm-search" order="3"/>
+			<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/search-introduction" order="0"/>
+			<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/search/search-type" order="1"/>
+			<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/search/workflow-search" order="2"/>
+			<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/search/model-search" order="3"/>
+			<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/search/algorithm-search" order="4"/>
 		</pages>
 	</section>
+	<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/search-introduction">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/search-introduction</uri_path>
+		<dc:comment/>
+		<attribute/>
+		<is_collection>False</is_collection>
+		<title lang="en">Welcome to the Search Interview</title>
+		<short_title lang="en">Introduction</short_title>
+		<help lang="en">&lt;p&gt;This guided interview helps you search the &lt;em&gt;&lt;a href=&quot;https://portal.mardi4nfdi.de/&quot; target=&quot;_blank&quot;&gt;MaRDI Portal&lt;/a&gt;&lt;/em&gt; using structured SPARQL queries - no SPARQL knowledge required.&lt;/p&gt;
+
+&lt;p&gt;The search catalog supports queries across three main entity types:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;Mathematical Model&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Algorithm&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Interdisciplinary Workflow&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;For each entity type, searches can be based on all related classes.&lt;/p&gt;
+
+&lt;p&gt;Depending on the search field, queries are either item-based selecting existing entries from the &lt;em&gt;&lt;a href=&quot;https://portal.mardi4nfdi.de/&quot; target=&quot;_blank&quot;&gt;MaRDI Portal&lt;/a&gt;&lt;/em&gt; or keyword-based, allowing free-text input.&lt;/p&gt;
+
+&lt;p&gt;The search catalog is designed to make mathematical research data &lt;strong&gt;Findable&lt;/strong&gt; and &lt;strong&gt;Accessible&lt;/strong&gt;, in support of the FAIR principles.&lt;/p&gt;
+
+&lt;p&gt;This catalog is part of &lt;strong&gt;&lt;a href=&quot;https://github.com/MarcoReidelbach/MaRDMO-Plugin&quot; target=&quot;_blank&quot;&gt;MaRDMO&lt;/a&gt;&lt;/strong&gt; and developed within Task Area 4 of the &lt;strong&gt;&lt;a href=&quot;https://www.mardi4nfdi.de/&quot; target=&quot;_blank&quot;&gt;Mathematical Research Data Initiative (MaRDI)&lt;/a&gt;&lt;/strong&gt;. It aims to help researchers across all disciplines to systematically search mathematical research data.&lt;/p&gt;</help>
+		<verbose_name lang="en"/>
+		<title lang="de">Willkommen zum Suche-Interview</title>
+		<short_title lang="de">Einführung</short_title>
+		<help lang="de">&lt;p&gt;Dieses geführte Interview hilft Ihnen, das &lt;em&gt;&lt;a href=&quot;https://portal.mardi4nfdi.de/&quot; target=&quot;_blank&quot;&gt;MaRDI-Portal&lt;/a&gt;&lt;/em&gt; mithilfe strukturierter SPARQL-Abfragen zu durchsuchen – ohne SPARQL-Kenntnisse.&lt;/p&gt;
+
+&lt;p&gt;Der Suchkatalog unterstützt Abfragen zu drei zentralen Entitätstypen:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;Mathematisches Modell&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Algorithmus&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Interdisziplinärer Workflow&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Für jeden Entitätstyp können Suchen auf allen zugehörigen Klassen basieren.&lt;/p&gt;
+
+&lt;p&gt;Je nach Suchfeld sind Abfragen entweder eintragsbasiert mit bestehenden Einträgen aus dem &lt;em&gt;&lt;a href=&quot;https://portal.mardi4nfdi.de/&quot; target=&quot;_blank&quot;&gt;MaRDI-Portal&lt;/a&gt;&lt;/em&gt; oder schlüsselwortbasiert, sodass freie Texteingaben möglich sind.&lt;/p&gt;
+
+&lt;p&gt;Der Suchkatalog ist darauf ausgelegt, mathematische Forschungsdaten &lt;strong&gt;auffindbar&lt;/strong&gt; und &lt;strong&gt;zugänglich&lt;/strong&gt; zu machen, ganz im Sinne der FAIR-Prinzipien.&lt;/p&gt;
+
+&lt;p&gt;Dieser Katalog ist Teil von &lt;strong&gt;&lt;a href=&quot;https://github.com/MarcoReidelbach/MaRDMO-Plugin&quot; target=&quot;_blank&quot;&gt;MaRDMO&lt;/a&gt;&lt;/strong&gt; und wurde im Rahmen von Task Area 4 der &lt;strong&gt;&lt;a href=&quot;https://www.mardi4nfdi.de/&quot; target=&quot;_blank&quot;&gt;Mathematical Research Data Initiative (MaRDI)&lt;/a&gt;&lt;/strong&gt; entwickelt. Er soll Forschenden aller Disziplinen dabei helfen, mathematische Forschungsdaten systematisch zu durchsuchen.&lt;/p&gt;</help>
+		<verbose_name lang="de"/>
+		<questionsets/>
+		<questions/>
+		<conditions/>
+	</page>
 	<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/search/search-type">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo/search/search-type</uri_path>
@@ -55,12 +106,12 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/search/options"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en"/>
-		<text lang="en">Which kind of mathematical research data would you like to search?</text>
+		<help lang="en">&lt;p&gt;Selecting an entity type unlocks specific questions on the following pages.&lt;/p&gt;</help>
+		<text lang="en">Which entity type would you like to search?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de"/>
-		<text lang="de">Welche Art von mathematischen Forschungsdaten soll gesucht werden?</text>
+		<help lang="de">&lt;p&gt;Die Auswahl eines Entitätstyps schaltet auf den folgenden Seiten spezifische Fragen frei.&lt;/p&gt;</help>
+		<text lang="de">Welcher Entitätstyp soll gesucht werden?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -84,70 +135,74 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/search/workflow-search"/>
 		<is_collection>False</is_collection>
 		<title lang="en">Interdisciplinary Workflow Search</title>
-		<short_title lang="en"/>
-		<help lang="en"/>
+		<short_title lang="en">Workflow Search</short_title>
+		<help lang="en">&lt;p&gt;On this page, you can define your search for interdisciplinary workflows documented in the MaRDI Portal. Enter keywords or select existing entries to filter workflows by their key elements.&lt;/p&gt;
+
+&lt;p&gt;The following search fields are available:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;Research Objective&lt;/em&gt; — keyword-based&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Academic Discipline&lt;/em&gt; — item-based&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Mathematical Model&lt;/em&gt; — item-based&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Algorithm&lt;/em&gt; — item-based&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Software&lt;/em&gt; — item-based&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Hardware&lt;/em&gt; — item-based&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Data Set&lt;/em&gt; — item-based&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Experimental Method&lt;/em&gt; — item-based&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Experimental Equipment&lt;/em&gt; — item-based&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Multiple fields can be combined to refine your search. All item-based fields draw on existing entries from the &lt;em&gt;&lt;a href=&quot;https://portal.mardi4nfdi.de/&quot; target=&quot;_blank&quot;&gt;MaRDI Portal&lt;/a&gt;&lt;/em&gt;.&lt;/p&gt;</help>
 		<verbose_name lang="en"/>
 		<title lang="de">Interdisziplinäre Workflow Suche</title>
-		<short_title lang="de"/>
-		<help lang="de"/>
+		<short_title lang="de">Workflow Suche</short_title>
+		<help lang="de">&lt;p&gt;Auf dieser Seite können Sie Ihre Suche nach interdisziplinären Workflows im MaRDI-Portal definieren. Geben Sie Schlüsselwörter ein oder wählen Sie bestehende Einträge aus, um Workflows nach ihren zentralen Elementen zu filtern.&lt;/p&gt;
+
+&lt;p&gt;Folgende Suchfelder stehen zur Verfügung:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;Forschungsziel&lt;/em&gt; — schlüsselwortbasiert&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Akademische Disziplin&lt;/em&gt; — eintragsbasiert&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Mathematisches Modell&lt;/em&gt; — eintragsbasiert&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Algorithmus&lt;/em&gt; — eintragsbasiert&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Software&lt;/em&gt; — eintragsbasiert&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Hardware&lt;/em&gt; — eintragsbasiert&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Datensatz&lt;/em&gt; — eintragsbasiert&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Experimentelle Methode&lt;/em&gt; — eintragsbasiert&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Experimentelles Gerät&lt;/em&gt; — eintragsbasiert&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Mehrere Felder können kombiniert werden, um die Suche zu verfeinern. Alle eintragsbasierten Felder greifen auf bestehende Einträge aus dem &lt;em&gt;&lt;a href=&quot;https://portal.mardi4nfdi.de/&quot; target=&quot;_blank&quot;&gt;MaRDI-Portal&lt;/a&gt;&lt;/em&gt; zurück.&lt;/p&gt;</help>
 		<verbose_name lang="de"/>
 		<questionsets/>
 		<questions>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/search/workflow-search/via-research-objective" order="0"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/search/workflow-search/research-objective" order="1"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/search/workflow-search/via-research-discipline" order="2"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/search/workflow-search/research-discipline" order="3"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/search/workflow-search/via-workflow-entity" order="4"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/search/workflow-search/workflow-entity" order="5"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/search/workflow-search/research-objective" order="0"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/search/workflow-search/academic-discipline" order="1"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/search/workflow-search/mathematical-model" order="2"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/search/workflow-search/algorithm" order="3"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/search/workflow-search/software" order="4"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/search/workflow-search/hardware" order="5"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/search/workflow-search/method" order="6"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/search/workflow-search/instrument" order="7"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/search/workflow-search/dataset" order="8"/>
 		</questions>
 		<conditions>
 			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/workflow-search"/>
 		</conditions>
 	</page>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/search/workflow-search/via-research-objective">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/search/workflow-search/via-research-objective</uri_path>
-		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/search/workflow-search/via-research-objective"/>
-		<is_collection>False</is_collection>
-		<is_optional>False</is_optional>
-		<help lang="en"/>
-		<text lang="en">Would you like to specify Key Words the Research Objective of the Workflow should contain?</text>
-		<default_text lang="en"/>
-		<verbose_name lang="en"/>
-		<help lang="de"/>
-		<text lang="de">Wollen Sie Schlagworte angebeben, die im Forschungsziel des Workflows enthalten sein sollen?</text>
-		<default_text lang="de"/>
-		<verbose_name lang="de"/>
-		<default_option/>
-		<default_external_id/>
-		<widget_type>radio</widget_type>
-		<value_type>text</value_type>
-		<maximum/>
-		<minimum/>
-		<step/>
-		<unit/>
-		<width/>
-		<optionsets>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/yes_no"/>
-		</optionsets>
-		<conditions/>
-	</question>
 	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/search/workflow-search/research-objective">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo/search/workflow-search/research-objective</uri_path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/search/workflow-search/research-objective"/>
 		<is_collection>True</is_collection>
-		<is_optional>False</is_optional>
-		<help lang="en"/>
-		<text lang="en">Specify the Key Words</text>
+		<is_optional>True</is_optional>
+		<help lang="en">&lt;p&gt;Enter one or more keywords. Leave empty to skip this filter.&lt;/p&gt;</help>
+		<text lang="en">Specify Key Words the Research Objective should contain.</text>
 		<default_text lang="en"/>
-		<verbose_name lang="en"/>
-		<help lang="de"/>
-		<text lang="de">Geben Sie die Schlagworte an</text>
+		<verbose_name lang="en">Add Key Word</verbose_name>
+		<help lang="de">&lt;p&gt;Geben Sie ein oder mehrere Schlagwörter ein. Lassen Sie das Feld leer, um diesen Filter zu überspringen.&lt;/p&gt;</help>
+		<text lang="de">Geben Sie Schlagworte an, die das Forschungsproblem enthalten soll.</text>
 		<default_text lang="de"/>
-		<verbose_name lang="de"/>
+		<verbose_name lang="de">Schlagwort Hinzufügen</verbose_name>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>text</widget_type>
@@ -158,52 +213,21 @@
 		<unit/>
 		<width/>
 		<optionsets/>
-		<conditions>
-			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/via-research-objective"/>
-		</conditions>
-	</question>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/search/workflow-search/via-research-discipline">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/search/workflow-search/via-research-discipline</uri_path>
-		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/search/workflow-search/via-research-discipline"/>
-		<is_collection>False</is_collection>
-		<is_optional>False</is_optional>
-		<help lang="en"/>
-		<text lang="en">Would you like to specify Research Disciplines the Workflow should be connected with?</text>
-		<default_text lang="en"/>
-		<verbose_name lang="en"/>
-		<help lang="de"/>
-		<text lang="de">Wollen Sie Forschungsdisziplinen angebeben mit denen der Workflow verknüpft sein soll?</text>
-		<default_text lang="de"/>
-		<verbose_name lang="de"/>
-		<default_option/>
-		<default_external_id/>
-		<widget_type>radio</widget_type>
-		<value_type>text</value_type>
-		<maximum/>
-		<minimum/>
-		<step/>
-		<unit/>
-		<width/>
-		<optionsets>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/yes_no"/>
-		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/search/workflow-search/research-discipline">
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/search/workflow-search/academic-discipline">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/search/workflow-search/research-discipline</uri_path>
+		<uri_path>mardmo/search/workflow-search/academic-discipline</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/search/workflow-search/research-discipline"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/search/workflow-search/academic-discipline"/>
 		<is_collection>True</is_collection>
-		<is_optional>False</is_optional>
-		<help lang="en">For all research disciplines label and description are provided</help>
-		<text lang="en">Select the Research Disciplines</text>
+		<is_optional>True</is_optional>
+		<help lang="en">Select one or more disciplines from the MaRDI Portal. For all disciplinles &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. Leave empty to skip this filter.</help>
+		<text lang="en">Specify the Academic Disciplines the Workflow should be involved in.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Für alle Forschungsdiziplinen werden das Label und die Beschreibung angezeigt.</help>
-		<text lang="de">Wählen Sie die Forschungsdisziplinen aus</text>
+		<help lang="de">Wählen Sie eine oder mehrere Disziplinen aus dem MaRDI Portal aus. Für alle Disziplinen wird &lt;em&gt;Label (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Lassen Sie das Feld leer, um diesen Filter zu überspringen.</help>
+		<text lang="de">Geben Sie die akademischen Disziplinen an, denen der Workflow zugeordnet sein soll.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -216,54 +240,23 @@
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mardi-search"/>
-		</optionsets>
-		<conditions>
-			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/via-research-discipline"/>
-		</conditions>
-	</question>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/search/workflow-search/via-workflow-entity">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/search/workflow-search/via-workflow-entity</uri_path>
-		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/search/workflow-search/via-workflow-entity"/>
-		<is_collection>False</is_collection>
-		<is_optional>False</is_optional>
-		<help lang="en"/>
-		<text lang="en">Would you like to specify Mathematical Models, Algorithms, Software or Data Sets the Workflow should be connected with?</text>
-		<default_text lang="en"/>
-		<verbose_name lang="en"/>
-		<help lang="de"/>
-		<text lang="de">Wollen Sie mathematische Modelle, Algorithmen, Software oder Datensätze angebeben mit denen der Workflow verknüpft sein soll?</text>
-		<default_text lang="de"/>
-		<verbose_name lang="de"/>
-		<default_option/>
-		<default_external_id/>
-		<widget_type>radio</widget_type>
-		<value_type>text</value_type>
-		<maximum/>
-		<minimum/>
-		<step/>
-		<unit/>
-		<width/>
-		<optionsets>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/yes_no"/>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/field-mardi-only"/>
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/search/workflow-search/workflow-entity">
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/search/workflow-search/mathematical-model">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/search/workflow-search/workflow-entity</uri_path>
+		<uri_path>mardmo/search/workflow-search/mathematical-model</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/search/workflow-search/workflow-entity"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/search/workflow-search/mathematical-model"/>
 		<is_collection>True</is_collection>
-		<is_optional>False</is_optional>
-		<help lang="en">For all items label and description are provided</help>
-		<text lang="en">Select the Mathematical Models, Algorithms, Software or Data Sets</text>
+		<is_optional>True</is_optional>
+		<help lang="en">Select one or more models from the MaRDI Portal. For all models &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. Leave empty to skip this filter.</help>
+		<text lang="en">Specify the Mathematical Models the Workflow should use.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Für alle Suchergebnisse werden das Label und die Beschreibung angezeigt.</help>
-		<text lang="de">Wählen Sie die mathematischen Modelle, Algorithmen, Software und Datensätze aus</text>
+		<help lang="de">Wählen Sie ein oder mehrere Modelle aus dem MaRDI Portal aus. Für alle Modelle wird &lt;em&gt;Label (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Lassen Sie das Feld leer, um diesen Filter zu überspringen.</help>
+		<text lang="de">Geben Sie die mathematischen Modelle an, die der Workflow nutzen soll.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -276,11 +269,183 @@
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mardi-search"/>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/model-mardi-only"/>
 		</optionsets>
-		<conditions>
-			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/via-workflow-entity"/>
-		</conditions>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/search/workflow-search/algorithm">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/search/workflow-search/algorithm</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/search/workflow-search/algorithm"/>
+		<is_collection>True</is_collection>
+		<is_optional>True</is_optional>
+		<help lang="en">Select one or more algorithms from the MaRDI Portal. For all algorithms &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. Leave empty to skip this filter.</help>
+		<text lang="en">Specify the Algorithms the Workflow should use.</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de">Wählen Sie einen oder mehrere Algorithmen aus dem MaRDI Portal aus. Für alle Algorithmen wird &lt;em&gt;Label (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Lassen Sie das Feld leer, um diesen Filter zu überspringen.</help>
+		<text lang="de">Geben Sie die Algorithmen an, die der Workflow nutzen soll.</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>select</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/algorithm-mardi-only"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/search/workflow-search/software">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/search/workflow-search/software</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/search/workflow-search/software"/>
+		<is_collection>True</is_collection>
+		<is_optional>True</is_optional>
+		<help lang="en">Select one or more software from the MaRDI Portal. For all software &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. Leave empty to skip this filter.</help>
+		<text lang="en">Specify the Software the Workflow should use.</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de">Wählen Sie eine oder mehrere Software aus dem MaRDI Portal aus. Für alle Software wird &lt;em&gt;Label (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Lassen Sie das Feld leer, um diesen Filter zu überspringen.</help>
+		<text lang="de">Geben Sie die Software an, die der Workflow nutzen soll.</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>select</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/software-mardi-only"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/search/workflow-search/hardware">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/search/workflow-search/hardware</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/search/workflow-search/hardware"/>
+		<is_collection>True</is_collection>
+		<is_optional>True</is_optional>
+		<help lang="en">Select one or more hardware from the MaRDI Portal. For all hardware &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. Leave empty to skip this filter.</help>
+		<text lang="en">Specify the Hardware the Workflow should use.</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de">Wählen Sie eine oder mehrere Hardware aus dem MaRDI Portal aus. Für alle Hardware wird &lt;em&gt;Label (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Lassen Sie das Feld leer, um diesen Filter zu überspringen.</help>
+		<text lang="de">Geben Sie die Hardware an, die der Workflow nutzen soll.</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>select</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/hardware-mardi-only"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/search/workflow-search/method">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/search/workflow-search/method</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/search/workflow-search/method"/>
+		<is_collection>True</is_collection>
+		<is_optional>True</is_optional>
+		<help lang="en">Select one or more methods from the MaRDI Portal. For all methods &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. Leave empty to skip this filter.</help>
+		<text lang="en">Specify the Experimental Methods the Workflow should use.</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de">Wählen Sie eine oder mehrere Methoden aus dem MaRDI Portal aus. Für alle Methoden wird &lt;em&gt;Label (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Lassen Sie das Feld leer, um diesen Filter zu überspringen.</help>
+		<text lang="de">Geben Sie die experimentelle Methoden an, die der Workflow nutzen soll.</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>select</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/method-mardi-only"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/search/workflow-search/instrument">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/search/workflow-search/instrument</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/search/workflow-search/instrument"/>
+		<is_collection>True</is_collection>
+		<is_optional>True</is_optional>
+		<help lang="en">Select one or more equipments from the MaRDI Portal. For all equipments &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. Leave empty to skip this filter.</help>
+		<text lang="en">Specify the Experimental Equipments the Workflow should use.</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de">Wählen Sie ein oder mehrere Geräte aus dem MaRDI Portal aus. Für alle Geräte wird &lt;em&gt;Label (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Lassen Sie das Feld leer, um diesen Filter zu überspringen.</help>
+		<text lang="de">Geben Sie die experimentellen Geräte an, das der Workflow nutzen soll.</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>select</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/instrument-mardi-only"/>
+		</optionsets>
+		<conditions/>
+	</question>
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/search/workflow-search/dataset">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mardmo/search/workflow-search/dataset</uri_path>
+		<dc:comment/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/search/workflow-search/data-set"/>
+		<is_collection>True</is_collection>
+		<is_optional>True</is_optional>
+		<help lang="en">Select one or more data sets from the MaRDI Portal. For all data sets &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. Leave empty to skip this filter.</help>
+		<text lang="en">Specify the Data Sets connected to the Workflow.</text>
+		<default_text lang="en"/>
+		<verbose_name lang="en"/>
+		<help lang="de">Wählen Sie ein oder mehrere Datensätze aus dem MaRDI Portal aus. Für alle Datensätze wird &lt;em&gt;Label (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Lassen Sie das Feld leer, um diesen Filter zu überspringen.</help>
+		<text lang="de">Geben Sie die Datensätze an, die mit dem Workflow verknüpft sind.</text>
+		<default_text lang="de"/>
+		<verbose_name lang="de"/>
+		<default_option/>
+		<default_external_id/>
+		<widget_type>select</widget_type>
+		<value_type>text</value_type>
+		<maximum/>
+		<minimum/>
+		<step/>
+		<unit/>
+		<width/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/dataset-mardi-only"/>
+		</optionsets>
+		<conditions/>
 	</question>
 	<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/search/model-search">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
@@ -289,46 +454,68 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/search/model-search"/>
 		<is_collection>False</is_collection>
 		<title lang="en">Mathematical Model Search</title>
-		<short_title lang="en"/>
-		<help lang="en"/>
+		<short_title lang="en">Model Search</short_title>
+		<help lang="en">&lt;p&gt;On this page, you can define your search for mathematical models documented in the MaRDI Portal. Select existing entries to filter models by their key elements.&lt;/p&gt;
+
+&lt;p&gt;The following search fields are available:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;Mathemaical Model Properties&lt;/em&gt; — item-based&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Research Problem&lt;/em&gt; — item-based&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Academic discipline&lt;/em&gt; — item-based&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Computational Task&lt;/em&gt; — item-based&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Formula&lt;/em&gt; — item-based&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Quantity [Kind]&lt;/em&gt; — item-based&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Multiple fields can be combined to refine your search. All item-based fields draw on existing entries from the &lt;em&gt;&lt;a href=&quot;https://portal.mardi4nfdi.de/&quot; target=&quot;_blank&quot;&gt;MaRDI Portal&lt;/a&gt;&lt;/em&gt;.&lt;/p&gt;</help>
 		<verbose_name lang="en"/>
 		<title lang="de">Mathematisches Modell Suche</title>
-		<short_title lang="de"/>
-		<help lang="de"/>
+		<short_title lang="de">Modell Suche</short_title>
+		<help lang="de">&lt;p&gt;Auf dieser Seite können Sie Ihre Suche nach mathematischen Modellen im MaRDI-Portal definieren. Wählen Sie bestehende Einträge aus, um Modelle nach ihren zentralen Elementen zu filtern.&lt;/p&gt;
+
+&lt;p&gt;Folgende Suchfelder stehen zur Verfügung:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;Mathematisches Modell Eigenschaften&lt;/em&gt; — eintragsbasiert&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Forschungsproblem&lt;/em&gt; — eintragsbasiert&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Akademische Disziplin&lt;/em&gt; — eintragsbasiert&lt;/li&gt;
+  &lt;li&gt;&lt;em&lt;Berechnungsaufgabe&lt;/em&gt; — eintragsbasiert&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Formel&lt;/em&gt; — eintragsbasiert&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Quantität[sart]&lt;/em&gt; — eintragsbasiert&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Mehrere Felder können kombiniert werden, um die Suche zu verfeinern. Alle eintragsbasierten Felder greifen auf bestehende Einträge aus dem &lt;em&gt;&lt;a href=&quot;https://portal.mardi4nfdi.de/&quot; target=&quot;_blank&quot;&gt;MaRDI-Portal&lt;/a&gt;&lt;/em&gt; zurück.&lt;/p&gt;</help>
 		<verbose_name lang="de"/>
 		<questionsets/>
 		<questions>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/search/model-search/via-research-problem" order="1"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/search/model-search/research-problem" order="2"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/search/model-search/via-research-field" order="3"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/search/model-search/research-field" order="4"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/search/model-search/via-model-entity" order="5"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/search/model-search/model-entity" order="6"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/search/model-search/model-task" order="7"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/search/model-search/model-quantity" order="8"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/search/model-search/mathematical-model-properties" order="0"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/search/model-search/research-problem" order="1"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/search/model-search/academic-discipline" order="2"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/search/model-search/computational-task" order="3"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/search/model-search/formula" order="4"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/search/model-search/model-quantity" order="5"/>
 		</questions>
 		<conditions>
 			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/model-search"/>
 		</conditions>
 	</page>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/search/model-search/via-research-problem">
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/search/model-search/mathematical-model-properties">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/search/model-search/via-research-problem</uri_path>
+		<uri_path>mardmo/search/model-search/mathematical-model-properties</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/search/model-search/via-research-problem"/>
-		<is_collection>False</is_collection>
-		<is_optional>False</is_optional>
-		<help lang="en"/>
-		<text lang="en">Would you like to specify Key Words the Research Problem of the Mathematical Model should contain?</text>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/search/model-search/mathematical-model-properties"/>
+		<is_collection>True</is_collection>
+		<is_optional>True</is_optional>
+		<help lang="en">Select one or more properties. Leave empty to skip this filter.</help>
+		<text lang="en">Specify the Properties the Model should satisfy.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de"/>
-		<text lang="de">Wollen Sie Schlagworte angebeben, die im Forschungsproblem des mathematischen Modells enthalten sein sollen?</text>
+		<help lang="de">Wählen Sie ein oder mehrere Eigenschaften aus. Lassen Sie das Feld leer, um diesen Filter zu überspringen.</help>
+		<text lang="de">Geben Sie die Eigenschaften an, die das Modell erfüllen soll.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
 		<default_external_id/>
-		<widget_type>radio</widget_type>
+		<widget_type>select</widget_type>
 		<value_type>text</value_type>
 		<maximum/>
 		<minimum/>
@@ -336,7 +523,7 @@
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/yes_no"/>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/model-properties"/>
 		</optionsets>
 		<conditions/>
 	</question>
@@ -346,47 +533,18 @@
 		<dc:comment/>
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/search/model-search/research-problem"/>
 		<is_collection>True</is_collection>
-		<is_optional>False</is_optional>
-		<help lang="en"/>
-		<text lang="en">Specify the Key Words</text>
+		<is_optional>True</is_optional>
+		<help lang="en">Select one or more problems from the MaRDI Portal. For all problems &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. Leave empty to skip this filter.</help>
+		<text lang="en">Specify the Research Problems the Model should address.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de"/>
-		<text lang="de">Geben Sie die Schlagworte an</text>
+		<help lang="de">Wählen Sie ein oder mehrere Probleme aus dem MaRDI Portal aus. Für alle Probleme wird &lt;em&gt;Label (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Lassen Sie das Feld leer, um diesen Filter zu überspringen.</help>
+		<text lang="de">Geben Sie die Forschungsprobleme an, die das Modell adressieren soll.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
 		<default_external_id/>
-		<widget_type>text</widget_type>
-		<value_type>text</value_type>
-		<maximum/>
-		<minimum/>
-		<step/>
-		<unit/>
-		<width/>
-		<optionsets/>
-		<conditions>
-			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/via-research-problem"/>
-		</conditions>
-	</question>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/search/model-search/via-research-field">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/search/model-search/via-research-field</uri_path>
-		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/search/model-search/via-research-field"/>
-		<is_collection>True</is_collection>
-		<is_optional>False</is_optional>
-		<help lang="en"/>
-		<text lang="en">Would you like to specify Research Fields the Mathematical Models should be connected with?</text>
-		<default_text lang="en"/>
-		<verbose_name lang="en"/>
-		<help lang="de"/>
-		<text lang="de">Wollen Sie Forschungsgebiete angebeben mit denen das mathematische Modell verknüpft sein soll?</text>
-		<default_text lang="de"/>
-		<verbose_name lang="de"/>
-		<default_option/>
-		<default_external_id/>
-		<widget_type>radio</widget_type>
+		<widget_type>select</widget_type>
 		<value_type>text</value_type>
 		<maximum/>
 		<minimum/>
@@ -394,23 +552,23 @@
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/yes_no"/>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/problem-mardi-only"/>
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/search/model-search/research-field">
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/search/model-search/academic-discipline">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/search/model-search/research-field</uri_path>
+		<uri_path>mardmo/search/model-search/academic-discipline</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/search/model-search/research-field"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/search/model-search/academic-discipline"/>
 		<is_collection>True</is_collection>
-		<is_optional>False</is_optional>
-		<help lang="en"/>
-		<text lang="en">Select the Research Fields</text>
+		<is_optional>True</is_optional>
+		<help lang="en">Select one or more disciplines from the MaRDI Portal. For all disciplinles &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. Leave empty to skip this filter.</help>
+		<text lang="en">Specify the Academic Disciplines the Model should be involved in.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de"/>
-		<text lang="de">Wählen Sie die Forschungsfelder aus</text>
+		<help lang="de">Wählen Sie eine oder mehrere Disziplinen aus dem MaRDI Portal aus. Für alle Disziplinen wird &lt;em&gt;Label (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Lassen Sie das Feld leer, um diesen Filter zu überspringen.</help>
+		<text lang="de">Geben Sie die akademischen Disziplinen an, denen das Modell zugeordnet sein soll.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -423,54 +581,23 @@
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mardi-search"/>
-		</optionsets>
-		<conditions>
-			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/via-research-field"/>
-		</conditions>
-	</question>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/search/model-search/via-model-entity">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/search/model-search/via-model-entity</uri_path>
-		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/search/model-search/via-model-entity"/>
-		<is_collection>False</is_collection>
-		<is_optional>False</is_optional>
-		<help lang="en"/>
-		<text lang="en">Would you like to specify Mathematical Formulations, Computational Tasks, or Quantities the Mathematical Model should be connected with?</text>
-		<default_text lang="en"/>
-		<verbose_name lang="en"/>
-		<help lang="de"/>
-		<text lang="de">Wollen Sie mathematische Formulierungen, Berechnungsaufgaben oder Quantitäten angebeben mit denen das mathematische Modell verknüpft sein soll?</text>
-		<default_text lang="de"/>
-		<verbose_name lang="de"/>
-		<default_option/>
-		<default_external_id/>
-		<widget_type>radio</widget_type>
-		<value_type>text</value_type>
-		<maximum/>
-		<minimum/>
-		<step/>
-		<unit/>
-		<width/>
-		<optionsets>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/yes_no"/>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/field-mardi-only"/>
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/search/model-search/model-entity">
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/search/model-search/computational-task">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/search/model-search/model-entity</uri_path>
+		<uri_path>mardmo/search/model-search/computational-task</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/search/model-search/model-formulation"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/search/model-search/computational-task"/>
 		<is_collection>True</is_collection>
-		<is_optional>False</is_optional>
-		<help lang="en"/>
-		<text lang="en">Select the Mathematical Formulations</text>
+		<is_optional>True</is_optional>
+		<help lang="en">Select one or more tasks from the MaRDI Portal. For all tasks &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. Leave empty to skip this filter.</help>
+		<text lang="en">Specify the Computational Tasks the Model should be used by.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de"/>
-		<text lang="de">Wählen Sie die mathematischen Formulierungen aus</text>
+		<help lang="de">Wählen Sie eine oder mehrere Aufgaben aus dem MaRDI Portal aus. Für alle Aufgaben wird &lt;em&gt;Label (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Lassen Sie das Feld leer, um diesen Filter zu überspringen.</help>
+		<text lang="de">Geben Sie die Berechnungsaufgaben an, von denen das Modell verwendet werden soll.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -483,25 +610,23 @@
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mardi-search"/>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/compuational-task-mardi-only"/>
 		</optionsets>
-		<conditions>
-			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/via-model-entity"/>
-		</conditions>
+		<conditions/>
 	</question>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/search/model-search/model-task">
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/search/model-search/formula">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/search/model-search/model-task</uri_path>
+		<uri_path>mardmo/search/model-search/formula</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/search/model-search/model-task"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/search/model-search/formula"/>
 		<is_collection>True</is_collection>
-		<is_optional>False</is_optional>
-		<help lang="en"/>
-		<text lang="en">Select the Computational Tasks</text>
+		<is_optional>True</is_optional>
+		<help lang="en">Select one or more formulas from the MaRDI Portal. For all formulas &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. Leave empty to skip this filter.</help>
+		<text lang="en">Specify the Formulas the Model should contain.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de"/>
-		<text lang="de">Wählen Sie die Berechnungsaufgaben aus</text>
+		<help lang="de">Wählen Sie eine oder mehrere Formeln aus dem MaRDI Portal aus. Für alle Formeln wird &lt;em&gt;Label (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Lassen Sie das Feld leer, um diesen Filter zu überspringen.</help>
+		<text lang="de">Geben Sie die Formeln an, die das Modell enthalten soll.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -514,25 +639,23 @@
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mardi-search"/>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/formula-mardi-only"/>
 		</optionsets>
-		<conditions>
-			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/via-model-entity"/>
-		</conditions>
+		<conditions/>
 	</question>
 	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/search/model-search/model-quantity">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo/search/model-search/model-quantity</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/search/model-search/model-quantity"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/search/model-search/quantity"/>
 		<is_collection>True</is_collection>
-		<is_optional>False</is_optional>
-		<help lang="en"/>
-		<text lang="en">Select the Quantities</text>
+		<is_optional>True</is_optional>
+		<help lang="en">Select one or more quantities from the MaRDI Portal. For all quantities &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. Leave empty to skip this filter.</help>
+		<text lang="en">Specify the Quantities the Model should be associated with.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de"/>
-		<text lang="de">Wählen Sie die Quantitäten aus</text>
+		<help lang="de">Wählen Sie eine oder mehrere Quantitäten aus dem MaRDI Portal aus. Für alle Quantitäten wird &lt;em&gt;Label (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Lassen Sie das Feld leer, um diesen Filter zu überspringen.</help>
+		<text lang="de">Geben Sie die Quantitäten an, mit denen das Modell assoziiert sein soll.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -545,11 +668,9 @@
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mardi-search"/>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/quantity-mardi-only"/>
 		</optionsets>
-		<conditions>
-			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/via-model-entity"/>
-		</conditions>
+		<conditions/>
 	</question>
 	<page dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/search/algorithm-search">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
@@ -558,100 +679,58 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/search/algorithm-search"/>
 		<is_collection>False</is_collection>
 		<title lang="en">Algorithm Search</title>
-		<short_title lang="en"/>
-		<help lang="en"/>
+		<short_title lang="en">Algorithm Search</short_title>
+		<help lang="en">&lt;p&gt;On this page, you can define your search for algorithms documented in the MaRDI Portal. Select existing entries to filter algorithms by their key elements.&lt;/p&gt;
+
+&lt;p&gt;The following search fields are available:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;Algorithmic Task&lt;/em&gt; — item-based&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Software&lt;/em&gt; — item-based&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Benchmark&lt;/em&gt; — item-based&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Multiple fields can be combined to refine your search. All item-based fields draw on existing entries from the &lt;em&gt;&lt;a href=&quot;https://portal.mardi4nfdi.de/&quot; target=&quot;_blank&quot;&gt;MaRDI Portal&lt;/a&gt;&lt;/em&gt;.&lt;/p&gt;</help>
 		<verbose_name lang="en"/>
 		<title lang="de">Algorithmus Suche</title>
-		<short_title lang="de"/>
-		<help lang="de"/>
+		<short_title lang="de">Algorithmus Suche</short_title>
+		<help lang="de">&lt;p&gt;Auf dieser Seite können Sie Ihre Suche nach Algorithmen im MaRDI-Portal definieren. Wählen Sie bestehende Einträge aus, um Algorithmen nach ihren zentralen Elementen zu filtern.&lt;/p&gt;
+
+&lt;p&gt;Folgende Suchfelder stehen zur Verfügung:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;Algorithmische Aufgabe&lt;/em&gt; — eintragsbasiert&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Software&lt;/em&gt; — eintragsbasiert&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Benchmark&lt;/em&gt; — eintragsbasiert&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Mehrere Felder können kombiniert werden, um die Suche zu verfeinern. Alle eintragsbasierten Felder greifen auf bestehende Einträge aus dem &lt;em&gt;&lt;a href=&quot;https://portal.mardi4nfdi.de/&quot; target=&quot;_blank&quot;&gt;MaRDI-Portal&lt;/a&gt;&lt;/em&gt; zurück.&lt;/p&gt;</help>
 		<verbose_name lang="de"/>
 		<questionsets/>
 		<questions>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/search/algorithm-search/via-algorithmic-problem" order="1"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/search/algorithm-search/algorithmic-problem" order="2"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/search/algorithm-search/via-software" order="3"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/search/algorithm-search/software" order="4"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/search/algorithm-search/algorithmic-task" order="0"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/search/algorithm-search/software" order="1"/>
 		</questions>
 		<conditions>
 			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/algorithm-search"/>
 		</conditions>
 	</page>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/search/algorithm-search/via-algorithmic-problem">
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/search/algorithm-search/algorithmic-task">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/search/algorithm-search/via-algorithmic-problem</uri_path>
+		<uri_path>mardmo/search/algorithm-search/algorithmic-task</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/search/algorithm-search/via-algorithmic-problem"/>
-		<is_collection>False</is_collection>
-		<is_optional>False</is_optional>
-		<help lang="en"/>
-		<text lang="en">Would you like to specify Key Words the Algorithmic Problem of the Algorithm should contain?</text>
-		<default_text lang="en"/>
-		<verbose_name lang="en"/>
-		<help lang="de"/>
-		<text lang="de">Wollen Sie Schlagworte angebeben, die im algorithmischen Problem des Algorithmus' enthalten sein sollen?</text>
-		<default_text lang="de"/>
-		<verbose_name lang="de"/>
-		<default_option/>
-		<default_external_id/>
-		<widget_type>radio</widget_type>
-		<value_type>text</value_type>
-		<maximum/>
-		<minimum/>
-		<step/>
-		<unit/>
-		<width/>
-		<optionsets>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/yes_no"/>
-		</optionsets>
-		<conditions/>
-	</question>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/search/algorithm-search/algorithmic-problem">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/search/algorithm-search/algorithmic-problem</uri_path>
-		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/search/algorithm-search/algorithmic-problem"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/search/algorithm-search/algorithmic-task"/>
 		<is_collection>True</is_collection>
-		<is_optional>False</is_optional>
-		<help lang="en"/>
-		<text lang="en">Specify the Key Words</text>
+		<is_optional>True</is_optional>
+		<help lang="en">Select one or more tasks from the MaRDI Portal. For all tasks &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. Leave empty to skip this filter.</help>
+		<text lang="en">Specify the Algorithmic Tasks the Algorithm should address.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de"/>
-		<text lang="de">Geben Sie die Schlagworte an</text>
+		<help lang="de">Wählen Sie eine oder mehrere Aufgaben aus dem MaRDI Portal aus. Für alle Aufgaben wird &lt;em&gt;Label (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Lassen Sie das Feld leer, um diesen Filter zu überspringen.</help>
+		<text lang="de">Geben Sie die algorithmischen Aufgaben an, die der Algorithmus adressieren soll.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
 		<default_external_id/>
-		<widget_type>text</widget_type>
-		<value_type>text</value_type>
-		<maximum/>
-		<minimum/>
-		<step/>
-		<unit/>
-		<width/>
-		<optionsets/>
-		<conditions>
-			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/via-algorithmic-problem"/>
-		</conditions>
-	</question>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/search/algorithm-search/via-software">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/search/algorithm-search/via-software</uri_path>
-		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/search/algorithm-search/via-software"/>
-		<is_collection>False</is_collection>
-		<is_optional>False</is_optional>
-		<help lang="en"/>
-		<text lang="en">Would you like to specifiy Software connected to the Algorithm?</text>
-		<default_text lang="en"/>
-		<verbose_name lang="en"/>
-		<help lang="de"/>
-		<text lang="de">Wollen Sie Software angeben mit denen der Algorithmus verknüpft sein soll?</text>
-		<default_text lang="de"/>
-		<verbose_name lang="de"/>
-		<default_option/>
-		<default_external_id/>
-		<widget_type>radio</widget_type>
+		<widget_type>select</widget_type>
 		<value_type>text</value_type>
 		<maximum/>
 		<minimum/>
@@ -659,7 +738,7 @@
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/yes_no"/>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/algorithmic-task-mardi-only"/>
 		</optionsets>
 		<conditions/>
 	</question>
@@ -669,13 +748,13 @@
 		<dc:comment/>
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/search/algorithm-search/software"/>
 		<is_collection>True</is_collection>
-		<is_optional>False</is_optional>
-		<help lang="en"/>
-		<text lang="en">Select the Softwares</text>
+		<is_optional>True</is_optional>
+		<help lang="en">Select one or more software from the MaRDI Portal. For all software &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. Leave empty to skip this filter.</help>
+		<text lang="en">Specify the Software the Algorithm should be implemented in.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de"/>
-		<text lang="de">Wählen Sie die Software aus</text>
+		<help lang="de">Wählen Sie eine oder mehrere Software aus dem MaRDI Portal aus. Für alle Software wird &lt;em&gt;Label (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Lassen Sie das Feld leer, um diesen Filter zu überspringen.</help>
+		<text lang="de">Geben Sie die Software an, in der der Algorithmus implementiert sein soll.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -688,10 +767,8 @@
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mardi-search"/>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/software-mardi-only"/>
 		</optionsets>
-		<conditions>
-			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/via-software"/>
-		</conditions>
+		<conditions/>
 	</question>
 </rdmo>

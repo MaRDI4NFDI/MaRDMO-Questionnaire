@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2026-05-10T13:05:40.718859+02:00" required="2.1.0" version="2.4.2">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2026-05-18T14:04:53.651082+02:00" required="2.1.0" version="2.4.2">
 	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/algorithm">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<key>algorithm</key>
@@ -231,13 +231,6 @@
 		<dc:comment/>
 		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/formulation"/>
 	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/formulation/defined-quantity">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>defined-quantity</key>
-		<path>formulation/defined-quantity</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/formulation"/>
-	</attribute>
 	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/formulation/description">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<key>description</key>
@@ -312,13 +305,6 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<key>id</key>
 		<path>formulation/id</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/formulation"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/formulation/is-definition">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>is-definition</key>
-		<path>formulation/is-definition</path>
 		<dc:comment/>
 		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/formulation"/>
 	</attribute>
@@ -1029,13 +1015,6 @@
 		<dc:comment/>
 		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity"/>
 	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity/quantity-kind-properties">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>quantity-kind-properties</key>
-		<path>quantity/quantity-kind-properties</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity"/>
-	</attribute>
 	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity/quantity-kind-to-quantity">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<key>quantity-kind-to-quantity</key>
@@ -1141,10 +1120,10 @@
 		<dc:comment/>
 		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/search"/>
 	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/search/algorithm-search/algorithmic-problem">
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/search/algorithm-search/algorithmic-task">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>algorithmic-problem</key>
-		<path>search/algorithm-search/algorithmic-problem</path>
+		<key>algorithmic-task</key>
+		<path>search/algorithm-search/algorithmic-task</path>
 		<dc:comment/>
 		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/search/algorithm-search"/>
 	</attribute>
@@ -1155,20 +1134,6 @@
 		<dc:comment/>
 		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/search/algorithm-search"/>
 	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/search/algorithm-search/via-algorithmic-problem">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>via-algorithmic-problem</key>
-		<path>search/algorithm-search/via-algorithmic-problem</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/search/algorithm-search"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/search/algorithm-search/via-software">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>via-software</key>
-		<path>search/algorithm-search/via-software</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/search/algorithm-search"/>
-	</attribute>
 	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/search/model-search">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<key>model-search</key>
@@ -1176,31 +1141,38 @@
 		<dc:comment/>
 		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/search"/>
 	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/search/model-search/model-formulation">
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/search/model-search/academic-discipline">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>model-formulation</key>
-		<path>search/model-search/model-formulation</path>
+		<key>academic-discipline</key>
+		<path>search/model-search/academic-discipline</path>
 		<dc:comment/>
 		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/search/model-search"/>
 	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/search/model-search/model-quantity">
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/search/model-search/computational-task">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>model-quantity</key>
-		<path>search/model-search/model-quantity</path>
+		<key>computational-task</key>
+		<path>search/model-search/computational-task</path>
 		<dc:comment/>
 		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/search/model-search"/>
 	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/search/model-search/model-task">
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/search/model-search/formula">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>model-task</key>
-		<path>search/model-search/model-task</path>
+		<key>formula</key>
+		<path>search/model-search/formula</path>
 		<dc:comment/>
 		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/search/model-search"/>
 	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/search/model-search/research-field">
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/search/model-search/mathematical-model-properties">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>research-field</key>
-		<path>search/model-search/research-field</path>
+		<key>mathematical-model-properties</key>
+		<path>search/model-search/mathematical-model-properties</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/search/model-search"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/search/model-search/quantity">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>quantity</key>
+		<path>search/model-search/quantity</path>
 		<dc:comment/>
 		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/search/model-search"/>
 	</attribute>
@@ -1208,27 +1180,6 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<key>research-problem</key>
 		<path>search/model-search/research-problem</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/search/model-search"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/search/model-search/via-model-entity">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>via-model-entity</key>
-		<path>search/model-search/via-model-entity</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/search/model-search"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/search/model-search/via-research-field">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>via-research-field</key>
-		<path>search/model-search/via-research-field</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/search/model-search"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/search/model-search/via-research-problem">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>via-research-problem</key>
-		<path>search/model-search/via-research-problem</path>
 		<dc:comment/>
 		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/search/model-search"/>
 	</attribute>
@@ -1246,10 +1197,52 @@
 		<dc:comment/>
 		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/search"/>
 	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/search/workflow-search/research-discipline">
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/search/workflow-search/academic-discipline">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>research-discipline</key>
-		<path>search/workflow-search/research-discipline</path>
+		<key>academic-discipline</key>
+		<path>search/workflow-search/academic-discipline</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/search/workflow-search"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/search/workflow-search/algorithm">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>algorithm</key>
+		<path>search/workflow-search/algorithm</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/search/workflow-search"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/search/workflow-search/data-set">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>data-set</key>
+		<path>search/workflow-search/data-set</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/search/workflow-search"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/search/workflow-search/hardware">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>hardware</key>
+		<path>search/workflow-search/hardware</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/search/workflow-search"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/search/workflow-search/instrument">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>instrument</key>
+		<path>search/workflow-search/instrument</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/search/workflow-search"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/search/workflow-search/mathematical-model">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>mathematical-model</key>
+		<path>search/workflow-search/mathematical-model</path>
+		<dc:comment/>
+		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/search/workflow-search"/>
+	</attribute>
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/search/workflow-search/method">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<key>method</key>
+		<path>search/workflow-search/method</path>
 		<dc:comment/>
 		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/search/workflow-search"/>
 	</attribute>
@@ -1260,31 +1253,10 @@
 		<dc:comment/>
 		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/search/workflow-search"/>
 	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/search/workflow-search/via-research-discipline">
+	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/search/workflow-search/software">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>via-research-discipline</key>
-		<path>search/workflow-search/via-research-discipline</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/search/workflow-search"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/search/workflow-search/via-research-objective">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>via-research-objective</key>
-		<path>search/workflow-search/via-research-objective</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/search/workflow-search"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/search/workflow-search/via-workflow-entity">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>via-workflow-entity</key>
-		<path>search/workflow-search/via-workflow-entity</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/search/workflow-search"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/search/workflow-search/workflow-entity">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>workflow-entity</key>
-		<path>search/workflow-search/workflow-entity</path>
+		<key>software</key>
+		<path>search/workflow-search/software</path>
 		<dc:comment/>
 		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/search/workflow-search"/>
 	</attribute>
@@ -1390,20 +1362,6 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<key>long-description</key>
 		<path>task/long-description</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/task"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/task/model-relatant">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>model-relatant</key>
-		<path>task/model-relatant</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/task"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/task/model-relation">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>model-relation</key>
-		<path>task/model-relation</path>
 		<dc:comment/>
 		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/task"/>
 	</attribute>
