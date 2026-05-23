@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2026-05-06T22:46:09.180078+02:00" required="2.1.0" version="2.4.2">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2026-05-23T21:12:53.303986+02:00" required="2.1.0" version="2.4.2">
 	<catalog dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo-model-catalog">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo-model-catalog</uri_path>
@@ -438,7 +438,7 @@
 		<dc:comment/>
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/model/task-relatant"/>
 		<is_collection>True</is_collection>
-		<is_optional>False</is_optional>
+		<is_optional>True</is_optional>
 		<help lang="en">&lt;p&gt;Choose one or more tasks. For all tasks &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. If a task is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate task is present in the MaRDI Portal or Wikidata, define a new task as &lt;em&gt;label (description)&lt;/em&gt;.&lt;/p&gt;</help>
 		<text lang="en">Computational Task using the Mathematical Model?</text>
 		<default_text lang="en"/>
