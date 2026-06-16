@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2026-05-18T14:05:33.917871+02:00" required="2.1.0" version="2.4.2">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2026-06-16T11:21:25.304474+02:00" required="2.1.0" version="2.4.4">
 	<catalog dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo-search-catalog">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo-search-catalog</uri_path>
@@ -7,10 +7,10 @@
 		<order>0</order>
 		<title lang="en">MaRDMO: Search Interdisciplinary Workflows, Mathematical Models and Algorithms</title>
 		<help lang="en">&lt;p&gt;This catalog helps you search for mathematical models, algorithms, and interdisciplinary workflows documented in the MaRDI Portal. It covers key search elements such as research problems, academic disciplines, computational tasks, formulas, quantities, software, hardware, and benchmarks. Searches can be based on existing entries from the MaRDI Portal or on provided keywords. The catalog builds structured SPARQL queries automatically — no SPARQL knowledge required. It is part of the MaRDMO project developed within the MaRDI initiative.&lt;/p&gt;
-&lt;p&gt;Check out &lt;a href=&quot;&quot;&gt;MaRDMO Search&lt;/a&gt; showcasing the generation and execution of SPARQL queries.&lt;/p&gt;</help>
+&lt;p&gt;Check out &lt;a href=&quot;https://youtu.be/hd3PrlPV3EA&quot;&gt;MaRDMO Search&lt;/a&gt; showcasing the generation and execution of SPARQL queries.&lt;/p&gt;</help>
 		<title lang="de">MaRDMO: Suche interdisziplinäre Workflows, mathematisches Modelle und Algorithmen</title>
 		<help lang="de">&lt;p&gt;Dieser Katalog hilft dabei, mathematische Modelle, Algorithmen und interdisziplinäre Workflows im MaRDI-Portal zu suchen. Er umfasst zentrale Suchelemente wie Forschungsprobleme, wissenschaftliche Disziplinen, Berechnungsaufgaben, Formeln, Größen, Software, Hardware und Benchmarks. Suchen können auf bestehenden Einträgen aus dem MaRDI-Portal oder auf eingegebenen Schlüsselwörtern basieren. Der Katalog erstellt strukturierte SPARQL-Abfragen automatisch – ohne SPARQL-Kenntnisse. Er ist Teil des MaRDMO-Projekts innerhalb der MaRDI-Initiative.&lt;/p&gt;
-&lt;p&gt;Sehen Sie sich &lt;a href=&quot;&quot;&gt;MaRDMO Search&lt;/a&gt; an, das die Generierung und Ausführung von SPARQL-Abfragen demonstriert.&lt;/p&gt;</help>
+&lt;p&gt;Sehen Sie sich &lt;a href=&quot;https://youtu.be/hd3PrlPV3EA&quot;&gt;MaRDMO Search&lt;/a&gt; an, das die Generierung und Ausführung von SPARQL-Abfragen demonstriert.&lt;/p&gt;</help>
 		<sections>
 			<section dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/search" order="0"/>
 		</sections>
