@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2026-05-18T14:05:01.778621+02:00" required="2.1.0" version="2.4.2">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2026-07-04T10:33:31.665882+02:00" required="2.1.0" version="2.5.1">
 	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/algorithm">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>algorithm</uri_path>
@@ -1467,7 +1467,6 @@
 			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-analytical-solution" order="2"/>
 			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-boundary-condition" order="3"/>
 			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-computational-domain" order="4"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-constitutive-equation" order="5"/>
 			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-constraint-condition" order="6"/>
 			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-coupling-condition" order="7"/>
 			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-initial-condition" order="8"/>
@@ -1501,20 +1500,6 @@
 		<default_text lang="en"/>
 		<view_text lang="en"/>
 		<text lang="de">beinhaltet&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Property:P1560&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt; Rechendomäne&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Item:Q6775579&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
-		<help lang="de"/>
-		<default_text lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
-	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-constitutive-equation">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mathmoddb/contains-constitutive-equation</uri_path>
-		<dc:comment/>
-		<text lang="en">contains&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Property:P1560&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt; constitutive equation&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Item:Q6775587&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
-		<help lang="en"/>
-		<default_text lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">beinhaltet&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Property:P1560&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt; konstitutive Gleichung&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Item:Q6775587&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="de"/>
 		<default_text lang="de"/>
 		<view_text lang="de"/>
@@ -2034,7 +2019,6 @@
 			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-analytical-solution" order="2"/>
 			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-boundary-condition" order="3"/>
 			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-computational-domain" order="4"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-constitutive-equation" order="5"/>
 			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-constraint-condition" order="6"/>
 			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-coupling-condition" order="7"/>
 			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-initial-condition" order="8"/>
