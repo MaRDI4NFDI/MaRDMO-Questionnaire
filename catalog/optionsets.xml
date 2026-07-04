@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2026-07-04T10:33:31.665882+02:00" required="2.1.0" version="2.5.1">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2026-07-04T11:58:32.603725+02:00" required="2.1.0" version="2.5.1">
 	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/algorithm">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>algorithm</uri_path>
@@ -1471,7 +1471,7 @@
 			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-coupling-condition" order="7"/>
 			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-initial-condition" order="8"/>
 			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-final-condition" order="9"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-physical-law" order="10"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-governing-equation" order="10"/>
 			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-strong-formulation" order="11"/>
 			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-weak-formulation" order="12"/>
 		</options>
@@ -1505,15 +1505,15 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-physical-law">
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-governing-equation">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mathmoddb/contains-physical-law</uri_path>
+		<uri_path>mathmoddb/contains-governing-equation</uri_path>
 		<dc:comment/>
-		<text lang="en">contains&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Property:P1560&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt; physical law&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Item:Q6775588&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<text lang="en">contains&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Property:P1560&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt; governing equation&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Item:Q7270342&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="en"/>
 		<default_text lang="en"/>
 		<view_text lang="en"/>
-		<text lang="de">beinhaltet&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Property:P1560&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt; physikalisches Gesetz&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Item:Q6775588&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<text lang="de">beinhaltet&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Property:P1560&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt; Grundgleichung&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Item:Q7270342&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="de"/>
 		<default_text lang="de"/>
 		<view_text lang="de"/>
@@ -2023,7 +2023,7 @@
 			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-coupling-condition" order="7"/>
 			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-initial-condition" order="8"/>
 			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-final-condition" order="9"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-physical-law" order="10"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-governing-equation" order="10"/>
 			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-strong-formulation" order="11"/>
 			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-weak-formulation" order="12"/>
 		</options>
