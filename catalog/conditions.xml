@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2026-05-18T14:04:58.250028+02:00" required="2.1.0" version="2.4.2">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2026-10-26T15:21:41.133567+01:00" required="2.1.0" version="2.5.2">
 	<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/algorithm-search">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>algorithm-search</uri_path>

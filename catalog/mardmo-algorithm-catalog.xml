@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2026-05-16T22:03:21.317629+02:00" required="2.1.0" version="2.4.2">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2026-10-26T15:22:23.034708+01:00" required="2.1.0" version="2.5.2">
 	<catalog dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo-algorithm-catalog">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo-algorithm-catalog</uri_path>
 		<dc:comment>&lt;p&gt;Dieser Katalog hilft dabei, mathematische Modelle anhand der MathModDB-Ontologie zu beschreiben. Er umfasst zentrale Elemente wie das Modell selbst, Berechnungsaufgaben, mathematische Ausdrücke, Größen, Forschungsprobleme, wissenschaftliche Disziplinen und Publikationen. Bestehende Einträge aus dem MaRDI-Portal oder Wikidata können wiederverwendet oder neue erstellt werden. Der Katalog unterstützt die Dokumentation neuer Modelle, das Hinzufügen von Forschungsproblemen oder Berechnungsaufgaben. Er folgt den FAIR-Prinzipien, um Modelle auffindbar, zugänglich, interoperabel und wiederverwendbar zu machen, und ist Teil des MaRDMO-Projekts innerhalb der MaRDI-Initiative.  Abgeschlossene Dokumentationen können direkt in das MaRDI-Portal exportiert werden.&lt;/p&gt;
 
-&lt;p&gt;Sehen Sie sich &lt;a href=&quot;https://www.youtube.com/watch?v=UmbBNUZJ994&amp;list=PLgoPZ7uPWbo-jqDXzx4fSm_4JyAYEMPjn&quot;&gt;MaRDMO Model Documentation&lt;/a&gt; an, in dem die Dokumentation und der anschließende Export vorgestellt werden.&lt;/p&gt;</dc:comment>
+&lt;p&gt;Sehen Sie sich &lt;a href="https://www.youtube.com/watch?v=UmbBNUZJ994&amp;list=PLgoPZ7uPWbo-jqDXzx4fSm_4JyAYEMPjn"&gt;MaRDMO Model Documentation&lt;/a&gt; an, in dem die Dokumentation und der anschließende Export vorgestellt werden.&lt;/p&gt;</dc:comment>
 		<order>0</order>
 		<title lang="en">MaRDMO: Questionnaire for Algorithms</title>
 		<help lang="en">&lt;p&gt;This catalog helps you document algorithms using the MathAlgoDB ontology. It covers key aspects such as the algorithm itself, algorithmic tasks, software, benchmarks, and publications. You can reuse existing entries from the MaRDI Portal or Wikidata, or create new ones. The catalog supports documenting new algorithms, adding tasks, software, or benchmarks. It follows the FAIR principles to make algorithms findable, accessible, interoperable, and reusable, and is part of the MaRDMO project developed within the MaRDI initiative. Completed documentations can be exported directly to the MaRDI Portal.&lt;/p&gt;
 
-&lt;p&gt;Check out &lt;a href=&quot;https://www.youtube.com/playlist?list=PLgoPZ7uPWbo-aC9pnVMYRZYM3iygBYWwn&quot;&gt;MaRDMO Algorithm Documentation&lt;/a&gt; showcasing the documentation and subsequent export.&lt;/p&gt;</help>
+&lt;p&gt;Check out &lt;a href="https://www.youtube.com/playlist?list=PLgoPZ7uPWbo-aC9pnVMYRZYM3iygBYWwn"&gt;MaRDMO Algorithm Documentation&lt;/a&gt; showcasing the documentation and subsequent export.&lt;/p&gt;</help>
 		<title lang="de">MaRDMO: Fragenkatalog für Algorithmen</title>
 		<help lang="de">&lt;p&gt;Dieser Katalog hilft dabei, Algorithmen anhand der MathAlgoDB-Ontologie zu beschreiben. Er umfasst zentrale Elemente wie den Algorithmus selbst, algorithmische Aufgaben, Software, Benchmarks und Publikationen. Bestehende Einträge aus dem MaRDI-Portal oder Wikidata können wiederverwendet oder neue erstellt werden. Der Katalog unterstützt die Dokumentation neuer Algorithmen, das Hinzufügen von Aufgaben, Software oder Benchmarks . Er folgt den FAIR-Prinzipien, um Algorithmen auffindbar, zugänglich, interoperabel und wiederverwendbar zu machen, und ist Teil des MaRDMO-Projekts innerhalb der MaRDI-Initiative. Abgeschlossene Dokumentationen können direkt in das MaRDI-Portal exportiert werden.&lt;/p&gt;
 
-&lt;p&gt;Sehen Sie sich &lt;a href=&quot;https://www.youtube.com/playlist?list=PLgoPZ7uPWbo-aC9pnVMYRZYM3iygBYWwn&quot;&gt;MaRDMO Algorithmus Documentation&lt;/a&gt; an, in dem die Dokumentation und der anschließende Export vorgestellt werden.&lt;/p&gt;</help>
+&lt;p&gt;Sehen Sie sich &lt;a href="https://www.youtube.com/playlist?list=PLgoPZ7uPWbo-aC9pnVMYRZYM3iygBYWwn"&gt;MaRDMO Algorithmus Documentation&lt;/a&gt; an, in dem die Dokumentation und der anschließende Export vorgestellt werden.&lt;/p&gt;</help>
 		<sections>
 			<section dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/algorithm-documentation" order="1"/>
 			<section dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/publication-algorithm" order="2"/>
@@ -44,7 +44,7 @@
 		<is_collection>False</is_collection>
 		<title lang="en">Welcome to the Algorithm Interview</title>
 		<short_title lang="en">Introduction</short_title>
-		<help lang="en">&lt;p&gt;This guided interview helps you document algorithms using the &lt;em&gt;&lt;a href=&quot;https://mardi4nfdi.github.io/MathAlgoDB/&quot; target=&quot;_blank&quot;&gt;MathAlgoDB ontology&lt;/a&gt;&lt;/em&gt;.&lt;/p&gt;
+		<help lang="en">&lt;p&gt;This guided interview helps you document algorithms using the &lt;em&gt;&lt;a href="https://mardi4nfdi.github.io/MathAlgoDB/" target="_blank"&gt;MathAlgoDB ontology&lt;/a&gt;&lt;/em&gt;.&lt;/p&gt;
   &lt;p&gt;The interview is structured by the classes of the ontology:&lt;/p&gt; 
 &lt;ul&gt; 
 &lt;li&gt;&lt;em&gt;Algorithm&lt;/em&gt;&lt;/li&gt;
@@ -53,7 +53,7 @@
 &lt;li&gt;&lt;em&gt;Benchmark&lt;/em&gt;&lt;/li&gt;
 &lt;li&gt;&lt;em&gt;Publication&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;
-  &lt;p&gt;For each class, you can reuse existing entries from the &lt;em&gt;&lt;a href=&quot;https://portal.mardi4nfdi.de/&quot; target=&quot;_blank&quot;&gt;MaRDI Portal&lt;/a&gt;&lt;/em&gt; or &lt;em&gt;&lt;a href=&quot;https://www.wikidata.org/&quot; target=&quot;_blank&quot;&gt;Wikidata&lt;/a&gt;&lt;/em&gt;, or define new ones.&lt;/p&gt;
+  &lt;p&gt;For each class, you can reuse existing entries from the &lt;em&gt;&lt;a href="https://portal.mardi4nfdi.de/" target="_blank"&gt;MaRDI Portal&lt;/a&gt;&lt;/em&gt; or &lt;em&gt;&lt;a href="https://www.wikidata.org/" target="_blank"&gt;Wikidata&lt;/a&gt;&lt;/em&gt;, or define new ones.&lt;/p&gt;
   &lt;p&gt;The interview supports four main use cases:&lt;/p&gt;
   &lt;ul&gt;
     &lt;li&gt;Documenting a new algorithm&lt;/li&gt;
@@ -62,11 +62,11 @@
     &lt;li&gt;Adding a benchmark to an existing algorithmic task or software&lt;/li&gt;
   &lt;/ul&gt;
   &lt;p&gt;All information is structured to support the FAIR principles — making your algorithms &lt;strong&gt;Findable, Accessible, Interoperable, and Reusable&lt;/strong&gt;.&lt;/p&gt;
-  &lt;p&gt;This catalog is part of &lt;strong&gt;&lt;a href=&quot;https://github.com/MarcoReidelbach/MaRDMO-Plugin&quot; target=&quot;_blank&quot;&gt;MaRDMO&lt;/a&gt;&lt;/strong&gt; and developed within Task Area 4 of the &lt;strong&gt;&lt;a href=&quot;https://www.mardi4nfdi.de/&quot; target=&quot;_blank&quot;&gt;Mathematical Research Data Initiative (MaRDI)&lt;/a&gt;&lt;/strong&gt;. It aims to help researchers across all disciplines to systematically document their mathematical research data.&lt;/p&gt;</help>
+  &lt;p&gt;This catalog is part of &lt;strong&gt;&lt;a href="https://github.com/MarcoReidelbach/MaRDMO-Plugin" target="_blank"&gt;MaRDMO&lt;/a&gt;&lt;/strong&gt; and developed within Task Area 4 of the &lt;strong&gt;&lt;a href="https://www.mardi4nfdi.de/" target="_blank"&gt;Mathematical Research Data Initiative (MaRDI)&lt;/a&gt;&lt;/strong&gt;. It aims to help researchers across all disciplines to systematically document their mathematical research data.&lt;/p&gt;</help>
 		<verbose_name lang="en"/>
 		<title lang="de">Willkommen zum Algorithmus-Interview</title>
 		<short_title lang="de">Einführung</short_title>
-		<help lang="de">&lt;p&gt;Dieses geführte Interview unterstützt Sie bei der Dokumentation von Algorithmen mithilfe der &lt;em&gt;&lt;a href=&quot;https://mardi4nfdi.github.io/MathAlgoDB/&quot; target=&quot;_blank&quot;&gt;MathAlgoDB-Ontologie&lt;/a&gt;&lt;/em&gt;.&lt;/p&gt;
+		<help lang="de">&lt;p&gt;Dieses geführte Interview unterstützt Sie bei der Dokumentation von Algorithmen mithilfe der &lt;em&gt;&lt;a href="https://mardi4nfdi.github.io/MathAlgoDB/" target="_blank"&gt;MathAlgoDB-Ontologie&lt;/a&gt;&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;Das Interview orientiert sich an den Klassen der Ontologie:&lt;/p&gt; 
 &lt;ul&gt; 
 &lt;li&gt;&lt;em&gt;Algorithmus&lt;/em&gt;&lt;/li&gt;
@@ -75,7 +75,7 @@
 &lt;li&gt;&lt;em&gt;Benchmark&lt;/em&gt;&lt;/li&gt;
 &lt;li&gt;&lt;em&gt;Publikation&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Für jede Klasse können vorhandene Einträge aus dem &lt;em&gt;&lt;a href=&quot;https://portal.mardi4nfdi.de/&quot; target=&quot;_blank&quot;&gt;MaRDI-Portal&lt;/a&gt;&lt;/em&gt; oder &lt;em&gt;&lt;a href=&quot;https://www.wikidata.org/&quot; target=&quot;_blank&quot;&gt;Wikidata&lt;/a&gt;&lt;/em&gt; wiederverwendet oder neue Einträge definiert werden.&lt;/p&gt;
+&lt;p&gt;Für jede Klasse können vorhandene Einträge aus dem &lt;em&gt;&lt;a href="https://portal.mardi4nfdi.de/" target="_blank"&gt;MaRDI-Portal&lt;/a&gt;&lt;/em&gt; oder &lt;em&gt;&lt;a href="https://www.wikidata.org/" target="_blank"&gt;Wikidata&lt;/a&gt;&lt;/em&gt; wiederverwendet oder neue Einträge definiert werden.&lt;/p&gt;
 &lt;p&gt;Das Interview unterstützt vier Hauptanwendungsfälle:&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Dokumentation eines neuen Algorithmus&lt;/li&gt;
@@ -84,7 +84,7 @@
   &lt;li&gt;Hinzufügen eines Benchmarks zu einer bestehenden algorithmischen Aufgabe oder Software&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Alle Informationen sind gemäß den FAIR-Prinzipien strukturiert – Ihre Algorithmen werden dadurch &lt;strong&gt;auffindbar, zugänglich, interoperabel und wiederverwendbar&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;Dieser Katalog ist Teil von &lt;strong&gt;&lt;a href=&quot;https://github.com/MarcoReidelbach/MaRDMO-Plugin&quot; target=&quot;_blank&quot;&gt;MaRDMO&lt;/a&gt;&lt;/strong&gt; und wird im Rahmen der Task Area 4 der &lt;strong&gt;&lt;a href=&quot;https://www.mardi4nfdi.de/&quot; target=&quot;_blank&quot;&gt;Mathematical Research Data Initiative (MaRDI)&lt;/a&gt;&lt;/strong&gt; entwickelt. Ziel ist es, Forschende aller Disziplinen bei der systematischen Dokumentation mathematischer Forschungsdaten zu unterstützen.&lt;/p&gt;</help>
+&lt;p&gt;Dieser Katalog ist Teil von &lt;strong&gt;&lt;a href="https://github.com/MarcoReidelbach/MaRDMO-Plugin" target="_blank"&gt;MaRDMO&lt;/a&gt;&lt;/strong&gt; und wird im Rahmen der Task Area 4 der &lt;strong&gt;&lt;a href="https://www.mardi4nfdi.de/" target="_blank"&gt;Mathematical Research Data Initiative (MaRDI)&lt;/a&gt;&lt;/strong&gt; entwickelt. Ziel ist es, Forschende aller Disziplinen bei der systematischen Dokumentation mathematischer Forschungsdaten zu unterstützen.&lt;/p&gt;</help>
 		<verbose_name lang="de"/>
 		<questionsets/>
 		<questions/>
@@ -106,7 +106,7 @@
 
 &lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; If an algorithm is selected from the MaRDI Portal and not used as a template, its existing information &lt;u&gt;cannot&lt;/u&gt; be edited or deleted via MaRDMO. Any changes or deletions made regardless will be ignored or shown alongside the original information in the MaRDI Portal.&lt;/p&gt;
 
-&lt;p&gt;Check out &lt;a href=&quot;https://www.youtube.com/watch?v=30LK9q30UT0&amp;list=PLgoPZ7uPWbo-aC9pnVMYRZYM3iygBYWwn&amp;index=1&amp;t=1s&quot;&gt;Algorithm&lt;/a&gt; showcasing the documentation.&lt;/p&gt;</help>
+&lt;p&gt;Check out &lt;a href="https://www.youtube.com/watch?v=30LK9q30UT0&amp;list=PLgoPZ7uPWbo-aC9pnVMYRZYM3iygBYWwn&amp;index=1&amp;t=1s"&gt;Algorithm&lt;/a&gt; showcasing the documentation.&lt;/p&gt;</help>
 		<verbose_name lang="en">Add Algorithm</verbose_name>
 		<title lang="de">Algorithmus</title>
 		<short_title lang="de"/>
@@ -118,7 +118,7 @@
 
 &lt;p&gt;&lt;strong&gt;Hinweis:&lt;/strong&gt; Wird ein Algorithmus aus dem MaRDI Portal ausgewählt und nicht als Vorlage verwendet, können bestehende Informationen über MaRDMO &lt;u&gt;nicht&lt;/u&gt; editiert oder gelöscht werden. Änderungen oder Löschungen, die dennoch vorgenommen werden, werden ignoriert oder zusätzlich zu den bestehenden Informationen im MaRDI Portal angezeigt.&lt;/p&gt;
 
-&lt;p&gt;Sehen Sie sich &lt;a href=&quot;https://www.youtube.com/watch?v=30LK9q30UT0&amp;list=PLgoPZ7uPWbo-aC9pnVMYRZYM3iygBYWwn&amp;index=1&amp;t=1s&quot;&gt;Algorithm&lt;/a&gt; an in dem die Dokumentation vorgestellt wird.&lt;/p&gt;</help>
+&lt;p&gt;Sehen Sie sich &lt;a href="https://www.youtube.com/watch?v=30LK9q30UT0&amp;list=PLgoPZ7uPWbo-aC9pnVMYRZYM3iygBYWwn&amp;index=1&amp;t=1s"&gt;Algorithm&lt;/a&gt; an in dem die Dokumentation vorgestellt wird.&lt;/p&gt;</help>
 		<verbose_name lang="de">Algorithmus Hinzufügen</verbose_name>
 		<questionsets>
 			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/algorithm/information" order="1"/>
@@ -392,7 +392,7 @@
 
 &lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; If a task is selected from the MaRDI Portal and not used as a template, its existing information &lt;u&gt;cannot&lt;/u&gt; be edited or deleted via MaRDMO. Any changes or deletions made regardless will be ignored or shown alongside the original information in the MaRDI Portal.&lt;/p&gt;
 
-&lt;p&gt;Check out &lt;a href=&quot;https://www.youtube.com/watch?v=UOtLELvv4No&amp;list=PLgoPZ7uPWbo-aC9pnVMYRZYM3iygBYWwn&amp;index=2&quot;&gt;Algorithmic Task&lt;/a&gt; showcasing the documentation.&lt;/p&gt;</help>
+&lt;p&gt;Check out &lt;a href="https://www.youtube.com/watch?v=UOtLELvv4No&amp;list=PLgoPZ7uPWbo-aC9pnVMYRZYM3iygBYWwn&amp;index=2"&gt;Algorithmic Task&lt;/a&gt; showcasing the documentation.&lt;/p&gt;</help>
 		<verbose_name lang="en">Add Algorithmic Task</verbose_name>
 		<title lang="de">Algorithmische Aufgabe</title>
 		<short_title lang="de">Aufgabe</short_title>
@@ -404,7 +404,7 @@
 
 &lt;p&gt;&lt;strong&gt;Hinweis:&lt;/strong&gt; Wird eine Aufgabe aus dem MaRDI Portal ausgewählt und nicht als Vorlage verwendet, können bestehende Informationen über MaRDMO &lt;u&gt;nicht&lt;/u&gt; editiert oder gelöscht werden. Änderungen oder Löschungen, die dennoch vorgenommen werden, werden ignoriert oder zusätzlich zu den bestehenden Informationen im MaRDI Portal angezeigt.&lt;/p&gt;
 
-&lt;p&gt;Sehen Sie sich &lt;a href=&quot;https://www.youtube.com/watch?v=UOtLELvv4No&amp;list=PLgoPZ7uPWbo-aC9pnVMYRZYM3iygBYWwn&amp;index=3&quot;&gt;Algorithmic Task&lt;/a&gt; an in dem die Dokumentation vorgestellt wird.&lt;/p&gt;</help>
+&lt;p&gt;Sehen Sie sich &lt;a href="https://www.youtube.com/watch?v=UOtLELvv4No&amp;list=PLgoPZ7uPWbo-aC9pnVMYRZYM3iygBYWwn&amp;index=3"&gt;Algorithmic Task&lt;/a&gt; an in dem die Dokumentation vorgestellt wird.&lt;/p&gt;</help>
 		<verbose_name lang="de">Algorithmische Aufgabe Hinzufügen</verbose_name>
 		<questionsets>
 			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/problem-algorithm/information" order="1"/>
@@ -648,7 +648,7 @@
 
 &lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; If a software is selected from the MaRDI Portal and not used as a template, its existing information &lt;u&gt;cannot&lt;/u&gt; be edited or deleted via MaRDMO. Any changes or deletions made regardless will be ignored or shown alongside the original information in the MaRDI Portal.&lt;/p&gt;
 
-&lt;p&gt;Check out &lt;a href=&quot;https://www.youtube.com/watch?v=p01PcZ8VajY&amp;list=PLgoPZ7uPWbo-aC9pnVMYRZYM3iygBYWwn&amp;index=3&quot;&gt;Software&lt;/a&gt; showcasing the documentation.&lt;/p&gt;</help>
+&lt;p&gt;Check out &lt;a href="https://www.youtube.com/watch?v=p01PcZ8VajY&amp;list=PLgoPZ7uPWbo-aC9pnVMYRZYM3iygBYWwn&amp;index=3"&gt;Software&lt;/a&gt; showcasing the documentation.&lt;/p&gt;</help>
 		<verbose_name lang="en">Add Software</verbose_name>
 		<title lang="de">Software</title>
 		<short_title lang="de">Software</short_title>
@@ -660,7 +660,7 @@
 
 &lt;p&gt;&lt;strong&gt;Hinweis:&lt;/strong&gt; Wird eine Software aus dem MaRDI Portal ausgewählt und nicht als Vorlage verwendet, können bestehende Informationen über MaRDMO &lt;u&gt;nicht&lt;/u&gt; editiert oder gelöscht werden. Änderungen oder Löschungen, die dennoch vorgenommen werden, werden ignoriert oder zusätzlich zu den bestehenden Informationen im MaRDI Portal angezeigt.&lt;/p&gt;
 
-&lt;p&gt;Sehen Sie sich &lt;a href=&quot;https://www.youtube.com/watch?v=p01PcZ8VajY&amp;list=PLgoPZ7uPWbo-aC9pnVMYRZYM3iygBYWwn&amp;index=3&quot;&gt;Software&lt;/a&gt; an in dem die Dokumentation vorgestellt wird.&lt;/p&gt;</help>
+&lt;p&gt;Sehen Sie sich &lt;a href="https://www.youtube.com/watch?v=p01PcZ8VajY&amp;list=PLgoPZ7uPWbo-aC9pnVMYRZYM3iygBYWwn&amp;index=3"&gt;Software&lt;/a&gt; an in dem die Dokumentation vorgestellt wird.&lt;/p&gt;</help>
 		<verbose_name lang="de">Software Hinzufügen</verbose_name>
 		<questionsets>
 			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/software/information" order="1"/>
@@ -916,7 +916,7 @@
 
 &lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; If a benchmark is selected from the MaRDI Portal and not used as a template, its existing information &lt;u&gt;cannot&lt;/u&gt; be edited or deleted via MaRDMO. Any changes or deletions made regardless will be ignored or shown alongside the original information in the MaRDI Portal.&lt;/p&gt;
 
-&lt;p&gt;Check out &lt;a href=&quot;https://www.youtube.com/watch?v=a3qRyd_4IWA&amp;list=PLgoPZ7uPWbo-aC9pnVMYRZYM3iygBYWwn&amp;index=4&quot;&gt;Benchmark&lt;/a&gt; showcasing the documentation.&lt;/p&gt;</help>
+&lt;p&gt;Check out &lt;a href="https://www.youtube.com/watch?v=a3qRyd_4IWA&amp;list=PLgoPZ7uPWbo-aC9pnVMYRZYM3iygBYWwn&amp;index=4"&gt;Benchmark&lt;/a&gt; showcasing the documentation.&lt;/p&gt;</help>
 		<verbose_name lang="en">Add Benchmark</verbose_name>
 		<title lang="de">Benchmark</title>
 		<short_title lang="de">Benchmark</short_title>
@@ -928,7 +928,7 @@
 
 &lt;p&gt;&lt;strong&gt;Hinweis:&lt;/strong&gt; Wird ein Benchmark aus dem MaRDI Portal ausgewählt und nicht als Vorlage verwendet, können bestehende Informationen über MaRDMO &lt;u&gt;nicht&lt;/u&gt; editiert oder gelöscht werden. Änderungen oder Löschungen, die dennoch vorgenommen werden, werden ignoriert oder zusätzlich zu den bestehenden Informationen im MaRDI Portal angezeigt.&lt;/p&gt;
 
-&lt;p&gt;Sehen Sie sich &lt;a href=&quot;https://www.youtube.com/watch?v=a3qRyd_4IWA&amp;list=PLgoPZ7uPWbo-aC9pnVMYRZYM3iygBYWwn&amp;index=4&quot;&gt;Benchmark&lt;/a&gt; an in dem die Dokumentation vorgestellt wird.&lt;/p&gt;</help>
+&lt;p&gt;Sehen Sie sich &lt;a href="https://www.youtube.com/watch?v=a3qRyd_4IWA&amp;list=PLgoPZ7uPWbo-aC9pnVMYRZYM3iygBYWwn&amp;index=4"&gt;Benchmark&lt;/a&gt; an in dem die Dokumentation vorgestellt wird.&lt;/p&gt;</help>
 		<verbose_name lang="de">Benchmark Hinzufügen</verbose_name>
 		<questionsets>
 			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/benchmark/information" order="1"/>
@@ -1102,7 +1102,7 @@
 
 &lt;p&gt;For a smooth export to the MaRDI Portal, all &lt;strong&gt;non-optional&lt;/strong&gt; questions must be answered completely.&lt;/p&gt;
 
-&lt;p&gt;Check out &lt;a href=&quot;https://www.youtube.com/watch?v=ES2vrQMvh40&amp;list=PLgoPZ7uPWbo-aC9pnVMYRZYM3iygBYWwn&amp;index=5&quot;&gt;Publication&lt;/a&gt; showcasing the documentation.&lt;/p&gt;</help>
+&lt;p&gt;Check out &lt;a href="https://www.youtube.com/watch?v=ES2vrQMvh40&amp;list=PLgoPZ7uPWbo-aC9pnVMYRZYM3iygBYWwn&amp;index=5"&gt;Publication&lt;/a&gt; showcasing the documentation.&lt;/p&gt;</help>
 		<verbose_name lang="en"/>
 		<title lang="de">Publikation</title>
 		<short_title lang="de">Publikation</short_title>
@@ -1110,7 +1110,7 @@
 
 &lt;p&gt;Für einen reibungslosen Export in das MaRDI Portal müssen alle &lt;strong&gt;nicht-optionalen&lt;/strong&gt; Fragen vollständig beantwortet sein.&lt;/p&gt;
 
-&lt;p&gt;Sehen Sie sich &lt;a href=&quot;https://www.youtube.com/watch?v=ES2vrQMvh40&amp;list=PLgoPZ7uPWbo-aC9pnVMYRZYM3iygBYWwn&amp;index=5&quot;&gt;Publication&lt;/a&gt; an in dem die Dokumentation vorgestellt wird.&lt;/p&gt;</help>
+&lt;p&gt;Sehen Sie sich &lt;a href="https://www.youtube.com/watch?v=ES2vrQMvh40&amp;list=PLgoPZ7uPWbo-aC9pnVMYRZYM3iygBYWwn&amp;index=5"&gt;Publication&lt;/a&gt; an in dem die Dokumentation vorgestellt wird.&lt;/p&gt;</help>
 		<verbose_name lang="de"/>
 		<questionsets>
 			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/publication/publication-to-algorithm" order="3"/>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2026-07-04T11:58:32.603725+02:00" required="2.1.0" version="2.5.1">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2026-10-26T15:21:45.943382+01:00" required="2.1.0" version="2.5.2">
 	<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/algorithm">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>algorithm</uri_path>
@@ -50,11 +50,11 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mathalgodb/has-component</uri_path>
 		<dc:comment/>
-		<text lang="en">has as component&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Property:P265&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<text lang="en">has as component&lt;a href="https://portal.mardi4nfdi.de/wiki/Property:P265" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="en"/>
 		<default_text lang="en"/>
 		<view_text lang="en"/>
-		<text lang="de">hat als Komponente&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Property:P265&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<text lang="de">hat als Komponente&lt;a href="https://portal.mardi4nfdi.de/wiki/Property:P265" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="de"/>
 		<default_text lang="de"/>
 		<view_text lang="de"/>
@@ -64,11 +64,11 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mathalgodb/component-of</uri_path>
 		<dc:comment/>
-		<text lang="en">is component of&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Property:P265&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<text lang="en">is component of&lt;a href="https://portal.mardi4nfdi.de/wiki/Property:P265" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="en"/>
 		<default_text lang="en"/>
 		<view_text lang="en"/>
-		<text lang="de">ist eine Komponente von&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Property:P265&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<text lang="de">ist eine Komponente von&lt;a href="https://portal.mardi4nfdi.de/wiki/Property:P265" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="de"/>
 		<default_text lang="de"/>
 		<view_text lang="de"/>
@@ -78,11 +78,11 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mathalgodb/has-subclass</uri_path>
 		<dc:comment/>
-		<text lang="en">has as subclass&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Property:P36&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<text lang="en">has as subclass&lt;a href="https://portal.mardi4nfdi.de/wiki/Property:P36" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="en"/>
 		<default_text lang="en"/>
 		<view_text lang="en"/>
-		<text lang="de">hat als Subklasse&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Property:P36&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<text lang="de">hat als Subklasse&lt;a href="https://portal.mardi4nfdi.de/wiki/Property:P36" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="de"/>
 		<default_text lang="de"/>
 		<view_text lang="de"/>
@@ -92,11 +92,11 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mathalgodb/subclass-of</uri_path>
 		<dc:comment/>
-		<text lang="en">is subclass of&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Property:P36&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<text lang="en">is subclass of&lt;a href="https://portal.mardi4nfdi.de/wiki/Property:P36" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="en"/>
 		<default_text lang="en"/>
 		<view_text lang="en"/>
-		<text lang="de">ist eine Subklasse von&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Property:P36&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<text lang="de">ist eine Subklasse von&lt;a href="https://portal.mardi4nfdi.de/wiki/Property:P36" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="de"/>
 		<default_text lang="de"/>
 		<view_text lang="de"/>
@@ -106,11 +106,11 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mathalgodb/related-to</uri_path>
 		<dc:comment/>
-		<text lang="en">is related to&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Property:P1691&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<text lang="en">is related to&lt;a href="https://portal.mardi4nfdi.de/wiki/Property:P1691" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="en"/>
 		<default_text lang="en"/>
 		<view_text lang="en"/>
-		<text lang="de">steht im Zusammenhang mit&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Property:P1691&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<text lang="de">steht im Zusammenhang mit&lt;a href="https://portal.mardi4nfdi.de/wiki/Property:P1691" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="de"/>
 		<default_text lang="de"/>
 		<view_text lang="de"/>
@@ -134,11 +134,11 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo/analyzes</uri_path>
 		<dc:comment/>
-		<text lang="en">analyzes&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Item:Q6825292&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<text lang="en">analyzes&lt;a href="https://portal.mardi4nfdi.de/wiki/Item:Q6825292" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="en"/>
 		<default_text lang="en"/>
 		<view_text lang="en"/>
-		<text lang="de">analysiert&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Item:Q6825292&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<text lang="de">analysiert&lt;a href="https://portal.mardi4nfdi.de/wiki/Item:Q6825292" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="de"/>
 		<default_text lang="de"/>
 		<view_text lang="de"/>
@@ -148,11 +148,11 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo/applies</uri_path>
 		<dc:comment/>
-		<text lang="en">applies&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Item:Q6825298&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<text lang="en">applies&lt;a href="https://portal.mardi4nfdi.de/wiki/Item:Q6825298" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="en"/>
 		<default_text lang="en"/>
 		<view_text lang="en"/>
-		<text lang="de">verwendet&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Item:Q6825298&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<text lang="de">verwendet&lt;a href="https://portal.mardi4nfdi.de/wiki/Item:Q6825298" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="de"/>
 		<default_text lang="de"/>
 		<view_text lang="de"/>
@@ -162,11 +162,11 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo/invents</uri_path>
 		<dc:comment/>
-		<text lang="en">invents&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Item:Q6672344&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<text lang="en">invents&lt;a href="https://portal.mardi4nfdi.de/wiki/Item:Q6672344" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="en"/>
 		<default_text lang="en"/>
 		<view_text lang="en"/>
-		<text lang="de">erfindet&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Item:Q6672344&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<text lang="de">erfindet&lt;a href="https://portal.mardi4nfdi.de/wiki/Item:Q6672344" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="de"/>
 		<default_text lang="de"/>
 		<view_text lang="de"/>
@@ -176,11 +176,11 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo/studies</uri_path>
 		<dc:comment/>
-		<text lang="en">studies&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Item:Q6775621&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<text lang="en">studies&lt;a href="https://portal.mardi4nfdi.de/wiki/Item:Q6775621" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="en"/>
 		<default_text lang="en"/>
 		<view_text lang="en"/>
-		<text lang="de">untersucht&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Item:Q6775621&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<text lang="de">untersucht&lt;a href="https://portal.mardi4nfdi.de/wiki/Item:Q6775621" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="de"/>
 		<default_text lang="de"/>
 		<view_text lang="de"/>
@@ -190,11 +190,11 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo/surveys</uri_path>
 		<dc:comment/>
-		<text lang="en">surveys&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Item:Q6672366&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<text lang="en">surveys&lt;a href="https://portal.mardi4nfdi.de/wiki/Item:Q6672366" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="en"/>
 		<default_text lang="en"/>
 		<view_text lang="en"/>
-		<text lang="de">erhebt&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Item:Q6672366&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<text lang="de">erhebt&lt;a href="https://portal.mardi4nfdi.de/wiki/Item:Q6672366" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="de"/>
 		<default_text lang="de"/>
 		<view_text lang="de"/>
@@ -239,11 +239,11 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mathalgodb/specializes</uri_path>
 		<dc:comment/>
-		<text lang="en">specializes&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Property:P1684&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<text lang="en">specializes&lt;a href="https://portal.mardi4nfdi.de/wiki/Property:P1684" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="en"/>
 		<default_text lang="en"/>
 		<view_text lang="en"/>
-		<text lang="de">spezialisiert&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Property:P1684&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<text lang="de">spezialisiert&lt;a href="https://portal.mardi4nfdi.de/wiki/Property:P1684" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="de"/>
 		<default_text lang="de"/>
 		<view_text lang="de"/>
@@ -253,11 +253,11 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mathalgodb/specialized-by</uri_path>
 		<dc:comment/>
-		<text lang="en">is specialized by&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Property:P1684&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<text lang="en">is specialized by&lt;a href="https://portal.mardi4nfdi.de/wiki/Property:P1684" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="en"/>
 		<default_text lang="en"/>
 		<view_text lang="en"/>
-		<text lang="de">wird spezialisiert durch&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Property:P1684&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<text lang="de">wird spezialisiert durch&lt;a href="https://portal.mardi4nfdi.de/wiki/Property:P1684" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="de"/>
 		<default_text lang="de"/>
 		<view_text lang="de"/>
@@ -291,11 +291,11 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo/documents</uri_path>
 		<dc:comment/>
-		<text lang="en">documents&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Item:Q6672349&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<text lang="en">documents&lt;a href="https://portal.mardi4nfdi.de/wiki/Item:Q6672349" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="en"/>
 		<default_text lang="en"/>
 		<view_text lang="en"/>
-		<text lang="de">dokumentiert&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Item:Q6672349&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<text lang="de">dokumentiert&lt;a href="https://portal.mardi4nfdi.de/wiki/Item:Q6672349" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="de"/>
 		<default_text lang="de"/>
 		<view_text lang="de"/>
@@ -305,11 +305,11 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo/uses</uri_path>
 		<dc:comment/>
-		<text lang="en">uses&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Item:Q6480405&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<text lang="en">uses&lt;a href="https://portal.mardi4nfdi.de/wiki/Item:Q6480405" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="en"/>
 		<default_text lang="en"/>
 		<view_text lang="en"/>
-		<text lang="de">nutzt&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Item:Q6480405&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<text lang="de">nutzt&lt;a href="https://portal.mardi4nfdi.de/wiki/Item:Q6480405" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="de"/>
 		<default_text lang="de"/>
 		<view_text lang="de"/>
@@ -677,11 +677,11 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mathmoddb/specialized-by</uri_path>
 		<dc:comment/>
-		<text lang="en">is specialized by&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Property:P1684&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<text lang="en">is specialized by&lt;a href="https://portal.mardi4nfdi.de/wiki/Property:P1684" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="en"/>
 		<default_text lang="en"/>
 		<view_text lang="en"/>
-		<text lang="de">wird spezialisiert durch&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Property:P1684&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<text lang="de">wird spezialisiert durch&lt;a href="https://portal.mardi4nfdi.de/wiki/Property:P1684" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="de"/>
 		<default_text lang="de"/>
 		<view_text lang="de"/>
@@ -691,11 +691,11 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mathmoddb/specializes</uri_path>
 		<dc:comment/>
-		<text lang="en">specializes&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Property:P1684&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<text lang="en">specializes&lt;a href="https://portal.mardi4nfdi.de/wiki/Property:P1684" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="en"/>
 		<default_text lang="en"/>
 		<view_text lang="en"/>
-		<text lang="de">spezialisiert&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Property:P1684&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<text lang="de">spezialisiert&lt;a href="https://portal.mardi4nfdi.de/wiki/Property:P1684" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="de"/>
 		<default_text lang="de"/>
 		<view_text lang="de"/>
@@ -705,11 +705,11 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mathmoddb/similar-to</uri_path>
 		<dc:comment/>
-		<text lang="en">is similar to&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Property:P1691&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<text lang="en">is similar to&lt;a href="https://portal.mardi4nfdi.de/wiki/Property:P1691" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="en"/>
 		<default_text lang="en"/>
 		<view_text lang="en"/>
-		<text lang="de">ist ähnlich zu&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Property:P1691&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<text lang="de">ist ähnlich zu&lt;a href="https://portal.mardi4nfdi.de/wiki/Property:P1691" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="de"/>
 		<default_text lang="de"/>
 		<view_text lang="de"/>
@@ -928,11 +928,11 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mathmoddb/is-ordinary-differential-equation</uri_path>
 		<dc:comment/>
-		<text lang="en">is ordinary differential equation&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Item:Q6481447&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<text lang="en">is ordinary differential equation&lt;a href="https://portal.mardi4nfdi.de/wiki/Item:Q6481447" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="en"/>
 		<default_text lang="en"/>
 		<view_text lang="en"/>
-		<text lang="de">ist gewöhnliche Differentialgleichung&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Item:Q6481447&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<text lang="de">ist gewöhnliche Differentialgleichung&lt;a href="https://portal.mardi4nfdi.de/wiki/Item:Q6481447" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="de"/>
 		<default_text lang="de"/>
 		<view_text lang="de"/>
@@ -942,11 +942,11 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mathmoddb/is-partial-differential-equation</uri_path>
 		<dc:comment/>
-		<text lang="en">is partial differential equation&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Item:Q6822213&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<text lang="en">is partial differential equation&lt;a href="https://portal.mardi4nfdi.de/wiki/Item:Q6822213" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="en"/>
 		<default_text lang="en"/>
 		<view_text lang="en"/>
-		<text lang="de">ist partielle Differentialgleichung&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Item:Q6822213&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<text lang="de">ist partielle Differentialgleichung&lt;a href="https://portal.mardi4nfdi.de/wiki/Item:Q6822213" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="de"/>
 		<default_text lang="de"/>
 		<view_text lang="de"/>
@@ -956,11 +956,11 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mathmoddb/is-stochastic-differential-equation</uri_path>
 		<dc:comment/>
-		<text lang="en">is stochastic differential equation&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Item:Q6822417&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<text lang="en">is stochastic differential equation&lt;a href="https://portal.mardi4nfdi.de/wiki/Item:Q6822417" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="en"/>
 		<default_text lang="en"/>
 		<view_text lang="en"/>
-		<text lang="de">ist stochastische Differentialgleichung&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Item:Q6822417&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<text lang="de">ist stochastische Differentialgleichung&lt;a href="https://portal.mardi4nfdi.de/wiki/Item:Q6822417" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="de"/>
 		<default_text lang="de"/>
 		<view_text lang="de"/>
@@ -970,11 +970,11 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mathmoddb/is-integro-differential-equation</uri_path>
 		<dc:comment/>
-		<text lang="en">is integro-differential equation&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Item:Q6824240&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<text lang="en">is integro-differential equation&lt;a href="https://portal.mardi4nfdi.de/wiki/Item:Q6824240" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="en"/>
 		<default_text lang="en"/>
 		<view_text lang="en"/>
-		<text lang="de">ist Integro-Differentialgleichung&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Item:Q6824240&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<text lang="de">ist Integro-Differentialgleichung&lt;a href="https://portal.mardi4nfdi.de/wiki/Item:Q6824240" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="de"/>
 		<default_text lang="de"/>
 		<view_text lang="de"/>
@@ -1016,11 +1016,11 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mathmoddb/assumes</uri_path>
 		<dc:comment/>
-		<text lang="en">assumes&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Property:P1674&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<text lang="en">assumes&lt;a href="https://portal.mardi4nfdi.de/wiki/Property:P1674" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="en"/>
 		<default_text lang="en"/>
 		<view_text lang="en"/>
-		<text lang="de">nimmt an&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Property:P1674&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<text lang="de">nimmt an&lt;a href="https://portal.mardi4nfdi.de/wiki/Property:P1674" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="de"/>
 		<default_text lang="de"/>
 		<view_text lang="de"/>
@@ -1030,11 +1030,11 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mathmoddb/contains</uri_path>
 		<dc:comment/>
-		<text lang="en">contains&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Property:P1560&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<text lang="en">contains&lt;a href="https://portal.mardi4nfdi.de/wiki/Property:P1560" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="en"/>
 		<default_text lang="en"/>
 		<view_text lang="en"/>
-		<text lang="de">beinhaltet&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Property:P1560&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<text lang="de">beinhaltet&lt;a href="https://portal.mardi4nfdi.de/wiki/Property:P1560" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="de"/>
 		<default_text lang="de"/>
 		<view_text lang="de"/>
@@ -1044,11 +1044,11 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mathmoddb/contains-boundary-condition</uri_path>
 		<dc:comment/>
-		<text lang="en">contains&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Property:P1560&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt; boundary condition&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Item:Q6534259&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<text lang="en">contains&lt;a href="https://portal.mardi4nfdi.de/wiki/Property:P1560" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt; boundary condition&lt;a href="https://portal.mardi4nfdi.de/wiki/Item:Q6534259" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="en"/>
 		<default_text lang="en"/>
 		<view_text lang="en"/>
-		<text lang="de">beinhaltet&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Property:P1560&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt; Randbedingung&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Item:Q6534259&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<text lang="de">beinhaltet&lt;a href="https://portal.mardi4nfdi.de/wiki/Property:P1560" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt; Randbedingung&lt;a href="https://portal.mardi4nfdi.de/wiki/Item:Q6534259" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="de"/>
 		<default_text lang="de"/>
 		<view_text lang="de"/>
@@ -1058,11 +1058,11 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mathmoddb/contains-constraint-condition</uri_path>
 		<dc:comment/>
-		<text lang="en">contains&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Property:P1560&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt; constraint condition&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Item:Q6534262&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<text lang="en">contains&lt;a href="https://portal.mardi4nfdi.de/wiki/Property:P1560" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt; constraint condition&lt;a href="https://portal.mardi4nfdi.de/wiki/Item:Q6534262" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="en"/>
 		<default_text lang="en"/>
 		<view_text lang="en"/>
-		<text lang="de">beinhaltet&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Property:P1560&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt; Einschränkungsbedingung&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Item:Q6534262&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<text lang="de">beinhaltet&lt;a href="https://portal.mardi4nfdi.de/wiki/Property:P1560" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt; Einschränkungsbedingung&lt;a href="https://portal.mardi4nfdi.de/wiki/Item:Q6534262" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="de"/>
 		<default_text lang="de"/>
 		<view_text lang="de"/>
@@ -1072,11 +1072,11 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mathmoddb/contains-coupling-condition</uri_path>
 		<dc:comment/>
-		<text lang="en">contains&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Property:P1560&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt; coupling condition&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Item:Q6534266&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<text lang="en">contains&lt;a href="https://portal.mardi4nfdi.de/wiki/Property:P1560" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt; coupling condition&lt;a href="https://portal.mardi4nfdi.de/wiki/Item:Q6534266" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="en"/>
 		<default_text lang="en"/>
 		<view_text lang="en"/>
-		<text lang="de">beinhaltet&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Property:P1560&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt; Kopplungsbedingung&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Item:Q6534266&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<text lang="de">beinhaltet&lt;a href="https://portal.mardi4nfdi.de/wiki/Property:P1560" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt; Kopplungsbedingung&lt;a href="https://portal.mardi4nfdi.de/wiki/Item:Q6534266" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="de"/>
 		<default_text lang="de"/>
 		<view_text lang="de"/>
@@ -1086,11 +1086,11 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mathmoddb/contains-initial-condition</uri_path>
 		<dc:comment/>
-		<text lang="en">contains&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Property:P1560&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt; initial condition&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Item:Q6534264&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<text lang="en">contains&lt;a href="https://portal.mardi4nfdi.de/wiki/Property:P1560" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt; initial condition&lt;a href="https://portal.mardi4nfdi.de/wiki/Item:Q6534264" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="en"/>
 		<default_text lang="en"/>
 		<view_text lang="en"/>
-		<text lang="de">beinhaltet&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Property:P1560&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt; Initialbedingung&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Item:Q6534264&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<text lang="de">beinhaltet&lt;a href="https://portal.mardi4nfdi.de/wiki/Property:P1560" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt; Initialbedingung&lt;a href="https://portal.mardi4nfdi.de/wiki/Item:Q6534264" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="de"/>
 		<default_text lang="de"/>
 		<view_text lang="de"/>
@@ -1100,11 +1100,11 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mathmoddb/contains-final-condition</uri_path>
 		<dc:comment/>
-		<text lang="en">contains&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Property:P1560&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt; final condition&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Item:Q6534267&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<text lang="en">contains&lt;a href="https://portal.mardi4nfdi.de/wiki/Property:P1560" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt; final condition&lt;a href="https://portal.mardi4nfdi.de/wiki/Item:Q6534267" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="en"/>
 		<default_text lang="en"/>
 		<view_text lang="en"/>
-		<text lang="de">beinhaltet&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Property:P1560&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt; Finalbedingung&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Item:Q6534267&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<text lang="de">beinhaltet&lt;a href="https://portal.mardi4nfdi.de/wiki/Property:P1560" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt; Finalbedingung&lt;a href="https://portal.mardi4nfdi.de/wiki/Item:Q6534267" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="de"/>
 		<default_text lang="de"/>
 		<view_text lang="de"/>
@@ -1136,11 +1136,11 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mathmoddb/approximated-by</uri_path>
 		<dc:comment/>
-		<text lang="en">is approximated by&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Property:P1655&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<text lang="en">is approximated by&lt;a href="https://portal.mardi4nfdi.de/wiki/Property:P1655" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="en"/>
 		<default_text lang="en"/>
 		<view_text lang="en"/>
-		<text lang="de">&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Property:P1655&quot;&gt;wird approximiert durch&lt;/a&gt;</text>
+		<text lang="de">&lt;a href="https://portal.mardi4nfdi.de/wiki/Property:P1655"&gt;wird approximiert durch&lt;/a&gt;</text>
 		<help lang="de"/>
 		<default_text lang="de"/>
 		<view_text lang="de"/>
@@ -1150,11 +1150,11 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mathmoddb/approximates</uri_path>
 		<dc:comment/>
-		<text lang="en">approximates&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Property:P1655&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<text lang="en">approximates&lt;a href="https://portal.mardi4nfdi.de/wiki/Property:P1655" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="en"/>
 		<default_text lang="en"/>
 		<view_text lang="en"/>
-		<text lang="de">approximiert&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Property:P1655&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<text lang="de">approximiert&lt;a href="https://portal.mardi4nfdi.de/wiki/Property:P1655" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="de"/>
 		<default_text lang="de"/>
 		<view_text lang="de"/>
@@ -1164,11 +1164,11 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mathmoddb/discretized-by</uri_path>
 		<dc:comment/>
-		<text lang="en">is discretized by&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Property:P1656&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<text lang="en">is discretized by&lt;a href="https://portal.mardi4nfdi.de/wiki/Property:P1656" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="en"/>
 		<default_text lang="en"/>
 		<view_text lang="en"/>
-		<text lang="de">wird diskretisiert durch&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Property:P1656&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<text lang="de">wird diskretisiert durch&lt;a href="https://portal.mardi4nfdi.de/wiki/Property:P1656" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="de"/>
 		<default_text lang="de"/>
 		<view_text lang="de"/>
@@ -1178,11 +1178,11 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mathmoddb/discretizes</uri_path>
 		<dc:comment/>
-		<text lang="en">discretizes&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Property:P1656&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<text lang="en">discretizes&lt;a href="https://portal.mardi4nfdi.de/wiki/Property:P1656" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="en"/>
 		<default_text lang="en"/>
 		<view_text lang="en"/>
-		<text lang="de">diskretisiert&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Property:P1656&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<text lang="de">diskretisiert&lt;a href="https://portal.mardi4nfdi.de/wiki/Property:P1656" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="de"/>
 		<default_text lang="de"/>
 		<view_text lang="de"/>
@@ -1192,11 +1192,11 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mathmoddb/is-weak-formulation-of</uri_path>
 		<dc:comment/>
-		<text lang="en">is weak formulation of&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Property:P1736&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<text lang="en">is weak formulation of&lt;a href="https://portal.mardi4nfdi.de/wiki/Property:P1736" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="en"/>
 		<default_text lang="en"/>
 		<view_text lang="en"/>
-		<text lang="de">ist schwache Formulierung von&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Property:P1736&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<text lang="de">ist schwache Formulierung von&lt;a href="https://portal.mardi4nfdi.de/wiki/Property:P1736" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="de"/>
 		<default_text lang="de"/>
 		<view_text lang="de"/>
@@ -1206,11 +1206,11 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mathmoddb/has-weak-formulation</uri_path>
 		<dc:comment/>
-		<text lang="en">has weak formulation&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Property:P1736&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<text lang="en">has weak formulation&lt;a href="https://portal.mardi4nfdi.de/wiki/Property:P1736" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="en"/>
 		<default_text lang="en"/>
 		<view_text lang="en"/>
-		<text lang="de">hat schwache Formulierung&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Property:P1736&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<text lang="de">hat schwache Formulierung&lt;a href="https://portal.mardi4nfdi.de/wiki/Property:P1736" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="de"/>
 		<default_text lang="de"/>
 		<view_text lang="de"/>
@@ -1220,11 +1220,11 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mathmoddb/linearized-by</uri_path>
 		<dc:comment/>
-		<text lang="en">is linearized by&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Property:P1657&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<text lang="en">is linearized by&lt;a href="https://portal.mardi4nfdi.de/wiki/Property:P1657" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="en"/>
 		<default_text lang="en"/>
 		<view_text lang="en"/>
-		<text lang="de">wird linearisiert durch&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Property:P1657&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<text lang="de">wird linearisiert durch&lt;a href="https://portal.mardi4nfdi.de/wiki/Property:P1657" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="de"/>
 		<default_text lang="de"/>
 		<view_text lang="de"/>
@@ -1234,11 +1234,11 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mathmoddb/linearizes</uri_path>
 		<dc:comment/>
-		<text lang="en">linearizes&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Property:P1657&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<text lang="en">linearizes&lt;a href="https://portal.mardi4nfdi.de/wiki/Property:P1657" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="en"/>
 		<default_text lang="en"/>
 		<view_text lang="en"/>
-		<text lang="de">linearisiert&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Property:P1657&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<text lang="de">linearisiert&lt;a href="https://portal.mardi4nfdi.de/wiki/Property:P1657" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="de"/>
 		<default_text lang="de"/>
 		<view_text lang="de"/>
@@ -1248,11 +1248,11 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mathmoddb/nondimensionalized-by</uri_path>
 		<dc:comment/>
-		<text lang="en">is nondimensionalized by&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Property:P1658&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<text lang="en">is nondimensionalized by&lt;a href="https://portal.mardi4nfdi.de/wiki/Property:P1658" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="en"/>
 		<default_text lang="en"/>
 		<view_text lang="en"/>
-		<text lang="de">wird entdimensionalisiert durch&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Property:P1658&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<text lang="de">wird entdimensionalisiert durch&lt;a href="https://portal.mardi4nfdi.de/wiki/Property:P1658" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="de"/>
 		<default_text lang="de"/>
 		<view_text lang="de"/>
@@ -1262,11 +1262,11 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mathmoddb/nondimensionalizes</uri_path>
 		<dc:comment/>
-		<text lang="en">nondimensionalizes&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Property:P1658&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<text lang="en">nondimensionalizes&lt;a href="https://portal.mardi4nfdi.de/wiki/Property:P1658" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="en"/>
 		<default_text lang="en"/>
 		<view_text lang="en"/>
-		<text lang="de">entdimensionalisiert&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Property:P1658&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<text lang="de">entdimensionalisiert&lt;a href="https://portal.mardi4nfdi.de/wiki/Property:P1658" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="de"/>
 		<default_text lang="de"/>
 		<view_text lang="de"/>
@@ -1446,11 +1446,11 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mathmoddb/contained-in</uri_path>
 		<dc:comment/>
-		<text lang="en">is contained in&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Property:P1560&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<text lang="en">is contained in&lt;a href="https://portal.mardi4nfdi.de/wiki/Property:P1560" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="en"/>
 		<default_text lang="en"/>
 		<view_text lang="en"/>
-		<text lang="de">ist beinhaltet in&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Property:P1560&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<text lang="de">ist beinhaltet in&lt;a href="https://portal.mardi4nfdi.de/wiki/Property:P1560" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="de"/>
 		<default_text lang="de"/>
 		<view_text lang="de"/>
@@ -1481,11 +1481,11 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mathmoddb/contains-analytical-solution</uri_path>
 		<dc:comment/>
-		<text lang="en">contains&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Property:P1560&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt; analytical solution&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Item:Q6775641&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<text lang="en">contains&lt;a href="https://portal.mardi4nfdi.de/wiki/Property:P1560" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt; analytical solution&lt;a href="https://portal.mardi4nfdi.de/wiki/Item:Q6775641" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="en"/>
 		<default_text lang="en"/>
 		<view_text lang="en"/>
-		<text lang="de">beinhaltet&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Property:P1560&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt; analytische Lösung&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Item:Q6775641&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<text lang="de">beinhaltet&lt;a href="https://portal.mardi4nfdi.de/wiki/Property:P1560" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt; analytische Lösung&lt;a href="https://portal.mardi4nfdi.de/wiki/Item:Q6775641" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="de"/>
 		<default_text lang="de"/>
 		<view_text lang="de"/>
@@ -1495,11 +1495,11 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mathmoddb/contains-computational-domain</uri_path>
 		<dc:comment/>
-		<text lang="en">contains&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Property:P1560&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt; computational domain&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Item:Q6775579&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<text lang="en">contains&lt;a href="https://portal.mardi4nfdi.de/wiki/Property:P1560" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt; computational domain&lt;a href="https://portal.mardi4nfdi.de/wiki/Item:Q6775579" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="en"/>
 		<default_text lang="en"/>
 		<view_text lang="en"/>
-		<text lang="de">beinhaltet&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Property:P1560&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt; Rechendomäne&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Item:Q6775579&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<text lang="de">beinhaltet&lt;a href="https://portal.mardi4nfdi.de/wiki/Property:P1560" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt; Rechendomäne&lt;a href="https://portal.mardi4nfdi.de/wiki/Item:Q6775579" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="de"/>
 		<default_text lang="de"/>
 		<view_text lang="de"/>
@@ -1509,11 +1509,11 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mathmoddb/contains-governing-equation</uri_path>
 		<dc:comment/>
-		<text lang="en">contains&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Property:P1560&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt; governing equation&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Item:Q7270342&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<text lang="en">contains&lt;a href="https://portal.mardi4nfdi.de/wiki/Property:P1560" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt; governing equation&lt;a href="https://portal.mardi4nfdi.de/wiki/Item:Q7270342" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="en"/>
 		<default_text lang="en"/>
 		<view_text lang="en"/>
-		<text lang="de">beinhaltet&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Property:P1560&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt; Grundgleichung&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Item:Q7270342&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<text lang="de">beinhaltet&lt;a href="https://portal.mardi4nfdi.de/wiki/Property:P1560" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt; Grundgleichung&lt;a href="https://portal.mardi4nfdi.de/wiki/Item:Q7270342" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="de"/>
 		<default_text lang="de"/>
 		<view_text lang="de"/>
@@ -1523,11 +1523,11 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mathmoddb/contains-strong-formulation</uri_path>
 		<dc:comment/>
-		<text lang="en">contains&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Property:P1560&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt; strong formulation&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Item:Q6775640&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<text lang="en">contains&lt;a href="https://portal.mardi4nfdi.de/wiki/Property:P1560" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt; strong formulation&lt;a href="https://portal.mardi4nfdi.de/wiki/Item:Q6775640" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="en"/>
 		<default_text lang="en"/>
 		<view_text lang="en"/>
-		<text lang="de">beinhaltet&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Property:P1560&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt; starke Formulierung&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Item:Q6775640&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<text lang="de">beinhaltet&lt;a href="https://portal.mardi4nfdi.de/wiki/Property:P1560" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt; starke Formulierung&lt;a href="https://portal.mardi4nfdi.de/wiki/Item:Q6775640" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="de"/>
 		<default_text lang="de"/>
 		<view_text lang="de"/>
@@ -1537,11 +1537,11 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mathmoddb/contains-weak-formulation</uri_path>
 		<dc:comment/>
-		<text lang="en">contains&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Property:P1560&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt; weak formulation&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Item:Q6775618&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<text lang="en">contains&lt;a href="https://portal.mardi4nfdi.de/wiki/Property:P1560" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt; weak formulation&lt;a href="https://portal.mardi4nfdi.de/wiki/Item:Q6775618" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="en"/>
 		<default_text lang="en"/>
 		<view_text lang="en"/>
-		<text lang="de">beinhaltet&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Property:P1560&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt; schwache Formulierung&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Item:Q6775618&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<text lang="de">beinhaltet&lt;a href="https://portal.mardi4nfdi.de/wiki/Property:P1560" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt; schwache Formulierung&lt;a href="https://portal.mardi4nfdi.de/wiki/Item:Q6775618" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="de"/>
 		<default_text lang="de"/>
 		<view_text lang="de"/>
@@ -1715,11 +1715,11 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mathmoddb/is-chemical-constant</uri_path>
 		<dc:comment/>
-		<text lang="en">is chemical constant&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Item:Q6672074&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<text lang="en">is chemical constant&lt;a href="https://portal.mardi4nfdi.de/wiki/Item:Q6672074" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="en"/>
 		<default_text lang="en"/>
 		<view_text lang="en"/>
-		<text lang="de">ist chemische Konstante&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Item:Q6672074&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<text lang="de">ist chemische Konstante&lt;a href="https://portal.mardi4nfdi.de/wiki/Item:Q6672074" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="de"/>
 		<default_text lang="de"/>
 		<view_text lang="de"/>
@@ -1729,11 +1729,11 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mathmoddb/is-mathematical-constant</uri_path>
 		<dc:comment/>
-		<text lang="en">is mathematical constant&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Item:Q6672097&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<text lang="en">is mathematical constant&lt;a href="https://portal.mardi4nfdi.de/wiki/Item:Q6672097" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="en"/>
 		<default_text lang="en"/>
 		<view_text lang="en"/>
-		<text lang="de">ist mathematische Konstante&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Item:Q6672097&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<text lang="de">ist mathematische Konstante&lt;a href="https://portal.mardi4nfdi.de/wiki/Item:Q6672097" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="de"/>
 		<default_text lang="de"/>
 		<view_text lang="de"/>
@@ -1743,11 +1743,11 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mathmoddb/is-physical-constant</uri_path>
 		<dc:comment/>
-		<text lang="en">is physical constant&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Item:Q6534290&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<text lang="en">is physical constant&lt;a href="https://portal.mardi4nfdi.de/wiki/Item:Q6534290" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="en"/>
 		<default_text lang="en"/>
 		<view_text lang="en"/>
-		<text lang="de">ist physikalische Konstante&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Item:Q6534290&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<text lang="de">ist physikalische Konstante&lt;a href="https://portal.mardi4nfdi.de/wiki/Item:Q6534290" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="de"/>
 		<default_text lang="de"/>
 		<view_text lang="de"/>
@@ -2047,11 +2047,11 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mathmoddb/contains-input</uri_path>
 		<dc:comment/>
-		<text lang="en">contains&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Property:P1560&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt; as input&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Item:Q6480299&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<text lang="en">contains&lt;a href="https://portal.mardi4nfdi.de/wiki/Property:P1560" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt; as input&lt;a href="https://portal.mardi4nfdi.de/wiki/Item:Q6480299" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="en"/>
 		<default_text lang="en"/>
 		<view_text lang="en"/>
-		<text lang="de">beinhaltet&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Property:P1560&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt; als Eingabe&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Item:Q6480299&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<text lang="de">beinhaltet&lt;a href="https://portal.mardi4nfdi.de/wiki/Property:P1560" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt; als Eingabe&lt;a href="https://portal.mardi4nfdi.de/wiki/Item:Q6480299" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="de"/>
 		<default_text lang="de"/>
 		<view_text lang="de"/>
@@ -2061,11 +2061,11 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mathmoddb/contains-constant</uri_path>
 		<dc:comment/>
-		<text lang="en">contains&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Property:P1560&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt; as constant&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Item:Q6480317&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<text lang="en">contains&lt;a href="https://portal.mardi4nfdi.de/wiki/Property:P1560" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt; as constant&lt;a href="https://portal.mardi4nfdi.de/wiki/Item:Q6480317" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="en"/>
 		<default_text lang="en"/>
 		<view_text lang="en"/>
-		<text lang="de">beinhaltet&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Property:P1560&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt; als Konstante&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Item:Q6480317&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<text lang="de">beinhaltet&lt;a href="https://portal.mardi4nfdi.de/wiki/Property:P1560" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt; als Konstante&lt;a href="https://portal.mardi4nfdi.de/wiki/Item:Q6480317" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="de"/>
 		<default_text lang="de"/>
 		<view_text lang="de"/>
@@ -2075,11 +2075,11 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mathmoddb/contains-objective</uri_path>
 		<dc:comment/>
-		<text lang="en">contains&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Property:P1560&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt; as objective&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Item:Q6534255&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<text lang="en">contains&lt;a href="https://portal.mardi4nfdi.de/wiki/Property:P1560" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt; as objective&lt;a href="https://portal.mardi4nfdi.de/wiki/Item:Q6534255" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="en"/>
 		<default_text lang="en"/>
 		<view_text lang="en"/>
-		<text lang="de">beinhaltet&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Property:P1560&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt; als Zielgröße&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Item:Q6534255&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<text lang="de">beinhaltet&lt;a href="https://portal.mardi4nfdi.de/wiki/Property:P1560" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt; als Zielgröße&lt;a href="https://portal.mardi4nfdi.de/wiki/Item:Q6534255" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="de"/>
 		<default_text lang="de"/>
 		<view_text lang="de"/>
@@ -2089,11 +2089,11 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mathmoddb/contains-output</uri_path>
 		<dc:comment/>
-		<text lang="en">contains&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Property:P1560&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt; as output&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Item:Q6480295&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<text lang="en">contains&lt;a href="https://portal.mardi4nfdi.de/wiki/Property:P1560" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt; as output&lt;a href="https://portal.mardi4nfdi.de/wiki/Item:Q6480295" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="en"/>
 		<default_text lang="en"/>
 		<view_text lang="en"/>
-		<text lang="de">beinhaltet&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Property:P1560&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt; als Ausgabe&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Item:Q6480295&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<text lang="de">beinhaltet&lt;a href="https://portal.mardi4nfdi.de/wiki/Property:P1560" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt; als Ausgabe&lt;a href="https://portal.mardi4nfdi.de/wiki/Item:Q6480295" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="de"/>
 		<default_text lang="de"/>
 		<view_text lang="de"/>
@@ -2103,11 +2103,11 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mathmoddb/contains-parameter</uri_path>
 		<dc:comment/>
-		<text lang="en">contains&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Property:P1560&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt; as parameter&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Item:Q6480341&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<text lang="en">contains&lt;a href="https://portal.mardi4nfdi.de/wiki/Property:P1560" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt; as parameter&lt;a href="https://portal.mardi4nfdi.de/wiki/Item:Q6480341" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="en"/>
 		<default_text lang="en"/>
 		<view_text lang="en"/>
-		<text lang="de">beinhaltet&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Property:P1560&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt; als Parameter&lt;a href=&quot;https://portal.mardi4nfdi.de/wiki/Item:Q6480341&quot; target=&quot;_blank&quot;&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<text lang="de">beinhaltet&lt;a href="https://portal.mardi4nfdi.de/wiki/Property:P1560" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt; als Parameter&lt;a href="https://portal.mardi4nfdi.de/wiki/Item:Q6480341" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="de"/>
 		<default_text lang="de"/>
 		<view_text lang="de"/>
