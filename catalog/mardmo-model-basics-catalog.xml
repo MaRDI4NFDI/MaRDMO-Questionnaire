@@ -903,7 +903,7 @@ Sehen Sie sich &lt;a href="https://www.youtube.com/watch?v=UmbBNUZJ994&amp;list=
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/formulation"/>
 		<is_collection>True</is_collection>
 		<title lang="en">Formula</title>
-		<short_title lang="en">formula</short_title>
+		<short_title lang="en">Formula</short_title>
 		<help lang="en">&lt;p&gt;On this page, you can define new formulas or select existing ones from the MaRDI Portal or Wikidata. When an existing formula is selected, all available information from the relevant source is retrieved and integrated into the interview. Retrieved data can be completed and extended with new relations (e.g., connections to other formulas).&lt;/p&gt;
 
 &lt;p&gt;In addition to enhancing existing formulas, they can also serve as templates for creating new ones. To use a formula as a template, the reference to the external source must be removed after importing the available information.&lt;/p&gt;
