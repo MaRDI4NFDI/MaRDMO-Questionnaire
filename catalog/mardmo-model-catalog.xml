@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2026-10-26T15:22:09.630738+01:00" required="2.1.0" version="2.5.2">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2026-11-02T13:19:54.705265+01:00" required="2.1.0" version="2.5.2">
 	<catalog dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo-model-catalog">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo-model-catalog</uri_path>
@@ -518,16 +518,16 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/model/model-assumption"/>
 		<is_collection>True</is_collection>
 		<is_optional>True</is_optional>
-		<help lang="en">&lt;p&gt;Only required if the option &lt;strong&gt;is specialized by&lt;/strong&gt; or &lt;strong&gt;specializes&lt;/strong&gt; is selected for the model.&lt;/p&gt;
+		<help lang="en">&lt;p&gt;Only required if the option &lt;strong&gt;is specialized by&lt;/strong&gt; or &lt;strong&gt;specializes&lt;/strong&gt; is selected for the model. The assumptions apply to all models of this relation. If different models need different assumptions, create a separate relation for each of them and remove the model from this one.&lt;/p&gt;
 
 &lt;p&gt;For all formulas &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. If a formula is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate formula is present in the MaRDI Portal or Wikidata, define a new formula as &lt;em&gt;label (description)&lt;/em&gt;.&lt;/p&gt;</help>
-		<text lang="en">Assumption to reduce the general Mathematical Model to its specialized form.</text>
+		<text lang="en">Assumption to reduce the general Mathematical Model to its specialized form(s).</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en">Add Formula</verbose_name>
-		<help lang="de">&lt;p&gt;Nur erforderlich, wenn für das Modell die Option &lt;strong&gt;wird spezialisiert durch&lt;/strong&gt; oder &lt;strong&gt;spezialisiert&lt;/strong&gt; gewählt wurde.&lt;/p&gt;
+		<help lang="de">&lt;p&gt;Nur erforderlich, wenn für das Modell die Option &lt;strong&gt;wird spezialisiert durch&lt;/strong&gt; oder &lt;strong&gt;spezialisiert&lt;/strong&gt; gewählt wurde. Die Annahmen gelten für alle Modelle dieser Relation. Benötigen verschiedene Modelle unterschiedliche Annahmen, legen Sie für jedes eine eigene Relation an und entfernen Sie es aus dieser.&lt;/p&gt;
 
 &lt;p&gt;Für alle Formeln wird &lt;em&gt;Name (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Wenn eine Formel ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls keine passende Formel im MaRDI Portal oder Wikidata vorhanden ist, definieren Sie eine neue Formel mit &lt;em&gt;Name (Beschreibung)&lt;/em&gt;.&lt;/p&gt;</help>
-		<text lang="de">Annahme zur Reduzierung des allgemeinen mathematischen Modells auf seine spezielle Form.</text>
+		<text lang="de">Annahme zur Reduzierung des allgemeinen mathematischen Modells auf seine spezielle(n) Form(en).</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de">Formel Hinzufügen</verbose_name>
 		<default_option/>
@@ -1021,16 +1021,16 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/task/task-assumption"/>
 		<is_collection>True</is_collection>
 		<is_optional>True</is_optional>
-		<help lang="en">&lt;p&gt;Only required if the option &lt;strong&gt;is specialized by&lt;/strong&gt; or &lt;strong&gt;specializes&lt;/strong&gt; is selected for the task.&lt;/p&gt;
+		<help lang="en">&lt;p&gt;Only required if the option &lt;strong&gt;is specialized by&lt;/strong&gt; or &lt;strong&gt;specializes&lt;/strong&gt; is selected for the task. The assumptions apply to all tasks of this relation. If different tasks need different assumptions, create a separate relation for each of them and remove the task from this one.&lt;/p&gt;
 
 &lt;p&gt;For all formulas &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. If a formula is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate formula is present in the MaRDI Portal or Wikidata, define a new formula as &lt;em&gt;label (description)&lt;/em&gt;.&lt;/p&gt;</help>
-		<text lang="en">Assumption to reduce the general Computational Task to its specialized form.</text>
+		<text lang="en">Assumption to reduce the general Computational Task to its specialized form(s).</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en">Add Formula</verbose_name>
-		<help lang="de">&lt;p&gt;Nur erforderlich, wenn für die Aufgabe die Option &lt;strong&gt;wird spezialisiert durch&lt;/strong&gt; oder &lt;strong&gt;spezialisiert&lt;/strong&gt; gewählt wurde.&lt;/p&gt;
+		<help lang="de">&lt;p&gt;Nur erforderlich, wenn für die Aufgabe die Option &lt;strong&gt;wird spezialisiert durch&lt;/strong&gt; oder &lt;strong&gt;spezialisiert&lt;/strong&gt; gewählt wurde. Die Annahmen gelten für alle Aufgaben dieser Relation. Benötigen verschiedene Aufgaben unterschiedliche Annahmen, legen Sie für jede eine eigene Relation an und entfernen Sie es aus dieser.&lt;/p&gt;
 
 &lt;p&gt;Für alle Formeln wird &lt;em&gt;Name (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Wenn eine Formel ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls keine passende Formel im MaRDI Portal oder Wikidata vorhanden ist, definieren Sie eine neue Formel mit &lt;em&gt;Name (Beschreibung)&lt;/em&gt;.&lt;/p&gt;</help>
-		<text lang="de">Annahme zur Reduzierung der allgemeinen Berechnungsaufgabe auf seine spezielle Form.</text>
+		<text lang="de">Annahme zur Reduzierung der allgemeinen Berechnungsaufgabe auf seine spezielle(n) Form(en).</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de">Formel Hinzufügen</verbose_name>
 		<default_option/>
@@ -1256,7 +1256,7 @@
 		<verbose_name lang="de">Definierende Formel Hinzufügen</verbose_name>
 		<default_option/>
 		<default_external_id/>
-		<widget_type>text</widget_type>
+		<widget_type>math</widget_type>
 		<value_type>text</value_type>
 		<maximum/>
 		<minimum/>
@@ -1569,16 +1569,16 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/formulation/formulation-assumption"/>
 		<is_collection>True</is_collection>
 		<is_optional>True</is_optional>
-		<help lang="en">&lt;p&gt;Only required if the option &lt;strong&gt;is specialized by&lt;/strong&gt; or &lt;strong&gt;specializes&lt;/strong&gt; is selected for the formula.&lt;/p&gt;
+		<help lang="en">&lt;p&gt;Only required if the option &lt;strong&gt;is specialized by&lt;/strong&gt; or &lt;strong&gt;specializes&lt;/strong&gt; is selected for the formula. The assumptions apply to all formula of this relation. If different formulas need different assumptions, create a separate relation for each of them and remove the formula from this one.&lt;/p&gt;
 
 &lt;p&gt;For all formulas &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. If a formula is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate formula is present in the MaRDI Portal or Wikidata, define a new formula as &lt;em&gt;label (description)&lt;/em&gt;.&lt;/p&gt;</help>
-		<text lang="en">Assumption to reduce the general Formula to its specialized form.</text>
+		<text lang="en">Assumption to reduce the general Formula to its specialized form(s).</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en">Add Formula</verbose_name>
-		<help lang="de">&lt;p&gt;Nur erforderlich, wenn für die Formel die Option &lt;strong&gt;wird spezialisiert durch&lt;/strong&gt; oder &lt;strong&gt;spezialisiert&lt;/strong&gt; gewählt wurde.&lt;/p&gt;
+		<help lang="de">&lt;p&gt;Nur erforderlich, wenn für die Formel die Option &lt;strong&gt;wird spezialisiert durch&lt;/strong&gt; oder &lt;strong&gt;spezialisiert&lt;/strong&gt; gewählt wurde. Die Annahmen gelten für alle Formeln dieser Relation. Benötigen verschiedene Formeln unterschiedliche Annahmen, legen Sie für jede eine eigene Relation an und entfernen Sie es aus dieser.&lt;/p&gt;
 
 &lt;p&gt;Für alle Formeln wird &lt;em&gt;Name (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Wenn eine Formel ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls keine passende Formel im MaRDI Portal oder Wikidata vorhanden ist, definieren Sie eine neue Formel mit &lt;em&gt;Name (Beschreibung)&lt;/em&gt;.&lt;/p&gt;</help>
-		<text lang="de">Annahme zur Reduzierung der allgemeinen Formel auf ihre spezielle Form.</text>
+		<text lang="de">Annahme zur Reduzierung der allgemeinen Formel auf ihre spezielle(n) Form(en).</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de">Formel Hinzufügen</verbose_name>
 		<default_option/>
