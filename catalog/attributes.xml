@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2026-05-18T14:04:53.651082+02:00" required="2.1.0" version="2.4.2">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2026-10-26T15:21:36.686654+01:00" required="2.1.0" version="2.5.2">
 	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/algorithm">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<key>algorithm</key>
@@ -410,13 +410,6 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<key>description</key>
 		<path>model/description</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/model"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/model/formulation-order-number">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>formulation-order-number</key>
-		<path>model/formulation-order-number</path>
 		<dc:comment/>
 		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/model"/>
 	</attribute>
@@ -1397,13 +1390,6 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<key>task-assumption</key>
 		<path>task/task-assumption</path>
-		<dc:comment/>
-		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/task"/>
-	</attribute>
-	<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/task/task-order-number">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<key>task-order-number</key>
-		<path>task/task-order-number</path>
 		<dc:comment/>
 		<parent dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/task"/>
 	</attribute>

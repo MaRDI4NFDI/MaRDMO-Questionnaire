@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2026-05-16T22:03:29.213250+02:00" required="2.1.0" version="2.4.2">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2026-10-26T15:22:30.150051+01:00" required="2.1.0" version="2.5.2">
 	<catalog dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo-interdisciplinary-workflow-catalog">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mardmo-interdisciplinary-workflow-catalog</uri_path>
@@ -8,11 +8,11 @@
 		<title lang="en">MaRDMO: Questionnaire for Interdisciplinary Workflows</title>
 		<help lang="en">&lt;p&gt;This catalog helps you describe interdisciplinary workflows. It covers key elements such as the workflow itself, process steps, algorithms, software, hardware, and publications. You can reuse existing entries from the MaRDI Portal or Wikidata, or create new ones. The catalog supports documenting new workflows, adding transfer options, or linking workflows to one another. It follows the FAIR principles to make workflows findable, accessible, interoperable, and reusable, and is part of the MaRDMO project developed within the MaRDI initiative. Completed documentations can be exported directly to the MaRDI Portal.&lt;/p&gt;
 
-&lt;p&gt;Check out &lt;a href=&quot;&quot;&gt;MaRDMO Workflow Documentation&lt;/a&gt; showcasing the documentation and subsequent export.&lt;/p&gt;</help>
+&lt;p&gt;Check out &lt;a href=""&gt;MaRDMO Workflow Documentation&lt;/a&gt; showcasing the documentation and subsequent export.&lt;/p&gt;</help>
 		<title lang="de">MaRDMO: Fragenkatalog für interdisziplinäre Workflows</title>
 		<help lang="de">&lt;p&gt;Dieser Katalog hilft dabei, interdisziplinäre Workflows zu beschreiben. Er umfasst zentrale Elemente wie den Workflow selbst, Prozessschritte, Algorithmen, Software, Hardware und Publikationen. Bestehende Einträge aus dem MaRDI-Portal oder Wikidata können wiederverwendet oder neue erstellt werden. Der Katalog unterstützt die Dokumentation neuer Workflows, das Hinzufügen von Transferoptionen oder die Verknüpfung von Workflows miteinander. Er folgt den FAIR-Prinzipien, um Workflows auffindbar, zugänglich, interoperabel und wiederverwendbar zu machen, und ist Teil des MaRDMO-Projekts innerhalb der MaRDI-Initiative. Abgeschlossene Dokumentationen können direkt in das MaRDI-Portal exportiert werden.&lt;/p&gt;
 
-&lt;p&gt;Sehen Sie sich &lt;a href=&quot;&quot;&gt;MaRDMO Workflow Documentation&lt;/a&gt; an, in dem die Dokumentation und der anschließende Export vorgestellt werden.&lt;/p&gt;</help>
+&lt;p&gt;Sehen Sie sich &lt;a href=""&gt;MaRDMO Workflow Documentation&lt;/a&gt; an, in dem die Dokumentation und der anschließende Export vorgestellt werden.&lt;/p&gt;</help>
 		<sections>
 			<section dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/workflow-documentation" order="3"/>
 			<section dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/publication-workflow" order="4"/>
@@ -44,7 +44,7 @@
 		<is_collection>False</is_collection>
 		<title lang="en">Welcome to the Workflow Interview</title>
 		<short_title lang="en">Introduction</short_title>
-		<help lang="en">&lt;p&gt;This guided interview helps you document interdisciplinary workflows. The structure is inspired by the &lt;em&gt;&lt;a href=&quot;https://terminology.nfdi4ing.de/ts/ontologies/m4i?lang=en&quot; target=&quot;_blank&quot;&gt;Metadata4Ing ontology&lt;/a&gt;&lt;/em&gt; from the &lt;em&gt;&lt;a href=&quot;https://nfdi4ing.de/&quot; target=&quot;_blank&quot;&gt;NFDI4ING&lt;/a&gt;&lt;/em&gt; consortium.&lt;/p&gt;
+		<help lang="en">&lt;p&gt;This guided interview helps you document interdisciplinary workflows. The structure is inspired by the &lt;em&gt;&lt;a href="https://terminology.nfdi4ing.de/ts/ontologies/m4i?lang=en" target="_blank"&gt;Metadata4Ing ontology&lt;/a&gt;&lt;/em&gt; from the &lt;em&gt;&lt;a href="https://nfdi4ing.de/" target="_blank"&gt;NFDI4ING&lt;/a&gt;&lt;/em&gt; consortium.&lt;/p&gt;
   &lt;p&gt;The interview is structured by the following classes:&lt;/p&gt; 
 &lt;ul&gt; 
 &lt;li&gt;&lt;em&gt;Interdisciplinary Workflow&lt;/em&gt;&lt;/li&gt;
@@ -56,13 +56,13 @@
 &lt;li&gt;&lt;em&gt;Data Set&lt;/em&gt;&lt;/li&gt;
 &lt;li&gt;&lt;em&gt;Publication&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;
-  &lt;p&gt;For each class, you can reuse existing entries from the &lt;em&gt;&lt;a href=&quot;https://portal.mardi4nfdi.de/&quot; target=&quot;_blank&quot;&gt;MaRDI Portal&lt;/a&gt;&lt;/em&gt; or &lt;em&gt;&lt;a href=&quot;https://www.wikidata.org/&quot; target=&quot;_blank&quot;&gt;Wikidata&lt;/a&gt;&lt;/em&gt;, or define new ones.&lt;/p&gt;
+  &lt;p&gt;For each class, you can reuse existing entries from the &lt;em&gt;&lt;a href="https://portal.mardi4nfdi.de/" target="_blank"&gt;MaRDI Portal&lt;/a&gt;&lt;/em&gt; or &lt;em&gt;&lt;a href="https://www.wikidata.org/" target="_blank"&gt;Wikidata&lt;/a&gt;&lt;/em&gt;, or define new ones.&lt;/p&gt;
   &lt;p&gt;All information is structured to support the FAIR principles — making your interdisciplinary workflows &lt;strong&gt;Findable, Accessible, Interoperable, and Reusable&lt;/strong&gt;.&lt;/p&gt;
-  &lt;p&gt;This catalog is part of &lt;strong&gt;&lt;a href=&quot;https://github.com/MarcoReidelbach/MaRDMO-Plugin&quot; target=&quot;_blank&quot;&gt;MaRDMO&lt;/a&gt;&lt;/strong&gt; and developed within Task Area 4 of the &lt;strong&gt;&lt;a href=&quot;https://www.mardi4nfdi.de/&quot; target=&quot;_blank&quot;&gt;Mathematical Research Data Initiative (MaRDI)&lt;/a&gt;&lt;/strong&gt;. It aims to help researchers across all disciplines to systematically document their mathematical research data.&lt;/p&gt;</help>
+  &lt;p&gt;This catalog is part of &lt;strong&gt;&lt;a href="https://github.com/MarcoReidelbach/MaRDMO-Plugin" target="_blank"&gt;MaRDMO&lt;/a&gt;&lt;/strong&gt; and developed within Task Area 4 of the &lt;strong&gt;&lt;a href="https://www.mardi4nfdi.de/" target="_blank"&gt;Mathematical Research Data Initiative (MaRDI)&lt;/a&gt;&lt;/strong&gt;. It aims to help researchers across all disciplines to systematically document their mathematical research data.&lt;/p&gt;</help>
 		<verbose_name lang="en"/>
 		<title lang="de">Willkommen zum Workflow-Interview</title>
 		<short_title lang="de">Einführung</short_title>
-		<help lang="de">&lt;p&gt;Dieses geführte Interview hilft Ihnen dabei, interdisziplinäre Workflows zu dokumentieren. Die Struktur ist inspiriert von der &lt;em&gt;&lt;a href=&quot;https://terminology.nfdi4ing.de/ts/ontologies/m4i?lang=en&quot; target=&quot;_blank&quot;&gt;Metadata4Ing-Ontologie&lt;/a&gt;&lt;/em&gt; des &lt;strong&gt;&lt;a href=&quot;https://nfdi4ing.de/&quot; target=&quot;_blank&quot;&gt;NFDI4ING&lt;/a&gt;&lt;/strong&gt; Konsortiums.&lt;/p&gt;
+		<help lang="de">&lt;p&gt;Dieses geführte Interview hilft Ihnen dabei, interdisziplinäre Workflows zu dokumentieren. Die Struktur ist inspiriert von der &lt;em&gt;&lt;a href="https://terminology.nfdi4ing.de/ts/ontologies/m4i?lang=en" target="_blank"&gt;Metadata4Ing-Ontologie&lt;/a&gt;&lt;/em&gt; des &lt;strong&gt;&lt;a href="https://nfdi4ing.de/" target="_blank"&gt;NFDI4ING&lt;/a&gt;&lt;/strong&gt; Konsortiums.&lt;/p&gt;
 &lt;p&gt;Das Interview orientiert sich an den folgenden Klassen:&lt;/p&gt; 
 &lt;ul&gt; 
 &lt;li&gt;&lt;em&gt;Interdisziplinärer Workflow&lt;/em&gt;&lt;/li&gt;
@@ -74,9 +74,9 @@
 &lt;li&gt;&lt;em&gt;Datensatz&lt;/em&gt;&lt;/li&gt;
 &lt;li&gt;&lt;em&gt;Publikation&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Für jede Klasse können vorhandene Einträge aus dem &lt;em&gt;&lt;a href=&quot;https://portal.mardi4nfdi.de/&quot; target=&quot;_blank&quot;&gt;MaRDI-Portal&lt;/a&gt;&lt;/em&gt; oder &lt;em&gt;&lt;a href=&quot;https://www.wikidata.org/&quot; target=&quot;_blank&quot;&gt;Wikidata&lt;/a&gt;&lt;/em&gt; wiederverwendet oder neue Einträge definiert werden.&lt;/p&gt;
+&lt;p&gt;Für jede Klasse können vorhandene Einträge aus dem &lt;em&gt;&lt;a href="https://portal.mardi4nfdi.de/" target="_blank"&gt;MaRDI-Portal&lt;/a&gt;&lt;/em&gt; oder &lt;em&gt;&lt;a href="https://www.wikidata.org/" target="_blank"&gt;Wikidata&lt;/a&gt;&lt;/em&gt; wiederverwendet oder neue Einträge definiert werden.&lt;/p&gt;
 &lt;p&gt;Alle Informationen sind gemäß den FAIR-Prinzipien strukturiert – Ihre interdisziplinären Workflows werden dadurch &lt;strong&gt;auffindbar, zugänglich, interoperabel und wiederverwendbar&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;Dieser Katalog ist Teil von &lt;strong&gt;&lt;a href=&quot;https://github.com/MarcoReidelbach/MaRDMO-Plugin&quot; target=&quot;_blank&quot;&gt;MaRDMO&lt;/a&gt;&lt;/strong&gt; und wird im Rahmen der Task Area 4 der &lt;strong&gt;&lt;a href=&quot;https://www.mardi4nfdi.de/&quot; target=&quot;_blank&quot;&gt;Mathematical Research Data Initiative (MaRDI)&lt;/a&gt;&lt;/strong&gt; entwickelt. Ziel ist es, Forschende aller Disziplinen bei der systematischen Dokumentation mathematischer Forschungsdaten zu unterstützen.&lt;/p&gt;</help>
+&lt;p&gt;Dieser Katalog ist Teil von &lt;strong&gt;&lt;a href="https://github.com/MarcoReidelbach/MaRDMO-Plugin" target="_blank"&gt;MaRDMO&lt;/a&gt;&lt;/strong&gt; und wird im Rahmen der Task Area 4 der &lt;strong&gt;&lt;a href="https://www.mardi4nfdi.de/" target="_blank"&gt;Mathematical Research Data Initiative (MaRDI)&lt;/a&gt;&lt;/strong&gt; entwickelt. Ziel ist es, Forschende aller Disziplinen bei der systematischen Dokumentation mathematischer Forschungsdaten zu unterstützen.&lt;/p&gt;</help>
 		<verbose_name lang="de"/>
 		<questionsets/>
 		<questions/>
@@ -98,7 +98,7 @@
 
 &lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; If a workflow is selected from the MaRDI Portal and not used as a template, its existing information &lt;u&gt;cannot&lt;/u&gt; be edited or deleted via MaRDMO. Any changes or deletions made regardless will be ignored or shown alongside the original information in the MaRDI Portal.&lt;/p&gt;
 
-&lt;p&gt;Check out &lt;a href=&quot;&quot;&gt;Interdisciplinary Workflow&lt;/a&gt; showcasing the documentation.&lt;/p&gt;</help>
+&lt;p&gt;Check out &lt;a href=""&gt;Interdisciplinary Workflow&lt;/a&gt; showcasing the documentation.&lt;/p&gt;</help>
 		<verbose_name lang="en">Add Interdisciplinary Workflow</verbose_name>
 		<title lang="de">Interdisziplinärer Workflow</title>
 		<short_title lang="de">Workflow</short_title>
@@ -110,7 +110,7 @@
 
 &lt;p&gt;&lt;strong&gt;Hinweis:&lt;/strong&gt; Wird ein Workflow aus dem MaRDI Portal ausgewählt und nicht als Vorlage verwendet, können bestehende Informationen über MaRDMO &lt;u&gt;nicht&lt;/u&gt; editiert oder gelöscht werden. Änderungen oder Löschungen, die dennoch vorgenommen werden, werden ignoriert oder zusätzlich zu den bestehenden Informationen im MaRDI Portal angezeigt.&lt;/p&gt;
 
-&lt;p&gt;Sehen Sie sich &lt;a href=&quot;&quot;&gt;Interdisciplinary Workflow&lt;/a&gt; an in dem die Dokumentation vorgestellt wird.&lt;/p&gt;</help>
+&lt;p&gt;Sehen Sie sich &lt;a href=""&gt;Interdisciplinary Workflow&lt;/a&gt; an in dem die Dokumentation vorgestellt wird.&lt;/p&gt;</help>
 		<verbose_name lang="de">Interdisziplinären Workflow Hinzufügen</verbose_name>
 		<questionsets>
 			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/workflow/information" order="1"/>
@@ -693,7 +693,7 @@
 
 &lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; If a process step is selected from the MaRDI Portal and not used as a template, its existing information &lt;u&gt;cannot&lt;/u&gt; be edited or deleted via MaRDMO. Any changes or deletions made regardless will be ignored or shown alongside the original information in the MaRDI Portal.&lt;/p&gt;
 
-&lt;p&gt;Check out &lt;a href=&quot;&quot;&gt;Process Step&lt;/a&gt; showcasing the documentation.&lt;/p&gt;</help>
+&lt;p&gt;Check out &lt;a href=""&gt;Process Step&lt;/a&gt; showcasing the documentation.&lt;/p&gt;</help>
 		<verbose_name lang="en">Add Process Step</verbose_name>
 		<title lang="de">Prozessschritt</title>
 		<short_title lang="de">Prozessschritt</short_title>
@@ -705,7 +705,7 @@
 
 &lt;p&gt;&lt;strong&gt;Hinweis:&lt;/strong&gt; Wird ein Prozessschritt aus dem MaRDI Portal ausgewählt und nicht als Vorlage verwendet, können bestehende Informationen über MaRDMO &lt;u&gt;nicht&lt;/u&gt; editiert oder gelöscht werden. Änderungen oder Löschungen, die dennoch vorgenommen werden, werden ignoriert oder zusätzlich zu den bestehenden Informationen im MaRDI Portal angezeigt.&lt;/p&gt;
 
-&lt;p&gt;Sehen Sie sich &lt;a href=&quot;&quot;&gt;Process Step&lt;/a&gt; an in dem die Dokumentation vorgestellt wird.&lt;/p&gt;</help>
+&lt;p&gt;Sehen Sie sich &lt;a href=""&gt;Process Step&lt;/a&gt; an in dem die Dokumentation vorgestellt wird.&lt;/p&gt;</help>
 		<verbose_name lang="de">Prozessschritt Hinzufügen</verbose_name>
 		<questionsets>
 			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/process-step/information" order="1"/>
@@ -1005,13 +1005,13 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/processstep/method-documentation"/>
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">&lt;p&gt;Provide the DOI or URL of the protocol followed in the experimental method (e.g. from &lt;a href=&quot;https://www.protocols.io&quot;&gt;protocols.io&lt;/a&gt;, Zenodo, or a publication).&lt;/p&gt;
+		<help lang="en">&lt;p&gt;Provide the DOI or URL of the protocol followed in the experimental method (e.g. from &lt;a href="https://www.protocols.io"&gt;protocols.io&lt;/a&gt;, Zenodo, or a publication).&lt;/p&gt;
 
 &lt;p&gt;Provided prefixes are: 'doi', 'url'.&lt;/p&gt;</help>
 		<text lang="en">Protocol of the Experimental Method</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">&lt;p&gt;DOI oder URL des Protokolls angeben, das bei der experimentellen Methode befolgt wurde (z.B. von &lt;a href=&quot;https://www.protocols.io&quot;&gt;protocols.io&lt;/a&gt;, Zenodo oder einer Publikation).&lt;/p&gt;
+		<help lang="de">&lt;p&gt;DOI oder URL des Protokolls angeben, das bei der experimentellen Methode befolgt wurde (z.B. von &lt;a href="https://www.protocols.io"&gt;protocols.io&lt;/a&gt;, Zenodo oder einer Publikation).&lt;/p&gt;
 
 &lt;p&gt;Verfügbare Präfixe sind: 'doi', 'url'.&lt;/p&gt;</help>
 		<text lang="de">Protokoll der experimentellen Methode</text>
@@ -1254,7 +1254,7 @@
 
 &lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; If an algorithm is selected from the MaRDI Portal and not used as a template, its existing information &lt;u&gt;cannot&lt;/u&gt; be edited or deleted via MaRDMO. Any changes or deletions made regardless will be ignored or shown alongside the original information in the MaRDI Portal.&lt;/p&gt;
 
-&lt;p&gt;Check out &lt;a href=&quot;https://www.youtube.com/watch?v=30LK9q30UT0&amp;list=PLgoPZ7uPWbo-aC9pnVMYRZYM3iygBYWwn&amp;index=1&amp;t=1s&quot;&gt;Algorithm&lt;/a&gt; showcasing the documentation.&lt;/p&gt;</help>
+&lt;p&gt;Check out &lt;a href="https://www.youtube.com/watch?v=30LK9q30UT0&amp;list=PLgoPZ7uPWbo-aC9pnVMYRZYM3iygBYWwn&amp;index=1&amp;t=1s"&gt;Algorithm&lt;/a&gt; showcasing the documentation.&lt;/p&gt;</help>
 		<verbose_name lang="en">Add Algorithm</verbose_name>
 		<title lang="de">Algorithmus</title>
 		<short_title lang="de"/>
@@ -1266,7 +1266,7 @@
 
 &lt;p&gt;&lt;strong&gt;Hinweis:&lt;/strong&gt; Wird ein Algorithmus aus dem MaRDI Portal ausgewählt und nicht als Vorlage verwendet, können bestehende Informationen über MaRDMO &lt;u&gt;nicht&lt;/u&gt; editiert oder gelöscht werden. Änderungen oder Löschungen, die dennoch vorgenommen werden, werden ignoriert oder zusätzlich zu den bestehenden Informationen im MaRDI Portal angezeigt.&lt;/p&gt;
 
-&lt;p&gt;Sehen Sie sich &lt;a href=&quot;https://www.youtube.com/watch?v=30LK9q30UT0&amp;list=PLgoPZ7uPWbo-aC9pnVMYRZYM3iygBYWwn&amp;index=1&amp;t=1s&quot;&gt;Algorithm&lt;/a&gt; an in dem die Dokumentation vorgestellt wird.&lt;/p&gt;</help>
+&lt;p&gt;Sehen Sie sich &lt;a href="https://www.youtube.com/watch?v=30LK9q30UT0&amp;list=PLgoPZ7uPWbo-aC9pnVMYRZYM3iygBYWwn&amp;index=1&amp;t=1s"&gt;Algorithm&lt;/a&gt; an in dem die Dokumentation vorgestellt wird.&lt;/p&gt;</help>
 		<verbose_name lang="de">Algorithmus Hinzufügen</verbose_name>
 		<questionsets>
 			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/algorithm/information" order="1"/>
@@ -1462,7 +1462,7 @@
 
 &lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; If a software is selected from the MaRDI Portal and not used as a template, its existing information &lt;u&gt;cannot&lt;/u&gt; be edited or deleted via MaRDMO. Any changes or deletions made regardless will be ignored or shown alongside the original information in the MaRDI Portal.&lt;/p&gt;
 
-&lt;p&gt;Check out &lt;a href=&quot;&quot;&gt;Software&lt;/a&gt; showcasing the documentation.&lt;/p&gt;</help>
+&lt;p&gt;Check out &lt;a href=""&gt;Software&lt;/a&gt; showcasing the documentation.&lt;/p&gt;</help>
 		<verbose_name lang="en">Add Software</verbose_name>
 		<title lang="de">Software</title>
 		<short_title lang="de">Software</short_title>
@@ -1474,7 +1474,7 @@
 
 &lt;p&gt;&lt;strong&gt;Hinweis:&lt;/strong&gt; Wird eine Software aus dem MaRDI Portal ausgewählt und nicht als Vorlage verwendet, können bestehende Informationen über MaRDMO &lt;u&gt;nicht&lt;/u&gt; editiert oder gelöscht werden. Änderungen oder Löschungen, die dennoch vorgenommen werden, werden ignoriert oder zusätzlich zu den bestehenden Informationen im MaRDI Portal angezeigt.&lt;/p&gt;
 
-&lt;p&gt;Sehen Sie sich &lt;a href=&quot;&quot;&gt;Software&lt;/a&gt; an in dem die Dokumentation vorgestellt wird.&lt;/p&gt;</help>
+&lt;p&gt;Sehen Sie sich &lt;a href=""&gt;Software&lt;/a&gt; an in dem die Dokumentation vorgestellt wird.&lt;/p&gt;</help>
 		<verbose_name lang="de">Software Hinzufügen</verbose_name>
 		<questionsets>
 			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/software-workflow/information" order="1"/>
@@ -1700,7 +1700,7 @@
 
 &lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; If a hardware is selected from the MaRDI Portal and not used as a template, its existing information &lt;u&gt;cannot&lt;/u&gt; be edited or deleted via MaRDMO. Any changes or deletions made regardless will be ignored or shown alongside the original information in the MaRDI Portal.&lt;/p&gt;
 
-&lt;p&gt;Check out &lt;a href=&quot;&quot;&gt;Hardware&lt;/a&gt; showcasing the documentation.&lt;/p&gt;</help>
+&lt;p&gt;Check out &lt;a href=""&gt;Hardware&lt;/a&gt; showcasing the documentation.&lt;/p&gt;</help>
 		<verbose_name lang="en">Add Hardware</verbose_name>
 		<title lang="de">Hardware</title>
 		<short_title lang="de"/>
@@ -1712,7 +1712,7 @@
 
 &lt;p&gt;&lt;strong&gt;Hinweis:&lt;/strong&gt; Wird eine Hardware aus dem MaRDI Portal ausgewählt und nicht als Vorlage verwendet, können bestehende Informationen über MaRDMO &lt;u&gt;nicht&lt;/u&gt; editiert oder gelöscht werden. Änderungen oder Löschungen, die dennoch vorgenommen werden, werden ignoriert oder zusätzlich zu den bestehenden Informationen im MaRDI Portal angezeigt.&lt;/p&gt;
 
-&lt;p&gt;Sehen Sie sich &lt;a href=&quot;&quot;&gt;Hardware&lt;/a&gt; an in dem die Dokumentation vorgestellt wird.&lt;/p&gt;</help>
+&lt;p&gt;Sehen Sie sich &lt;a href=""&gt;Hardware&lt;/a&gt; an in dem die Dokumentation vorgestellt wird.&lt;/p&gt;</help>
 		<verbose_name lang="de">Hardware Hinzufügen</verbose_name>
 		<questionsets>
 			<questionset dc:uri="http://example.com/terms/questions/mardmo//hardware/information" order="1"/>
@@ -1981,7 +1981,7 @@
 
 &lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; If a data set is selected from the MaRDI Portal and not used as a template, its existing information &lt;u&gt;cannot&lt;/u&gt; be edited or deleted via MaRDMO. Any changes or deletions made regardless will be ignored or shown alongside the original information in the MaRDI Portal.&lt;/p&gt;
 
-&lt;p&gt;Check out &lt;a href=&quot;&quot;&gt;Data Set&lt;/a&gt; showcasing the documentation.&lt;/p&gt;</help>
+&lt;p&gt;Check out &lt;a href=""&gt;Data Set&lt;/a&gt; showcasing the documentation.&lt;/p&gt;</help>
 		<verbose_name lang="en">Add Data Set</verbose_name>
 		<title lang="de">Datensatz</title>
 		<short_title lang="de">Datensatz</short_title>
@@ -1993,7 +1993,7 @@
 
 &lt;p&gt;&lt;strong&gt;Hinweis:&lt;/strong&gt; Wird ein Datensatz aus dem MaRDI Portal ausgewählt und nicht als Vorlage verwendet, können bestehende Informationen über MaRDMO &lt;u&gt;nicht&lt;/u&gt; editiert oder gelöscht werden. Änderungen oder Löschungen, die dennoch vorgenommen werden, werden ignoriert oder zusätzlich zu den bestehenden Informationen im MaRDI Portal angezeigt.&lt;/p&gt;
 
-&lt;p&gt;Sehen Sie sich &lt;a href=&quot;&quot;&gt;Datensatz&lt;/a&gt; an in dem die Dokumentation vorgestellt wird.&lt;/p&gt;</help>
+&lt;p&gt;Sehen Sie sich &lt;a href=""&gt;Datensatz&lt;/a&gt; an in dem die Dokumentation vorgestellt wird.&lt;/p&gt;</help>
 		<verbose_name lang="de">Datensatz Hinzufügen</verbose_name>
 		<questionsets>
 			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo//data-set/information" order="1"/>
@@ -2315,7 +2315,7 @@
 
 &lt;p&gt;For a smooth export to the MaRDI Portal, all &lt;strong&gt;non-optional&lt;/strong&gt; questions must be answered completely.&lt;/p&gt;
 
-&lt;p&gt;Check out &lt;a href=&quot;&quot;&gt;Publication&lt;/a&gt; showcasing the documentation.&lt;/p&gt;</help>
+&lt;p&gt;Check out &lt;a href=""&gt;Publication&lt;/a&gt; showcasing the documentation.&lt;/p&gt;</help>
 		<verbose_name lang="en">Add Publication</verbose_name>
 		<title lang="de">Publikation</title>
 		<short_title lang="de">Publikation</short_title>
@@ -2323,7 +2323,7 @@
 
 &lt;p&gt;Für einen reibungslosen Export in das MaRDI Portal müssen alle &lt;strong&gt;nicht-optionalen&lt;/strong&gt; Fragen vollständig beantwortet sein.&lt;/p&gt;
 
-&lt;p&gt;Sehen Sie sich &lt;a href=&quot;&quot;&gt;Publication&lt;/a&gt; an in dem die Dokumentation vorgestellt wird.&lt;/p&gt;</help>
+&lt;p&gt;Sehen Sie sich &lt;a href=""&gt;Publication&lt;/a&gt; an in dem die Dokumentation vorgestellt wird.&lt;/p&gt;</help>
 		<verbose_name lang="de">Publikation Hinzufügen</verbose_name>
 		<questionsets>
 			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/publication/publication-to-hardware-or-software" order="2"/>
