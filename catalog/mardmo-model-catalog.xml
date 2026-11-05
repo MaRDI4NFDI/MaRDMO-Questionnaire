@@ -1256,7 +1256,7 @@
 		<verbose_name lang="de">Definierende Formel Hinzufügen</verbose_name>
 		<default_option/>
 		<default_external_id/>
-		<widget_type>math</widget_type>
+		<widget_type>text</widget_type>
 		<value_type>text</value_type>
 		<maximum/>
 		<minimum/>
