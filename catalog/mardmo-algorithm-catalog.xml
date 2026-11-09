@@ -14,7 +14,7 @@
 		<title lang="de">MaRDMO: Fragenkatalog für Algorithmen</title>
 		<help lang="de">&lt;p&gt;Dieser Katalog hilft dabei, Algorithmen anhand der MathAlgoDB-Ontologie zu beschreiben. Er umfasst zentrale Elemente wie den Algorithmus selbst, algorithmische Aufgaben, Software, Benchmarks und Publikationen. Bestehende Einträge aus dem MaRDI-Portal oder Wikidata können wiederverwendet oder neue erstellt werden. Der Katalog unterstützt die Dokumentation neuer Algorithmen, das Hinzufügen von Aufgaben, Software oder Benchmarks . Er folgt den FAIR-Prinzipien, um Algorithmen auffindbar, zugänglich, interoperabel und wiederverwendbar zu machen, und ist Teil des MaRDMO-Projekts innerhalb der MaRDI-Initiative. Abgeschlossene Dokumentationen können direkt in das MaRDI-Portal exportiert werden.&lt;/p&gt;
 
-&lt;p&gt;Sehen Sie sich &lt;a href="https://www.youtube.com/playlist?list=PLgoPZ7uPWbo-aC9pnVMYRZYM3iygBYWwn"&gt;MaRDMO Algorithmus Documentation&lt;/a&gt; an, in dem die Dokumentation und der anschließende Export vorgestellt werden.&lt;/p&gt;</help>
+&lt;p&gt;Sehen Sie sich &lt;a href="https://www.youtube.com/playlist?list=PLgoPZ7uPWbo-aC9pnVMYRZYM3iygBYWwn"&gt;MaRDMO Algorithm Documentation&lt;/a&gt; an, in dem die Dokumentation und der anschließende Export vorgestellt werden.&lt;/p&gt;</help>
 		<sections>
 			<section dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/algorithm-documentation" order="1"/>
 			<section dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/publication-algorithm" order="2"/>
@@ -404,7 +404,7 @@
 
 &lt;p&gt;&lt;strong&gt;Hinweis:&lt;/strong&gt; Wird eine Aufgabe aus dem MaRDI Portal ausgewählt und nicht als Vorlage verwendet, können bestehende Informationen über MaRDMO &lt;u&gt;nicht&lt;/u&gt; editiert oder gelöscht werden. Änderungen oder Löschungen, die dennoch vorgenommen werden, werden ignoriert oder zusätzlich zu den bestehenden Informationen im MaRDI Portal angezeigt.&lt;/p&gt;
 
-&lt;p&gt;Sehen Sie sich &lt;a href="https://www.youtube.com/watch?v=UOtLELvv4No&amp;list=PLgoPZ7uPWbo-aC9pnVMYRZYM3iygBYWwn&amp;index=3"&gt;Algorithmic Task&lt;/a&gt; an in dem die Dokumentation vorgestellt wird.&lt;/p&gt;</help>
+&lt;p&gt;Sehen Sie sich &lt;a href="https://www.youtube.com/watch?v=UOtLELvv4No&amp;list=PLgoPZ7uPWbo-aC9pnVMYRZYM3iygBYWwn&amp;index=2"&gt;Algorithmic Task&lt;/a&gt; an in dem die Dokumentation vorgestellt wird.&lt;/p&gt;</help>
 		<verbose_name lang="de">Algorithmische Aufgabe Hinzufügen</verbose_name>
 		<questionsets>
 			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/problem-algorithm/information" order="1"/>
