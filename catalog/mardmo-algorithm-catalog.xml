@@ -225,7 +225,7 @@
 		<verbose_name lang="de">Algorithmische Aufgabe Hinzufügen</verbose_name>
 		<default_option/>
 		<default_external_id/>
-		<widget_type>select_creatable</widget_type>
+		<widget_type>select</widget_type>
 		<value_type>text</value_type>
 		<maximum/>
 		<minimum/>
@@ -254,7 +254,7 @@
 		<verbose_name lang="de">Software Hinzufügen</verbose_name>
 		<default_option/>
 		<default_external_id/>
-		<widget_type>select_creatable</widget_type>
+		<widget_type>select</widget_type>
 		<value_type>text</value_type>
 		<maximum/>
 		<minimum/>

@@ -226,7 +226,7 @@ Sehen Sie sich &lt;a href="https://www.youtube.com/watch?v=UmbBNUZJ994&amp;list=
 		<verbose_name lang="de">Mathematische Formel Hinzufügen</verbose_name>
 		<default_option/>
 		<default_external_id/>
-		<widget_type>select_creatable</widget_type>
+		<widget_type>select</widget_type>
 		<value_type>text</value_type>
 		<maximum/>
 		<minimum/>
@@ -342,7 +342,7 @@ Sehen Sie sich &lt;a href="https://www.youtube.com/watch?v=UmbBNUZJ994&amp;list=
 		<verbose_name lang="de">Forschungsproblem Hinzufügen</verbose_name>
 		<default_option/>
 		<default_external_id/>
-		<widget_type>select_creatable</widget_type>
+		<widget_type>select</widget_type>
 		<value_type>text</value_type>
 		<maximum/>
 		<minimum/>
@@ -371,7 +371,7 @@ Sehen Sie sich &lt;a href="https://www.youtube.com/watch?v=UmbBNUZJ994&amp;list=
 		<verbose_name lang="de">Berechnungsaufgabe Hinzufügen</verbose_name>
 		<default_option/>
 		<default_external_id/>
-		<widget_type>select_creatable</widget_type>
+		<widget_type>select</widget_type>
 		<value_type>text</value_type>
 		<maximum/>
 		<minimum/>
@@ -482,7 +482,7 @@ Sehen Sie sich &lt;a href="https://www.youtube.com/watch?v=UmbBNUZJ994&amp;list=
 		<verbose_name lang="de">Formel Hinzufügen</verbose_name>
 		<default_option/>
 		<default_external_id/>
-		<widget_type>select_creatable</widget_type>
+		<widget_type>select</widget_type>
 		<value_type>text</value_type>
 		<maximum/>
 		<minimum/>
@@ -653,7 +653,7 @@ Sehen Sie sich &lt;a href="https://www.youtube.com/watch?v=UmbBNUZJ994&amp;list=
 		<verbose_name lang="de">Formeln Hinzufügen</verbose_name>
 		<default_option/>
 		<default_external_id/>
-		<widget_type>select_creatable</widget_type>
+		<widget_type>select</widget_type>
 		<value_type>text</value_type>
 		<maximum/>
 		<minimum/>
@@ -851,7 +851,7 @@ Sehen Sie sich &lt;a href="https://www.youtube.com/watch?v=UmbBNUZJ994&amp;list=
 		<verbose_name lang="de">Formel Hinzufügen</verbose_name>
 		<default_option/>
 		<default_external_id/>
-		<widget_type>select_creatable</widget_type>
+		<widget_type>select</widget_type>
 		<value_type>text</value_type>
 		<maximum/>
 		<minimum/>
@@ -1144,7 +1144,7 @@ Sehen Sie sich &lt;a href="https://www.youtube.com/watch?v=UmbBNUZJ994&amp;list=
 		<verbose_name lang="de">Formel Hinzufügen</verbose_name>
 		<default_option/>
 		<default_external_id/>
-		<widget_type>select_creatable</widget_type>
+		<widget_type>select</widget_type>
 		<value_type>text</value_type>
 		<maximum/>
 		<minimum/>
@@ -1177,7 +1177,7 @@ Sehen Sie sich &lt;a href="https://www.youtube.com/watch?v=UmbBNUZJ994&amp;list=
 		<verbose_name lang="de">Formel Hinzufügen</verbose_name>
 		<default_option/>
 		<default_external_id/>
-		<widget_type>select_creatable</widget_type>
+		<widget_type>select</widget_type>
 		<value_type>text</value_type>
 		<maximum/>
 		<minimum/>
