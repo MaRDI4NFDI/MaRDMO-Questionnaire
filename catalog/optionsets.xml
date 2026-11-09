@@ -1140,7 +1140,7 @@
 		<help lang="en"/>
 		<default_text lang="en"/>
 		<view_text lang="en"/>
-		<text lang="de">&lt;a href="https://portal.mardi4nfdi.de/wiki/Property:P1655"&gt;wird approximiert durch&lt;/a&gt;</text>
+		<text lang="de">wird approximiert durch&lt;a href="https://portal.mardi4nfdi.de/wiki/Property:P1655" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
 		<help lang="de"/>
 		<default_text lang="de"/>
 		<view_text lang="de"/>
