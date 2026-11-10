@@ -212,11 +212,11 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/model/formulation-relatant"/>
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">&lt;p&gt;Choose one or more formulas to be linked by the selected relation (including possible order numbers). For all formulas &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. If a formula is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate formula is present in the MaRDI Portal or Wikidata, type its name and select it; its short description is entered on its page.&lt;/p&gt;</help>
+		<help lang="en">&lt;p&gt;Choose one or more formulas to be linked by the selected relation (including possible order numbers). For all formulas &lt;em&gt;label (description)&lt;/em&gt; is provided; the grey tag shows where it comes from. If a formula is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate formula is present in the MaRDI Portal or Wikidata, type its name and select it; its short description is entered on its page.&lt;/p&gt;</help>
 		<text lang="en">...a Formula.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en">Add Formula</verbose_name>
-		<help lang="de">&lt;p&gt;Wählen Sie eine oder mehrere Formeln aus, die über die ausgewählte Relation verknüpft werden sollen (einschließlich möglicher Ordnungszahlen). Für alle Formeln wird &lt;em&gt;Name (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Wenn eine Formel ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls keine passende Formel im MaRDI Portal oder Wikidata vorhanden ist, geben Sie den Namen ein und wählen Sie ihn aus; die Kurzbeschreibung tragen Sie auf der zugehörigen Seite ein.&lt;/p&gt;</help>
+		<help lang="de">&lt;p&gt;Wählen Sie eine oder mehrere Formeln aus, die über die ausgewählte Relation verknüpft werden sollen (einschließlich möglicher Ordnungszahlen). Für alle Formeln wird &lt;em&gt;Name (Beschreibung)&lt;/em&gt; angegeben; die graue Markierung zeigt die Herkunft. Wenn eine Formel ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls keine passende Formel im MaRDI Portal oder Wikidata vorhanden ist, geben Sie den Namen ein und wählen Sie ihn aus; die Kurzbeschreibung tragen Sie auf der zugehörigen Seite ein.&lt;/p&gt;</help>
 		<text lang="de">...eine Formel.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de">Formel Hinzufügen</verbose_name>
@@ -386,11 +386,11 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/model/problem-relatant"/>
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">&lt;p&gt;Choose one or more problems. For all problems &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. If a problem is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate problem is present in the MaRDI Portal or Wikidata, type its name and select it; its short description is entered on its page.&lt;/p&gt;</help>
+		<help lang="en">&lt;p&gt;Choose one or more problems. For all problems &lt;em&gt;label (description)&lt;/em&gt; is provided; the grey tag shows where it comes from. If a problem is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate problem is present in the MaRDI Portal or Wikidata, type its name and select it; its short description is entered on its page.&lt;/p&gt;</help>
 		<text lang="en">Research Problem modelled by the Mathematical Model?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en">Add Research Problem</verbose_name>
-		<help lang="de">&lt;p&gt;Wählen Sie ein oder mehrere Probleme aus. Für alle Probleme wird &lt;em&gt;Name (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Wenn ein Problem ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls kein passendes Problem im MaRDI Portal oder Wikidata vorhanden ist, geben Sie den Namen ein und wählen Sie ihn aus; die Kurzbeschreibung tragen Sie auf der zugehörigen Seite ein.&lt;/p&gt;</help>
+		<help lang="de">&lt;p&gt;Wählen Sie ein oder mehrere Probleme aus. Für alle Probleme wird &lt;em&gt;Name (Beschreibung)&lt;/em&gt; angegeben; die graue Markierung zeigt die Herkunft. Wenn ein Problem ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls kein passendes Problem im MaRDI Portal oder Wikidata vorhanden ist, geben Sie den Namen ein und wählen Sie ihn aus; die Kurzbeschreibung tragen Sie auf der zugehörigen Seite ein.&lt;/p&gt;</help>
 		<text lang="de">Forschungsproblem welches durch das mathematische Modell modelliert wird?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de">Forschungsproblem Hinzufügen</verbose_name>
@@ -415,11 +415,11 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/model/task-relatant"/>
 		<is_collection>True</is_collection>
 		<is_optional>True</is_optional>
-		<help lang="en">&lt;p&gt;Choose one or more tasks. For all tasks &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. If a task is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate task is present in the MaRDI Portal or Wikidata, type its name and select it; its short description is entered on its page.&lt;/p&gt;</help>
+		<help lang="en">&lt;p&gt;Choose one or more tasks. For all tasks &lt;em&gt;label (description)&lt;/em&gt; is provided; the grey tag shows where it comes from. If a task is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate task is present in the MaRDI Portal or Wikidata, type its name and select it; its short description is entered on its page.&lt;/p&gt;</help>
 		<text lang="en">Computational Task using the Mathematical Model?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en">Add Computational Task</verbose_name>
-		<help lang="de">&lt;p&gt;Wählen Sie eine oder mehrere Aufgaben aus. Für alle Aufgaben wird &lt;em&gt;Name (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Wenn eine Aufgabe ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls keine passende Aufgabe im MaRDI Portal oder Wikidata vorhanden ist, geben Sie den Namen ein und wählen Sie ihn aus; die Kurzbeschreibung tragen Sie auf der zugehörigen Seite ein.&lt;/p&gt;</help>
+		<help lang="de">&lt;p&gt;Wählen Sie eine oder mehrere Aufgaben aus. Für alle Aufgaben wird &lt;em&gt;Name (Beschreibung)&lt;/em&gt; angegeben; die graue Markierung zeigt die Herkunft. Wenn eine Aufgabe ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls keine passende Aufgabe im MaRDI Portal oder Wikidata vorhanden ist, geben Sie den Namen ein und wählen Sie ihn aus; die Kurzbeschreibung tragen Sie auf der zugehörigen Seite ein.&lt;/p&gt;</help>
 		<text lang="de">Berechnungsaufgabe die das mathematische Modell verwendet?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de">Berechnungsaufgabe Hinzufügen</verbose_name>
@@ -493,11 +493,11 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/model/model-relatant"/>
 		<is_collection>True</is_collection>
 		<is_optional>True</is_optional>
-		<help lang="en">&lt;p&gt;Choose one or more models to be linked by the selected relation (including possible assumptions). For all models &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. Only models from the MaRDI Portal and those selected or defined within the interview can be chosen.&lt;/p&gt;</help>
+		<help lang="en">&lt;p&gt;Choose one or more models to be linked by the selected relation (including possible assumptions). For all models &lt;em&gt;label (description)&lt;/em&gt; is provided; the grey tag shows where it comes from. Only models from the MaRDI Portal and those selected or defined within the interview can be chosen.&lt;/p&gt;</help>
 		<text lang="en">...another Mathematical Model.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en">Add Mathematical Model</verbose_name>
-		<help lang="de">&lt;p&gt;Wählen Sie einen oder mehrere Modelle aus, die über die ausgewählte Relation verknüpft werden sollen (einschließlich möglicher Annahmen). Für alle Modelle wird &lt;em&gt;Label (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Es können nur Modelle aus dem MaRDI-Portal sowie solche ausgewählt oder definiert werden, die im Interview verwendet werden.&lt;/p&gt;</help>
+		<help lang="de">&lt;p&gt;Wählen Sie einen oder mehrere Modelle aus, die über die ausgewählte Relation verknüpft werden sollen (einschließlich möglicher Annahmen). Für alle Modelle wird &lt;em&gt;Name (Beschreibung)&lt;/em&gt; angegeben; die graue Markierung zeigt die Herkunft. Es können nur Modelle aus dem MaRDI-Portal sowie solche ausgewählt oder definiert werden, die im Interview verwendet werden.&lt;/p&gt;</help>
 		<text lang="de">...ein weiteres mathematisches Modell.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de">Mathematisches Modell Hinzufügen</verbose_name>
@@ -524,13 +524,13 @@
 		<is_optional>True</is_optional>
 		<help lang="en">&lt;p&gt;Only required if the option &lt;strong&gt;is specialized by&lt;/strong&gt; or &lt;strong&gt;specializes&lt;/strong&gt; is selected for the model. The assumptions apply to all models of this relation. If different models need different assumptions, create a separate relation for each of them and remove the model from this one.&lt;/p&gt;
 
-&lt;p&gt;For all formulas &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. If a formula is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate formula is present in the MaRDI Portal or Wikidata, type its name and select it; its short description is entered on its page.&lt;/p&gt;</help>
+&lt;p&gt;For all formulas &lt;em&gt;label (description)&lt;/em&gt; is provided; the grey tag shows where it comes from. If a formula is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate formula is present in the MaRDI Portal or Wikidata, type its name and select it; its short description is entered on its page.&lt;/p&gt;</help>
 		<text lang="en">Assumption to reduce the general Mathematical Model to its specialized form(s).</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en">Add Formula</verbose_name>
 		<help lang="de">&lt;p&gt;Nur erforderlich, wenn für das Modell die Option &lt;strong&gt;wird spezialisiert durch&lt;/strong&gt; oder &lt;strong&gt;spezialisiert&lt;/strong&gt; gewählt wurde. Die Annahmen gelten für alle Modelle dieser Relation. Benötigen verschiedene Modelle unterschiedliche Annahmen, legen Sie für jedes eine eigene Relation an und entfernen Sie es aus dieser.&lt;/p&gt;
 
-&lt;p&gt;Für alle Formeln wird &lt;em&gt;Name (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Wenn eine Formel ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls keine passende Formel im MaRDI Portal oder Wikidata vorhanden ist, geben Sie den Namen ein und wählen Sie ihn aus; die Kurzbeschreibung tragen Sie auf der zugehörigen Seite ein.&lt;/p&gt;</help>
+&lt;p&gt;Für alle Formeln wird &lt;em&gt;Name (Beschreibung)&lt;/em&gt; angegeben; die graue Markierung zeigt die Herkunft. Wenn eine Formel ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls keine passende Formel im MaRDI Portal oder Wikidata vorhanden ist, geben Sie den Namen ein und wählen Sie ihn aus; die Kurzbeschreibung tragen Sie auf der zugehörigen Seite ein.&lt;/p&gt;</help>
 		<text lang="de">Annahme zur Reduzierung des allgemeinen mathematischen Modells auf seine spezielle(n) Form(en).</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de">Formel Hinzufügen</verbose_name>
@@ -555,13 +555,13 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/model/id"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">&lt;p&gt;For all models &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. If a model is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate model is present in the MaRDI Portal or Wikidata, choose &lt;em&gt;new item&lt;/em&gt;.&lt;/p&gt;
+		<help lang="en">&lt;p&gt;For all models &lt;em&gt;label (description)&lt;/em&gt; is provided; the grey tag shows where it comes from. If a model is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate model is present in the MaRDI Portal or Wikidata, choose &lt;em&gt;new item&lt;/em&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; To use an existing model as a template, first select the model, wait for the information to load, and then change the answer to &lt;em&gt;new item&lt;/em&gt; to remove the external reference.&lt;/p&gt;</help>
 		<text lang="en">Select a Mathematical Model!</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">&lt;p&gt;Für alle Modelle wird &lt;em&gt;Name (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Wenn ein Modell ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls kein passendes Modell im MaRDI Portal oder Wikidata vorhanden ist, wählen Sie &lt;em&gt;new item&lt;/em&gt;.&lt;/p&gt;
+		<help lang="de">&lt;p&gt;Für alle Modelle wird &lt;em&gt;Name (Beschreibung)&lt;/em&gt; angegeben; die graue Markierung zeigt die Herkunft. Wenn ein Modell ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls kein passendes Modell im MaRDI Portal oder Wikidata vorhanden ist, wählen Sie &lt;em&gt;new item&lt;/em&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Hinweis:&lt;/strong&gt; Um ein bestehendes Modell als Vorlage zu verwenden, wählen Sie zunächst das Modell aus, warten Sie, bis alle Informationen geladen wurden, und setzen Sie anschließend die Antwort auf &lt;em&gt;new item&lt;/em&gt;, um den Bezug zur externen Quelle zu entfernen.&lt;/p&gt;</help>
 		<text lang="de">Wählen Sie ein mathematisches Modell aus.</text>
@@ -700,11 +700,11 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/task/formulation-relatant"/>
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">&lt;p&gt;Choose one or more formulas to be linked by the selected relation. For all formulas &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. If a formula is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate formula is present in the MaRDI Portal or Wikidata, type its name and select it; its short description is entered on its page.&lt;/p&gt;</help>
+		<help lang="en">&lt;p&gt;Choose one or more formulas to be linked by the selected relation. For all formulas &lt;em&gt;label (description)&lt;/em&gt; is provided; the grey tag shows where it comes from. If a formula is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate formula is present in the MaRDI Portal or Wikidata, type its name and select it; its short description is entered on its page.&lt;/p&gt;</help>
 		<text lang="en">...a Formula.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en">Add Formula</verbose_name>
-		<help lang="de">&lt;p&gt;Wählen Sie eine oder mehrere Formeln aus, die über die ausgewählte Relation verknüpft werden sollen. Für alle Formeln wird &lt;em&gt;Name (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Wenn eine Formel ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls keine passende Formel im MaRDI Portal oder Wikidata vorhanden ist, geben Sie den Namen ein und wählen Sie ihn aus; die Kurzbeschreibung tragen Sie auf der zugehörigen Seite ein.&lt;/p&gt;</help>
+		<help lang="de">&lt;p&gt;Wählen Sie eine oder mehrere Formeln aus, die über die ausgewählte Relation verknüpft werden sollen. Für alle Formeln wird &lt;em&gt;Name (Beschreibung)&lt;/em&gt; angegeben; die graue Markierung zeigt die Herkunft. Wenn eine Formel ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls keine passende Formel im MaRDI Portal oder Wikidata vorhanden ist, geben Sie den Namen ein und wählen Sie ihn aus; die Kurzbeschreibung tragen Sie auf der zugehörigen Seite ein.&lt;/p&gt;</help>
 		<text lang="de">...eine Formel.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de">Formeln Hinzufügen</verbose_name>
@@ -777,11 +777,11 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/task/quantity-relatant"/>
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">&lt;p&gt;Choose one or more quantities to be linked by the selected relation. For all quantities &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. If a quantity is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate quantity is present in the MaRDI Portal or Wikidata, type its name and select it; its short description is entered on its page.&lt;/p&gt;</help>
+		<help lang="en">&lt;p&gt;Choose one or more quantities to be linked by the selected relation. For all quantities &lt;em&gt;label (description)&lt;/em&gt; is provided; the grey tag shows where it comes from. If a quantity is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate quantity is present in the MaRDI Portal or Wikidata, type its name and select it; its short description is entered on its page.&lt;/p&gt;</help>
 		<text lang="en">...a Quantity.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en">Add Quantity</verbose_name>
-		<help lang="de">&lt;p&gt;Wählen Sie eine oder mehrere Quantitäten aus, die über die ausgewählte Relation verknüpft werden sollen. Für alle Quantitäten wird &lt;em&gt;Name (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Wenn eine Quantität ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls keine passende Quantität im MaRDI Portal oder Wikidata vorhanden ist, geben Sie den Namen ein und wählen Sie ihn aus; die Kurzbeschreibung tragen Sie auf der zugehörigen Seite ein.&lt;/p&gt;</help>
+		<help lang="de">&lt;p&gt;Wählen Sie eine oder mehrere Quantitäten aus, die über die ausgewählte Relation verknüpft werden sollen. Für alle Quantitäten wird &lt;em&gt;Name (Beschreibung)&lt;/em&gt; angegeben; die graue Markierung zeigt die Herkunft. Wenn eine Quantität ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls keine passende Quantität im MaRDI Portal oder Wikidata vorhanden ist, geben Sie den Namen ein und wählen Sie ihn aus; die Kurzbeschreibung tragen Sie auf der zugehörigen Seite ein.&lt;/p&gt;</help>
 		<text lang="de">...eine Quantität.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de">Quantität Hinzufügen</verbose_name>
@@ -1000,11 +1000,11 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/task/task-relatant"/>
 		<is_collection>True</is_collection>
 		<is_optional>True</is_optional>
-		<help lang="en">&lt;p&gt;Choose one or more tasks to be linked by the selected relation (including possible assumptions or order numbers). For all tasks &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. Only tasks from the MaRDI Portal and those selected or defined within the interview can be chosen.&lt;/p&gt;</help>
+		<help lang="en">&lt;p&gt;Choose one or more tasks to be linked by the selected relation (including possible assumptions or order numbers). For all tasks &lt;em&gt;label (description)&lt;/em&gt; is provided; the grey tag shows where it comes from. Only tasks from the MaRDI Portal and those selected or defined within the interview can be chosen.&lt;/p&gt;</help>
 		<text lang="en">...another Computational Task.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en">Add Computational Task</verbose_name>
-		<help lang="de">&lt;p&gt;Wählen Sie eine oder mehrere Aufgaben aus, die über die ausgewählte Relation verknüpft werden sollen (einschließlich möglicher Annahmen oder Ordnungszahlen). Für alle Aufgaben wird &lt;em&gt;Label (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Es können nur Aufgaben aus dem MaRDI-Portal sowie solche ausgewählt oder definiert werden, die im Interview verwendet werden.&lt;/p&gt;</help>
+		<help lang="de">&lt;p&gt;Wählen Sie eine oder mehrere Aufgaben aus, die über die ausgewählte Relation verknüpft werden sollen (einschließlich möglicher Annahmen oder Ordnungszahlen). Für alle Aufgaben wird &lt;em&gt;Name (Beschreibung)&lt;/em&gt; angegeben; die graue Markierung zeigt die Herkunft. Es können nur Aufgaben aus dem MaRDI-Portal sowie solche ausgewählt oder definiert werden, die im Interview verwendet werden.&lt;/p&gt;</help>
 		<text lang="de">...eine weitere Aufgabe.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de">Berechnungsaufgabe Hinzufügen</verbose_name>
@@ -1031,13 +1031,13 @@
 		<is_optional>True</is_optional>
 		<help lang="en">&lt;p&gt;Only required if the option &lt;strong&gt;is specialized by&lt;/strong&gt; or &lt;strong&gt;specializes&lt;/strong&gt; is selected for the task. The assumptions apply to all tasks of this relation. If different tasks need different assumptions, create a separate relation for each of them and remove the task from this one.&lt;/p&gt;
 
-&lt;p&gt;For all formulas &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. If a formula is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate formula is present in the MaRDI Portal or Wikidata, type its name and select it; its short description is entered on its page.&lt;/p&gt;</help>
+&lt;p&gt;For all formulas &lt;em&gt;label (description)&lt;/em&gt; is provided; the grey tag shows where it comes from. If a formula is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate formula is present in the MaRDI Portal or Wikidata, type its name and select it; its short description is entered on its page.&lt;/p&gt;</help>
 		<text lang="en">Assumption to reduce the general Computational Task to its specialized form(s).</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en">Add Formula</verbose_name>
 		<help lang="de">&lt;p&gt;Nur erforderlich, wenn für die Aufgabe die Option &lt;strong&gt;wird spezialisiert durch&lt;/strong&gt; oder &lt;strong&gt;spezialisiert&lt;/strong&gt; gewählt wurde. Die Annahmen gelten für alle Aufgaben dieser Relation. Benötigen verschiedene Aufgaben unterschiedliche Annahmen, legen Sie für jede eine eigene Relation an und entfernen Sie es aus dieser.&lt;/p&gt;
 
-&lt;p&gt;Für alle Formeln wird &lt;em&gt;Name (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Wenn eine Formel ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls keine passende Formel im MaRDI Portal oder Wikidata vorhanden ist, geben Sie den Namen ein und wählen Sie ihn aus; die Kurzbeschreibung tragen Sie auf der zugehörigen Seite ein.&lt;/p&gt;</help>
+&lt;p&gt;Für alle Formeln wird &lt;em&gt;Name (Beschreibung)&lt;/em&gt; angegeben; die graue Markierung zeigt die Herkunft. Wenn eine Formel ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls keine passende Formel im MaRDI Portal oder Wikidata vorhanden ist, geben Sie den Namen ein und wählen Sie ihn aus; die Kurzbeschreibung tragen Sie auf der zugehörigen Seite ein.&lt;/p&gt;</help>
 		<text lang="de">Annahme zur Reduzierung der allgemeinen Berechnungsaufgabe auf seine spezielle(n) Form(en).</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de">Formel Hinzufügen</verbose_name>
@@ -1062,13 +1062,13 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/task/id"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">&lt;p&gt;For all tasks &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. If a task is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate task is present in the MaRDI Portal or Wikidata, choose &lt;em&gt;new item&lt;/em&gt;.&lt;/p&gt;
+		<help lang="en">&lt;p&gt;For all tasks &lt;em&gt;label (description)&lt;/em&gt; is provided; the grey tag shows where it comes from. If a task is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate task is present in the MaRDI Portal or Wikidata, choose &lt;em&gt;new item&lt;/em&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; To use an existing task as a template, first select the task, wait for the information to load, and then change the answer to &lt;em&gt;new item&lt;/em&gt; to remove the external reference.&lt;/p&gt;</help>
 		<text lang="en">Select a Computational Task related to the Mathematical Model!</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">&lt;p&gt;Für alle Aufgaben wird &lt;em&gt;Name (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Wenn eine Aufgabe ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls keine passende Aufgabe im MaRDI Portal oder Wikidata vorhanden ist, wählen Sie &lt;em&gt;new item&lt;/em&gt;.&lt;/p&gt;
+		<help lang="de">&lt;p&gt;Für alle Aufgaben wird &lt;em&gt;Name (Beschreibung)&lt;/em&gt; angegeben; die graue Markierung zeigt die Herkunft. Wenn eine Aufgabe ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls keine passende Aufgabe im MaRDI Portal oder Wikidata vorhanden ist, wählen Sie &lt;em&gt;new item&lt;/em&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Hinweis:&lt;/strong&gt; Um eine bestehende Aufgabe als Vorlage zu verwenden, wählen Sie zunächst die Aufgabe aus, warten Sie, bis alle Informationen geladen wurden, und setzen Sie anschließend die Antwort auf &lt;em&gt;new item&lt;/em&gt;, um den Bezug zur externen Quelle zu entfernen.&lt;/p&gt;</help>
 		<text lang="de">Wählen Sie eine Berechnungsaufgabe die mit dem mathematischen Modell im Zusammenhang steht!</text>
@@ -1225,11 +1225,11 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/formulation/element/quantity"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">&lt;p&gt;For all quantities &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. If a quantity is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate quantity is present in the MaRDI Portal or Wikidata, type its name and select it; its short description is entered on its page.&lt;/p&gt;</help>
+		<help lang="en">&lt;p&gt;For all quantities &lt;em&gt;label (description)&lt;/em&gt; is provided; the grey tag shows where it comes from. If a quantity is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate quantity is present in the MaRDI Portal or Wikidata, type its name and select it; its short description is entered on its page.&lt;/p&gt;</help>
 		<text lang="en">Represented Quantity</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">&lt;p&gt;Für alle Quantitäten wird &lt;em&gt;Name (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Wenn eine Quantität ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls keine passende Quantität im MaRDI Portal oder Wikidata vorhanden ist, geben Sie den Namen ein und wählen Sie ihn aus; die Kurzbeschreibung tragen Sie auf der zugehörigen Seite ein.&lt;/p&gt;</help>
+		<help lang="de">&lt;p&gt;Für alle Quantitäten wird &lt;em&gt;Name (Beschreibung)&lt;/em&gt; angegeben; die graue Markierung zeigt die Herkunft. Wenn eine Quantität ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls keine passende Quantität im MaRDI Portal oder Wikidata vorhanden ist, geben Sie den Namen ein und wählen Sie ihn aus; die Kurzbeschreibung tragen Sie auf der zugehörigen Seite ein.&lt;/p&gt;</help>
 		<text lang="de">Repräsentierte Quantität</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -1329,11 +1329,11 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/formulation/formulation-relatant-1"/>
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">&lt;p&gt;Choose one or more formulas to be linked by the selected relation. For all formulas &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. If a formula is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate formula is present in the MaRDI Portal or Wikidata, type its name and select it; its short description is entered on its page.&lt;/p&gt;</help>
+		<help lang="en">&lt;p&gt;Choose one or more formulas to be linked by the selected relation. For all formulas &lt;em&gt;label (description)&lt;/em&gt; is provided; the grey tag shows where it comes from. If a formula is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate formula is present in the MaRDI Portal or Wikidata, type its name and select it; its short description is entered on its page.&lt;/p&gt;</help>
 		<text lang="en">...another Formula.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en">Add Formula</verbose_name>
-		<help lang="de">&lt;p&gt;Wählen Sie eine oder mehrere Formeln aus, die über die ausgewählte Relation verknüpft werden sollen. Für alle Formeln wird &lt;em&gt;Name (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Wenn eine Formel ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls keine passende Formel im MaRDI Portal oder Wikidata vorhanden ist, geben Sie den Namen ein und wählen Sie ihn aus; die Kurzbeschreibung tragen Sie auf der zugehörigen Seite ein.&lt;/p&gt;</help>
+		<help lang="de">&lt;p&gt;Wählen Sie eine oder mehrere Formeln aus, die über die ausgewählte Relation verknüpft werden sollen. Für alle Formeln wird &lt;em&gt;Name (Beschreibung)&lt;/em&gt; angegeben; die graue Markierung zeigt die Herkunft. Wenn eine Formel ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls keine passende Formel im MaRDI Portal oder Wikidata vorhanden ist, geben Sie den Namen ein und wählen Sie ihn aus; die Kurzbeschreibung tragen Sie auf der zugehörigen Seite ein.&lt;/p&gt;</help>
 		<text lang="de">...einer weiteren Formel.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de">Formel Hinzufügen</verbose_name>
@@ -1552,11 +1552,11 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/formulation/formulation-relatant-2"/>
 		<is_collection>True</is_collection>
 		<is_optional>True</is_optional>
-		<help lang="en">&lt;p&gt;Choose one or more formulas to be linked by the selected relation (including possible assumptions). For all formulas &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. Only formulas from the MaRDI Portal and those selected or defined within the interview can be chosen.&lt;/p&gt;</help>
+		<help lang="en">&lt;p&gt;Choose one or more formulas to be linked by the selected relation (including possible assumptions). For all formulas &lt;em&gt;label (description)&lt;/em&gt; is provided; the grey tag shows where it comes from. Only formulas from the MaRDI Portal and those selected or defined within the interview can be chosen.&lt;/p&gt;</help>
 		<text lang="en">...another Formula.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en">Add Mathematical Relation</verbose_name>
-		<help lang="de">&lt;p&gt;Wählen Sie eine oder mehrere Formeln aus, die über die ausgewählte Relation verknüpft werden sollen (einschließlich möglicher Annahmen). Für alle Formeln wird &lt;em&gt;Label (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Es können nur Formeln aus dem MaRDI-Portal sowie solche ausgewählt oder definiert werden, die im Interview verwendet werden.&lt;/p&gt;</help>
+		<help lang="de">&lt;p&gt;Wählen Sie eine oder mehrere Formeln aus, die über die ausgewählte Relation verknüpft werden sollen (einschließlich möglicher Annahmen). Für alle Formeln wird &lt;em&gt;Name (Beschreibung)&lt;/em&gt; angegeben; die graue Markierung zeigt die Herkunft. Es können nur Formeln aus dem MaRDI-Portal sowie solche ausgewählt oder definiert werden, die im Interview verwendet werden.&lt;/p&gt;</help>
 		<text lang="de">...eine weitere Formel.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de">Formel Hinzufügen</verbose_name>
@@ -1583,13 +1583,13 @@
 		<is_optional>True</is_optional>
 		<help lang="en">&lt;p&gt;Only required if the option &lt;strong&gt;is specialized by&lt;/strong&gt; or &lt;strong&gt;specializes&lt;/strong&gt; is selected for the formula. The assumptions apply to all formula of this relation. If different formulas need different assumptions, create a separate relation for each of them and remove the formula from this one.&lt;/p&gt;
 
-&lt;p&gt;For all formulas &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. If a formula is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate formula is present in the MaRDI Portal or Wikidata, type its name and select it; its short description is entered on its page.&lt;/p&gt;</help>
+&lt;p&gt;For all formulas &lt;em&gt;label (description)&lt;/em&gt; is provided; the grey tag shows where it comes from. If a formula is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate formula is present in the MaRDI Portal or Wikidata, type its name and select it; its short description is entered on its page.&lt;/p&gt;</help>
 		<text lang="en">Assumption to reduce the general Formula to its specialized form(s).</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en">Add Formula</verbose_name>
 		<help lang="de">&lt;p&gt;Nur erforderlich, wenn für die Formel die Option &lt;strong&gt;wird spezialisiert durch&lt;/strong&gt; oder &lt;strong&gt;spezialisiert&lt;/strong&gt; gewählt wurde. Die Annahmen gelten für alle Formeln dieser Relation. Benötigen verschiedene Formeln unterschiedliche Annahmen, legen Sie für jede eine eigene Relation an und entfernen Sie es aus dieser.&lt;/p&gt;
 
-&lt;p&gt;Für alle Formeln wird &lt;em&gt;Name (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Wenn eine Formel ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls keine passende Formel im MaRDI Portal oder Wikidata vorhanden ist, geben Sie den Namen ein und wählen Sie ihn aus; die Kurzbeschreibung tragen Sie auf der zugehörigen Seite ein.&lt;/p&gt;</help>
+&lt;p&gt;Für alle Formeln wird &lt;em&gt;Name (Beschreibung)&lt;/em&gt; angegeben; die graue Markierung zeigt die Herkunft. Wenn eine Formel ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls keine passende Formel im MaRDI Portal oder Wikidata vorhanden ist, geben Sie den Namen ein und wählen Sie ihn aus; die Kurzbeschreibung tragen Sie auf der zugehörigen Seite ein.&lt;/p&gt;</help>
 		<text lang="de">Annahme zur Reduzierung der allgemeinen Formel auf ihre spezielle(n) Form(en).</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de">Formel Hinzufügen</verbose_name>
@@ -1614,13 +1614,13 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/formulation/id"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">&lt;p&gt;For all formulas &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. If a formula is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate formula is present in the MaRDI Portal or Wikidata, choose &lt;em&gt;new item&lt;/em&gt;.&lt;/p&gt;
+		<help lang="en">&lt;p&gt;For all formulas &lt;em&gt;label (description)&lt;/em&gt; is provided; the grey tag shows where it comes from. If a formula is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate formula is present in the MaRDI Portal or Wikidata, choose &lt;em&gt;new item&lt;/em&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; To use an existing formula as a template, first select the formula, wait for the information to load, and then change the answer to &lt;em&gt;new item&lt;/em&gt; to remove the external reference.&lt;/p&gt;</help>
 		<text lang="en">Select a Formula related to the Mathematical Model!</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">&lt;p&gt;Für alle Formeln wird &lt;em&gt;Name (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Wenn eine Formel ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls keine passende Formel im MaRDI Portal oder Wikidata vorhanden ist, wählen Sie &lt;em&gt;new item&lt;/em&gt;.&lt;/p&gt;
+		<help lang="de">&lt;p&gt;Für alle Formeln wird &lt;em&gt;Name (Beschreibung)&lt;/em&gt; angegeben; die graue Markierung zeigt die Herkunft. Wenn eine Formel ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls keine passende Formel im MaRDI Portal oder Wikidata vorhanden ist, wählen Sie &lt;em&gt;new item&lt;/em&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Hinweis:&lt;/strong&gt; Um eine bestehende Formel als Vorlage zu verwenden, wählen Sie zunächst die Formel aus, warten Sie, bis alle Informationen geladen wurden, und setzen Sie anschließend die Antwort auf &lt;em&gt;new item&lt;/em&gt;, um den Bezug zur externen Quelle zu entfernen.&lt;/p&gt;</help>
 		<text lang="de">Wählen Sie eine Formel die mit dem mathematischen Modell im Zusammenhang steht!</text>
@@ -1781,11 +1781,11 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity/element/quantity"/>
 		<is_collection>False</is_collection>
 		<is_optional>True</is_optional>
-		<help lang="en">&lt;p&gt;For all quantities &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. If a quantity is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate quantity is present in the MaRDI Portal or Wikidata, type its name and select it; its short description is entered on its page.&lt;/p&gt;</help>
+		<help lang="en">&lt;p&gt;For all quantities &lt;em&gt;label (description)&lt;/em&gt; is provided; the grey tag shows where it comes from. If a quantity is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate quantity is present in the MaRDI Portal or Wikidata, type its name and select it; its short description is entered on its page.&lt;/p&gt;</help>
 		<text lang="en">Represented Quantity</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">&lt;p&gt;Für alle Quantitäten wird &lt;em&gt;Name (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Wenn eine Quantität ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls keine passende Quantität im MaRDI Portal oder Wikidata vorhanden ist, geben Sie den Namen ein und wählen Sie ihn aus; die Kurzbeschreibung tragen Sie auf der zugehörigen Seite ein.&lt;/p&gt;</help>
+		<help lang="de">&lt;p&gt;Für alle Quantitäten wird &lt;em&gt;Name (Beschreibung)&lt;/em&gt; angegeben; die graue Markierung zeigt die Herkunft. Wenn eine Quantität ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls keine passende Quantität im MaRDI Portal oder Wikidata vorhanden ist, geben Sie den Namen ein und wählen Sie ihn aus; die Kurzbeschreibung tragen Sie auf der zugehörigen Seite ein.&lt;/p&gt;</help>
 		<text lang="de">Repräsentierte Quantität</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -2059,11 +2059,11 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity/quantity-to-quantity/relatant"/>
 		<is_collection>True</is_collection>
 		<is_optional>True</is_optional>
-		<help lang="en">&lt;p&gt;Choose one or more quantities to be linked by the selected relation. For all quantities &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. Only quantities from the MaRDI Portal and those selected or defined within the interview can be chosen.&lt;/p&gt;</help>
+		<help lang="en">&lt;p&gt;Choose one or more quantities to be linked by the selected relation. For all quantities &lt;em&gt;label (description)&lt;/em&gt; is provided; the grey tag shows where it comes from. Only quantities from the MaRDI Portal and those selected or defined within the interview can be chosen.&lt;/p&gt;</help>
 		<text lang="en">...another Quantity.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en">Add Quantity</verbose_name>
-		<help lang="de">&lt;p&gt;Wählen Sie eine oder mehrere Quantitäten aus, die über die ausgewählte Relation verknüpft werden sollen. Für alle Quantitäten wird &lt;em&gt;Label (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Es können nur Quantitäten aus dem MaRDI-Portal sowie solche ausgewählt oder definiert werden, die im Interview verwendet werden.&lt;/p&gt;</help>
+		<help lang="de">&lt;p&gt;Wählen Sie eine oder mehrere Quantitäten aus, die über die ausgewählte Relation verknüpft werden sollen. Für alle Quantitäten wird &lt;em&gt;Name (Beschreibung)&lt;/em&gt; angegeben; die graue Markierung zeigt die Herkunft. Es können nur Quantitäten aus dem MaRDI-Portal sowie solche ausgewählt oder definiert werden, die im Interview verwendet werden.&lt;/p&gt;</help>
 		<text lang="de">...eine weitere Quantität.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de">Quantität Hinzufügen</verbose_name>
@@ -2136,11 +2136,11 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity/quantity-to-quantity-kind/relatant"/>
 		<is_collection>True</is_collection>
 		<is_optional>True</is_optional>
-		<help lang="en">&lt;p&gt;Choose one or more quantity kinds to be linked by the selected relation. For all quantity kinds &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. Only quantity kinds from the MaRDI Portal and those selected or defined within the interview can be chosen.&lt;/p&gt;</help>
+		<help lang="en">&lt;p&gt;Choose one or more quantity kinds to be linked by the selected relation. For all quantity kinds &lt;em&gt;label (description)&lt;/em&gt; is provided; the grey tag shows where it comes from. Only quantity kinds from the MaRDI Portal and those selected or defined within the interview can be chosen.&lt;/p&gt;</help>
 		<text lang="en">...a Quantity Kind.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en">Add Quantity Kind</verbose_name>
-		<help lang="de">&lt;p&gt;Wählen Sie eine oder mehrere Quantitätsarten aus, die über die ausgewählte Relation verknüpft werden sollen. Für alle Quantitätsarten wird &lt;em&gt;Label (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Es können nur Quantitätsarten aus dem MaRDI-Portal sowie solche ausgewählt oder definiert werden, die im Interview verwendet werden.&lt;/p&gt;</help>
+		<help lang="de">&lt;p&gt;Wählen Sie eine oder mehrere Quantitätsarten aus, die über die ausgewählte Relation verknüpft werden sollen. Für alle Quantitätsarten wird &lt;em&gt;Name (Beschreibung)&lt;/em&gt; angegeben; die graue Markierung zeigt die Herkunft. Es können nur Quantitätsarten aus dem MaRDI-Portal sowie solche ausgewählt oder definiert werden, die im Interview verwendet werden.&lt;/p&gt;</help>
 		<text lang="de">...eine Quantitätsart.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de">Quantitätsart Hinzufügen</verbose_name>
@@ -2213,11 +2213,11 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity/quantity-kind-to-quantity-kind/relatant"/>
 		<is_collection>True</is_collection>
 		<is_optional>True</is_optional>
-		<help lang="en">&lt;p&gt;Choose one or more quantity kinds to be linked by the selected relation. For all quantity kinds &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. Only quantity kinds from the MaRDI Portal and those selected or defined within the interview can be chosen.&lt;/p&gt;</help>
+		<help lang="en">&lt;p&gt;Choose one or more quantity kinds to be linked by the selected relation. For all quantity kinds &lt;em&gt;label (description)&lt;/em&gt; is provided; the grey tag shows where it comes from. Only quantity kinds from the MaRDI Portal and those selected or defined within the interview can be chosen.&lt;/p&gt;</help>
 		<text lang="en">...another Quantity Kind.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en">Add Quantity Kind</verbose_name>
-		<help lang="de">&lt;p&gt;Wählen Sie eine oder mehrere Quantitätsarten aus, die über die ausgewählte Relation verknüpft werden sollen. Für alle Quantitätsarten wird &lt;em&gt;Label (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Es können nur Quantitätsarten aus dem MaRDI-Portal sowie solche ausgewählt oder definiert werden, die im Interview verwendet werden.&lt;/p&gt;</help>
+		<help lang="de">&lt;p&gt;Wählen Sie eine oder mehrere Quantitätsarten aus, die über die ausgewählte Relation verknüpft werden sollen. Für alle Quantitätsarten wird &lt;em&gt;Name (Beschreibung)&lt;/em&gt; angegeben; die graue Markierung zeigt die Herkunft. Es können nur Quantitätsarten aus dem MaRDI-Portal sowie solche ausgewählt oder definiert werden, die im Interview verwendet werden.&lt;/p&gt;</help>
 		<text lang="de">...eine weitere Quantitätsart.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de">Quantitätsart Hinzufügen</verbose_name>
@@ -2290,11 +2290,11 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity/quantity-kind-to-quantity/relatant"/>
 		<is_collection>True</is_collection>
 		<is_optional>True</is_optional>
-		<help lang="en">&lt;p&gt;Choose one or more quantities to be linked by the selected relation. For all quantities &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. Only quantities from the MaRDI Portal and those selected or defined within the interview can be chosen.&lt;/p&gt;</help>
+		<help lang="en">&lt;p&gt;Choose one or more quantities to be linked by the selected relation. For all quantities &lt;em&gt;label (description)&lt;/em&gt; is provided; the grey tag shows where it comes from. Only quantities from the MaRDI Portal and those selected or defined within the interview can be chosen.&lt;/p&gt;</help>
 		<text lang="en">...a Quantity.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en">Add Quantity</verbose_name>
-		<help lang="de">&lt;p&gt;Wählen Sie eine oder mehrere Quantitäten aus, die über die ausgewählte Relation verknüpft werden sollen. Für alle Quantitäten wird &lt;em&gt;Label (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Es können nur Quantitäten aus dem MaRDI-Portal sowie solche ausgewählt oder definiert werden, die im Interview verwendet werden.&lt;/p&gt;</help>
+		<help lang="de">&lt;p&gt;Wählen Sie eine oder mehrere Quantitäten aus, die über die ausgewählte Relation verknüpft werden sollen. Für alle Quantitäten wird &lt;em&gt;Name (Beschreibung)&lt;/em&gt; angegeben; die graue Markierung zeigt die Herkunft. Es können nur Quantitäten aus dem MaRDI-Portal sowie solche ausgewählt oder definiert werden, die im Interview verwendet werden.&lt;/p&gt;</help>
 		<text lang="de">...eine Quantität.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de">Quantität Hinzufügen</verbose_name>
@@ -2319,13 +2319,13 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity/id"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">&lt;p&gt;For all quantities &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. If a quantity is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate quantity is present in the MaRDI Portal or Wikidata, choose &lt;em&gt;new item&lt;/em&gt;.&lt;/p&gt;
+		<help lang="en">&lt;p&gt;For all quantities &lt;em&gt;label (description)&lt;/em&gt; is provided; the grey tag shows where it comes from. If a quantity is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate quantity is present in the MaRDI Portal or Wikidata, choose &lt;em&gt;new item&lt;/em&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt;To use an existing quantity as a template, first select the quantity, wait for the information to load, and then change the answer to &lt;em&gt;new item&lt;/em&gt; to remove the external reference.&lt;/p&gt;</help>
 		<text lang="en">Select a Quantity related to the Mathematical Model!</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">&lt;p&gt;Für alle Quantitäten wird &lt;em&gt;Name (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Wenn eine Quantität ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls keine passende Quantität im MaRDI Portal oder Wikidata vorhanden ist, wählen Sie &lt;em&gt;new item&lt;/em&gt;.&lt;/p&gt;
+		<help lang="de">&lt;p&gt;Für alle Quantitäten wird &lt;em&gt;Name (Beschreibung)&lt;/em&gt; angegeben; die graue Markierung zeigt die Herkunft. Wenn eine Quantität ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls keine passende Quantität im MaRDI Portal oder Wikidata vorhanden ist, wählen Sie &lt;em&gt;new item&lt;/em&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Hinweis:&lt;/strong&gt; Um eine bestehende Quantität als Vorlage zu verwenden, wählen Sie zunächst die Quantität aus, warten Sie, bis alle Informationen geladen wurden, und setzen Sie anschließend die Antwort auf &lt;em&gt;new item&lt;/em&gt;, um den Bezug zur externen Quelle zu entfernen.&lt;/p&gt;</help>
 		<text lang="de">Wählen Sie eine Quantität, die mit dem mathematischen Modell im Zusammenhang steht!</text>
@@ -2566,11 +2566,11 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/problem/field-relatant"/>
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">&lt;p&gt;Choose one or more disciplines. For all disciplines &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. If a discipline is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate discipline is present in the MaRDI Portal or Wikidata, type its name and select it; its short description is entered on its page.&lt;/p&gt;</help>
+		<help lang="en">&lt;p&gt;Choose one or more disciplines. For all disciplines &lt;em&gt;label (description)&lt;/em&gt; is provided; the grey tag shows where it comes from. If a discipline is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate discipline is present in the MaRDI Portal or Wikidata, type its name and select it; its short description is entered on its page.&lt;/p&gt;</help>
 		<text lang="en">Academic Discipline containing the Research Problem?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en">Add Academic Discipline</verbose_name>
-		<help lang="de">&lt;p&gt;Wählen Sie eine oder mehrere Disziplinen aus. Für alle Disziplinen wird &lt;em&gt;Name (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Wenn eine Disziplin ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls keine passende Disziplin im MaRDI Portal oder Wikidata vorhanden ist, geben Sie den Namen ein und wählen Sie ihn aus; die Kurzbeschreibung tragen Sie auf der zugehörigen Seite ein.&lt;/p&gt;</help>
+		<help lang="de">&lt;p&gt;Wählen Sie eine oder mehrere Disziplinen aus. Für alle Disziplinen wird &lt;em&gt;Name (Beschreibung)&lt;/em&gt; angegeben; die graue Markierung zeigt die Herkunft. Wenn eine Disziplin ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls keine passende Disziplin im MaRDI Portal oder Wikidata vorhanden ist, geben Sie den Namen ein und wählen Sie ihn aus; die Kurzbeschreibung tragen Sie auf der zugehörigen Seite ein.&lt;/p&gt;</help>
 		<text lang="de">Akademische Disziplin welche das Forschungsproblem enthält?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de">Akademische Disziplin Hinzufügen</verbose_name>
@@ -2643,11 +2643,11 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/problem/problem-relatant"/>
 		<is_collection>True</is_collection>
 		<is_optional>True</is_optional>
-		<help lang="en">&lt;p&gt;Choose one or more problems to be linked by the selected relation. For all problems &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. Only problems from the MaRDI Portal and those selected or defined within the interview can be chosen.&lt;/p&gt;</help>
+		<help lang="en">&lt;p&gt;Choose one or more problems to be linked by the selected relation. For all problems &lt;em&gt;label (description)&lt;/em&gt; is provided; the grey tag shows where it comes from. Only problems from the MaRDI Portal and those selected or defined within the interview can be chosen.&lt;/p&gt;</help>
 		<text lang="en">...another Research Problem.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en">Add Research Problem</verbose_name>
-		<help lang="de">&lt;p&gt;Wählen Sie ein oder mehrere Probleme aus, die über die ausgewählte Relation verknüpft werden sollen. Für alle Probleme wird &lt;em&gt;Label (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Es können nur Probleme aus dem MaRDI-Portal sowie solche ausgewählt oder definiert werden, die im Interview verwendet werden.&lt;/p&gt;</help>
+		<help lang="de">&lt;p&gt;Wählen Sie ein oder mehrere Probleme aus, die über die ausgewählte Relation verknüpft werden sollen. Für alle Probleme wird &lt;em&gt;Name (Beschreibung)&lt;/em&gt; angegeben; die graue Markierung zeigt die Herkunft. Es können nur Probleme aus dem MaRDI-Portal sowie solche ausgewählt oder definiert werden, die im Interview verwendet werden.&lt;/p&gt;</help>
 		<text lang="de">...ein weiteres Forschungsproblem.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de">Forschungsproblem Hinzufügen</verbose_name>
@@ -2672,13 +2672,13 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/problem/id"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">&lt;p&gt;For all problems &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. If a problem is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate problem is present in the MaRDI Portal or Wikidata, choose &lt;em&gt;new item&lt;/em&gt;.&lt;/p&gt;
+		<help lang="en">&lt;p&gt;For all problems &lt;em&gt;label (description)&lt;/em&gt; is provided; the grey tag shows where it comes from. If a problem is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate problem is present in the MaRDI Portal or Wikidata, choose &lt;em&gt;new item&lt;/em&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; To use an existing problem as a template, first select the problem, wait for the information to load, and then change the answer to &lt;em&gt;new item&lt;/em&gt; to remove the external reference.&lt;/p&gt;</help>
 		<text lang="en">Select a Research Problem related to the Mathematical Model!</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">&lt;p&gt;Für alle Probleme wird &lt;em&gt;Name (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Wenn ein Problem ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls kein passendes Problem im MaRDI Portal oder Wikidata vorhanden ist, wählen Sie &lt;em&gt;new item&lt;/em&gt;.&lt;/p&gt;
+		<help lang="de">&lt;p&gt;Für alle Probleme wird &lt;em&gt;Name (Beschreibung)&lt;/em&gt; angegeben; die graue Markierung zeigt die Herkunft. Wenn ein Problem ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls kein passendes Problem im MaRDI Portal oder Wikidata vorhanden ist, wählen Sie &lt;em&gt;new item&lt;/em&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Hinweis:&lt;/strong&gt; Um ein bestehendes Problem als Vorlage zu verwenden, wählen Sie zunächst das Problem aus, warten Sie, bis alle Informationen geladen wurden, und setzen Sie anschließend die Antwort auf &lt;em&gt;new item&lt;/em&gt;, um den Bezug zur externen Quelle zu entfernen.&lt;/p&gt;</help>
 		<text lang="de">Wählen Sie ein Forschungsproblem, das mit dem mathematischen Modell im Zusammenhang steht!</text>
@@ -2929,11 +2929,11 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/field/field-relatant"/>
 		<is_collection>True</is_collection>
 		<is_optional>True</is_optional>
-		<help lang="en">&lt;p&gt;Choose one or more disciplines to be linked by the selected relation. For all disciplines &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. Only disciplines from the MaRDI Portal and those selected or defined within the interview can be chosen.&lt;/p&gt;</help>
+		<help lang="en">&lt;p&gt;Choose one or more disciplines to be linked by the selected relation. For all disciplines &lt;em&gt;label (description)&lt;/em&gt; is provided; the grey tag shows where it comes from. Only disciplines from the MaRDI Portal and those selected or defined within the interview can be chosen.&lt;/p&gt;</help>
 		<text lang="en">...another Academic Discipline.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en">Add Academic Discipline</verbose_name>
-		<help lang="de">&lt;p&gt;Wählen Sie eine oder mehrere Disziplinen aus, die über die ausgewählte Relation verknüpft werden sollen. Für alle Disziplinen wird &lt;em&gt;Label (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Es können nur Disziplinen aus dem MaRDI-Portal sowie solche ausgewählt oder definiert werden, die im Interview verwendet werden.&lt;/p&gt;</help>
+		<help lang="de">&lt;p&gt;Wählen Sie eine oder mehrere Disziplinen aus, die über die ausgewählte Relation verknüpft werden sollen. Für alle Disziplinen wird &lt;em&gt;Name (Beschreibung)&lt;/em&gt; angegeben; die graue Markierung zeigt die Herkunft. Es können nur Disziplinen aus dem MaRDI-Portal sowie solche ausgewählt oder definiert werden, die im Interview verwendet werden.&lt;/p&gt;</help>
 		<text lang="de">...eine weitere akademische Disziplin.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de">Akademische Disziplin Hinzufügen</verbose_name>
@@ -2958,13 +2958,13 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/field/id"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">&lt;p&gt;For all disciplines &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. If a discipline is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate discipline is present in the MaRDI Portal or Wikidata, choose &lt;em&gt;new item&lt;/em&gt;.&lt;/p&gt;
+		<help lang="en">&lt;p&gt;For all disciplines &lt;em&gt;label (description)&lt;/em&gt; is provided; the grey tag shows where it comes from. If a discipline is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate discipline is present in the MaRDI Portal or Wikidata, choose &lt;em&gt;new item&lt;/em&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt;To use an existing discipline as a template, first select the discipline, wait for the information to load, and then change the answer to &lt;em&gt;new item&lt;/em&gt; to remove the external reference.&lt;/p&gt;</help>
 		<text lang="en">Select an Academic Discipline!</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">&lt;p&gt;Für alle Disziplinen wird &lt;em&gt;Name (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Wenn eine Disziplin ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls keine passende Disziplin im MaRDI Portal oder Wikidata vorhanden ist, wählen Sie &lt;em&gt;new item&lt;/em&gt;.&lt;/p&gt;
+		<help lang="de">&lt;p&gt;Für alle Disziplinen wird &lt;em&gt;Name (Beschreibung)&lt;/em&gt; angegeben; die graue Markierung zeigt die Herkunft. Wenn eine Disziplin ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls keine passende Disziplin im MaRDI Portal oder Wikidata vorhanden ist, wählen Sie &lt;em&gt;new item&lt;/em&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Hinweis:&lt;/strong&gt; Um eine bestehende Disziplin als Vorlage zu verwenden, wählen Sie zunächst die Disziplin aus, warten Sie, bis alle Informationen geladen wurden, und setzen Sie anschließend die Antwort auf &lt;em&gt;new item&lt;/em&gt;, um den Bezug zur externen Quelle zu entfernen.&lt;/p&gt;</help>
 		<text lang="de">Wählen Sie eine akademische Disziplin aus!</text>
@@ -3082,11 +3082,11 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/publication/entity-relatant"/>
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">&lt;p&gt;Choose one or more entities to be linked by the selected relation. For all entities &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. Only entities from the MaRDI Portal and those selected or defined within the interview can be chosen.&lt;/p&gt;</help>
+		<help lang="en">&lt;p&gt;Choose one or more entities to be linked by the selected relation. For all entities &lt;em&gt;label (description)&lt;/em&gt; is provided; the grey tag shows where it comes from. Only entities from the MaRDI Portal and those selected or defined within the interview can be chosen.&lt;/p&gt;</help>
 		<text lang="en">...a previously selected or defined entity of the mathematical model.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en">Add Entity of Model Mathematical</verbose_name>
-		<help lang="de">&lt;p&gt;Wählen Sie eine oder mehrere Entitäten aus, die über die ausgewählte Relation verknüpft werden sollen. Für alle Entitäten wird &lt;em&gt;Label (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Es können nur Entitäten aus dem MaRDI-Portal sowie solche ausgewählt oder definiert werden, die im Interview verwendet werden.&lt;/p&gt;</help>
+		<help lang="de">&lt;p&gt;Wählen Sie eine oder mehrere Entitäten aus, die über die ausgewählte Relation verknüpft werden sollen. Für alle Entitäten wird &lt;em&gt;Name (Beschreibung)&lt;/em&gt; angegeben; die graue Markierung zeigt die Herkunft. Es können nur Entitäten aus dem MaRDI-Portal sowie solche ausgewählt oder definiert werden, die im Interview verwendet werden.&lt;/p&gt;</help>
 		<text lang="de">...eine zuvor ausgewählte oder definierte Entität des mathematischen Models.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de">Entität des mathematischen Modells Hinzufügen</verbose_name>
@@ -3111,11 +3111,11 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/publication/id"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">&lt;p&gt;For all publications &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. If a publication is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate publication is present in the MaRDI Portal or Wikidata, choose &lt;em&gt;new item&lt;/em&gt;.&lt;/p&gt;</help>
+		<help lang="en">&lt;p&gt;For all publications &lt;em&gt;label (description)&lt;/em&gt; is provided; the grey tag shows where it comes from. If a publication is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate publication is present in the MaRDI Portal or Wikidata, choose &lt;em&gt;new item&lt;/em&gt;.&lt;/p&gt;</help>
 		<text lang="en">Select a Publication!</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">&lt;p&gt;Für alle Publikationen wird &lt;em&gt;Name (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Wenn eine Publikation ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls keine passende Publikation im MaRDI Portal oder Wikidata vorhanden ist, wählen Sie &lt;em&gt;new item&lt;/em&gt;.&lt;/p&gt;</help>
+		<help lang="de">&lt;p&gt;Für alle Publikationen wird &lt;em&gt;Name (Beschreibung)&lt;/em&gt; angegeben; die graue Markierung zeigt die Herkunft. Wenn eine Publikation ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls keine passende Publikation im MaRDI Portal oder Wikidata vorhanden ist, wählen Sie &lt;em&gt;new item&lt;/em&gt;.&lt;/p&gt;</help>
 		<text lang="de">Wählen Sie eine Publikation aus!</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
