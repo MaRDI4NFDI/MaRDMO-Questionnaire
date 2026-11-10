@@ -109,7 +109,7 @@
 &lt;p&gt;Check out &lt;a href="https://www.youtube.com/watch?v=30LK9q30UT0&amp;list=PLgoPZ7uPWbo-aC9pnVMYRZYM3iygBYWwn&amp;index=1&amp;t=1s"&gt;Algorithm&lt;/a&gt; showcasing the documentation.&lt;/p&gt;</help>
 		<verbose_name lang="en">Add Algorithm</verbose_name>
 		<title lang="de">Algorithmus</title>
-		<short_title lang="de"/>
+		<short_title lang="de">Algorithmus</short_title>
 		<help lang="de">&lt;p&gt;Auf dieser Seite können neue Algorithmen definiert oder bereits bestehende Algorithmen aus dem MaRDI Portal oder Wikidata ausgewählt werden. Wird ein bestehender Algorithmus ausgewählt, werden alle verfügbaren Informationen aus der jeweiligen Quelle abgerufen und in das Interview integriert. Die abgerufenen Informationen können ergänzt und um neue Relationen erweitert werden (z.&amp;nbsp;B. eine neue zu lösende algorithmische Aufgabe oder eine zusätzliche Software).&lt;/p&gt;
 
 &lt;p&gt;Bestehende Algorithmen können nicht nur erweitert, sondern auch als Vorlage für neue Algorithmen verwendet werden. Hierfür ist es erforderlich, nach dem Abruf der Informationen den Bezug zur externen Quelle zu entfernen.&lt;/p&gt;
@@ -219,11 +219,11 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/algorithm/problem-relatant"/>
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">&lt;p&gt;Choose one or more tasks. For all tasks &lt;em&gt;label (description)&lt;/em&gt; is provided; the grey tag shows where it comes from. If a task is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate task is present in the MaRDI Portal or Wikidata, type its name and select it; its short description is entered on its page.&lt;/p&gt;</help>
+		<help lang="en">&lt;p&gt;Choose one or more tasks. For all tasks &lt;em&gt;label (description)&lt;/em&gt; is provided; the grey tag shows where it comes from. If a task is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate task is present in the MaRDI Portal or Wikidata, type its name and select it; its short description is entered on its page (in a workflow documentation, MaRDMO adds the short description &lt;em&gt;algorithmic task&lt;/em&gt;).&lt;/p&gt;</help>
 		<text lang="en">Algorithmic Task solved by the Algorithm?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en">Add Algorithmic Task</verbose_name>
-		<help lang="de">&lt;p&gt;Wählen Sie eine oder mehrere Aufgaben aus. Für alle Aufgaben wird &lt;em&gt;Name (Beschreibung)&lt;/em&gt; angegeben; die graue Markierung zeigt die Herkunft. Wenn eine Aufgabe ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls keine passende Aufgabe im MaRDI Portal oder Wikidata vorhanden ist, geben Sie den Namen ein und wählen Sie ihn aus; die Kurzbeschreibung tragen Sie auf der zugehörigen Seite ein.&lt;/p&gt;</help>
+		<help lang="de">&lt;p&gt;Wählen Sie eine oder mehrere Aufgaben aus. Für alle Aufgaben wird &lt;em&gt;Name (Beschreibung)&lt;/em&gt; angegeben; die graue Markierung zeigt die Herkunft. Wenn eine Aufgabe ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls keine passende Aufgabe im MaRDI Portal oder Wikidata vorhanden ist, geben Sie den Namen ein und wählen Sie ihn aus; die Kurzbeschreibung tragen Sie auf der zugehörigen Seite ein (in einer Workflow-Dokumentation ergänzt MaRDMO die Kurzbeschreibung &lt;em&gt;algorithmic task&lt;/em&gt;).&lt;/p&gt;</help>
 		<text lang="de">Algorithmische Aufgabe welche durch den Algorithmus gelöst wird?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de">Algorithmische Aufgabe Hinzufügen</verbose_name>
