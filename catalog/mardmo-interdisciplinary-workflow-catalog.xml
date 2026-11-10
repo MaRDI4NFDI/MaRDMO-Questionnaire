@@ -173,13 +173,13 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/workflow/model"/>
 		<is_collection>False</is_collection>
 		<is_optional>True</is_optional>
-		<help lang="en">&lt;p&gt;Choose one or more models used by the workflow. For all models &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. Only models from the MaRDI Portal can be chosen.&lt;/p&gt;
+		<help lang="en">&lt;p&gt;Choose one or more models used by the workflow. For all models &lt;em&gt;label (description)&lt;/em&gt; is provided; the grey tag shows where it comes from. Only models from the MaRDI Portal can be chosen.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;If a model is missing, define it using the MaRDMO: Questionnaire for Mathematical Models&lt;/strong&gt;&lt;/p&gt;</help>
 		<text lang="en">Mathematical Model used by the Interdisciplinary Workflow?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">&lt;p&gt;Wählen Sie eines oder mehrere Modelle aus, die vom Workflow verwendet werden. Für alle Modelle wird &lt;em&gt;Label (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Es können nur Modelle aus dem MaRDI-Portal ausgewählt werden.&lt;/p&gt;
+		<help lang="de">&lt;p&gt;Wählen Sie eines oder mehrere Modelle aus, die vom Workflow verwendet werden. Für alle Modelle wird &lt;em&gt;Name (Beschreibung)&lt;/em&gt; angegeben; die graue Markierung zeigt die Herkunft. Es können nur Modelle aus dem MaRDI-Portal ausgewählt werden.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Falls ein Modell fehlt, definieren Sie dieses mit dem MaRDMO: Fragenkatalog für mathematische Modelle&lt;/strong&gt;&lt;/p&gt;</help>
 		<text lang="de">Mathematisches Modell welches durch den interdisziplinären Workflow verwendet wird?</text>
@@ -522,11 +522,11 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/workflow/step-relatant"/>
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">&lt;p&gt;Choose one or more steps. For all steps &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. If a step is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate step is present in the MaRDI Portal or Wikidata, type its name and select it; its short description is entered on its page.&lt;/p&gt;</help>
+		<help lang="en">&lt;p&gt;Choose one or more steps. For all steps &lt;em&gt;label (description)&lt;/em&gt; is provided; the grey tag shows where it comes from. If a step is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate step is present in the MaRDI Portal or Wikidata, type its name and select it; its short description is entered on its page.&lt;/p&gt;</help>
 		<text lang="en">Process Step contained in the Interdisciplinary Workflow?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en">Add Process Step</verbose_name>
-		<help lang="de">&lt;p&gt;Wählen Sie ein oder mehrere Prozessschritte aus. Für alle Prozessschritte wird &lt;em&gt;Name (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Wenn ein Prozessschritt ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls kein passender Prozessschritt im MaRDI Portal oder Wikidata vorhanden ist, geben Sie den Namen ein und wählen Sie ihn aus; die Kurzbeschreibung tragen Sie auf der zugehörigen Seite ein.&lt;/p&gt;</help>
+		<help lang="de">&lt;p&gt;Wählen Sie ein oder mehrere Prozessschritte aus. Für alle Prozessschritte wird &lt;em&gt;Name (Beschreibung)&lt;/em&gt; angegeben; die graue Markierung zeigt die Herkunft. Wenn ein Prozessschritt ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls kein passender Prozessschritt im MaRDI Portal oder Wikidata vorhanden ist, geben Sie den Namen ein und wählen Sie ihn aus; die Kurzbeschreibung tragen Sie auf der zugehörigen Seite ein.&lt;/p&gt;</help>
 		<text lang="de">Prozessschritt welcher im interdisziplinären Workflow enthalten ist?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de">Prozessschritt Hinzufügen</verbose_name>
@@ -626,11 +626,11 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/workflow/workflow-relatant"/>
 		<is_collection>True</is_collection>
 		<is_optional>True</is_optional>
-		<help lang="en">&lt;p&gt;Choose one or more workflows to be linked by the selected relation. For all workflows &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. Only workflows from the MaRDI Portal and those selected or defined within the interview can be chosen.&lt;/p&gt;</help>
+		<help lang="en">&lt;p&gt;Choose one or more workflows to be linked by the selected relation. For all workflows &lt;em&gt;label (description)&lt;/em&gt; is provided; the grey tag shows where it comes from. Only workflows from the MaRDI Portal and those selected or defined within the interview can be chosen.&lt;/p&gt;</help>
 		<text lang="en">...another Interdisciplinary Workflow.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en">Add Interdisciplinary Workflow</verbose_name>
-		<help lang="de">&lt;p&gt;Wählen Sie einen oder mehrere Workflows aus, die über die ausgewählte Relation verknüpft werden sollen. Für alle Workflows wird &lt;em&gt;Label (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Es können nur Workflows aus dem MaRDI Portal sowie solche ausgewählt oder definiert werden, die im Interview verwendet werden.&lt;/p&gt;</help>
+		<help lang="de">&lt;p&gt;Wählen Sie einen oder mehrere Workflows aus, die über die ausgewählte Relation verknüpft werden sollen. Für alle Workflows wird &lt;em&gt;Name (Beschreibung)&lt;/em&gt; angegeben; die graue Markierung zeigt die Herkunft. Es können nur Workflows aus dem MaRDI Portal sowie solche ausgewählt oder definiert werden, die im Interview verwendet werden.&lt;/p&gt;</help>
 		<text lang="de">...ein weiterer interdisziplinärer Workflow.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de">Interdisziplinären Workflow Hinzufügen</verbose_name>
@@ -655,13 +655,13 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/workflow/id"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">&lt;p&gt;For all workflows &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. If a workflow is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate workflow is present in the MaRDI Portal or Wikidata, choose &lt;em&gt;new item&lt;/em&gt;.&lt;/p&gt;
+		<help lang="en">&lt;p&gt;For all workflows &lt;em&gt;label (description)&lt;/em&gt; is provided; the grey tag shows where it comes from. If a workflow is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate workflow is present in the MaRDI Portal or Wikidata, choose &lt;em&gt;new item&lt;/em&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; To use an existing workflow as a template, first select the workflow, wait for the information to load, and then change the answer to &lt;em&gt;new item&lt;/em&gt; to remove the external reference.&lt;/p&gt;</help>
 		<text lang="en">Select an interdisciplinary Workflow!</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">&lt;p&gt;Für alle Workflows wird &lt;em&gt;Name (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Wenn ein Workflow ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls kein passender Workflow im MaRDI Portal oder Wikidata vorhanden ist, wählen Sie &lt;em&gt;new item&lt;/em&gt;.&lt;/p&gt;
+		<help lang="de">&lt;p&gt;Für alle Workflows wird &lt;em&gt;Name (Beschreibung)&lt;/em&gt; angegeben; die graue Markierung zeigt die Herkunft. Wenn ein Workflow ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls kein passender Workflow im MaRDI Portal oder Wikidata vorhanden ist, wählen Sie &lt;em&gt;new item&lt;/em&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Hinweis:&lt;/strong&gt; Um einen bestehenden Workflow als Vorlage zu verwenden, wählen Sie zunächst den Workflow aus, warten Sie, bis alle Informationen geladen wurden, und setzen Sie anschließend die Antwort auf &lt;em&gt;new item&lt;/em&gt;, um den Bezug zur externen Quelle zu entfernen.&lt;/p&gt;</help>
 		<text lang="de">Wählen Sie einen interdisiplinären Workflow aus!</text>
@@ -773,13 +773,13 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/processstep/algorithm-relatant"/>
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">&lt;p&gt;Choose an algorithm. For all algorithms &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. If an algorithm is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate algorithm is present in the MaRDI Portal or Wikidata, type its name and select it; its short description is entered on its page.&lt;/p&gt;
+		<help lang="en">&lt;p&gt;Choose an algorithm. For all algorithms &lt;em&gt;label (description)&lt;/em&gt; is provided; the grey tag shows where it comes from. If an algorithm is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate algorithm is present in the MaRDI Portal or Wikidata, type its name and select it; its short description is entered on its page.&lt;/p&gt;
 
 &lt;p&gt;The &lt;em&gt;MaRDMO: Questionnaire for Interdisciplinary Workflows&lt;/em&gt; allows minimal documentation of algorithms following the MathAlgoDB, covering the algorithm, solved algorithmic task, and implementing software. If more thorough documentation of the algorithm is desired, use the &lt;em&gt;MaRDMO: Questionnaire for Algorithms&lt;/em&gt;.&lt;/p&gt;</help>
 		<text lang="en">Algorithm applied in the Process Step?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en">Add Algorithm</verbose_name>
-		<help lang="de">&lt;p&gt;Wählen Sie einen Algorithmen aus. Für alle Algorithmen wird &lt;em&gt;Name (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Wenn ein Algorihmus ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls kein passender Algorithmus im MaRDI Portal oder Wikidata vorhanden ist, geben Sie den Namen ein und wählen Sie ihn aus; die Kurzbeschreibung tragen Sie auf der zugehörigen Seite ein.&lt;/p&gt;
+		<help lang="de">&lt;p&gt;Wählen Sie einen Algorithmen aus. Für alle Algorithmen wird &lt;em&gt;Name (Beschreibung)&lt;/em&gt; angegeben; die graue Markierung zeigt die Herkunft. Wenn ein Algorihmus ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls kein passender Algorithmus im MaRDI Portal oder Wikidata vorhanden ist, geben Sie den Namen ein und wählen Sie ihn aus; die Kurzbeschreibung tragen Sie auf der zugehörigen Seite ein.&lt;/p&gt;
 
 &lt;p&gt;Der &lt;em&gt;MaRDMO: Fragenkatalog für interdisziplinäre Workflows&lt;/em&gt; ermöglicht eine minimale Dokumentation von Algorithmen gemäß der MathAlgoDB, die den Algorithmus, die gelöste algorithmische Aufgabe und die implementierende Software umfasst. Für eine ausführlichere Dokumentation des Algorithmus verwenden Sie den &lt;em&gt;MaRDMO: Fragenkatalog für Algorithmen&lt;/em&gt;.&lt;/p&gt;</help>
 		<text lang="de">Algorithmus der im Prozessschritt verwendet wird?</text>
@@ -835,13 +835,13 @@
 		<is_optional>False</is_optional>
 		<help lang="en">&lt;p&gt;The software environment is the software in which the algorithm is executed (e.g. MATLAB, Jupyter Notebook).&lt;/p&gt;
 
-&lt;p&gt;Choose a software. For all software &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. If a software is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate software is present in the MaRDI Portal or Wikidata, type its name and select it; its short description is entered on its page.&lt;/p&gt;</help>
+&lt;p&gt;Choose a software. For all software &lt;em&gt;label (description)&lt;/em&gt; is provided; the grey tag shows where it comes from. If a software is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate software is present in the MaRDI Portal or Wikidata, type its name and select it; its short description is entered on its page.&lt;/p&gt;</help>
 		<text lang="en">Software Environment in which the Algorithm Runs?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de">&lt;p&gt;Die Software-Umgebung ist die Software, in der der Algorithmus ausgeführt wird (z.B. MATLAB, Jupyter Notebook).&lt;/p&gt;
 
-&lt;p&gt;Wählen Sie eine Software aus. Für alle Software wird &lt;em&gt;Name (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Wenn eine Software ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls keine passende Software im MaRDI Portal oder Wikidata vorhanden ist, geben Sie den Namen ein und wählen Sie ihn aus; die Kurzbeschreibung tragen Sie auf der zugehörigen Seite ein.&lt;/p&gt;</help>
+&lt;p&gt;Wählen Sie eine Software aus. Für alle Software wird &lt;em&gt;Name (Beschreibung)&lt;/em&gt; angegeben; die graue Markierung zeigt die Herkunft. Wenn eine Software ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls keine passende Software im MaRDI Portal oder Wikidata vorhanden ist, geben Sie den Namen ein und wählen Sie ihn aus; die Kurzbeschreibung tragen Sie auf der zugehörigen Seite ein.&lt;/p&gt;</help>
 		<text lang="de">Software-Umgebung, in der der Algorithmus ausgeführt wird?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -901,13 +901,13 @@
 		<is_optional>False</is_optional>
 		<help lang="en">&lt;p&gt;The hardware environment is the hardware on which the software is executed (e.g. HPC cluster, Laptop).&lt;/p&gt;
 
-&lt;p&gt;Choose a hardware. For all hardware &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. If a hardware is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate hardware is present in the MaRDI Portal or Wikidata, type its name and select it; its short description is entered on its page.&lt;/p&gt;</help>
+&lt;p&gt;Choose a hardware. For all hardware &lt;em&gt;label (description)&lt;/em&gt; is provided; the grey tag shows where it comes from. If a hardware is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate hardware is present in the MaRDI Portal or Wikidata, type its name and select it; its short description is entered on its page.&lt;/p&gt;</help>
 		<text lang="en">Hardware Environment in which the Software Runs</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de">&lt;p&gt;Die Hardware-Umgebung ist die Hardware, auf der die Software ausgeführt wird (z.B. HPC-Cluster, Laptop).&lt;/p&gt;
 
-&lt;p&gt;Wählen Sie eine Hardware aus. Für alle Hardware wird &lt;em&gt;Name (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Wenn eine Hardware ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls keine passende Hardware im MaRDI Portal oder Wikidata vorhanden ist, geben Sie den Namen ein und wählen Sie ihn aus; die Kurzbeschreibung tragen Sie auf der zugehörigen Seite ein.&lt;/p&gt;</help>
+&lt;p&gt;Wählen Sie eine Hardware aus. Für alle Hardware wird &lt;em&gt;Name (Beschreibung)&lt;/em&gt; angegeben; die graue Markierung zeigt die Herkunft. Wenn eine Hardware ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls keine passende Hardware im MaRDI Portal oder Wikidata vorhanden ist, geben Sie den Namen ein und wählen Sie ihn aus; die Kurzbeschreibung tragen Sie auf der zugehörigen Seite ein.&lt;/p&gt;</help>
 		<text lang="de">Hardware-Umgebung, in der die Software ausgeführt wird?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -953,11 +953,11 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/processstep/method-relatant"/>
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">&lt;p&gt;Choose a method. For all methods &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. If a method is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate method is present in the MaRDI Portal or Wikidata, type its name and select it. MaRDMO adds the short description &lt;em&gt;experimental method&lt;/em&gt;. Use the most specific name (e.g. the technique); a generic name such as &lt;em&gt;microscopy&lt;/em&gt; stands for any item of its kind.&lt;/p&gt;</help>
+		<help lang="en">&lt;p&gt;Choose a method. For all methods &lt;em&gt;label (description)&lt;/em&gt; is provided; the grey tag shows where it comes from. If a method is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate method is present in the MaRDI Portal or Wikidata, type its name and select it. MaRDMO adds the short description &lt;em&gt;experimental method&lt;/em&gt;. Use the most specific name (e.g. the technique); a generic name such as &lt;em&gt;microscopy&lt;/em&gt; stands for any item of its kind.&lt;/p&gt;</help>
 		<text lang="en">Experimental Method applied in the Process Step?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en">Add Experimental Method</verbose_name>
-		<help lang="de">&lt;p&gt;Wählen Sie eine Methode aus. Für alle Methoden wird &lt;em&gt;Name (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Wenn eine Methode ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls keine passende Methode im MaRDI Portal oder Wikidata vorhanden ist, geben Sie den Namen ein und wählen Sie ihn aus. MaRDMO ergänzt die Kurzbeschreibung &lt;em&gt;experimental method&lt;/em&gt;. Verwenden Sie den genauesten Namen (z.B. die Technik); ein allgemeiner Name wie &lt;em&gt;microscopy&lt;/em&gt; steht für jedes Element dieser Art.&lt;/p&gt;</help>
+		<help lang="de">&lt;p&gt;Wählen Sie eine Methode aus. Für alle Methoden wird &lt;em&gt;Name (Beschreibung)&lt;/em&gt; angegeben; die graue Markierung zeigt die Herkunft. Wenn eine Methode ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls keine passende Methode im MaRDI Portal oder Wikidata vorhanden ist, geben Sie den Namen ein und wählen Sie ihn aus. MaRDMO ergänzt die Kurzbeschreibung &lt;em&gt;experimental method&lt;/em&gt;. Verwenden Sie den genauesten Namen (z.B. die Technik); ein allgemeiner Name wie &lt;em&gt;microscopy&lt;/em&gt; steht für jedes Element dieser Art.&lt;/p&gt;</help>
 		<text lang="de">Experimentelle Methode, die im Prozessschritt verwendet wird?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de">Experimentelle Methode Hinzufügen</verbose_name>
@@ -1042,11 +1042,11 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/processstep/instrument-relatant"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">&lt;p&gt;Choose an equipment. For all equipments &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. If an equipment is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate equipment is present in the MaRDI Portal or Wikidata, type its name and select it. MaRDMO adds the short description &lt;em&gt;instrument&lt;/em&gt;. Use the most specific name (e.g. the model); a generic name such as &lt;em&gt;microscope&lt;/em&gt; stands for any item of its kind.&lt;/p&gt;</help>
+		<help lang="en">&lt;p&gt;Choose an equipment. For all equipments &lt;em&gt;label (description)&lt;/em&gt; is provided; the grey tag shows where it comes from. If an equipment is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate equipment is present in the MaRDI Portal or Wikidata, type its name and select it. MaRDMO adds the short description &lt;em&gt;instrument&lt;/em&gt;. Use the most specific name (e.g. the model); a generic name such as &lt;em&gt;microscope&lt;/em&gt; stands for any item of its kind.&lt;/p&gt;</help>
 		<text lang="en">Experimental Equipment with which the Experimental Method is Performed?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">&lt;p&gt;Wählen Sie ein Gerät aus. Für alle Geräte wird &lt;em&gt;Name (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Wenn ein Gerät ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls kein passendes Gerät im MaRDI Portal oder Wikidata vorhanden ist, geben Sie den Namen ein und wählen Sie ihn aus. MaRDMO ergänzt die Kurzbeschreibung &lt;em&gt;instrument&lt;/em&gt;. Verwenden Sie den genauesten Namen (z.B. das Modell); ein allgemeiner Name wie &lt;em&gt;microscope&lt;/em&gt; steht für jedes Element dieser Art.&lt;/p&gt;</help>
+		<help lang="de">&lt;p&gt;Wählen Sie ein Gerät aus. Für alle Geräte wird &lt;em&gt;Name (Beschreibung)&lt;/em&gt; angegeben; die graue Markierung zeigt die Herkunft. Wenn ein Gerät ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls kein passendes Gerät im MaRDI Portal oder Wikidata vorhanden ist, geben Sie den Namen ein und wählen Sie ihn aus. MaRDMO ergänzt die Kurzbeschreibung &lt;em&gt;instrument&lt;/em&gt;. Verwenden Sie den genauesten Namen (z.B. das Modell); ein allgemeiner Name wie &lt;em&gt;microscope&lt;/em&gt; steht für jedes Element dieser Art.&lt;/p&gt;</help>
 		<text lang="de">Experimentelles Gerät mit dem die experimentelle Methode durchgeführt wird?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -1133,11 +1133,11 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/processstep/input-data-set-relatant"/>
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">&lt;p&gt;Choose one or more data sets. For all data sets &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. If a data set is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate data set is present in the MaRDI Portal or Wikidata, type its name and select it; its short description is entered on its page.&lt;/p&gt;</help>
+		<help lang="en">&lt;p&gt;Choose one or more data sets. For all data sets &lt;em&gt;label (description)&lt;/em&gt; is provided; the grey tag shows where it comes from. If a data set is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate data set is present in the MaRDI Portal or Wikidata, type its name and select it; its short description is entered on its page.&lt;/p&gt;</help>
 		<text lang="en">Input of the Process Step?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en">Add Data Set</verbose_name>
-		<help lang="de">&lt;p&gt;Wählen Sie ein oder mehrere Datensätze aus. Für alle Datensätze wird &lt;em&gt;Name (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Wenn ein Datensatz ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls kein passender Datensatz im MaRDI Portal oder Wikidata vorhanden ist, geben Sie den Namen ein und wählen Sie ihn aus; die Kurzbeschreibung tragen Sie auf der zugehörigen Seite ein.&lt;/p&gt;</help>
+		<help lang="de">&lt;p&gt;Wählen Sie ein oder mehrere Datensätze aus. Für alle Datensätze wird &lt;em&gt;Name (Beschreibung)&lt;/em&gt; angegeben; die graue Markierung zeigt die Herkunft. Wenn ein Datensatz ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls kein passender Datensatz im MaRDI Portal oder Wikidata vorhanden ist, geben Sie den Namen ein und wählen Sie ihn aus; die Kurzbeschreibung tragen Sie auf der zugehörigen Seite ein.&lt;/p&gt;</help>
 		<text lang="de">Input des Prozessschrittes?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de">Datensatz Hinzufügen</verbose_name>
@@ -1162,11 +1162,11 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/processstep/output-data-set-relatant"/>
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">&lt;p&gt;Choose one or more data sets. For all data sets &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. If a data set is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate data set is present in the MaRDI Portal or Wikidata, type its name and select it; its short description is entered on its page.&lt;/p&gt;</help>
+		<help lang="en">&lt;p&gt;Choose one or more data sets. For all data sets &lt;em&gt;label (description)&lt;/em&gt; is provided; the grey tag shows where it comes from. If a data set is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate data set is present in the MaRDI Portal or Wikidata, type its name and select it; its short description is entered on its page.&lt;/p&gt;</help>
 		<text lang="en">Output of the Process Step?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en">Add Data Set</verbose_name>
-		<help lang="de">&lt;p&gt;Wählen Sie ein oder mehrere Datensätze aus. Für alle Datensätze wird &lt;em&gt;Name (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Wenn ein Datensatz ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls kein passender Datensatz im MaRDI Portal oder Wikidata vorhanden ist, geben Sie den Namen ein und wählen Sie ihn aus; die Kurzbeschreibung tragen Sie auf der zugehörigen Seite ein.&lt;/p&gt;</help>
+		<help lang="de">&lt;p&gt;Wählen Sie ein oder mehrere Datensätze aus. Für alle Datensätze wird &lt;em&gt;Name (Beschreibung)&lt;/em&gt; angegeben; die graue Markierung zeigt die Herkunft. Wenn ein Datensatz ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls kein passender Datensatz im MaRDI Portal oder Wikidata vorhanden ist, geben Sie den Namen ein und wählen Sie ihn aus; die Kurzbeschreibung tragen Sie auf der zugehörigen Seite ein.&lt;/p&gt;</help>
 		<text lang="de">Output des Prozessschrittes?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de">Datensatz Hinzufügen</verbose_name>
@@ -1191,11 +1191,11 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/processstep/field-relatant"/>
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">&lt;p&gt;Choose one or more disciplines. For all disciplines &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. If a discipline is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate discipline is present in the MaRDI Portal or Wikidata, type its name and select it. MaRDMO adds the short description &lt;em&gt;academic discipline&lt;/em&gt;.&lt;/p&gt;</help>
+		<help lang="en">&lt;p&gt;Choose one or more disciplines. For all disciplines &lt;em&gt;label (description)&lt;/em&gt; is provided; the grey tag shows where it comes from. If a discipline is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate discipline is present in the MaRDI Portal or Wikidata, type its name and select it. MaRDMO adds the short description &lt;em&gt;academic discipline&lt;/em&gt;.&lt;/p&gt;</help>
 		<text lang="en">Academic Discipline related to the Process Step?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en">Add Academic Discipline</verbose_name>
-		<help lang="de">&lt;p&gt;Wählen Sie eine oder mehrere Disziplinen aus. Für alle Disziplinen wird &lt;em&gt;Name (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Wenn eine Disziplin ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls keine passende Disziplin im MaRDI Portal oder Wikidata vorhanden ist, geben Sie den Namen ein und wählen Sie ihn aus. MaRDMO ergänzt die Kurzbeschreibung &lt;em&gt;academic discipline&lt;/em&gt;.&lt;/p&gt;</help>
+		<help lang="de">&lt;p&gt;Wählen Sie eine oder mehrere Disziplinen aus. Für alle Disziplinen wird &lt;em&gt;Name (Beschreibung)&lt;/em&gt; angegeben; die graue Markierung zeigt die Herkunft. Wenn eine Disziplin ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls keine passende Disziplin im MaRDI Portal oder Wikidata vorhanden ist, geben Sie den Namen ein und wählen Sie ihn aus. MaRDMO ergänzt die Kurzbeschreibung &lt;em&gt;academic discipline&lt;/em&gt;.&lt;/p&gt;</help>
 		<text lang="de">Akademische Disziplin, die mit dem Prozessschritt im Zusammenhang steht?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de">Akademische Disziplin Hinzufügen</verbose_name>
@@ -1220,13 +1220,13 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/processstep/id"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">&lt;p&gt;For all process steps &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. If a process step is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate process step is present in the MaRDI Portal or Wikidata, choose &lt;em&gt;new item&lt;/em&gt;.&lt;/p&gt;
+		<help lang="en">&lt;p&gt;For all process steps &lt;em&gt;label (description)&lt;/em&gt; is provided; the grey tag shows where it comes from. If a process step is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate process step is present in the MaRDI Portal or Wikidata, choose &lt;em&gt;new item&lt;/em&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; To use an existing process step as a template, first select the process step, wait for the information to load, and then change the answer to &lt;em&gt;new item&lt;/em&gt; to remove the external reference.&lt;/p&gt;</help>
 		<text lang="en">Select a Process Step!</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">&lt;p&gt;Für alle Prozessschritte wird &lt;em&gt;Name (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Wenn ein Prozessschritt ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls kein passender Prozessschritt im MaRDI Portal oder Wikidata vorhanden ist, wählen Sie &lt;em&gt;new item&lt;/em&gt;.&lt;/p&gt;
+		<help lang="de">&lt;p&gt;Für alle Prozessschritte wird &lt;em&gt;Name (Beschreibung)&lt;/em&gt; angegeben; die graue Markierung zeigt die Herkunft. Wenn ein Prozessschritt ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls kein passender Prozessschritt im MaRDI Portal oder Wikidata vorhanden ist, wählen Sie &lt;em&gt;new item&lt;/em&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Hinweis:&lt;/strong&gt; Um einen bestehenden Prozessschritt als Vorlage zu verwenden, wählen Sie zunächst den Prozessschritt aus, warten Sie, bis alle Informationen geladen wurden, und setzen Sie anschließend die Antwort auf &lt;em&gt;new item&lt;/em&gt;, um den Bezug zur externen Quelle zu entfernen.&lt;/p&gt;</help>
 		<text lang="de">Wählen Sie einen Prozessschritt aus!</text>
@@ -1374,11 +1374,11 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/algorithm/problem-relatant"/>
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">&lt;p&gt;Choose one or more tasks. For all tasks &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. If a task is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate task is present in the MaRDI Portal or Wikidata, type its name and select it. MaRDMO adds the short description &lt;em&gt;algorithmic task&lt;/em&gt;.&lt;/p&gt;</help>
+		<help lang="en">&lt;p&gt;Choose one or more tasks. For all tasks &lt;em&gt;label (description)&lt;/em&gt; is provided; the grey tag shows where it comes from. If a task is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate task is present in the MaRDI Portal or Wikidata, type its name and select it. MaRDMO adds the short description &lt;em&gt;algorithmic task&lt;/em&gt;.&lt;/p&gt;</help>
 		<text lang="en">Algorithmic Task solved by the Algorithm?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en">Add Algorithmic Task</verbose_name>
-		<help lang="de">&lt;p&gt;Wählen Sie eine oder mehrere Aufgaben aus. Für alle Aufgaben wird &lt;em&gt;Name (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Wenn eine Aufgabe ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls keine passende Aufgabe im MaRDI Portal oder Wikidata vorhanden ist, geben Sie den Namen ein und wählen Sie ihn aus. MaRDMO ergänzt die Kurzbeschreibung &lt;em&gt;algorithmic task&lt;/em&gt;.&lt;/p&gt;</help>
+		<help lang="de">&lt;p&gt;Wählen Sie eine oder mehrere Aufgaben aus. Für alle Aufgaben wird &lt;em&gt;Name (Beschreibung)&lt;/em&gt; angegeben; die graue Markierung zeigt die Herkunft. Wenn eine Aufgabe ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls keine passende Aufgabe im MaRDI Portal oder Wikidata vorhanden ist, geben Sie den Namen ein und wählen Sie ihn aus. MaRDMO ergänzt die Kurzbeschreibung &lt;em&gt;algorithmic task&lt;/em&gt;.&lt;/p&gt;</help>
 		<text lang="de">Algorithmische Aufgabe welche durch den Algorithmus gelöst wird?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de">Algorithmische Aufgabe Hinzufügen</verbose_name>
@@ -1403,11 +1403,11 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/algorithm/software-relatant"/>
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">&lt;p&gt;Choose one or more software. For all software &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. If a software is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate software is present in the MaRDI Portal or Wikidata, type its name and select it; its short description is entered on its page.&lt;/p&gt;</help>
+		<help lang="en">&lt;p&gt;Choose one or more software. For all software &lt;em&gt;label (description)&lt;/em&gt; is provided; the grey tag shows where it comes from. If a software is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate software is present in the MaRDI Portal or Wikidata, type its name and select it; its short description is entered on its page.&lt;/p&gt;</help>
 		<text lang="en">Software implementing the Algorithm?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en">Add Software</verbose_name>
-		<help lang="de">&lt;p&gt;Wählen Sie eine oder mehrere Software aus. Für alle Software wird &lt;em&gt;Name (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Wenn eine Software ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls keine passende Software im MaRDI Portal oder Wikidata vorhanden ist, geben Sie den Namen ein und wählen Sie ihn aus; die Kurzbeschreibung tragen Sie auf der zugehörigen Seite ein.&lt;/p&gt;</help>
+		<help lang="de">&lt;p&gt;Wählen Sie eine oder mehrere Software aus. Für alle Software wird &lt;em&gt;Name (Beschreibung)&lt;/em&gt; angegeben; die graue Markierung zeigt die Herkunft. Wenn eine Software ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls keine passende Software im MaRDI Portal oder Wikidata vorhanden ist, geben Sie den Namen ein und wählen Sie ihn aus; die Kurzbeschreibung tragen Sie auf der zugehörigen Seite ein.&lt;/p&gt;</help>
 		<text lang="de">Software welche den Algorithmus implementiert?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de">Software Hinzufügen</verbose_name>
@@ -1432,13 +1432,13 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/algorithm/id"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">&lt;p&gt;For all algorithms &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. If an algorithm is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate algorithm is present in the MaRDI Portal or Wikidata, choose &lt;em&gt;new item&lt;/em&gt;.&lt;/p&gt;
+		<help lang="en">&lt;p&gt;For all algorithms &lt;em&gt;label (description)&lt;/em&gt; is provided; the grey tag shows where it comes from. If an algorithm is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate algorithm is present in the MaRDI Portal or Wikidata, choose &lt;em&gt;new item&lt;/em&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; To use an existing algorithm as a template, first select the algorithm, wait for the information to load, and then change the answer to &lt;em&gt;new item&lt;/em&gt; to remove the external reference.&lt;/p&gt;</help>
 		<text lang="en">Select an Algorithm!</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">&lt;p&gt;Für alle Algorithmen wird &lt;em&gt;Name (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Wenn ein Algorithmus ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls kein passender Algorithmus im MaRDI Portal oder Wikidata vorhanden ist, wählen Sie &lt;em&gt;new item&lt;/em&gt;.&lt;/p&gt;
+		<help lang="de">&lt;p&gt;Für alle Algorithmen wird &lt;em&gt;Name (Beschreibung)&lt;/em&gt; angegeben; die graue Markierung zeigt die Herkunft. Wenn ein Algorithmus ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls kein passender Algorithmus im MaRDI Portal oder Wikidata vorhanden ist, wählen Sie &lt;em&gt;new item&lt;/em&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Hinweis:&lt;/strong&gt; Um einen bestehenden Algorithmus als Vorlage zu verwenden, wählen Sie zunächst den Algorithmus aus, warten Sie, bis alle Informationen geladen wurden, und setzen Sie anschließend die Antwort auf &lt;em&gt;new item&lt;/em&gt;, um den Bezug zur externen Quelle zu entfernen.&lt;/p&gt;</help>
 		<text lang="de">Wählen Sie einen Algorithmus aus.</text>
@@ -1616,11 +1616,11 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/software/programming-language-relatant"/>
 		<is_collection>True</is_collection>
 		<is_optional>True</is_optional>
-		<help lang="en">&lt;p&gt;Choose one or more languages. For all languages &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. If a language is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate language is present in the MaRDI Portal or Wikidata, type its name and select it. MaRDMO adds the short description &lt;em&gt;programming language&lt;/em&gt;.&lt;/p&gt;</help>
+		<help lang="en">&lt;p&gt;Choose one or more languages. For all languages &lt;em&gt;label (description)&lt;/em&gt; is provided; the grey tag shows where it comes from. If a language is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate language is present in the MaRDI Portal or Wikidata, type its name and select it. MaRDMO adds the short description &lt;em&gt;programming language&lt;/em&gt;.&lt;/p&gt;</help>
 		<text lang="en">Language the Software is Programmed in?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en">Add Programming Language</verbose_name>
-		<help lang="de">&lt;p&gt;Wählen Sie eine oder mehrere Sprachen aus. Für alle Sprachen wird &lt;em&gt;Name (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Wenn eine Sprache ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls keine passende Sprache im MaRDI Portal oder Wikidata vorhanden ist, geben Sie den Namen ein und wählen Sie ihn aus. MaRDMO ergänzt die Kurzbeschreibung &lt;em&gt;programming language&lt;/em&gt;.&lt;/p&gt;</help>
+		<help lang="de">&lt;p&gt;Wählen Sie eine oder mehrere Sprachen aus. Für alle Sprachen wird &lt;em&gt;Name (Beschreibung)&lt;/em&gt; angegeben; die graue Markierung zeigt die Herkunft. Wenn eine Sprache ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls keine passende Sprache im MaRDI Portal oder Wikidata vorhanden ist, geben Sie den Namen ein und wählen Sie ihn aus. MaRDMO ergänzt die Kurzbeschreibung &lt;em&gt;programming language&lt;/em&gt;.&lt;/p&gt;</help>
 		<text lang="de">Sprache in der die Software programmiert ist.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de">Programmiersprache Hinzufügen</verbose_name>
@@ -1645,11 +1645,11 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/software/dependency-relatant"/>
 		<is_collection>True</is_collection>
 		<is_optional>True</is_optional>
-		<help lang="en">&lt;p&gt;Choose one or more dependencies. For all dependencies &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. If a dependency is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate dependency is present in the MaRDI Portal or Wikidata, type its name and select it; its short description is entered on its page.&lt;/p&gt;</help>
+		<help lang="en">&lt;p&gt;Choose one or more dependencies. For all dependencies &lt;em&gt;label (description)&lt;/em&gt; is provided; the grey tag shows where it comes from. If a dependency is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate dependency is present in the MaRDI Portal or Wikidata, type its name and select it; its short description is entered on its page.&lt;/p&gt;</help>
 		<text lang="en">Software Dependency of the Software?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en">Add Software</verbose_name>
-		<help lang="de">&lt;p&gt;Wählen Sie eine oder mehrere Abhängigkeiten aus. Für alle Abhängigkeiten wird &lt;em&gt;Name (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Wenn eine Abhängigkeit ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls keine passende Abhängigkeit im MaRDI Portal oder Wikidata vorhanden ist, geben Sie den Namen ein und wählen Sie ihn aus; die Kurzbeschreibung tragen Sie auf der zugehörigen Seite ein.&lt;/p&gt;</help>
+		<help lang="de">&lt;p&gt;Wählen Sie eine oder mehrere Abhängigkeiten aus. Für alle Abhängigkeiten wird &lt;em&gt;Name (Beschreibung)&lt;/em&gt; angegeben; die graue Markierung zeigt die Herkunft. Wenn eine Abhängigkeit ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls keine passende Abhängigkeit im MaRDI Portal oder Wikidata vorhanden ist, geben Sie den Namen ein und wählen Sie ihn aus; die Kurzbeschreibung tragen Sie auf der zugehörigen Seite ein.&lt;/p&gt;</help>
 		<text lang="de">Software-Abhängigkeit der Software?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de">Software Hinzufügen</verbose_name>
@@ -1674,13 +1674,13 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/software/id"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">&lt;p&gt;For all software &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. If a software is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate software is present in the MaRDI Portal or Wikidata, choose &lt;em&gt;new item&lt;/em&gt;.&lt;/p&gt;
+		<help lang="en">&lt;p&gt;For all software &lt;em&gt;label (description)&lt;/em&gt; is provided; the grey tag shows where it comes from. If a software is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate software is present in the MaRDI Portal or Wikidata, choose &lt;em&gt;new item&lt;/em&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; To use an existing software as a template, first select the software, wait for the information to load, and then change the answer to &lt;em&gt;new item&lt;/em&gt; to remove the external reference.&lt;/p&gt;</help>
 		<text lang="en">Select a Software!</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">&lt;p&gt;Für alle Software wird &lt;em&gt;Name (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Wenn eine Software ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls keine passende Software im MaRDI Portal oder Wikidata vorhanden ist, wählen Sie &lt;em&gt;new item&lt;/em&gt;.&lt;/p&gt;
+		<help lang="de">&lt;p&gt;Für alle Software wird &lt;em&gt;Name (Beschreibung)&lt;/em&gt; angegeben; die graue Markierung zeigt die Herkunft. Wenn eine Software ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls keine passende Software im MaRDI Portal oder Wikidata vorhanden ist, wählen Sie &lt;em&gt;new item&lt;/em&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Hinweis:&lt;/strong&gt; Um eine bestehende Software als Vorlage zu verwenden, wählen Sie zunächst die Software aus, warten Sie, bis alle Informationen geladen wurden, und setzen Sie anschließend die Antwort auf &lt;em&gt;new item&lt;/em&gt;, um den Bezug zur externen Quelle zu entfernen.&lt;/p&gt;</help>
 		<text lang="de">Wählen Sie eine Software aus!</text>
@@ -1787,11 +1787,11 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/hardware/cpu"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">&lt;p&gt;Choose a CPU. For all CPUs &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. If a CPU is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate CPU is present in the MaRDI Portal or Wikidata, type its name and select it. MaRDMO adds the short description &lt;em&gt;cpu model&lt;/em&gt;. Use the most specific name (e.g. the model); a generic name such as &lt;em&gt;x86 processor&lt;/em&gt; stands for any item of its kind.&lt;/p&gt;</help>
+		<help lang="en">&lt;p&gt;Choose a CPU. For all CPUs &lt;em&gt;label (description)&lt;/em&gt; is provided; the grey tag shows where it comes from. If a CPU is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate CPU is present in the MaRDI Portal or Wikidata, type its name and select it. MaRDMO adds the short description &lt;em&gt;cpu model&lt;/em&gt;. Use the most specific name (e.g. the model); a generic name such as &lt;em&gt;x86 processor&lt;/em&gt; stands for any item of its kind.&lt;/p&gt;</help>
 		<text lang="en">CPU of the Hardware</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">&lt;p&gt;Wählen Sie eine CPU aus. Für alle CPUs wird &lt;em&gt;Name (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Wenn eine CPU ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls keine passende CPU im MaRDI Portal oder Wikidata vorhanden ist, geben Sie den Namen ein und wählen Sie ihn aus. MaRDMO ergänzt die Kurzbeschreibung &lt;em&gt;cpu model&lt;/em&gt;. Verwenden Sie den genauesten Namen (z.B. das Modell); ein allgemeiner Name wie &lt;em&gt;x86 processor&lt;/em&gt; steht für jedes Element dieser Art.&lt;/p&gt;</help>
+		<help lang="de">&lt;p&gt;Wählen Sie eine CPU aus. Für alle CPUs wird &lt;em&gt;Name (Beschreibung)&lt;/em&gt; angegeben; die graue Markierung zeigt die Herkunft. Wenn eine CPU ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls keine passende CPU im MaRDI Portal oder Wikidata vorhanden ist, geben Sie den Namen ein und wählen Sie ihn aus. MaRDMO ergänzt die Kurzbeschreibung &lt;em&gt;cpu model&lt;/em&gt;. Verwenden Sie den genauesten Namen (z.B. das Modell); ein allgemeiner Name wie &lt;em&gt;x86 processor&lt;/em&gt; steht für jedes Element dieser Art.&lt;/p&gt;</help>
 		<text lang="de">CPU der Hardware</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -1955,13 +1955,13 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/hardware/id"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">&lt;p&gt;For all hardware &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. If a hardware is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate hardware is present in the MaRDI Portal or Wikidata, choose &lt;em&gt;new item&lt;/em&gt;.&lt;/p&gt;
+		<help lang="en">&lt;p&gt;For all hardware &lt;em&gt;label (description)&lt;/em&gt; is provided; the grey tag shows where it comes from. If a hardware is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate hardware is present in the MaRDI Portal or Wikidata, choose &lt;em&gt;new item&lt;/em&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; To use an existing hardware as a template, first select the hardware, wait for the information to load, and then change the answer to &lt;em&gt;new item&lt;/em&gt; to remove the external reference.&lt;/p&gt;</help>
 		<text lang="en">Select a Hardware!</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">&lt;p&gt;Für alle Hardware wird &lt;em&gt;Name (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Wenn eine Hardware ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls keine passende Hardware im MaRDI Portal oder Wikidata vorhanden ist, wählen Sie &lt;em&gt;new item&lt;/em&gt;.&lt;/p&gt;
+		<help lang="de">&lt;p&gt;Für alle Hardware wird &lt;em&gt;Name (Beschreibung)&lt;/em&gt; angegeben; die graue Markierung zeigt die Herkunft. Wenn eine Hardware ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls keine passende Hardware im MaRDI Portal oder Wikidata vorhanden ist, wählen Sie &lt;em&gt;new item&lt;/em&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Hinweis:&lt;/strong&gt; Um eine bestehende Hardware als Vorlage zu verwenden, wählen Sie zunächst die Hardware aus, warten Sie, bis alle Informationen geladen wurden, und setzen Sie anschließend die Antwort auf &lt;em&gt;new item&lt;/em&gt;, um den Bezug zur externen Quelle zu entfernen.&lt;/p&gt;</help>
 		<text lang="de">Wählen Sie eine Hardware aus!</text>
@@ -2285,13 +2285,13 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/dataset/id"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">&lt;p&gt;For all data sets &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. If a data set is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate data set is present in the MaRDI Portal or Wikidata, choose &lt;em&gt;new item&lt;/em&gt;.&lt;/p&gt;
+		<help lang="en">&lt;p&gt;For all data sets &lt;em&gt;label (description)&lt;/em&gt; is provided; the grey tag shows where it comes from. If a data set is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate data set is present in the MaRDI Portal or Wikidata, choose &lt;em&gt;new item&lt;/em&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; To use an existing data set as a template, first select the data set, wait for the information to load, and then change the answer to &lt;em&gt;new item&lt;/em&gt; to remove the external reference.&lt;/p&gt;</help>
 		<text lang="en">Select a Data Set!</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">&lt;p&gt;Für alle Datensätze wird &lt;em&gt;Name (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Wenn ein Datensatz ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls kein passender Datensatz im MaRDI Portal oder Wikidata vorhanden ist, wählen Sie &lt;em&gt;new item&lt;/em&gt;.&lt;/p&gt;
+		<help lang="de">&lt;p&gt;Für alle Datensätze wird &lt;em&gt;Name (Beschreibung)&lt;/em&gt; angegeben; die graue Markierung zeigt die Herkunft. Wenn ein Datensatz ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls kein passender Datensatz im MaRDI Portal oder Wikidata vorhanden ist, wählen Sie &lt;em&gt;new item&lt;/em&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Hinweis:&lt;/strong&gt; Um einen bestehenden Datensatz als Vorlage zu verwenden, wählen Sie zunächst den Datensatz aus, warten Sie, bis alle Informationen geladen wurden, und setzen Sie anschließend die Antwort auf &lt;em&gt;new item&lt;/em&gt;, um den Bezug zur externen Quelle zu entfernen.&lt;/p&gt;</help>
 		<text lang="de">Wählen Sie einen Datensatz aus!</text>
@@ -2411,11 +2411,11 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/publication/hardware-or-software-relatant"/>
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">&lt;p&gt;Choose one or more hardware or software to be linked by the selected relation. For all hardware or software &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. Only hardware or software from the MaRDI Portal and those selected or defined within the interview can be chosen.&lt;/p&gt;</help>
+		<help lang="en">&lt;p&gt;Choose one or more hardware or software to be linked by the selected relation. For all hardware or software &lt;em&gt;label (description)&lt;/em&gt; is provided; the grey tag shows where it comes from. Only hardware or software from the MaRDI Portal and those selected or defined within the interview can be chosen.&lt;/p&gt;</help>
 		<text lang="en">...a Hardware or Software.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en">Add Benchmark or Software</verbose_name>
-		<help lang="de">&lt;p&gt;Wählen Sie eine oder mehrere Hardware oder Software aus, die über die ausgewählte Relation verknüpft werden sollen. Für alle Hardware oder Software wird &lt;em&gt;Label (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Es können nur Hardware oder Software aus dem MaRDI Portal sowie solche ausgewählt oder definiert werden, die im Interview verwendet werden.&lt;/p&gt;</help>
+		<help lang="de">&lt;p&gt;Wählen Sie eine oder mehrere Hardware oder Software aus, die über die ausgewählte Relation verknüpft werden sollen. Für alle Hardware oder Software wird &lt;em&gt;Name (Beschreibung)&lt;/em&gt; angegeben; die graue Markierung zeigt die Herkunft. Es können nur Hardware oder Software aus dem MaRDI Portal sowie solche ausgewählt oder definiert werden, die im Interview verwendet werden.&lt;/p&gt;</help>
 		<text lang="de">...eine Hardware oder Software.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de">Benchmark oder Software Hinzufügen</verbose_name>
@@ -2488,11 +2488,11 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/publication/algorithm-relatant"/>
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">&lt;p&gt;Choose one or more algorithms to be linked by the selected relation. For all algorithms &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. Only algorithms from the MaRDI Portal and those selected or defined within the interview can be chosen.&lt;/p&gt;</help>
+		<help lang="en">&lt;p&gt;Choose one or more algorithms to be linked by the selected relation. For all algorithms &lt;em&gt;label (description)&lt;/em&gt; is provided; the grey tag shows where it comes from. Only algorithms from the MaRDI Portal and those selected or defined within the interview can be chosen.&lt;/p&gt;</help>
 		<text lang="en">...an Algorithm.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en">Add Algorithm</verbose_name>
-		<help lang="de">&lt;p&gt;Wählen Sie einen oder mehrere Algorithmen aus, die über die ausgewählte Relation verknüpft werden sollen. Für alle Algorithmen wird &lt;em&gt;Label (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Es können nur Algorithmen aus dem MaRDI Portal sowie solche ausgewählt oder definiert werden, die im Interview verwendet werden.&lt;/p&gt;</help>
+		<help lang="de">&lt;p&gt;Wählen Sie einen oder mehrere Algorithmen aus, die über die ausgewählte Relation verknüpft werden sollen. Für alle Algorithmen wird &lt;em&gt;Name (Beschreibung)&lt;/em&gt; angegeben; die graue Markierung zeigt die Herkunft. Es können nur Algorithmen aus dem MaRDI Portal sowie solche ausgewählt oder definiert werden, die im Interview verwendet werden.&lt;/p&gt;</help>
 		<text lang="de">...einen Algorithmus.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de">Algorithmus Hinzufügen</verbose_name>
@@ -2565,11 +2565,11 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/publication/remaining-workflow-entity-relatant"/>
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">&lt;p&gt;Choose one or more entities to be linked by the selected relation. For all entities &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. Only entities from the MaRDI Portal and those selected or defined within the interview can be chosen.&lt;/p&gt;</help>
+		<help lang="en">&lt;p&gt;Choose one or more entities to be linked by the selected relation. For all entities &lt;em&gt;label (description)&lt;/em&gt; is provided; the grey tag shows where it comes from. Only entities from the MaRDI Portal and those selected or defined within the interview can be chosen.&lt;/p&gt;</help>
 		<text lang="en">...an Interdisciplinary Workflow, Process Step or Data Set.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en">Add Workflow Entity</verbose_name>
-		<help lang="de">&lt;p&gt;Wählen Sie eine oder mehrere Entitäten aus, die über die ausgewählte Relation verknüpft werden sollen. Für alle Entitäten wird &lt;em&gt;Label (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Es können nur Entitäten aus dem MaRDI Portal sowie solche ausgewählt oder definiert werden, die im Interview verwendet werden.&lt;/p&gt;</help>
+		<help lang="de">&lt;p&gt;Wählen Sie eine oder mehrere Entitäten aus, die über die ausgewählte Relation verknüpft werden sollen. Für alle Entitäten wird &lt;em&gt;Name (Beschreibung)&lt;/em&gt; angegeben; die graue Markierung zeigt die Herkunft. Es können nur Entitäten aus dem MaRDI Portal sowie solche ausgewählt oder definiert werden, die im Interview verwendet werden.&lt;/p&gt;</help>
 		<text lang="de">...einen interdisziplinären Workflow, Prozessschritt oder Datensatz.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de">Worflow-Entität Hinzufügen</verbose_name>
@@ -2594,11 +2594,11 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/publication/id"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">&lt;p&gt;For all publications &lt;em&gt;label (description) [source]&lt;/em&gt; is provided. If a publication is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate publication is present in the MaRDI Portal or Wikidata, choose &lt;em&gt;new item&lt;/em&gt;.&lt;/p&gt;</help>
+		<help lang="en">&lt;p&gt;For all publications &lt;em&gt;label (description)&lt;/em&gt; is provided; the grey tag shows where it comes from. If a publication is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate publication is present in the MaRDI Portal or Wikidata, choose &lt;em&gt;new item&lt;/em&gt;.&lt;/p&gt;</help>
 		<text lang="en">Select a Publication!</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">&lt;p&gt;Für alle Publikationen wird &lt;em&gt;Name (Beschreibung) [Quelle]&lt;/em&gt; angegeben. Wenn eine Publikation ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls keine passende Publikation im MaRDI Portal oder Wikidata vorhanden ist, wählen Sie &lt;em&gt;new item&lt;/em&gt;.&lt;/p&gt;</help>
+		<help lang="de">&lt;p&gt;Für alle Publikationen wird &lt;em&gt;Name (Beschreibung)&lt;/em&gt; angegeben; die graue Markierung zeigt die Herkunft. Wenn eine Publikation ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls keine passende Publikation im MaRDI Portal oder Wikidata vorhanden ist, wählen Sie &lt;em&gt;new item&lt;/em&gt;.&lt;/p&gt;</help>
 		<text lang="de">Wählen Sie eine Publikation aus!</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
