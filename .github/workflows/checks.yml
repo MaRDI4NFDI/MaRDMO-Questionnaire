@@ -1,0 +1,107 @@
+name: Checks
+
+# The catalog files on every push and pull request: the files themselves
+# (ci/check_catalog.py), and the MaRDMO plugin's tests with them.
+on:
+  push:
+  pull_request:
+    branches: [main, '0.8.0']
+
+concurrency:
+  group: checks-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  catalog:
+    name: Catalog files
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the questionnaire
+        uses: actions/checkout@v7
+
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: '3.14'
+
+      # The widget types of the latest RDMO release
+      - name: Install RDMO
+        run: |
+          python -m pip install --upgrade pip
+          pip install rdmo
+
+      - name: Check the catalog files
+        run: python ci/check_catalog.py catalog
+
+  plugin:
+    # A fixed name, so the check can be required in the ruleset
+    name: MaRDMO tests
+    needs: plugin-branch
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the questionnaire
+        uses: actions/checkout@v7
+        with:
+          path: questionnaire
+
+      - name: Check out MaRDMO (${{ needs.plugin-branch.outputs.ref }})
+        uses: actions/checkout@v7
+        with:
+          repository: MaRDI4NFDI/MaRDMO-Plugin
+          ref: ${{ needs.plugin-branch.outputs.ref }}
+          path: plugin
+
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: '3.14'
+
+      - name: Install RDMO and MaRDMO with the test tools
+        working-directory: plugin
+        run: |
+          python -m pip install --upgrade pip
+          pip install "rdmo==2.5.2"
+          pip install -e ".[test]"
+
+      # Imports the catalogs into RDMO; the answers of the MaRDI Portal and
+      # Wikidata are recorded, nothing is requested
+      - name: Tests
+        working-directory: plugin
+        env:
+          QUESTIONNAIRE: ${{ github.workspace }}/questionnaire/catalog
+        run: pytest
+
+  # The plugin branch with the same name as this branch, else the one of
+  # the integration branch (e.g. 0.8.0) this commit is based on, else main;
+  # as the plugin's tests find the questionnaire.  Delete the integration
+  # branches in both repositories after their release.
+  plugin-branch:
+    name: Find the plugin branch
+    runs-on: ubuntu-latest
+    outputs:
+      ref: ${{ steps.plugin.outputs.ref }}
+    steps:
+      # The history, to find the integration branch this commit is based on
+      - name: Check out the questionnaire
+        uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+
+      - name: Find the plugin branch
+        id: plugin
+        run: |
+          plugin=https://github.com/MaRDI4NFDI/MaRDMO-Plugin
+          branch="${{ github.head_ref || github.ref_name }}"
+          ref=main
+          if git ls-remote --exit-code --heads "$plugin" "$branch" > /dev/null; then
+            ref="$branch"
+          else
+            for integration in $(git for-each-ref --format='%(refname:lstrip=3)' refs/remotes/origin \
+                                 | grep -E '^[0-9]+\.[0-9]+\.[0-9]+$'); do
+              if git merge-base --is-ancestor "origin/$integration" HEAD \
+                 && git ls-remote --exit-code --heads "$plugin" "$integration" > /dev/null; then
+                ref="$integration"
+              fi
+            done
+          fi
+          echo "ref=$ref" >> "$GITHUB_OUTPUT"
