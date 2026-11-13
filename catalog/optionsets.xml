@@ -1082,6 +1082,20 @@
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
+	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-definition">
+		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
+		<uri_path>mathmoddb/contains-definition</uri_path>
+		<dc:comment/>
+		<text lang="en">contains&lt;a href="https://portal.mardi4nfdi.de/wiki/Property:P1560" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt; definition&lt;a href="https://portal.mardi4nfdi.de/wiki/Item:Q7268735" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<help lang="en"/>
+		<default_text lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">beinhaltet&lt;a href="https://portal.mardi4nfdi.de/wiki/Property:P1560" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt; Definition&lt;a href="https://portal.mardi4nfdi.de/wiki/Item:Q7268735" target="_blank"&gt;&lt;sup&gt;&amp;#x2197;&lt;/sup&gt;&lt;/a&gt;</text>
+		<help lang="de"/>
+		<default_text lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
 	<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-initial-condition">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mathmoddb/contains-initial-condition</uri_path>
@@ -1469,11 +1483,12 @@
 			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-computational-domain" order="4"/>
 			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-constraint-condition" order="6"/>
 			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-coupling-condition" order="7"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-initial-condition" order="8"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-final-condition" order="9"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-governing-equation" order="10"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-strong-formulation" order="11"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-weak-formulation" order="12"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-definition" order="8"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-initial-condition" order="9"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-final-condition" order="10"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-governing-equation" order="11"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-strong-formulation" order="12"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-weak-formulation" order="13"/>
 		</options>
 		<conditions/>
 	</optionset>
@@ -2021,11 +2036,12 @@
 			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-computational-domain" order="4"/>
 			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-constraint-condition" order="6"/>
 			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-coupling-condition" order="7"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-initial-condition" order="8"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-final-condition" order="9"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-governing-equation" order="10"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-strong-formulation" order="11"/>
-			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-weak-formulation" order="12"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-definition" order="8"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-initial-condition" order="9"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-final-condition" order="10"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-governing-equation" order="11"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-strong-formulation" order="12"/>
+			<option dc:uri="https://rdmo.mardi4nfdi.de/terms/options/mathmoddb/contains-weak-formulation" order="13"/>
 		</options>
 		<conditions/>
 	</optionset>
