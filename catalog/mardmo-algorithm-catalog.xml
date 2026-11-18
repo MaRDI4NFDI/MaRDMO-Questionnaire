@@ -1134,7 +1134,6 @@
 		</questionsets>
 		<questions>
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/publication/id" order="0"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/publication/reference" order="1"/>
 		</questions>
 		<conditions/>
 	</page>
@@ -1299,12 +1298,12 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/publication/id"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">&lt;p&gt;For all publications &lt;em&gt;label (description)&lt;/em&gt; is provided; the grey tag shows where it comes from. If a publication is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate publication is present in the MaRDI Portal or Wikidata, choose &lt;em&gt;new item&lt;/em&gt;.&lt;/p&gt;</help>
-		<text lang="en">Select a Publication!</text>
+		<help lang="en">&lt;p&gt;Type the identifier of the publication with its prefix. Possible identifiers:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;doi:&lt;/em&gt; followed by the DOI (e.g. &lt;em&gt;doi:10.1000/xyz123&lt;/em&gt;)&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;A publication that is on the MaRDI Portal or Wikidata is offered as it is there; the grey tag shows where it comes from. Otherwise choose the identifier itself, marked &lt;em&gt;new&lt;/em&gt;: MaRDMO looks up title, authors and journal in the background. An identifier that is not valid is refused.&lt;/p&gt;</help>
+		<text lang="en">Select a Publication by its Identifier!</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">&lt;p&gt;Für alle Publikationen wird &lt;em&gt;Name (Beschreibung)&lt;/em&gt; angegeben; die graue Markierung zeigt die Herkunft. Wenn eine Publikation ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls keine passende Publikation im MaRDI Portal oder Wikidata vorhanden ist, wählen Sie &lt;em&gt;new item&lt;/em&gt;.&lt;/p&gt;</help>
-		<text lang="de">Wählen Sie eine Publikation aus!</text>
+		<help lang="de">&lt;p&gt;Geben Sie den Identifikator der Publikation mit seinem Präfix ein. Mögliche Identifikatoren:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;doi:&lt;/em&gt; gefolgt von der DOI (z.&amp;nbsp;B. &lt;em&gt;doi:10.1000/xyz123&lt;/em&gt;)&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Eine Publikation, die es im MaRDI Portal oder in Wikidata gibt, wird so angeboten, wie sie dort ist; die graue Markierung zeigt die Herkunft. Andernfalls wählen Sie den Identifikator selbst, markiert als &lt;em&gt;new&lt;/em&gt;: MaRDMO sucht Titel, Autoren und Zeitschrift im Hintergrund. Ein ungültiger Identifikator wird abgelehnt.&lt;/p&gt;</help>
+		<text lang="de">Wählen Sie eine Publikation über ihren Identifikator aus!</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -1318,35 +1317,6 @@
 		<width/>
 		<optionsets>
 			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication"/>
-		</optionsets>
-		<conditions/>
-	</question>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/publication/reference">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/publication/reference</uri_path>
-		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/publication/reference"/>
-		<is_collection>True</is_collection>
-		<is_optional>False</is_optional>
-		<help lang="en">Provided Prefixes are: 'doi:'.</help>
-		<text lang="en">Provide a Reference for the Publication!</text>
-		<default_text lang="en"/>
-		<verbose_name lang="en"/>
-		<help lang="de">Verfügbare Präfixe sind: 'doi:'.</help>
-		<text lang="de">Geben Sie eine Referenz für die Publikation an!</text>
-		<default_text lang="de"/>
-		<verbose_name lang="de"/>
-		<default_option/>
-		<default_external_id/>
-		<widget_type>checkbox</widget_type>
-		<value_type>text</value_type>
-		<maximum/>
-		<minimum/>
-		<step/>
-		<unit/>
-		<width/>
-		<optionsets>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/publication-reference"/>
 		</optionsets>
 		<conditions/>
 	</question>
