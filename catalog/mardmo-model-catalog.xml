@@ -1198,11 +1198,11 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/formulation/element/symbol"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">&lt;p&gt;Provide the symbol in LaTeX format, &lt;strong&gt;without&lt;/strong&gt; surroundings like &lt;code&gt;$...$&lt;/code&gt; or &lt;code&gt;\(...\)&lt;/code&gt;.&lt;/p&gt;</help>
+		<help lang="en">&lt;p&gt;Provide the symbol in LaTeX format, &lt;strong&gt;without&lt;/strong&gt; surroundings like &lt;code&gt;$...$&lt;/code&gt; or &lt;code&gt;\(...\)&lt;/code&gt;.&lt;/p&gt;&lt;span class="mardmo-math"&gt;&lt;/span&gt;</help>
 		<text lang="en">Symbol</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">&lt;p&gt;Geben Sie das Symbol im LaTeX-Format an, &lt;strong&gt;ohne&lt;/strong&gt; Umschließungen wie &lt;code&gt;$...$&lt;/code&gt; oder &lt;code&gt;\(...\)&lt;/code&gt;.&lt;/p&gt;</help>
+		<help lang="de">&lt;p&gt;Geben Sie das Symbol im LaTeX-Format an, &lt;strong&gt;ohne&lt;/strong&gt; Umschließungen wie &lt;code&gt;$...$&lt;/code&gt; oder &lt;code&gt;\(...\)&lt;/code&gt;.&lt;/p&gt;&lt;span class="mardmo-math"&gt;&lt;/span&gt;</help>
 		<text lang="de">Symbol</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -1254,11 +1254,11 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/formulation/formula"/>
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">&lt;p&gt;Provide the defining formula in LaTeX format, &lt;strong&gt;without&lt;/strong&gt; surroundings like &lt;code&gt;$...$&lt;/code&gt; or &lt;code&gt;\(...\)&lt;/code&gt;. A list of LaTeX commands available in MediaWiki can be found &lt;a href="https://mirror.physik.tu-berlin.de/pub/CTAN/macros/latex/contrib/texvc/texvc.pdf"&gt;here&lt;/a&gt;.&lt;/p&gt;</help>
+		<help lang="en">&lt;p&gt;Provide the defining formula in LaTeX format, &lt;strong&gt;without&lt;/strong&gt; surroundings like &lt;code&gt;$...$&lt;/code&gt; or &lt;code&gt;\(...\)&lt;/code&gt;. A list of LaTeX commands available in MediaWiki can be found &lt;a href="https://mirror.physik.tu-berlin.de/pub/CTAN/macros/latex/contrib/texvc/texvc.pdf"&gt;here&lt;/a&gt;.&lt;/p&gt;&lt;span class="mardmo-math"&gt;&lt;/span&gt;</help>
 		<text lang="en">Defining Formula of the Formula</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en">Add defining Formula</verbose_name>
-		<help lang="de">&lt;p&gt;Geben Sie die definierende Formel im LaTeX-Format an, &lt;strong&gt;ohne&lt;/strong&gt; Umschließungen wie &lt;code&gt;$...$&lt;/code&gt; oder &lt;code&gt;\(...\)&lt;/code&gt;. Eine Liste der in MediaWiki verfügbaren LaTeX Befehle findet sich &lt;a href="https://mirror.physik.tu-berlin.de/pub/CTAN/macros/latex/contrib/texvc/texvc.pdf"&gt;hier&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;</help>
+		<help lang="de">&lt;p&gt;Geben Sie die definierende Formel im LaTeX-Format an, &lt;strong&gt;ohne&lt;/strong&gt; Umschließungen wie &lt;code&gt;$...$&lt;/code&gt; oder &lt;code&gt;\(...\)&lt;/code&gt;. Eine Liste der in MediaWiki verfügbaren LaTeX Befehle findet sich &lt;a href="https://mirror.physik.tu-berlin.de/pub/CTAN/macros/latex/contrib/texvc/texvc.pdf"&gt;hier&lt;/a&gt;.&lt;/p&gt;&lt;span class="mardmo-math"&gt;&lt;/span&gt;</help>
 		<text lang="de">Definierende Formel der Formel</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de">Definierende Formel Hinzufügen</verbose_name>
@@ -1754,11 +1754,11 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity/element/symbol"/>
 		<is_collection>False</is_collection>
 		<is_optional>True</is_optional>
-		<help lang="en">&lt;p&gt;Provide the symbol in LaTeX format, &lt;strong&gt;without&lt;/strong&gt; surroundings like &lt;code&gt;$...$&lt;/code&gt; or &lt;code&gt;\(...\)&lt;/code&gt;.&lt;/p&gt;</help>
+		<help lang="en">&lt;p&gt;Provide the symbol in LaTeX format, &lt;strong&gt;without&lt;/strong&gt; surroundings like &lt;code&gt;$...$&lt;/code&gt; or &lt;code&gt;\(...\)&lt;/code&gt;.&lt;/p&gt;&lt;span class="mardmo-math"&gt;&lt;/span&gt;</help>
 		<text lang="en">Symbol</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">&lt;p&gt;Geben Sie das Symbol im LaTeX-Format an, &lt;strong&gt;ohne&lt;/strong&gt; Umschließungen wie &lt;code&gt;$...$&lt;/code&gt; oder &lt;code&gt;\(...\)&lt;/code&gt;.&lt;/p&gt;</help>
+		<help lang="de">&lt;p&gt;Geben Sie das Symbol im LaTeX-Format an, &lt;strong&gt;ohne&lt;/strong&gt; Umschließungen wie &lt;code&gt;$...$&lt;/code&gt; oder &lt;code&gt;\(...\)&lt;/code&gt;.&lt;/p&gt;&lt;span class="mardmo-math"&gt;&lt;/span&gt;</help>
 		<text lang="de">Symbol</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -1810,11 +1810,11 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity/formula"/>
 		<is_collection>True</is_collection>
 		<is_optional>True</is_optional>
-		<help lang="en">&lt;p&gt;Provide the formula in LaTeX format, &lt;strong&gt;without&lt;/strong&gt; surroundings like &lt;code&gt;$...$&lt;/code&gt; or &lt;code&gt;\(...\)&lt;/code&gt;. Use &lt;code&gt;\equiv&lt;/code&gt; to denote definitions. A list of LaTeX commands available in MediaWiki can be found &lt;a href="https://mirror.physik.tu-berlin.de/pub/CTAN/macros/latex/contrib/texvc/texvc.pdf"&gt;here&lt;/a&gt;.&lt;/p&gt;</help>
+		<help lang="en">&lt;p&gt;Provide the formula in LaTeX format, &lt;strong&gt;without&lt;/strong&gt; surroundings like &lt;code&gt;$...$&lt;/code&gt; or &lt;code&gt;\(...\)&lt;/code&gt;. Use &lt;code&gt;\equiv&lt;/code&gt; to denote definitions. A list of LaTeX commands available in MediaWiki can be found &lt;a href="https://mirror.physik.tu-berlin.de/pub/CTAN/macros/latex/contrib/texvc/texvc.pdf"&gt;here&lt;/a&gt;.&lt;/p&gt;&lt;span class="mardmo-math"&gt;&lt;/span&gt;</help>
 		<text lang="en">Formula of the Definition</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en">Add Formula</verbose_name>
-		<help lang="de">&lt;p&gt;Geben Sie die Formel im LaTeX-Format an, &lt;strong&gt;ohne&lt;/strong&gt; Umschließungen wie &lt;code&gt;$...$&lt;/code&gt; oder &lt;code&gt;\(...\)&lt;/code&gt;. Verwenden Sie &lt;code&gt;\equiv&lt;/code&gt;, um Definitionen darzustellen. Eine Liste der in MediaWiki verfügbaren LaTeX Befehle findet sich &lt;a href="https://mirror.physik.tu-berlin.de/pub/CTAN/macros/latex/contrib/texvc/texvc.pdf"&gt;hier&lt;/a&gt;.&lt;/p&gt;</help>
+		<help lang="de">&lt;p&gt;Geben Sie die Formel im LaTeX-Format an, &lt;strong&gt;ohne&lt;/strong&gt; Umschließungen wie &lt;code&gt;$...$&lt;/code&gt; oder &lt;code&gt;\(...\)&lt;/code&gt;. Verwenden Sie &lt;code&gt;\equiv&lt;/code&gt;, um Definitionen darzustellen. Eine Liste der in MediaWiki verfügbaren LaTeX Befehle findet sich &lt;a href="https://mirror.physik.tu-berlin.de/pub/CTAN/macros/latex/contrib/texvc/texvc.pdf"&gt;hier&lt;/a&gt;.&lt;/p&gt;&lt;span class="mardmo-math"&gt;&lt;/span&gt;</help>
 		<text lang="de">Formel der Definition</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de">Formel Hinzufügen</verbose_name>
