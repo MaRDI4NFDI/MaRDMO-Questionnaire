@@ -1179,10 +1179,10 @@
 		<attribute/>
 		<is_collection>True</is_collection>
 		<title lang="en">Formula Symbols and their Represented Quantities</title>
-		<help lang="en">&lt;p&gt;To annotate symbols in the formula, specify the symbol used, and select or define the corresponding quantity.&lt;/p&gt;</help>
+		<help lang="en">&lt;p&gt;Specify the symbol used and select or define the quantity it represents.&lt;/p&gt;&lt;p&gt;A symbol that stands for the &lt;strong&gt;same quantity&lt;/strong&gt; in all formulas of this documentation is entered &lt;strong&gt;only once&lt;/strong&gt;, in any formula or quantity definition: the other formulas that use it get it from there. A symbol that stands for &lt;strong&gt;different quantities&lt;/strong&gt; is entered in every formula that uses it.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Symbol:&lt;/strong&gt; Provide the symbol in LaTeX format, &lt;strong&gt;without&lt;/strong&gt; surroundings like &lt;code&gt;$...$&lt;/code&gt; or &lt;code&gt;\(...\)&lt;/code&gt;.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Represented Quantity:&lt;/strong&gt; For all quantities &lt;em&gt;label (description)&lt;/em&gt; is provided; the coloured badge shows where it comes from. If a quantity is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate quantity is present in the MaRDI Portal or Wikidata, type its name and select it; its short description is entered on its page.&lt;/p&gt;</help>
 		<verbose_name lang="en">Add Symbol Annotation</verbose_name>
 		<title lang="de">Formelsymbole und ihre repräsentierten Quantitäten</title>
-		<help lang="de">&lt;p&gt;Um Symbole in der Formel zu annotieren, geben Sie das verwendete Symbol an und wählen oder definieren Sie die entsprechende Quantität.&lt;/p&gt;</help>
+		<help lang="de">&lt;p&gt;Geben Sie das verwendete Symbol an und wählen oder definieren Sie die Quantität, die es repräsentiert.&lt;/p&gt;&lt;p&gt;Ein Symbol, das in allen Formeln dieser Dokumentation für &lt;strong&gt;dieselbe Quantität&lt;/strong&gt; steht, wird &lt;strong&gt;nur einmal&lt;/strong&gt; angegeben, in einer beliebigen Formel oder Quantitätsdefinition: die anderen Formeln, die es verwenden, übernehmen es von dort. Ein Symbol, das für &lt;strong&gt;verschiedene Quantitäten&lt;/strong&gt; steht, wird in jeder Formel angegeben, die es verwendet.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Symbol:&lt;/strong&gt; Geben Sie das Symbol im LaTeX-Format an, &lt;strong&gt;ohne&lt;/strong&gt; Umschließungen wie &lt;code&gt;$...$&lt;/code&gt; oder &lt;code&gt;\(...\)&lt;/code&gt;.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Repräsentierte Quantität:&lt;/strong&gt; Für alle Quantitäten wird &lt;em&gt;Name (Beschreibung)&lt;/em&gt; angegeben; die farbige Markierung zeigt die Herkunft. Wenn eine Quantität ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls keine passende Quantität im MaRDI Portal oder Wikidata vorhanden ist, geben Sie den Namen ein und wählen Sie ihn aus; die Kurzbeschreibung tragen Sie auf der zugehörigen Seite ein.&lt;/p&gt;</help>
 		<verbose_name lang="de">Symbolannotation Hinzufügen</verbose_name>
 		<questionsets/>
 		<questions>
@@ -1198,11 +1198,11 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/formulation/element/symbol"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">&lt;p&gt;Provide the symbol in LaTeX format, &lt;strong&gt;without&lt;/strong&gt; surroundings like &lt;code&gt;$...$&lt;/code&gt; or &lt;code&gt;\(...\)&lt;/code&gt;.&lt;/p&gt;&lt;span class="mardmo-math"&gt;&lt;/span&gt;</help>
+		<help lang="en">&lt;span class="mardmo-math"&gt;&lt;/span&gt;</help>
 		<text lang="en">Symbol</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">&lt;p&gt;Geben Sie das Symbol im LaTeX-Format an, &lt;strong&gt;ohne&lt;/strong&gt; Umschließungen wie &lt;code&gt;$...$&lt;/code&gt; oder &lt;code&gt;\(...\)&lt;/code&gt;.&lt;/p&gt;&lt;span class="mardmo-math"&gt;&lt;/span&gt;</help>
+		<help lang="de">&lt;span class="mardmo-math"&gt;&lt;/span&gt;</help>
 		<text lang="de">Symbol</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -1214,7 +1214,7 @@
 		<minimum/>
 		<step/>
 		<unit/>
-		<width/>
+		<width>3</width>
 		<optionsets/>
 		<conditions/>
 	</question>
@@ -1225,11 +1225,11 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/formulation/element/quantity"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">&lt;p&gt;For all quantities &lt;em&gt;label (description)&lt;/em&gt; is provided; the coloured badge shows where it comes from. If a quantity is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate quantity is present in the MaRDI Portal or Wikidata, type its name and select it; its short description is entered on its page.&lt;/p&gt;</help>
+		<help lang="en"/>
 		<text lang="en">Represented Quantity</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">&lt;p&gt;Für alle Quantitäten wird &lt;em&gt;Name (Beschreibung)&lt;/em&gt; angegeben; die farbige Markierung zeigt die Herkunft. Wenn eine Quantität ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls keine passende Quantität im MaRDI Portal oder Wikidata vorhanden ist, geben Sie den Namen ein und wählen Sie ihn aus; die Kurzbeschreibung tragen Sie auf der zugehörigen Seite ein.&lt;/p&gt;</help>
+		<help lang="de"/>
 		<text lang="de">Repräsentierte Quantität</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -1241,7 +1241,7 @@
 		<minimum/>
 		<step/>
 		<unit/>
-		<width/>
+		<width>8</width>
 		<optionsets>
 			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/quantity-or-quantity-kind-relatant-with-creation"/>
 		</optionsets>
@@ -1252,7 +1252,7 @@
 		<uri_path>mardmo/formulation/information/notation/formula</uri_path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/formulation/formula"/>
-		<is_collection>True</is_collection>
+		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en">&lt;p&gt;Provide the defining formula in LaTeX format, &lt;strong&gt;without&lt;/strong&gt; surroundings like &lt;code&gt;$...$&lt;/code&gt; or &lt;code&gt;\(...\)&lt;/code&gt;. A list of LaTeX commands available in MediaWiki can be found &lt;a href="https://mirror.physik.tu-berlin.de/pub/CTAN/macros/latex/contrib/texvc/texvc.pdf"&gt;here&lt;/a&gt;.&lt;/p&gt;&lt;span class="mardmo-math"&gt;&lt;/span&gt;</help>
 		<text lang="en">Defining Formula of the Formula</text>
@@ -1735,10 +1735,10 @@
 		<attribute/>
 		<is_collection>True</is_collection>
 		<title lang="en">Formula Symbols and their Represented Quantities</title>
-		<help lang="en">&lt;p&gt;To annotate symbols in the formula, specify the symbol used, and select or define the corresponding quantity.&lt;/p&gt;</help>
+		<help lang="en">&lt;p&gt;Specify the symbol used and select or define the quantity it represents.&lt;/p&gt;&lt;p&gt;A symbol that stands for the &lt;strong&gt;same quantity&lt;/strong&gt; in all formulas of this documentation is entered &lt;strong&gt;only once&lt;/strong&gt;, in any formula or quantity definition: the other formulas that use it get it from there. A symbol that stands for &lt;strong&gt;different quantities&lt;/strong&gt; is entered in every formula that uses it.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Symbol:&lt;/strong&gt; Provide the symbol in LaTeX format, &lt;strong&gt;without&lt;/strong&gt; surroundings like &lt;code&gt;$...$&lt;/code&gt; or &lt;code&gt;\(...\)&lt;/code&gt;.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Represented Quantity:&lt;/strong&gt; For all quantities &lt;em&gt;label (description)&lt;/em&gt; is provided; the coloured badge shows where it comes from. If a quantity is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate quantity is present in the MaRDI Portal or Wikidata, type its name and select it; its short description is entered on its page.&lt;/p&gt;</help>
 		<verbose_name lang="en">Add Symbol Annotation</verbose_name>
 		<title lang="de">Formelsymbole und ihre repräsentierten Quantitäten</title>
-		<help lang="de">&lt;p&gt;Um Symbole in der Formel zu annotieren, geben Sie das verwendete Symbol an und wählen oder definieren Sie die entsprechende Quantität.&lt;/p&gt;</help>
+		<help lang="de">&lt;p&gt;Geben Sie das verwendete Symbol an und wählen oder definieren Sie die Quantität, die es repräsentiert.&lt;/p&gt;&lt;p&gt;Ein Symbol, das in allen Formeln dieser Dokumentation für &lt;strong&gt;dieselbe Quantität&lt;/strong&gt; steht, wird &lt;strong&gt;nur einmal&lt;/strong&gt; angegeben, in einer beliebigen Formel oder Quantitätsdefinition: die anderen Formeln, die es verwenden, übernehmen es von dort. Ein Symbol, das für &lt;strong&gt;verschiedene Quantitäten&lt;/strong&gt; steht, wird in jeder Formel angegeben, die es verwendet.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Symbol:&lt;/strong&gt; Geben Sie das Symbol im LaTeX-Format an, &lt;strong&gt;ohne&lt;/strong&gt; Umschließungen wie &lt;code&gt;$...$&lt;/code&gt; oder &lt;code&gt;\(...\)&lt;/code&gt;.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Repräsentierte Quantität:&lt;/strong&gt; Für alle Quantitäten wird &lt;em&gt;Name (Beschreibung)&lt;/em&gt; angegeben; die farbige Markierung zeigt die Herkunft. Wenn eine Quantität ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls keine passende Quantität im MaRDI Portal oder Wikidata vorhanden ist, geben Sie den Namen ein und wählen Sie ihn aus; die Kurzbeschreibung tragen Sie auf der zugehörigen Seite ein.&lt;/p&gt;</help>
 		<verbose_name lang="de">Symbolannotation Hinzufügen</verbose_name>
 		<questionsets/>
 		<questions>
@@ -1754,11 +1754,11 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity/element/symbol"/>
 		<is_collection>False</is_collection>
 		<is_optional>True</is_optional>
-		<help lang="en">&lt;p&gt;Provide the symbol in LaTeX format, &lt;strong&gt;without&lt;/strong&gt; surroundings like &lt;code&gt;$...$&lt;/code&gt; or &lt;code&gt;\(...\)&lt;/code&gt;.&lt;/p&gt;&lt;span class="mardmo-math"&gt;&lt;/span&gt;</help>
+		<help lang="en">&lt;span class="mardmo-math"&gt;&lt;/span&gt;</help>
 		<text lang="en">Symbol</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">&lt;p&gt;Geben Sie das Symbol im LaTeX-Format an, &lt;strong&gt;ohne&lt;/strong&gt; Umschließungen wie &lt;code&gt;$...$&lt;/code&gt; oder &lt;code&gt;\(...\)&lt;/code&gt;.&lt;/p&gt;&lt;span class="mardmo-math"&gt;&lt;/span&gt;</help>
+		<help lang="de">&lt;span class="mardmo-math"&gt;&lt;/span&gt;</help>
 		<text lang="de">Symbol</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -1770,7 +1770,7 @@
 		<minimum/>
 		<step/>
 		<unit/>
-		<width/>
+		<width>3</width>
 		<optionsets/>
 		<conditions/>
 	</question>
@@ -1781,11 +1781,11 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity/element/quantity"/>
 		<is_collection>False</is_collection>
 		<is_optional>True</is_optional>
-		<help lang="en">&lt;p&gt;For all quantities &lt;em&gt;label (description)&lt;/em&gt; is provided; the coloured badge shows where it comes from. If a quantity is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate quantity is present in the MaRDI Portal or Wikidata, type its name and select it; its short description is entered on its page.&lt;/p&gt;</help>
+		<help lang="en"/>
 		<text lang="en">Represented Quantity</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">&lt;p&gt;Für alle Quantitäten wird &lt;em&gt;Name (Beschreibung)&lt;/em&gt; angegeben; die farbige Markierung zeigt die Herkunft. Wenn eine Quantität ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls keine passende Quantität im MaRDI Portal oder Wikidata vorhanden ist, geben Sie den Namen ein und wählen Sie ihn aus; die Kurzbeschreibung tragen Sie auf der zugehörigen Seite ein.&lt;/p&gt;</help>
+		<help lang="de"/>
 		<text lang="de">Repräsentierte Quantität</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -1797,7 +1797,7 @@
 		<minimum/>
 		<step/>
 		<unit/>
-		<width/>
+		<width>8</width>
 		<optionsets>
 			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/quantity-or-quantity-kind-relatant-with-creation"/>
 		</optionsets>
@@ -1808,7 +1808,7 @@
 		<uri_path>mardmo/quantity/information/notation/formula</uri_path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/quantity/formula"/>
-		<is_collection>True</is_collection>
+		<is_collection>False</is_collection>
 		<is_optional>True</is_optional>
 		<help lang="en">&lt;p&gt;Provide the formula in LaTeX format, &lt;strong&gt;without&lt;/strong&gt; surroundings like &lt;code&gt;$...$&lt;/code&gt; or &lt;code&gt;\(...\)&lt;/code&gt;. Use &lt;code&gt;\equiv&lt;/code&gt; to denote definitions. A list of LaTeX commands available in MediaWiki can be found &lt;a href="https://mirror.physik.tu-berlin.de/pub/CTAN/macros/latex/contrib/texvc/texvc.pdf"&gt;here&lt;/a&gt;.&lt;/p&gt;&lt;span class="mardmo-math"&gt;&lt;/span&gt;</help>
 		<text lang="en">Formula of the Definition</text>
