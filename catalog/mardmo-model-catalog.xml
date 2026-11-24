@@ -1241,7 +1241,7 @@
 		<minimum/>
 		<step/>
 		<unit/>
-		<width>8</width>
+		<width>9</width>
 		<optionsets>
 			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/quantity-or-quantity-kind-relatant-with-creation"/>
 		</optionsets>
@@ -1797,7 +1797,7 @@
 		<minimum/>
 		<step/>
 		<unit/>
-		<width>8</width>
+		<width>9</width>
 		<optionsets>
 			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/quantity-or-quantity-kind-relatant-with-creation"/>
 		</optionsets>
