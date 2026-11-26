@@ -522,13 +522,13 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/model/model-assumption"/>
 		<is_collection>True</is_collection>
 		<is_optional>True</is_optional>
-		<help lang="en">&lt;p&gt;Only required if the option &lt;strong&gt;is specialized by&lt;/strong&gt; or &lt;strong&gt;specializes&lt;/strong&gt; is selected for the model. The assumptions apply to all models of this relation. If different models need different assumptions, create a separate relation for each of them and remove the model from this one.&lt;/p&gt;
+		<help lang="en">&lt;p&gt;The assumptions apply to all models of this relation. If different models need different assumptions, create a separate relation for each of them and remove the model from this one.&lt;/p&gt;
 
 &lt;p&gt;For all formulas &lt;em&gt;label (description)&lt;/em&gt; is provided; the coloured badge shows where it comes from. If a formula is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate formula is present in the MaRDI Portal or Wikidata, type its name and select it; its short description is entered on its page.&lt;/p&gt;</help>
 		<text lang="en">Assumption to reduce the general Mathematical Model to its specialized form(s).</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en">Add Formula</verbose_name>
-		<help lang="de">&lt;p&gt;Nur erforderlich, wenn für das Modell die Option &lt;strong&gt;wird spezialisiert durch&lt;/strong&gt; oder &lt;strong&gt;spezialisiert&lt;/strong&gt; gewählt wurde. Die Annahmen gelten für alle Modelle dieser Relation. Benötigen verschiedene Modelle unterschiedliche Annahmen, legen Sie für jedes eine eigene Relation an und entfernen Sie es aus dieser.&lt;/p&gt;
+		<help lang="de">&lt;p&gt;Die Annahmen gelten für alle Modelle dieser Relation. Benötigen verschiedene Modelle unterschiedliche Annahmen, legen Sie für jedes eine eigene Relation an und entfernen Sie es aus dieser.&lt;/p&gt;
 
 &lt;p&gt;Für alle Formeln wird &lt;em&gt;Name (Beschreibung)&lt;/em&gt; angegeben; die farbige Markierung zeigt die Herkunft. Wenn eine Formel ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls keine passende Formel im MaRDI Portal oder Wikidata vorhanden ist, geben Sie den Namen ein und wählen Sie ihn aus; die Kurzbeschreibung tragen Sie auf der zugehörigen Seite ein.&lt;/p&gt;</help>
 		<text lang="de">Annahme zur Reduzierung des allgemeinen mathematischen Modells auf seine spezielle(n) Form(en).</text>
@@ -546,7 +546,10 @@
 		<optionsets>
 			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/formulation-relatant-with-creation"/>
 		</optionsets>
-		<conditions/>
+		<conditions>
+			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/model-specializes"/>
+			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/model-specialized-by"/>
+		</conditions>
 	</question>
 	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/id">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
@@ -1029,13 +1032,13 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/task/task-assumption"/>
 		<is_collection>True</is_collection>
 		<is_optional>True</is_optional>
-		<help lang="en">&lt;p&gt;Only required if the option &lt;strong&gt;is specialized by&lt;/strong&gt; or &lt;strong&gt;specializes&lt;/strong&gt; is selected for the task. The assumptions apply to all tasks of this relation. If different tasks need different assumptions, create a separate relation for each of them and remove the task from this one.&lt;/p&gt;
+		<help lang="en">&lt;p&gt;The assumptions apply to all tasks of this relation. If different tasks need different assumptions, create a separate relation for each of them and remove the task from this one.&lt;/p&gt;
 
 &lt;p&gt;For all formulas &lt;em&gt;label (description)&lt;/em&gt; is provided; the coloured badge shows where it comes from. If a formula is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate formula is present in the MaRDI Portal or Wikidata, type its name and select it; its short description is entered on its page.&lt;/p&gt;</help>
 		<text lang="en">Assumption to reduce the general Computational Task to its specialized form(s).</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en">Add Formula</verbose_name>
-		<help lang="de">&lt;p&gt;Nur erforderlich, wenn für die Aufgabe die Option &lt;strong&gt;wird spezialisiert durch&lt;/strong&gt; oder &lt;strong&gt;spezialisiert&lt;/strong&gt; gewählt wurde. Die Annahmen gelten für alle Aufgaben dieser Relation. Benötigen verschiedene Aufgaben unterschiedliche Annahmen, legen Sie für jede eine eigene Relation an und entfernen Sie es aus dieser.&lt;/p&gt;
+		<help lang="de">&lt;p&gt;Die Annahmen gelten für alle Aufgaben dieser Relation. Benötigen verschiedene Aufgaben unterschiedliche Annahmen, legen Sie für jede eine eigene Relation an und entfernen Sie sie aus dieser.&lt;/p&gt;
 
 &lt;p&gt;Für alle Formeln wird &lt;em&gt;Name (Beschreibung)&lt;/em&gt; angegeben; die farbige Markierung zeigt die Herkunft. Wenn eine Formel ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls keine passende Formel im MaRDI Portal oder Wikidata vorhanden ist, geben Sie den Namen ein und wählen Sie ihn aus; die Kurzbeschreibung tragen Sie auf der zugehörigen Seite ein.&lt;/p&gt;</help>
 		<text lang="de">Annahme zur Reduzierung der allgemeinen Berechnungsaufgabe auf seine spezielle(n) Form(en).</text>
@@ -1053,7 +1056,10 @@
 		<optionsets>
 			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/formulation-relatant-with-creation"/>
 		</optionsets>
-		<conditions/>
+		<conditions>
+			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/task-specializes"/>
+			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/task-specialized-by"/>
+		</conditions>
 	</question>
 	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/task/id">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
@@ -1120,7 +1126,7 @@
 		<verbose_name lang="de">Formel Hinzufügen</verbose_name>
 		<questionsets>
 			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/formulation/information" order="1"/>
-			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/formulation/formulation-to-formulation-2" order="2"/>
+			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/formulation/formulation-to-formulation" order="2"/>
 		</questionsets>
 		<questions>
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/formulation/id" order="0"/>
@@ -1141,7 +1147,6 @@
 		<verbose_name lang="de"/>
 		<questionsets>
 			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/formulation/information/notation" order="5"/>
-			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/formulation/information/formulation-to-formulation-1" order="6"/>
 		</questionsets>
 		<questions>
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/formulation/information/name" order="0"/>
@@ -1272,83 +1277,6 @@
 		<unit/>
 		<width/>
 		<optionsets/>
-		<conditions/>
-	</question>
-	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/formulation/information/formulation-to-formulation-1">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/formulation/information/formulation-to-formulation-1</uri_path>
-		<dc:comment/>
-		<attribute/>
-		<is_collection>True</is_collection>
-		<title lang="en">Formula - Formula Relations I</title>
-		<help lang="en">&lt;p&gt;To add formulas to the formula, select or define a formula and specify its role.&lt;/p&gt;</help>
-		<verbose_name lang="en">Add Formula Relation</verbose_name>
-		<title lang="de">Formel - Formel Beziehungen I</title>
-		<help lang="de">&lt;p&gt;Um Formeln zur Formel hinzuzufügen, wählen oder definieren Sie eine Formel und geben Sie deren Rolle an.&lt;/p&gt;</help>
-		<verbose_name lang="de">Formel Relation Hinzufügen</verbose_name>
-		<questionsets/>
-		<questions>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/formulation/information/formulation-to-formulation-1/formulation-relation" order="0"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/formulation/information/formulation-to-formulation-1/formulation-relatant" order="1"/>
-		</questions>
-		<conditions/>
-	</questionset>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/formulation/information/formulation-to-formulation-1/formulation-relation">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/formulation/information/formulation-to-formulation-1/formulation-relation</uri_path>
-		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/formulation/formulation-relation-1"/>
-		<is_collection>False</is_collection>
-		<is_optional>False</is_optional>
-		<help lang="en">&lt;p&gt;Use &lt;em&gt;assumes&lt;/em&gt; for assumptions, &lt;em&gt;contains&lt;/em&gt; for formulas without a specific role, and the other relations for formulas with dedicated roles.&lt;/p&gt;</help>
-		<text lang="en">The Formula...</text>
-		<default_text lang="en"/>
-		<verbose_name lang="en"/>
-		<help lang="de">&lt;p&gt;Verwenden Sie &lt;em&gt;assumes&lt;/em&gt; für Annahmen, &lt;em&gt;contains&lt;/em&gt; für Formeln ohne spezifische Rolle und die anderen Relationen für Formeln mit festgelegter Rolle.&lt;/p&gt;</help>
-		<text lang="de">Die Formel...</text>
-		<default_text lang="de"/>
-		<verbose_name lang="de"/>
-		<default_option/>
-		<default_external_id/>
-		<widget_type>select</widget_type>
-		<value_type>text</value_type>
-		<maximum/>
-		<minimum/>
-		<step/>
-		<unit/>
-		<width/>
-		<optionsets>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/formulation-to-formulation-relation-1"/>
-		</optionsets>
-		<conditions/>
-	</question>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/formulation/information/formulation-to-formulation-1/formulation-relatant">
-		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/formulation/information/formulation-to-formulation-1/formulation-relatant</uri_path>
-		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/formulation/formulation-relatant-1"/>
-		<is_collection>True</is_collection>
-		<is_optional>False</is_optional>
-		<help lang="en">&lt;p&gt;Choose one or more formulas to be linked by the selected relation. For all formulas &lt;em&gt;label (description)&lt;/em&gt; is provided; the coloured badge shows where it comes from. If a formula is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate formula is present in the MaRDI Portal or Wikidata, type its name and select it; its short description is entered on its page.&lt;/p&gt;</help>
-		<text lang="en">...another Formula.</text>
-		<default_text lang="en"/>
-		<verbose_name lang="en">Add Formula</verbose_name>
-		<help lang="de">&lt;p&gt;Wählen Sie eine oder mehrere Formeln aus, die über die ausgewählte Relation verknüpft werden sollen. Für alle Formeln wird &lt;em&gt;Name (Beschreibung)&lt;/em&gt; angegeben; die farbige Markierung zeigt die Herkunft. Wenn eine Formel ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls keine passende Formel im MaRDI Portal oder Wikidata vorhanden ist, geben Sie den Namen ein und wählen Sie ihn aus; die Kurzbeschreibung tragen Sie auf der zugehörigen Seite ein.&lt;/p&gt;</help>
-		<text lang="de">...einer weiteren Formel.</text>
-		<default_text lang="de"/>
-		<verbose_name lang="de">Formel Hinzufügen</verbose_name>
-		<default_option/>
-		<default_external_id/>
-		<widget_type>select</widget_type>
-		<value_type>text</value_type>
-		<maximum/>
-		<minimum/>
-		<step/>
-		<unit/>
-		<width/>
-		<optionsets>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/formulation-relatant-with-creation"/>
-		</optionsets>
 		<conditions/>
 	</question>
 	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/formulation/information/name">
@@ -1496,38 +1424,38 @@
 		</optionsets>
 		<conditions/>
 	</question>
-	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/formulation/formulation-to-formulation-2">
+	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/formulation/formulation-to-formulation">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/formulation/formulation-to-formulation-2</uri_path>
+		<uri_path>mardmo/formulation/formulation-to-formulation</uri_path>
 		<dc:comment/>
 		<attribute/>
 		<is_collection>True</is_collection>
-		<title lang="en">Formula - Formula Relations  II</title>
-		<help lang="en">&lt;p&gt;To relate the formula with other formulas, select additional formulas and specify the relations.&lt;/p&gt;</help>
+		<title lang="en">Formula - Formula Relations</title>
+		<help lang="en">&lt;p&gt;Relate the formula to other formulas: its parts (assumptions, contained formulas, conditions) and formulas it approximates, discretizes, specializes or is otherwise related to.&lt;/p&gt;</help>
 		<verbose_name lang="en">Add Formula Relation</verbose_name>
-		<title lang="de">Formel - Formel Beziehungen  II</title>
-		<help lang="de">&lt;p&gt;Um die Formel mit anderen Formeln zu verknüpfen, wählen Sie weitere Formeln aus und geben Sie die Relationen an.&lt;/p&gt;</help>
+		<title lang="de">Formel - Formel Beziehungen</title>
+		<help lang="de">&lt;p&gt;Verknüpfen Sie die Formel mit anderen Formeln: ihren Teilen (Annahmen, enthaltene Formeln, Bedingungen) und Formeln, die sie approximiert, diskretisiert, spezialisiert oder mit denen sie anders zusammenhängt.&lt;/p&gt;</help>
 		<verbose_name lang="de">Formel Relation Hinzufügen</verbose_name>
 		<questionsets/>
 		<questions>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/formulation/formulation-to-formulation-2/formulation-relation" order="0"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/formulation/formulation-to-formulation-2/formulation-relatant" order="1"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/formulation/formulation-to-formulation-2/assumption" order="2"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/formulation/formulation-to-formulation/formulation-relation" order="0"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/formulation/formulation-to-formulation/formulation-relatant" order="1"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/formulation/formulation-to-formulation/assumption" order="2"/>
 		</questions>
 		<conditions/>
 	</questionset>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/formulation/formulation-to-formulation-2/formulation-relation">
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/formulation/formulation-to-formulation/formulation-relation">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/formulation/formulation-to-formulation-2/formulation-relation</uri_path>
+		<uri_path>mardmo/formulation/formulation-to-formulation/formulation-relation</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/formulation/formulation-relation-2"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/formulation/formulation-relation"/>
 		<is_collection>False</is_collection>
-		<is_optional>True</is_optional>
-		<help lang="en"/>
+		<is_optional>False</is_optional>
+		<help lang="en">&lt;p&gt;Use &lt;em&gt;assumes&lt;/em&gt; for assumptions, &lt;em&gt;contains&lt;/em&gt; for formulas without a specific role, &lt;em&gt;contains&lt;/em&gt; with a condition for conditions, and the other relations for how the formula relates to another formula.&lt;/p&gt;</help>
 		<text lang="en">The Formula...</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de"/>
+		<help lang="de">&lt;p&gt;Verwenden Sie &lt;em&gt;assumes&lt;/em&gt; für Annahmen, &lt;em&gt;contains&lt;/em&gt; für Formeln ohne spezifische Rolle, &lt;em&gt;contains&lt;/em&gt; mit einer Bedingung für Bedingungen und die anderen Relationen dafür, wie die Formel mit einer anderen Formel zusammenhängt.&lt;/p&gt;</help>
 		<text lang="de">Die Formel...</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -1541,22 +1469,22 @@
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/formulation-to-formulation-relation-2"/>
+			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/formulation-to-formulation-relation"/>
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/formulation/formulation-to-formulation-2/formulation-relatant">
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/formulation/formulation-to-formulation/formulation-relatant">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/formulation/formulation-to-formulation-2/formulation-relatant</uri_path>
+		<uri_path>mardmo/formulation/formulation-to-formulation/formulation-relatant</uri_path>
 		<dc:comment/>
-		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/formulation/formulation-relatant-2"/>
+		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/formulation/formulation-relatant"/>
 		<is_collection>True</is_collection>
-		<is_optional>True</is_optional>
-		<help lang="en">&lt;p&gt;Choose one or more formulas to be linked by the selected relation (including possible assumptions). For all formulas &lt;em&gt;label (description)&lt;/em&gt; is provided; the coloured badge shows where it comes from. Only formulas from the MaRDI Portal and those selected or defined within the interview can be chosen.&lt;/p&gt;</help>
+		<is_optional>False</is_optional>
+		<help lang="en">&lt;p&gt;Choose one or more formulas to be linked by the selected relation. For all formulas &lt;em&gt;label (description)&lt;/em&gt; is provided; the coloured badge shows where it comes from. Only formulas from the MaRDI Portal and those of this documentation can be chosen: add a new formula as a page of its own first.&lt;/p&gt;</help>
 		<text lang="en">...another Formula.</text>
 		<default_text lang="en"/>
-		<verbose_name lang="en">Add Mathematical Relation</verbose_name>
-		<help lang="de">&lt;p&gt;Wählen Sie eine oder mehrere Formeln aus, die über die ausgewählte Relation verknüpft werden sollen (einschließlich möglicher Annahmen). Für alle Formeln wird &lt;em&gt;Name (Beschreibung)&lt;/em&gt; angegeben; die farbige Markierung zeigt die Herkunft. Es können nur Formeln aus dem MaRDI-Portal sowie solche ausgewählt oder definiert werden, die im Interview verwendet werden.&lt;/p&gt;</help>
+		<verbose_name lang="en">Add Formula</verbose_name>
+		<help lang="de">&lt;p&gt;Wählen Sie eine oder mehrere Formeln aus, die über die ausgewählte Relation verknüpft werden sollen. Für alle Formeln wird &lt;em&gt;Name (Beschreibung)&lt;/em&gt; angegeben; die farbige Markierung zeigt die Herkunft. Es können nur Formeln aus dem MaRDI Portal und aus dieser Dokumentation gewählt werden: legen Sie eine neue Formel zuerst als eigene Seite an.&lt;/p&gt;</help>
 		<text lang="de">...eine weitere Formel.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de">Formel Hinzufügen</verbose_name>
@@ -1574,22 +1502,18 @@
 		</optionsets>
 		<conditions/>
 	</question>
-	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/formulation/formulation-to-formulation-2/assumption">
+	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/formulation/formulation-to-formulation/assumption">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
-		<uri_path>mardmo/formulation/formulation-to-formulation-2/assumption</uri_path>
+		<uri_path>mardmo/formulation/formulation-to-formulation/assumption</uri_path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/formulation/formulation-assumption"/>
 		<is_collection>True</is_collection>
 		<is_optional>True</is_optional>
-		<help lang="en">&lt;p&gt;Only required if the option &lt;strong&gt;is specialized by&lt;/strong&gt; or &lt;strong&gt;specializes&lt;/strong&gt; is selected for the formula. The assumptions apply to all formula of this relation. If different formulas need different assumptions, create a separate relation for each of them and remove the formula from this one.&lt;/p&gt;
-
-&lt;p&gt;For all formulas &lt;em&gt;label (description)&lt;/em&gt; is provided; the coloured badge shows where it comes from. If a formula is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate formula is present in the MaRDI Portal or Wikidata, type its name and select it; its short description is entered on its page.&lt;/p&gt;</help>
+		<help lang="en">&lt;p&gt;The assumptions apply to all formulas of this relation. If different formulas need different assumptions, create a separate relation for each of them and remove the formula from this one.&lt;/p&gt;&lt;p&gt;For all formulas &lt;em&gt;label (description)&lt;/em&gt; is provided; the coloured badge shows where it comes from. If a formula is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate formula is present in the MaRDI Portal or Wikidata, type its name and select it; its short description is entered on its page.&lt;/p&gt;</help>
 		<text lang="en">Assumption to reduce the general Formula to its specialized form(s).</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en">Add Formula</verbose_name>
-		<help lang="de">&lt;p&gt;Nur erforderlich, wenn für die Formel die Option &lt;strong&gt;wird spezialisiert durch&lt;/strong&gt; oder &lt;strong&gt;spezialisiert&lt;/strong&gt; gewählt wurde. Die Annahmen gelten für alle Formeln dieser Relation. Benötigen verschiedene Formeln unterschiedliche Annahmen, legen Sie für jede eine eigene Relation an und entfernen Sie es aus dieser.&lt;/p&gt;
-
-&lt;p&gt;Für alle Formeln wird &lt;em&gt;Name (Beschreibung)&lt;/em&gt; angegeben; die farbige Markierung zeigt die Herkunft. Wenn eine Formel ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls keine passende Formel im MaRDI Portal oder Wikidata vorhanden ist, geben Sie den Namen ein und wählen Sie ihn aus; die Kurzbeschreibung tragen Sie auf der zugehörigen Seite ein.&lt;/p&gt;</help>
+		<help lang="de">&lt;p&gt;Die Annahmen gelten für alle Formeln dieser Relation. Benötigen verschiedene Formeln unterschiedliche Annahmen, legen Sie für jede eine eigene Relation an und entfernen Sie sie aus dieser.&lt;/p&gt;&lt;p&gt;Für alle Formeln wird &lt;em&gt;Name (Beschreibung)&lt;/em&gt; angegeben; die farbige Markierung zeigt die Herkunft. Wenn eine Formel ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls keine passende Formel im MaRDI Portal oder Wikidata vorhanden ist, geben Sie den Namen ein und wählen Sie ihn aus; die Kurzbeschreibung tragen Sie auf der zugehörigen Seite ein.&lt;/p&gt;</help>
 		<text lang="de">Annahme zur Reduzierung der allgemeinen Formel auf ihre spezielle(n) Form(en).</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de">Formel Hinzufügen</verbose_name>
@@ -1605,7 +1529,10 @@
 		<optionsets>
 			<optionset dc:uri="https://rdmo.mardi4nfdi.de/terms/options/formulation-relatant-with-creation"/>
 		</optionsets>
-		<conditions/>
+		<conditions>
+			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/formulation-specializes"/>
+			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/formulation-specialized-by"/>
+		</conditions>
 	</question>
 	<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/formulation/id">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
