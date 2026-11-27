@@ -1102,28 +1102,12 @@
 		<is_collection>True</is_collection>
 		<title lang="en">Formula</title>
 		<short_title lang="en">Formula</short_title>
-		<help lang="en">&lt;p&gt;On this page, you can define new formulas or select existing ones from the MaRDI Portal or Wikidata. When an existing formula is selected, all available information from the relevant source is retrieved and integrated into the interview. Retrieved data can be completed and extended with new relations (e.g., connections to other formulas).&lt;/p&gt;
-
-&lt;p&gt;In addition to enhancing existing formulas, they can also serve as templates for creating new ones. To use a formula as a template, the reference to the external source must be removed after importing the available information.&lt;/p&gt;
-
-&lt;p&gt;For a smooth export to the MaRDI Portal, all &lt;strong&gt;non-optional&lt;/strong&gt; questions must be answered completely.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; If a formula is selected from the MaRDI Portal and not used as a template, its existing information &lt;u&gt;cannot&lt;/u&gt; be edited or deleted via MaRDMO. Any changes or deletions made regardless will be ignored or shown alongside the original information in the MaRDI Portal.&lt;/p&gt;
-
-&lt;p&gt;Check out &lt;a href="https://www.youtube.com/watch?v=NpdyXsvlSKo"&gt;Formula&lt;/a&gt; showcasing the documentation.&lt;/p&gt;</help>
+		<help lang="en">&lt;details&gt;&lt;summary&gt;Document a new formula, or select one from the MaRDI Portal or Wikidata and complete it.&lt;/summary&gt;&lt;p&gt;Selecting an existing formula adds its information from the source to the interview; you can complete it and add relations. Answer all questions not marked as optional, so that the formula can be exported.&lt;/p&gt;&lt;p&gt;In the dropdowns, each item shows its label and description, and the colour shows its source (MaRDI Portal, Wikidata, this documentation). After choosing one, &lt;strong&gt;wait&lt;/strong&gt; until its information has been added.&lt;/p&gt;&lt;p&gt;The information a formula already has on the MaRDI Portal cannot be changed or deleted with MaRDMO, only completed.&lt;/p&gt;&lt;p&gt;The video &lt;a href="https://www.youtube.com/watch?v=NpdyXsvlSKo"&gt;Formula&lt;/a&gt; shows how to document one.&lt;/p&gt;&lt;/details&gt;</help>
 		<verbose_name lang="en">Add Formula</verbose_name>
 		<title lang="de">Formel</title>
 		<short_title lang="de">Formel</short_title>
-		<help lang="de">&lt;p&gt;Auf dieser Seite können neue Formeln definiert oder bereits bestehende Formeln aus dem MaRDI Portal oder Wikidata ausgewählt werden. Wird eine bestehende Formel ausgewählt, werden alle verfügbaren Informationen aus der jeweiligen Quelle abgerufen und in das Interview integriert. Die abgerufenen Informationen können ergänzt und um neue Relationen erweitert werden (z.&amp;nbsp;B. Verbindungen zu anderen Formeln).&lt;/p&gt;
-
-&lt;p&gt;Bestehende Formeln können nicht nur erweitert, sondern auch als Vorlage für neue Formeln verwendet werden. Hierfür ist es erforderlich, nach dem Abruf der Informationen den Bezug zur externen Quelle zu entfernen.&lt;/p&gt;
-
-&lt;p&gt;Für einen reibungslosen Export in das MaRDI Portal müssen alle &lt;strong&gt;nicht-optionalen&lt;/strong&gt; Fragen vollständig beantwortet sein.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Hinweis:&lt;/strong&gt; Wird eine Formel aus dem MaRDI Portal ausgewählt und nicht als Vorlage verwendet, können bestehende Informationen über MaRDMO &lt;u&gt;nicht&lt;/u&gt; editiert oder gelöscht werden. Änderungen oder Löschungen, die dennoch vorgenommen werden, werden ignoriert oder zusätzlich zu den bestehenden Informationen im MaRDI Portal angezeigt.&lt;/p&gt;
-
-&lt;p&gt;Sehen Sie sich &lt;a href="https://www.youtube.com/watch?v=NpdyXsvlSKo"&gt;Formula&lt;/a&gt; an in dem die Dokumentation vorgestellt wird.&lt;/p&gt;</help>
-		<verbose_name lang="de">Formel Hinzufügen</verbose_name>
+		<help lang="de">&lt;details&gt;&lt;summary&gt;Dokumentieren Sie eine neue Formel, oder wählen Sie eine aus dem MaRDI Portal oder Wikidata aus und ergänzen Sie sie.&lt;/summary&gt;&lt;p&gt;Wird eine bestehende Formel ausgewählt, werden ihre Angaben aus der Quelle in das Interview übernommen; Sie können sie ergänzen und Beziehungen hinzufügen. Beantworten Sie alle Fragen, die nicht als optional markiert sind, damit die Formel exportiert werden kann.&lt;/p&gt;&lt;p&gt;In den Auswahllisten zeigt jeder Eintrag Name und Beschreibung, die Farbe zeigt die Herkunft (MaRDI Portal, Wikidata, diese Dokumentation). &lt;strong&gt;Warten&lt;/strong&gt; Sie nach der Auswahl, bis die Angaben übernommen sind.&lt;/p&gt;&lt;p&gt;Was eine Formel im MaRDI Portal schon hat, kann mit MaRDMO nicht geändert oder gelöscht, nur ergänzt werden.&lt;/p&gt;&lt;p&gt;Das Video &lt;a href="https://www.youtube.com/watch?v=NpdyXsvlSKo"&gt;Formula&lt;/a&gt; zeigt, wie eine Formel dokumentiert wird.&lt;/p&gt;&lt;/details&gt;</help>
+		<verbose_name lang="de">Formel hinzufügen</verbose_name>
 		<questionsets>
 			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/formulation/information" order="1"/>
 			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/formulation/formulation-to-formulation" order="2"/>
@@ -1142,18 +1126,18 @@
 		<title lang="en">Formula Information</title>
 		<help lang="en"/>
 		<verbose_name lang="en"/>
-		<title lang="de">Formel Informationen</title>
+		<title lang="de">Angaben zur Formel</title>
 		<help lang="de"/>
 		<verbose_name lang="de"/>
 		<questionsets>
-			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/formulation/information/notation" order="5"/>
+			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/formulation/information/notation" order="2"/>
 		</questionsets>
 		<questions>
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/formulation/information/name" order="0"/>
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/formulation/information/description" order="1"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/formulation/information/alias" order="2"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/formulation/information/long-description" order="3"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/formulation/information/properties" order="4"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/formulation/information/alias" order="3"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/formulation/information/long-description" order="4"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/formulation/information/properties" order="5"/>
 		</questions>
 		<conditions/>
 	</questionset>
@@ -1184,11 +1168,11 @@
 		<attribute/>
 		<is_collection>True</is_collection>
 		<title lang="en">Formula Symbols and their Represented Quantities</title>
-		<help lang="en">&lt;details&gt;&lt;summary&gt;Specify the symbols of the formula and select or define the quantity each one represents.&lt;/summary&gt;&lt;p&gt;A symbol that stands for the &lt;strong&gt;same quantity&lt;/strong&gt; in all formulas of this documentation is entered &lt;strong&gt;once&lt;/strong&gt;, in any formula or quantity definition; the other formulas take it from there. Only a symbol that stands for &lt;strong&gt;different quantities&lt;/strong&gt; is entered in every formula that uses it. A variant with an index (&lt;code&gt;t_1&lt;/code&gt;, &lt;code&gt;u_k&lt;/code&gt;) is a symbol of its own.&lt;/p&gt;&lt;p&gt;Write the symbol in LaTeX, without &lt;code&gt;$...$&lt;/code&gt; or &lt;code&gt;\(...\)&lt;/code&gt;. Select its quantity from the MaRDI Portal or Wikidata (the coloured badge shows where it comes from) and &lt;strong&gt;wait&lt;/strong&gt; until its information is added to the interview; if neither has it, type its name, select it, and enter its short description on its page.&lt;/p&gt;&lt;/details&gt;</help>
-		<verbose_name lang="en">Add Symbol Annotation</verbose_name>
+		<help lang="en">&lt;details&gt;&lt;summary&gt;Specify the symbols of the formula and select or define the quantity each one represents.&lt;/summary&gt;&lt;p&gt;A symbol that stands for the &lt;strong&gt;same quantity&lt;/strong&gt; in all formulas of this documentation is entered &lt;strong&gt;once&lt;/strong&gt;, in any formula or quantity definition; the other formulas take it from there. Only a symbol that stands for &lt;strong&gt;different quantities&lt;/strong&gt; is entered in every formula that uses it. A variant with an index (&lt;code&gt;t_1&lt;/code&gt;, &lt;code&gt;u_k&lt;/code&gt;) is a symbol of its own.&lt;/p&gt;&lt;p&gt;Write the symbol in LaTeX, without &lt;code&gt;$...$&lt;/code&gt; or &lt;code&gt;\(...\)&lt;/code&gt;. If its quantity is neither on the MaRDI Portal nor on Wikidata, type its name, select it, and enter its short description on its page.&lt;/p&gt;&lt;/details&gt;</help>
+		<verbose_name lang="en">Add Symbol</verbose_name>
 		<title lang="de">Formelsymbole und ihre repräsentierten Quantitäten</title>
-		<help lang="de">&lt;details&gt;&lt;summary&gt;Geben Sie die Symbole der Formel an und wählen oder definieren Sie jeweils die Quantität, die ein Symbol repräsentiert.&lt;/summary&gt;&lt;p&gt;Ein Symbol, das in allen Formeln dieser Dokumentation für &lt;strong&gt;dieselbe Quantität&lt;/strong&gt; steht, wird &lt;strong&gt;einmal&lt;/strong&gt; angegeben, in einer beliebigen Formel oder Quantitätsdefinition; die anderen Formeln übernehmen es von dort. Nur ein Symbol, das für &lt;strong&gt;verschiedene Quantitäten&lt;/strong&gt; steht, wird in jeder Formel angegeben, die es verwendet. Eine Variante mit Index (&lt;code&gt;t_1&lt;/code&gt;, &lt;code&gt;u_k&lt;/code&gt;) ist ein eigenes Symbol.&lt;/p&gt;&lt;p&gt;Schreiben Sie das Symbol in LaTeX, ohne &lt;code&gt;$...$&lt;/code&gt; oder &lt;code&gt;\(...\)&lt;/code&gt;. Wählen Sie seine Quantität aus dem MaRDI Portal oder Wikidata (die farbige Markierung zeigt die Herkunft) und &lt;strong&gt;warten&lt;/strong&gt; Sie, bis ihre Angaben in das Interview übernommen sind; gibt es sie in keinem von beiden, tippen Sie ihren Namen ein, wählen ihn aus und geben ihre Kurzbeschreibung auf ihrer Seite an.&lt;/p&gt;&lt;/details&gt;</help>
-		<verbose_name lang="de">Symbolannotation Hinzufügen</verbose_name>
+		<help lang="de">&lt;details&gt;&lt;summary&gt;Geben Sie die Symbole der Formel an und wählen oder definieren Sie jeweils die Quantität, die ein Symbol repräsentiert.&lt;/summary&gt;&lt;p&gt;Ein Symbol, das in allen Formeln dieser Dokumentation für &lt;strong&gt;dieselbe Quantität&lt;/strong&gt; steht, wird &lt;strong&gt;einmal&lt;/strong&gt; angegeben, in einer beliebigen Formel oder Quantitätsdefinition; die anderen Formeln übernehmen es von dort. Nur ein Symbol, das für &lt;strong&gt;verschiedene Quantitäten&lt;/strong&gt; steht, wird in jeder Formel angegeben, die es verwendet. Eine Variante mit Index (&lt;code&gt;t_1&lt;/code&gt;, &lt;code&gt;u_k&lt;/code&gt;) ist ein eigenes Symbol.&lt;/p&gt;&lt;p&gt;Schreiben Sie das Symbol in LaTeX, ohne &lt;code&gt;$...$&lt;/code&gt; oder &lt;code&gt;\(...\)&lt;/code&gt;. Gibt es seine Quantität weder im MaRDI Portal noch in Wikidata, tippen Sie ihren Namen ein, wählen ihn aus und geben ihre Kurzbeschreibung auf ihrer Seite an.&lt;/p&gt;&lt;/details&gt;</help>
+		<verbose_name lang="de">Symbol hinzufügen</verbose_name>
 		<questionsets/>
 		<questions>
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/formulation/information/notation/element/symbol" order="1"/>
@@ -1259,14 +1243,14 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/formulation/formula"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">&lt;p&gt;Provide the defining formula in LaTeX format, &lt;strong&gt;without&lt;/strong&gt; surroundings like &lt;code&gt;$...$&lt;/code&gt; or &lt;code&gt;\(...\)&lt;/code&gt;. A list of LaTeX commands available in MediaWiki can be found &lt;a href="https://mirror.physik.tu-berlin.de/pub/CTAN/macros/latex/contrib/texvc/texvc.pdf"&gt;here&lt;/a&gt;.&lt;/p&gt;&lt;span class="mardmo-math"&gt;&lt;/span&gt;</help>
-		<text lang="en">Defining Formula of the Formula</text>
+		<help lang="en">&lt;details&gt;&lt;summary&gt;Write the formula in LaTeX, without &lt;code&gt;$...$&lt;/code&gt; or &lt;code&gt;\(...\)&lt;/code&gt;.&lt;/summary&gt;&lt;p&gt;The MaRDI Portal accepts the &lt;a href="https://mirror.physik.tu-berlin.de/pub/CTAN/macros/latex/contrib/texvc/texvc.pdf"&gt;LaTeX commands of MediaWiki&lt;/a&gt;.&lt;/p&gt;&lt;/details&gt;&lt;span class="mardmo-math"&gt;&lt;/span&gt;</help>
+		<text lang="en">Defining Formula</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en">Add defining Formula</verbose_name>
-		<help lang="de">&lt;p&gt;Geben Sie die definierende Formel im LaTeX-Format an, &lt;strong&gt;ohne&lt;/strong&gt; Umschließungen wie &lt;code&gt;$...$&lt;/code&gt; oder &lt;code&gt;\(...\)&lt;/code&gt;. Eine Liste der in MediaWiki verfügbaren LaTeX Befehle findet sich &lt;a href="https://mirror.physik.tu-berlin.de/pub/CTAN/macros/latex/contrib/texvc/texvc.pdf"&gt;hier&lt;/a&gt;.&lt;/p&gt;&lt;span class="mardmo-math"&gt;&lt;/span&gt;</help>
-		<text lang="de">Definierende Formel der Formel</text>
+		<help lang="de">&lt;details&gt;&lt;summary&gt;Schreiben Sie die Formel in LaTeX, ohne &lt;code&gt;$...$&lt;/code&gt; oder &lt;code&gt;\(...\)&lt;/code&gt;.&lt;/summary&gt;&lt;p&gt;Das MaRDI Portal akzeptiert die &lt;a href="https://mirror.physik.tu-berlin.de/pub/CTAN/macros/latex/contrib/texvc/texvc.pdf"&gt;LaTeX-Befehle von MediaWiki&lt;/a&gt;.&lt;/p&gt;&lt;/details&gt;&lt;span class="mardmo-math"&gt;&lt;/span&gt;</help>
+		<text lang="de">Definierende Formel</text>
 		<default_text lang="de"/>
-		<verbose_name lang="de">Definierende Formel Hinzufügen</verbose_name>
+		<verbose_name lang="de">Definierende Formel hinzufügen</verbose_name>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>text</widget_type>
@@ -1286,15 +1270,11 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/formulation/name"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">&lt;p&gt;Changing the name changes it in all relations to this formula. To document another formula, add a new tab.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; If you use the formula as a template, don’t forget to update the name.&lt;/p&gt;</help>
+		<help lang="en">&lt;p&gt;A new name changes the formula's name everywhere it is related.&lt;/p&gt;</help>
 		<text lang="en">Name of the Formula</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">&lt;p&gt;Eine Änderung des Namens ändert ihn in allen Beziehungen zu dieser Formel. Um eine andere Formel zu dokumentieren, fügen Sie einen neuen Tab hinzu.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Hinweis:&lt;/strong&gt; Wenn Sie die Formel als Vorlage verwenden, denken Sie daran, den Namen anzupassen.&lt;/p&gt;</help>
+		<help lang="de">&lt;p&gt;Ein neuer Name ändert den Namen der Formel überall, wo sie verknüpft ist.&lt;/p&gt;</help>
 		<text lang="de">Name der Formel</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -1317,15 +1297,11 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/formulation/description"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">&lt;p&gt;Short description of 2–12 words (max. 250 characters), lowercase only except for proper names, minimal punctuation.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; If you use the formula as a template, don’t forget to update the short description.&lt;/p&gt;</help>
+		<help lang="en">&lt;p&gt;2–12 words (at most 250 characters), lowercase except proper names, little punctuation.&lt;/p&gt;</help>
 		<text lang="en">Short Description of the Formula</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">&lt;p&gt;Kurze Beschreibung mit 2–12 Wörtern (max. 250 Zeichen), nur Kleinschreibung außer bei Eigennamen, minimale Zeichensetzung.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Hinweis:&lt;/strong&gt; Wenn Sie die Formel als Vorlage verwenden, denken Sie daran, die Kurzbeschreibung anzupassen.&lt;/p&gt;</help>
+		<help lang="de">&lt;p&gt;2–12 Wörter (höchstens 250 Zeichen), klein geschrieben außer Eigennamen, wenig Satzzeichen.&lt;/p&gt;</help>
 		<text lang="de">Kurze Beschreibung der Formel</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -1355,7 +1331,7 @@
 		<help lang="de"/>
 		<text lang="de">Alias der Formel</text>
 		<default_text lang="de"/>
-		<verbose_name lang="de">Alias Hinzufügen</verbose_name>
+		<verbose_name lang="de">Alias hinzufügen</verbose_name>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>text</widget_type>
@@ -1375,14 +1351,14 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/formulation/long-description"/>
 		<is_collection>True</is_collection>
 		<is_optional>True</is_optional>
-		<help lang="en">&lt;p&gt;Provide additional context or background information if needed.&lt;/p&gt;</help>
+		<help lang="en">&lt;p&gt;Add context or background information if needed.&lt;/p&gt;</help>
 		<text lang="en">Detailed Description of the Formula</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en">Add Description</verbose_name>
 		<help lang="de">&lt;p&gt;Geben Sie bei Bedarf weitere Details oder Hintergrundinformationen an.&lt;/p&gt;</help>
 		<text lang="de">Detaillierte Beschreibung der Formel</text>
 		<default_text lang="de"/>
-		<verbose_name lang="de">Beschreibung Hinzufügen</verbose_name>
+		<verbose_name lang="de">Beschreibung hinzufügen</verbose_name>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>textarea</widget_type>
@@ -1402,14 +1378,14 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/formulation/properties"/>
 		<is_collection>True</is_collection>
 		<is_optional>True</is_optional>
-		<help lang="en">&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Selecting contradictory properties prevents a successful export.&lt;/p&gt;</help>
+		<help lang="en"/>
 		<text lang="en">Properties of the Formula</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en">Add Property</verbose_name>
-		<help lang="de">&lt;p&gt;&lt;strong&gt;Hinweis:&lt;/strong&gt; Die Auswahl widersprüchlicher Eigenschaften verhindert den Export.&lt;/p&gt;</help>
+		<help lang="de"/>
 		<text lang="de">Eigenschaften der Formel</text>
 		<default_text lang="de"/>
-		<verbose_name lang="de">Eigenschaft Hinzufügen</verbose_name>
+		<verbose_name lang="de">Eigenschaft hinzufügen</verbose_name>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>select</widget_type>
@@ -1431,11 +1407,11 @@
 		<attribute/>
 		<is_collection>True</is_collection>
 		<title lang="en">Formula - Formula Relations</title>
-		<help lang="en">&lt;p&gt;Relate the formula to other formulas: its parts (assumptions, contained formulas, conditions) and formulas it approximates, discretizes, specializes or is otherwise related to.&lt;/p&gt;</help>
+		<help lang="en">&lt;details&gt;&lt;summary&gt;Relate the formula to other formulas: its parts and the formulas it is derived from or turned into.&lt;/summary&gt;&lt;p&gt;Parts are assumptions, contained formulas and conditions. The other relations say how two formulas are connected: one approximates, discretizes, linearizes, nondimensionalizes or specializes the other, is its weak formulation, or is similar to it. ↗ next to a relation opens its definition on the MaRDI Portal.&lt;/p&gt;&lt;/details&gt;</help>
 		<verbose_name lang="en">Add Formula Relation</verbose_name>
 		<title lang="de">Formel - Formel Beziehungen</title>
-		<help lang="de">&lt;p&gt;Verknüpfen Sie die Formel mit anderen Formeln: ihren Teilen (Annahmen, enthaltene Formeln, Bedingungen) und Formeln, die sie approximiert, diskretisiert, spezialisiert oder mit denen sie anders zusammenhängt.&lt;/p&gt;</help>
-		<verbose_name lang="de">Formel Relation Hinzufügen</verbose_name>
+		<help lang="de">&lt;details&gt;&lt;summary&gt;Verknüpfen Sie die Formel mit anderen Formeln: mit ihren Teilen und mit den Formeln, aus denen sie hervorgeht oder in die sie überführt wird.&lt;/summary&gt;&lt;p&gt;Teile sind Annahmen, enthaltene Formeln und Bedingungen. Die anderen Relationen sagen, wie zwei Formeln zusammenhängen: Eine approximiert, diskretisiert, linearisiert, entdimensionalisiert oder spezialisiert die andere, ist ihre schwache Formulierung oder ist ihr ähnlich. ↗ neben einer Relation öffnet ihre Definition im MaRDI Portal.&lt;/p&gt;&lt;/details&gt;</help>
+		<verbose_name lang="de">Beziehung hinzufügen</verbose_name>
 		<questionsets/>
 		<questions>
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/formulation/formulation-to-formulation/formulation-relation" order="0"/>
@@ -1451,11 +1427,11 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/formulation/formulation-relation"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">&lt;p&gt;Use &lt;em&gt;assumes&lt;/em&gt; for assumptions, &lt;em&gt;contains&lt;/em&gt; for formulas without a specific role, &lt;em&gt;contains&lt;/em&gt; with a condition for conditions, and the other relations for how the formula relates to another formula.&lt;/p&gt;</help>
+		<help lang="en"/>
 		<text lang="en">The Formula...</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">&lt;p&gt;Verwenden Sie &lt;em&gt;assumes&lt;/em&gt; für Annahmen, &lt;em&gt;contains&lt;/em&gt; für Formeln ohne spezifische Rolle, &lt;em&gt;contains&lt;/em&gt; mit einer Bedingung für Bedingungen und die anderen Relationen dafür, wie die Formel mit einer anderen Formel zusammenhängt.&lt;/p&gt;</help>
+		<help lang="de"/>
 		<text lang="de">Die Formel...</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -1480,11 +1456,11 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/formulation/formulation-relatant"/>
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">&lt;p&gt;Choose one or more formulas to be linked by the selected relation. For all formulas &lt;em&gt;label (description)&lt;/em&gt; is provided; the coloured badge shows where it comes from. Only formulas from the MaRDI Portal and those of this documentation can be chosen: add a new formula as a page of its own first.&lt;/p&gt;</help>
+		<help lang="en">&lt;p&gt;Only formulas of the MaRDI Portal and of this documentation: add a new formula as a page of its own first.&lt;/p&gt;</help>
 		<text lang="en">...another Formula.</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en">Add Formula</verbose_name>
-		<help lang="de">&lt;p&gt;Wählen Sie eine oder mehrere Formeln aus, die über die ausgewählte Relation verknüpft werden sollen. Für alle Formeln wird &lt;em&gt;Name (Beschreibung)&lt;/em&gt; angegeben; die farbige Markierung zeigt die Herkunft. Es können nur Formeln aus dem MaRDI Portal und aus dieser Dokumentation gewählt werden: legen Sie eine neue Formel zuerst als eigene Seite an.&lt;/p&gt;</help>
+		<help lang="de">&lt;p&gt;Nur Formeln aus dem MaRDI Portal und aus dieser Dokumentation: Legen Sie eine neue Formel zuerst als eigene Seite an.&lt;/p&gt;</help>
 		<text lang="de">...eine weitere Formel.</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de">Formel Hinzufügen</verbose_name>
@@ -1509,11 +1485,11 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/formulation/formulation-assumption"/>
 		<is_collection>True</is_collection>
 		<is_optional>True</is_optional>
-		<help lang="en">&lt;p&gt;The assumptions apply to all formulas of this relation. If different formulas need different assumptions, create a separate relation for each of them and remove the formula from this one.&lt;/p&gt;&lt;p&gt;For all formulas &lt;em&gt;label (description)&lt;/em&gt; is provided; the coloured badge shows where it comes from. If a formula is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate formula is present in the MaRDI Portal or Wikidata, type its name and select it; its short description is entered on its page.&lt;/p&gt;</help>
+		<help lang="en">&lt;details&gt;&lt;summary&gt;The assumptions apply to all formulas of this row.&lt;/summary&gt;&lt;p&gt;If different formulas need different assumptions, give each its own row. If an assumption is neither on the MaRDI Portal nor on Wikidata, type its name, select it, and enter its short description on its page.&lt;/p&gt;&lt;/details&gt;</help>
 		<text lang="en">Assumption to reduce the general Formula to its specialized form(s).</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en">Add Formula</verbose_name>
-		<help lang="de">&lt;p&gt;Die Annahmen gelten für alle Formeln dieser Relation. Benötigen verschiedene Formeln unterschiedliche Annahmen, legen Sie für jede eine eigene Relation an und entfernen Sie sie aus dieser.&lt;/p&gt;&lt;p&gt;Für alle Formeln wird &lt;em&gt;Name (Beschreibung)&lt;/em&gt; angegeben; die farbige Markierung zeigt die Herkunft. Wenn eine Formel ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls keine passende Formel im MaRDI Portal oder Wikidata vorhanden ist, geben Sie den Namen ein und wählen Sie ihn aus; die Kurzbeschreibung tragen Sie auf der zugehörigen Seite ein.&lt;/p&gt;</help>
+		<help lang="de">&lt;details&gt;&lt;summary&gt;Die Annahmen gelten für alle Formeln dieser Zeile.&lt;/summary&gt;&lt;p&gt;Brauchen verschiedene Formeln verschiedene Annahmen, geben Sie jeder eine eigene Zeile. Gibt es eine Annahme weder im MaRDI Portal noch in Wikidata, tippen Sie ihren Namen ein, wählen ihn aus und geben ihre Kurzbeschreibung auf ihrer Seite an.&lt;/p&gt;&lt;/details&gt;</help>
 		<text lang="de">Annahme zur Reduzierung der allgemeinen Formel auf ihre spezielle(n) Form(en).</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de">Formel Hinzufügen</verbose_name>
@@ -1541,16 +1517,12 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/formulation/id"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">&lt;p&gt;For all formulas &lt;em&gt;label (description)&lt;/em&gt; is provided; the coloured badge shows where it comes from. If a formula is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate formula is present in the MaRDI Portal or Wikidata, choose &lt;em&gt;new item&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; To use an existing formula as a template, first select the formula, wait for the information to load, and then change the answer to &lt;em&gt;new item&lt;/em&gt; to remove the external reference.&lt;/p&gt;</help>
-		<text lang="en">Select a Formula related to the Mathematical Model!</text>
+		<help lang="en">&lt;details&gt;&lt;summary&gt;If it is neither on the MaRDI Portal nor on Wikidata, choose &lt;em&gt;new item&lt;/em&gt;.&lt;/summary&gt;&lt;p&gt;To use an existing formula as a template, select it, wait until its information has been added, and then choose &lt;em&gt;new item&lt;/em&gt;: the information stays, the reference to the source is removed. Then give the new formula its own name and short description.&lt;/p&gt;&lt;/details&gt;</help>
+		<text lang="en">Select the Formula</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">&lt;p&gt;Für alle Formeln wird &lt;em&gt;Name (Beschreibung)&lt;/em&gt; angegeben; die farbige Markierung zeigt die Herkunft. Wenn eine Formel ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls keine passende Formel im MaRDI Portal oder Wikidata vorhanden ist, wählen Sie &lt;em&gt;new item&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Hinweis:&lt;/strong&gt; Um eine bestehende Formel als Vorlage zu verwenden, wählen Sie zunächst die Formel aus, warten Sie, bis alle Informationen geladen wurden, und setzen Sie anschließend die Antwort auf &lt;em&gt;new item&lt;/em&gt;, um den Bezug zur externen Quelle zu entfernen.&lt;/p&gt;</help>
-		<text lang="de">Wählen Sie eine Formel die mit dem mathematischen Modell im Zusammenhang steht!</text>
+		<help lang="de">&lt;details&gt;&lt;summary&gt;Gibt es sie weder im MaRDI Portal noch in Wikidata, wählen Sie &lt;em&gt;new item&lt;/em&gt;.&lt;/summary&gt;&lt;p&gt;Um eine bestehende Formel als Vorlage zu verwenden, wählen Sie sie aus, warten Sie, bis ihre Angaben übernommen sind, und wählen Sie dann &lt;em&gt;new item&lt;/em&gt;: Die Angaben bleiben, der Bezug zur Quelle wird entfernt. Geben Sie der neuen Formel dann einen eigenen Namen und eine eigene Kurzbeschreibung.&lt;/p&gt;&lt;/details&gt;</help>
+		<text lang="de">Wählen Sie die Formel aus</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
