@@ -8,13 +8,9 @@
 &lt;p&gt;Sehen Sie sich &lt;a href="https://www.youtube.com/watch?v=UmbBNUZJ994&amp;list=PLgoPZ7uPWbo-jqDXzx4fSm_4JyAYEMPjn"&gt;MaRDMO Model Documentation&lt;/a&gt; an, in dem die Dokumentation und der anschließende Export vorgestellt werden.&lt;/p&gt;</dc:comment>
 		<order>0</order>
 		<title lang="en">MaRDMO: Questionnaire for Algorithms</title>
-		<help lang="en">&lt;p&gt;This catalog helps you document algorithms using the MathAlgoDB ontology. It covers key aspects such as the algorithm itself, algorithmic tasks, software, benchmarks, and publications. You can reuse existing entries from the MaRDI Portal or Wikidata, or create new ones. The catalog supports documenting new algorithms, adding tasks, software, or benchmarks. It follows the FAIR principles to make algorithms findable, accessible, interoperable, and reusable, and is part of the MaRDMO project developed within the MaRDI initiative. Completed documentations can be exported directly to the MaRDI Portal.&lt;/p&gt;
-
-&lt;p&gt;Check out &lt;a href="https://www.youtube.com/playlist?list=PLgoPZ7uPWbo-aC9pnVMYRZYM3iygBYWwn"&gt;MaRDMO Algorithm Documentation&lt;/a&gt; showcasing the documentation and subsequent export.&lt;/p&gt;</help>
+		<help lang="en">&lt;p&gt;Documents algorithms with the MathAlgoDB ontology: the algorithm, its algorithmic tasks, software, benchmarks and publications, taken from the MaRDI Portal or Wikidata or described anew, and exports them to the MaRDI Portal. Following the FAIR principles, it makes algorithms findable, accessible, interoperable and reusable.&lt;/p&gt;&lt;p&gt;The video &lt;a href="https://www.youtube.com/playlist?list=PLgoPZ7uPWbo-aC9pnVMYRZYM3iygBYWwn"&gt;MaRDMO Algorithm Documentation&lt;/a&gt; shows a documentation and its export.&lt;/p&gt;</help>
 		<title lang="de">MaRDMO: Fragenkatalog für Algorithmen</title>
-		<help lang="de">&lt;p&gt;Dieser Katalog hilft dabei, Algorithmen anhand der MathAlgoDB-Ontologie zu beschreiben. Er umfasst zentrale Elemente wie den Algorithmus selbst, algorithmische Aufgaben, Software, Benchmarks und Publikationen. Bestehende Einträge aus dem MaRDI-Portal oder Wikidata können wiederverwendet oder neue erstellt werden. Der Katalog unterstützt die Dokumentation neuer Algorithmen, das Hinzufügen von Aufgaben, Software oder Benchmarks . Er folgt den FAIR-Prinzipien, um Algorithmen auffindbar, zugänglich, interoperabel und wiederverwendbar zu machen, und ist Teil des MaRDMO-Projekts innerhalb der MaRDI-Initiative. Abgeschlossene Dokumentationen können direkt in das MaRDI-Portal exportiert werden.&lt;/p&gt;
-
-&lt;p&gt;Sehen Sie sich &lt;a href="https://www.youtube.com/playlist?list=PLgoPZ7uPWbo-aC9pnVMYRZYM3iygBYWwn"&gt;MaRDMO Algorithm Documentation&lt;/a&gt; an, in dem die Dokumentation und der anschließende Export vorgestellt werden.&lt;/p&gt;</help>
+		<help lang="de">&lt;p&gt;Dokumentiert Algorithmen mit der MathAlgoDB-Ontologie: den Algorithmus, seine algorithmischen Aufgaben, Software, Benchmarks und Publikationen, übernommen aus dem MaRDI Portal oder Wikidata oder neu beschrieben, und exportiert sie in das MaRDI Portal. Den FAIR-Prinzipien folgend macht er Algorithmen auffindbar, zugänglich, interoperabel und wiederverwendbar.&lt;/p&gt;&lt;p&gt;Das Video &lt;a href="https://www.youtube.com/playlist?list=PLgoPZ7uPWbo-aC9pnVMYRZYM3iygBYWwn"&gt;MaRDMO Algorithm Documentation&lt;/a&gt; zeigt eine Dokumentation und ihren Export.&lt;/p&gt;</help>
 		<sections>
 			<section dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/algorithm-documentation" order="1"/>
 			<section dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/publication-algorithm" order="2"/>
@@ -42,49 +38,13 @@
 		<dc:comment/>
 		<attribute/>
 		<is_collection>False</is_collection>
-		<title lang="en">Welcome to the Algorithm Interview</title>
+		<title lang="en">Welcome to the algorithm interview</title>
 		<short_title lang="en">Introduction</short_title>
-		<help lang="en">&lt;p&gt;This guided interview helps you document algorithms using the &lt;em&gt;&lt;a href="https://mardi4nfdi.github.io/MathAlgoDB/" target="_blank"&gt;MathAlgoDB ontology&lt;/a&gt;&lt;/em&gt;.&lt;/p&gt;
-  &lt;p&gt;The interview is structured by the classes of the ontology:&lt;/p&gt; 
-&lt;ul&gt; 
-&lt;li&gt;&lt;em&gt;Algorithm&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Algorithmic Task&lt;/em&gt;&lt;/li&gt; 
-&lt;li&gt;&lt;em&gt;Software&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Benchmark&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Publication&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-  &lt;p&gt;For each class, you can reuse existing entries from the &lt;em&gt;&lt;a href="https://portal.mardi4nfdi.de/" target="_blank"&gt;MaRDI Portal&lt;/a&gt;&lt;/em&gt; or &lt;em&gt;&lt;a href="https://www.wikidata.org/" target="_blank"&gt;Wikidata&lt;/a&gt;&lt;/em&gt;, or define new ones.&lt;/p&gt;
-  &lt;p&gt;The interview supports four main use cases:&lt;/p&gt;
-  &lt;ul&gt;
-    &lt;li&gt;Documenting a new algorithm&lt;/li&gt;
-    &lt;li&gt;Adding an algorithmic task to an existing algorithm&lt;/li&gt;
-    &lt;li&gt;Adding a software to an existing algorithm&lt;/li&gt;
-    &lt;li&gt;Adding a benchmark to an existing algorithmic task or software&lt;/li&gt;
-  &lt;/ul&gt;
-  &lt;p&gt;All information is structured to support the FAIR principles — making your algorithms &lt;strong&gt;Findable, Accessible, Interoperable, and Reusable&lt;/strong&gt;.&lt;/p&gt;
-  &lt;p&gt;This catalog is part of &lt;strong&gt;&lt;a href="https://github.com/MarcoReidelbach/MaRDMO-Plugin" target="_blank"&gt;MaRDMO&lt;/a&gt;&lt;/strong&gt; and developed within Task Area 4 of the &lt;strong&gt;&lt;a href="https://www.mardi4nfdi.de/" target="_blank"&gt;Mathematical Research Data Initiative (MaRDI)&lt;/a&gt;&lt;/strong&gt;. It aims to help researchers across all disciplines to systematically document their mathematical research data.&lt;/p&gt;</help>
+		<help lang="en">&lt;p&gt;This interview documents algorithms with the &lt;a href="https://mardi4nfdi.github.io/MathAlgoDB/" target="_blank"&gt;MathAlgoDB ontology&lt;/a&gt;, so that they can be found and reused on the &lt;a href="https://portal.mardi4nfdi.de/" target="_blank"&gt;MaRDI Portal&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;You can document an algorithm from scratch, or start from one that is already on the MaRDI Portal and add what is missing: an algorithmic task it solves, software that implements it, or a benchmark for a task or software.&lt;/p&gt;&lt;p&gt;The interview follows the parts of an algorithm: the algorithm itself, the algorithmic tasks it solves, the software implementing it, the benchmarks, and the publications about them. Each of them can be taken from the MaRDI Portal or &lt;a href="https://www.wikidata.org/" target="_blank"&gt;Wikidata&lt;/a&gt;, or described anew. A finished documentation is checked and exported to the MaRDI Portal in one step.&lt;/p&gt;&lt;p&gt;All information follows the FAIR principles: it makes your algorithms &lt;strong&gt;findable, accessible, interoperable and reusable&lt;/strong&gt;.&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.com/MaRDI4NFDI/MaRDMO-Plugin" target="_blank"&gt;MaRDMO&lt;/a&gt; is developed in Task Area 4 of the &lt;a href="https://www.mardi4nfdi.de/" target="_blank"&gt;Mathematical Research Data Initiative (MaRDI)&lt;/a&gt; to help researchers of all disciplines document their mathematical research data.&lt;/p&gt;</help>
 		<verbose_name lang="en"/>
 		<title lang="de">Willkommen zum Algorithmus-Interview</title>
 		<short_title lang="de">Einführung</short_title>
-		<help lang="de">&lt;p&gt;Dieses geführte Interview unterstützt Sie bei der Dokumentation von Algorithmen mithilfe der &lt;em&gt;&lt;a href="https://mardi4nfdi.github.io/MathAlgoDB/" target="_blank"&gt;MathAlgoDB-Ontologie&lt;/a&gt;&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;Das Interview orientiert sich an den Klassen der Ontologie:&lt;/p&gt; 
-&lt;ul&gt; 
-&lt;li&gt;&lt;em&gt;Algorithmus&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Algorithmische Aufgabe&lt;/em&gt;&lt;/li&gt; 
-&lt;li&gt;&lt;em&gt;Software&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Benchmark&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Publikation&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Für jede Klasse können vorhandene Einträge aus dem &lt;em&gt;&lt;a href="https://portal.mardi4nfdi.de/" target="_blank"&gt;MaRDI-Portal&lt;/a&gt;&lt;/em&gt; oder &lt;em&gt;&lt;a href="https://www.wikidata.org/" target="_blank"&gt;Wikidata&lt;/a&gt;&lt;/em&gt; wiederverwendet oder neue Einträge definiert werden.&lt;/p&gt;
-&lt;p&gt;Das Interview unterstützt vier Hauptanwendungsfälle:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Dokumentation eines neuen Algorithmus&lt;/li&gt;
-  &lt;li&gt;Hinzufügen einer algorithmischen Aufgabe zu einem bestehenden Algorithmus&lt;/li&gt;
-  &lt;li&gt;Hinzufügen einer Software zu einem bestehenden Algorithmus&lt;/li&gt;
-  &lt;li&gt;Hinzufügen eines Benchmarks zu einer bestehenden algorithmischen Aufgabe oder Software&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Alle Informationen sind gemäß den FAIR-Prinzipien strukturiert – Ihre Algorithmen werden dadurch &lt;strong&gt;auffindbar, zugänglich, interoperabel und wiederverwendbar&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;Dieser Katalog ist Teil von &lt;strong&gt;&lt;a href="https://github.com/MarcoReidelbach/MaRDMO-Plugin" target="_blank"&gt;MaRDMO&lt;/a&gt;&lt;/strong&gt; und wird im Rahmen der Task Area 4 der &lt;strong&gt;&lt;a href="https://www.mardi4nfdi.de/" target="_blank"&gt;Mathematical Research Data Initiative (MaRDI)&lt;/a&gt;&lt;/strong&gt; entwickelt. Ziel ist es, Forschende aller Disziplinen bei der systematischen Dokumentation mathematischer Forschungsdaten zu unterstützen.&lt;/p&gt;</help>
+		<help lang="de">&lt;p&gt;Dieses Interview dokumentiert Algorithmen mit der &lt;a href="https://mardi4nfdi.github.io/MathAlgoDB/" target="_blank"&gt;MathAlgoDB-Ontologie&lt;/a&gt;, damit sie im &lt;a href="https://portal.mardi4nfdi.de/" target="_blank"&gt;MaRDI Portal&lt;/a&gt; gefunden und wiederverwendet werden können.&lt;/p&gt;&lt;p&gt;Sie können einen Algorithmus von Grund auf dokumentieren oder von einem ausgehen, der schon im MaRDI Portal ist, und ergänzen, was fehlt: eine algorithmische Aufgabe, die er löst, Software, die ihn implementiert, oder einen Benchmark für eine Aufgabe oder Software.&lt;/p&gt;&lt;p&gt;Das Interview folgt den Teilen eines Algorithmus: dem Algorithmus selbst, den algorithmischen Aufgaben, die er löst, der Software, die ihn implementiert, den Benchmarks und den Publikationen darüber. Jeder Teil kann aus dem MaRDI Portal oder &lt;a href="https://www.wikidata.org/" target="_blank"&gt;Wikidata&lt;/a&gt; übernommen oder neu beschrieben werden. Eine fertige Dokumentation wird in einem Schritt geprüft und in das MaRDI Portal exportiert.&lt;/p&gt;&lt;p&gt;Alle Angaben folgen den FAIR-Prinzipien: Ihre Algorithmen werden &lt;strong&gt;auffindbar, zugänglich, interoperabel und wiederverwendbar&lt;/strong&gt;.&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.com/MaRDI4NFDI/MaRDMO-Plugin" target="_blank"&gt;MaRDMO&lt;/a&gt; wird in der Task Area 4 der &lt;a href="https://www.mardi4nfdi.de/" target="_blank"&gt;Mathematical Research Data Initiative (MaRDI)&lt;/a&gt; entwickelt, um Forschende aller Disziplinen bei der Dokumentation ihrer mathematischen Forschungsdaten zu unterstützen.&lt;/p&gt;</help>
 		<verbose_name lang="de"/>
 		<questionsets/>
 		<questions/>
@@ -98,28 +58,12 @@
 		<is_collection>True</is_collection>
 		<title lang="en">Algorithm</title>
 		<short_title lang="en">Algorithm</short_title>
-		<help lang="en">&lt;p&gt;On this page, you can define new algorithms or select existing ones from the MaRDI Portal or Wikidata. When an existing algorithm is selected, all available information from the relevant source is retrieved and integrated into the interview. Retrieved data can be completed and extended with new relations (e.g., a newly solved task or an additional software).&lt;/p&gt;
-
-&lt;p&gt;In addition to enhancing existing algorithms, they can also serve as templates for creating new ones. To use an algorithm as a template, the reference to the external source must be removed after importing the available information.&lt;/p&gt;
-
-&lt;p&gt;For a smooth export to the MaRDI Portal, all &lt;strong&gt;non-optional&lt;/strong&gt; questions must be answered completely.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; If an algorithm is selected from the MaRDI Portal and not used as a template, its existing information &lt;u&gt;cannot&lt;/u&gt; be edited or deleted via MaRDMO. Any changes or deletions made regardless will be ignored or shown alongside the original information in the MaRDI Portal.&lt;/p&gt;
-
-&lt;p&gt;Check out &lt;a href="https://www.youtube.com/watch?v=30LK9q30UT0&amp;list=PLgoPZ7uPWbo-aC9pnVMYRZYM3iygBYWwn&amp;index=1&amp;t=1s"&gt;Algorithm&lt;/a&gt; showcasing the documentation.&lt;/p&gt;</help>
-		<verbose_name lang="en">Add Algorithm</verbose_name>
+		<help lang="en">&lt;details&gt;&lt;summary&gt;Document a new algorithm, or select one from the MaRDI Portal or Wikidata and complete it.&lt;/summary&gt;&lt;p&gt;Selecting an existing algorithm adds its information from the source to the interview; you can complete it and add relations, for example an algorithmic task it solves or software that implements it. Answer all questions not marked as optional, so that the algorithm can be exported.&lt;/p&gt;&lt;p&gt;In the dropdowns, each item shows its label and description, and the colour shows its source (MaRDI Portal, Wikidata, this documentation). After choosing one, &lt;strong&gt;wait&lt;/strong&gt; until its information has been added.&lt;/p&gt;&lt;p&gt;The information an algorithm already has on the MaRDI Portal cannot be changed or deleted with MaRDMO, only completed.&lt;/p&gt;&lt;p&gt;The video &lt;a href="https://www.youtube.com/watch?v=30LK9q30UT0&amp;list=PLgoPZ7uPWbo-aC9pnVMYRZYM3iygBYWwn&amp;index=1&amp;t=1s"&gt;Algorithm&lt;/a&gt; shows how to document one.&lt;/p&gt;&lt;/details&gt;</help>
+		<verbose_name lang="en">Add algorithm</verbose_name>
 		<title lang="de">Algorithmus</title>
 		<short_title lang="de">Algorithmus</short_title>
-		<help lang="de">&lt;p&gt;Auf dieser Seite können neue Algorithmen definiert oder bereits bestehende Algorithmen aus dem MaRDI Portal oder Wikidata ausgewählt werden. Wird ein bestehender Algorithmus ausgewählt, werden alle verfügbaren Informationen aus der jeweiligen Quelle abgerufen und in das Interview integriert. Die abgerufenen Informationen können ergänzt und um neue Relationen erweitert werden (z.&amp;nbsp;B. eine neue zu lösende algorithmische Aufgabe oder eine zusätzliche Software).&lt;/p&gt;
-
-&lt;p&gt;Bestehende Algorithmen können nicht nur erweitert, sondern auch als Vorlage für neue Algorithmen verwendet werden. Hierfür ist es erforderlich, nach dem Abruf der Informationen den Bezug zur externen Quelle zu entfernen.&lt;/p&gt;
-
-&lt;p&gt;Für einen reibungslosen Export in das MaRDI Portal müssen alle &lt;strong&gt;nicht-optionalen&lt;/strong&gt; Fragen vollständig beantwortet sein.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Hinweis:&lt;/strong&gt; Wird ein Algorithmus aus dem MaRDI Portal ausgewählt und nicht als Vorlage verwendet, können bestehende Informationen über MaRDMO &lt;u&gt;nicht&lt;/u&gt; editiert oder gelöscht werden. Änderungen oder Löschungen, die dennoch vorgenommen werden, werden ignoriert oder zusätzlich zu den bestehenden Informationen im MaRDI Portal angezeigt.&lt;/p&gt;
-
-&lt;p&gt;Sehen Sie sich &lt;a href="https://www.youtube.com/watch?v=30LK9q30UT0&amp;list=PLgoPZ7uPWbo-aC9pnVMYRZYM3iygBYWwn&amp;index=1&amp;t=1s"&gt;Algorithm&lt;/a&gt; an in dem die Dokumentation vorgestellt wird.&lt;/p&gt;</help>
-		<verbose_name lang="de">Algorithmus Hinzufügen</verbose_name>
+		<help lang="de">&lt;details&gt;&lt;summary&gt;Dokumentieren Sie einen neuen Algorithmus, oder wählen Sie einen aus dem MaRDI Portal oder Wikidata aus und ergänzen Sie ihn.&lt;/summary&gt;&lt;p&gt;Wird ein bestehender Algorithmus ausgewählt, werden seine Angaben aus der Quelle in das Interview übernommen; Sie können ihn ergänzen und Beziehungen hinzufügen, zum Beispiel eine algorithmische Aufgabe, die er löst, oder Software, die ihn implementiert. Beantworten Sie alle Fragen, die nicht als optional markiert sind, damit der Algorithmus exportiert werden kann.&lt;/p&gt;&lt;p&gt;In den Auswahllisten zeigt jeder Eintrag Name und Beschreibung, die Farbe zeigt die Herkunft (MaRDI Portal, Wikidata, diese Dokumentation). &lt;strong&gt;Warten&lt;/strong&gt; Sie nach der Auswahl, bis die Angaben übernommen sind.&lt;/p&gt;&lt;p&gt;Was ein Algorithmus im MaRDI Portal schon hat, kann mit MaRDMO nicht geändert oder gelöscht, nur ergänzt werden.&lt;/p&gt;&lt;p&gt;Das Video &lt;a href="https://www.youtube.com/watch?v=30LK9q30UT0&amp;list=PLgoPZ7uPWbo-aC9pnVMYRZYM3iygBYWwn&amp;index=1&amp;t=1s"&gt;Algorithm&lt;/a&gt; zeigt, wie ein Algorithmus dokumentiert wird.&lt;/p&gt;&lt;/details&gt;</help>
+		<verbose_name lang="de">Algorithmus hinzufügen</verbose_name>
 		<questionsets>
 			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/algorithm/information" order="1"/>
 			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/algorithm/algorithm-to-algorithm" order="2"/>
@@ -135,10 +79,10 @@
 		<dc:comment/>
 		<attribute/>
 		<is_collection>False</is_collection>
-		<title lang="en">Algorithm Information</title>
+		<title lang="en">Algorithm information</title>
 		<help lang="en"/>
 		<verbose_name lang="en"/>
-		<title lang="de">Algorithmus Informationen</title>
+		<title lang="de">Angaben zum Algorithmus</title>
 		<help lang="de"/>
 		<verbose_name lang="de"/>
 		<questionsets/>
@@ -157,15 +101,11 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/algorithm/name"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">&lt;p&gt;Changing the name changes it in all relations to this algorithm. To document another algorithm, add a new tab.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; If you use the algorithm as a template, don’t forget to update the name.&lt;/p&gt;</help>
-		<text lang="en">Name of the Algorithm</text>
+		<help lang="en">&lt;p&gt;A new name changes the algorithm's name everywhere it is related.&lt;/p&gt;</help>
+		<text lang="en">Name of the algorithm</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">&lt;p&gt;Eine Änderung des Namens ändert ihn in allen Beziehungen zu diesem Algorithmus. Um einen anderen Algorithmus zu dokumentieren, fügen Sie einen neuen Tab hinzu.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Hinweis:&lt;/strong&gt; Wenn Sie den Algorithmus als Vorlage verwenden, denken Sie daran, den Namen anzupassen.&lt;/p&gt;</help>
+		<help lang="de">&lt;p&gt;Ein neuer Name ändert den Namen des Algorithmus überall, wo er verknüpft ist.&lt;/p&gt;</help>
 		<text lang="de">Name des Algorithmus</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -188,15 +128,11 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/algorithm/description"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">&lt;p&gt;Short description of 2–12 words (max. 250 characters), lowercase only except for proper names, minimal punctuation.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; If you use the algorithm as a template, don’t forget to update the short description.&lt;/p&gt;</help>
-		<text lang="en">Short Description of the Algorithm</text>
+		<help lang="en">&lt;p&gt;2–12 words (at most 250 characters), lowercase except proper names, little punctuation.&lt;/p&gt;</help>
+		<text lang="en">Short description of the algorithm</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">&lt;p&gt;Kurze Beschreibung mit 2–12 Wörtern (max. 250 Zeichen), nur Kleinschreibung außer bei Eigennamen, minimale Zeichensetzung.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Hinweis:&lt;/strong&gt; Wenn Sie den Algorithmus als Vorlage verwenden, denken Sie daran, die Kurzbeschreibung anzupassen.&lt;/p&gt;</help>
+		<help lang="de">&lt;p&gt;2–12 Wörter (höchstens 250 Zeichen), klein geschrieben außer Eigennamen, wenig Satzzeichen.&lt;/p&gt;</help>
 		<text lang="de">Kurze Beschreibung des Algorithmus</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -219,14 +155,14 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/algorithm/problem-relatant"/>
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">&lt;p&gt;Choose one or more tasks. For all tasks &lt;em&gt;label (description)&lt;/em&gt; is provided; the coloured badge shows where it comes from. If a task is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate task is present in the MaRDI Portal or Wikidata, type its name and select it; its short description is entered on its page (in a workflow documentation, MaRDMO adds the short description &lt;em&gt;algorithmic task&lt;/em&gt;).&lt;/p&gt;</help>
-		<text lang="en">Algorithmic Task solved by the Algorithm?</text>
+		<help lang="en">&lt;p&gt;If an algorithmic task is neither on the MaRDI Portal nor on Wikidata, type its name, select it, and enter its short description on its page.&lt;/p&gt;</help>
+		<text lang="en">Algorithmic tasks solved by the algorithm</text>
 		<default_text lang="en"/>
-		<verbose_name lang="en">Add Algorithmic Task</verbose_name>
-		<help lang="de">&lt;p&gt;Wählen Sie eine oder mehrere Aufgaben aus. Für alle Aufgaben wird &lt;em&gt;Name (Beschreibung)&lt;/em&gt; angegeben; die farbige Markierung zeigt die Herkunft. Wenn eine Aufgabe ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls keine passende Aufgabe im MaRDI Portal oder Wikidata vorhanden ist, geben Sie den Namen ein und wählen Sie ihn aus; die Kurzbeschreibung tragen Sie auf der zugehörigen Seite ein (in einer Workflow-Dokumentation ergänzt MaRDMO die Kurzbeschreibung &lt;em&gt;algorithmic task&lt;/em&gt;).&lt;/p&gt;</help>
-		<text lang="de">Algorithmische Aufgabe welche durch den Algorithmus gelöst wird?</text>
+		<verbose_name lang="en">Add algorithmic task</verbose_name>
+		<help lang="de">&lt;p&gt;Gibt es eine algorithmische Aufgabe weder im MaRDI Portal noch in Wikidata, tippen Sie ihren Namen ein, wählen ihn aus und geben ihre Kurzbeschreibung auf ihrer Seite an.&lt;/p&gt;</help>
+		<text lang="de">Algorithmische Aufgaben, die der Algorithmus löst</text>
 		<default_text lang="de"/>
-		<verbose_name lang="de">Algorithmische Aufgabe Hinzufügen</verbose_name>
+		<verbose_name lang="de">Algorithmische Aufgabe hinzufügen</verbose_name>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>select</widget_type>
@@ -248,14 +184,14 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/algorithm/software-relatant"/>
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">&lt;p&gt;Choose one or more software. For all software &lt;em&gt;label (description)&lt;/em&gt; is provided; the coloured badge shows where it comes from. If a software is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate software is present in the MaRDI Portal or Wikidata, type its name and select it; its short description is entered on its page.&lt;/p&gt;</help>
-		<text lang="en">Software implementing the Algorithm?</text>
+		<help lang="en">&lt;p&gt;If software is neither on the MaRDI Portal nor on Wikidata, type its name, select it, and enter its short description on its page.&lt;/p&gt;</help>
+		<text lang="en">Software implementing the algorithm</text>
 		<default_text lang="en"/>
-		<verbose_name lang="en">Add Software</verbose_name>
-		<help lang="de">&lt;p&gt;Wählen Sie eine oder mehrere Software aus. Für alle Software wird &lt;em&gt;Name (Beschreibung)&lt;/em&gt; angegeben; die farbige Markierung zeigt die Herkunft. Wenn eine Software ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls keine passende Software im MaRDI Portal oder Wikidata vorhanden ist, geben Sie den Namen ein und wählen Sie ihn aus; die Kurzbeschreibung tragen Sie auf der zugehörigen Seite ein.&lt;/p&gt;</help>
-		<text lang="de">Software welche den Algorithmus implementiert?</text>
+		<verbose_name lang="en">Add software</verbose_name>
+		<help lang="de">&lt;p&gt;Gibt es eine Software weder im MaRDI Portal noch in Wikidata, tippen Sie ihren Namen ein, wählen ihn aus und geben ihre Kurzbeschreibung auf ihrer Seite an.&lt;/p&gt;</help>
+		<text lang="de">Software, die den Algorithmus implementiert</text>
 		<default_text lang="de"/>
-		<verbose_name lang="de">Software Hinzufügen</verbose_name>
+		<verbose_name lang="de">Software hinzufügen</verbose_name>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>select</widget_type>
@@ -276,12 +212,12 @@
 		<dc:comment/>
 		<attribute/>
 		<is_collection>True</is_collection>
-		<title lang="en">Algorithm - Algorithm Relations</title>
-		<help lang="en">&lt;p&gt;To relate the algorithm with other algorithms, select additional algorithms and specify the relations.&lt;/p&gt;</help>
-		<verbose_name lang="en">Add Algorithm Relation</verbose_name>
-		<title lang="de">Algorithmus - Algorithmus Beziehungen</title>
-		<help lang="de">&lt;p&gt;Um den Algorithmus mit anderen Algorithmen zu verknüpfen, wählen Sie weitere Algorithmen aus und geben Sie die Relationen an.&lt;/p&gt;</help>
-		<verbose_name lang="de">Algorithmus Relation Hinzufügen</verbose_name>
+		<title lang="en">Relations to other algorithms</title>
+		<help lang="en">&lt;details&gt;&lt;summary&gt;Relate the algorithm to other algorithms: its components and subclasses, the algorithms it is a component or subclass of, or related ones.&lt;/summary&gt;&lt;p&gt;↗ next to a relation opens its definition on the MaRDI Portal.&lt;/p&gt;&lt;/details&gt;</help>
+		<verbose_name lang="en">Add relation</verbose_name>
+		<title lang="de">Beziehungen zu anderen Algorithmen</title>
+		<help lang="de">&lt;details&gt;&lt;summary&gt;Verknüpfen Sie den Algorithmus mit anderen Algorithmen: mit seinen Komponenten und Unterklassen, mit den Algorithmen, deren Komponente oder Unterklasse er ist, oder mit verwandten Algorithmen.&lt;/summary&gt;&lt;p&gt;↗ neben einer Relation öffnet ihre Definition im MaRDI Portal.&lt;/p&gt;&lt;/details&gt;</help>
+		<verbose_name lang="de">Beziehung hinzufügen</verbose_name>
 		<questionsets/>
 		<questions>
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/algorithm/algorithm-to-algorithm/algorithm-relation" order="1"/>
@@ -297,7 +233,7 @@
 		<is_collection>False</is_collection>
 		<is_optional>True</is_optional>
 		<help lang="en"/>
-		<text lang="en">The Algorithm...</text>
+		<text lang="en">The algorithm...</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
@@ -325,14 +261,14 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/algorithm/algorithm-relatant"/>
 		<is_collection>True</is_collection>
 		<is_optional>True</is_optional>
-		<help lang="en">&lt;p&gt;Choose one or more algorithms to be linked by the selected relation. For all algorithms &lt;em&gt;label (description)&lt;/em&gt; is provided; the coloured badge shows where it comes from. Only algorithms from the MaRDI Portal and those selected or defined within the interview can be chosen.&lt;/p&gt;</help>
+		<help lang="en">&lt;p&gt;Only algorithms of the MaRDI Portal and of this documentation: add a new algorithm as a tab of its own first.&lt;/p&gt;</help>
 		<text lang="en">...another algorithm.</text>
 		<default_text lang="en"/>
-		<verbose_name lang="en">Add Algorithm</verbose_name>
-		<help lang="de">&lt;p&gt;Wählen Sie einen oder mehrere Algorithmen aus, die über die ausgewählte Relation verknüpft werden sollen. Für alle Algorithmen wird &lt;em&gt;Name (Beschreibung)&lt;/em&gt; angegeben; die farbige Markierung zeigt die Herkunft. Es können nur Algorithmen aus dem MaRDI Portal sowie solche ausgewählt oder definiert werden, die im Interview verwendet werden.&lt;/p&gt;</help>
+		<verbose_name lang="en">Add algorithm</verbose_name>
+		<help lang="de">&lt;p&gt;Nur Algorithmen aus dem MaRDI Portal und aus dieser Dokumentation: Legen Sie einen neuen Algorithmus zuerst als eigenen Tab an.&lt;/p&gt;</help>
 		<text lang="de">...einen weiteren Algorithmus.</text>
 		<default_text lang="de"/>
-		<verbose_name lang="de">Algorithmus Hinzufügen</verbose_name>
+		<verbose_name lang="de">Algorithmus hinzufügen</verbose_name>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>select</widget_type>
@@ -354,16 +290,12 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/algorithm/id"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">&lt;p&gt;For all algorithms &lt;em&gt;label (description)&lt;/em&gt; is provided; the coloured badge shows where it comes from. If an algorithm is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate algorithm is present in the MaRDI Portal or Wikidata, choose &lt;em&gt;new item&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; To use an existing algorithm as a template, first select the algorithm, wait for the information to load, and then change the answer to &lt;em&gt;new item&lt;/em&gt; to remove the external reference.&lt;/p&gt;</help>
-		<text lang="en">Select an Algorithm!</text>
+		<help lang="en">&lt;details&gt;&lt;summary&gt;If it is neither on the MaRDI Portal nor on Wikidata, choose &lt;em&gt;new item&lt;/em&gt;.&lt;/summary&gt;&lt;p&gt;To use an existing algorithm as a template, select it, wait until its information has been added, and then choose &lt;em&gt;new item&lt;/em&gt;: the information stays, the reference to the source is removed. Then give the new algorithm its own name and short description.&lt;/p&gt;&lt;/details&gt;</help>
+		<text lang="en">Select the algorithm</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">&lt;p&gt;Für alle Algorithmen wird &lt;em&gt;Name (Beschreibung)&lt;/em&gt; angegeben; die farbige Markierung zeigt die Herkunft. Wenn ein Algorithmus ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls kein passender Algorithmus im MaRDI Portal oder Wikidata vorhanden ist, wählen Sie &lt;em&gt;new item&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Hinweis:&lt;/strong&gt; Um einen bestehenden Algorithmus als Vorlage zu verwenden, wählen Sie zunächst den Algorithmus aus, warten Sie, bis alle Informationen geladen wurden, und setzen Sie anschließend die Antwort auf &lt;em&gt;new item&lt;/em&gt;, um den Bezug zur externen Quelle zu entfernen.&lt;/p&gt;</help>
-		<text lang="de">Wählen Sie einen Algorithmus aus.</text>
+		<help lang="de">&lt;details&gt;&lt;summary&gt;Gibt es den Algorithmus weder im MaRDI Portal noch in Wikidata, wählen Sie &lt;em&gt;new item&lt;/em&gt;.&lt;/summary&gt;&lt;p&gt;Um einen bestehenden Algorithmus als Vorlage zu verwenden, wählen Sie ihn aus, warten Sie, bis seine Angaben übernommen sind, und wählen Sie dann &lt;em&gt;new item&lt;/em&gt;: Die Angaben bleiben, der Bezug zur Quelle wird entfernt. Geben Sie dem neuen Algorithmus dann einen eigenen Namen und eine eigene Kurzbeschreibung.&lt;/p&gt;&lt;/details&gt;</help>
+		<text lang="de">Wählen Sie den Algorithmus aus</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -386,30 +318,14 @@
 		<dc:comment/>
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/problem"/>
 		<is_collection>True</is_collection>
-		<title lang="en">Algorithmic Task</title>
-		<short_title lang="en">Task</short_title>
-		<help lang="en">&lt;p&gt;On this page, you can define new tasks or select existing ones from the MaRDI Portal or Wikidata. When an existing task is selected, all available information from the relevant source is retrieved and integrated into the interview. Retrieved data can be completed and extended with new relations (e.g., instantiated benchmarks).&lt;/p&gt;
-
-&lt;p&gt;In addition to enhancing existing tasks, they can also serve as templates for creating new ones. To use a task as a template, the reference to the external source must be removed after importing the available information.&lt;/p&gt;
-
-&lt;p&gt;For a smooth export to the MaRDI Portal, all &lt;strong&gt;non-optional&lt;/strong&gt; questions must be answered completely.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; If a task is selected from the MaRDI Portal and not used as a template, its existing information &lt;u&gt;cannot&lt;/u&gt; be edited or deleted via MaRDMO. Any changes or deletions made regardless will be ignored or shown alongside the original information in the MaRDI Portal.&lt;/p&gt;
-
-&lt;p&gt;Check out &lt;a href="https://www.youtube.com/watch?v=UOtLELvv4No&amp;list=PLgoPZ7uPWbo-aC9pnVMYRZYM3iygBYWwn&amp;index=2"&gt;Algorithmic Task&lt;/a&gt; showcasing the documentation.&lt;/p&gt;</help>
-		<verbose_name lang="en">Add Algorithmic Task</verbose_name>
+		<title lang="en">Algorithmic task</title>
+		<short_title lang="en">Algorithmic task</short_title>
+		<help lang="en">&lt;details&gt;&lt;summary&gt;Document a new algorithmic task, or select one from the MaRDI Portal or Wikidata and complete it.&lt;/summary&gt;&lt;p&gt;Selecting an existing algorithmic task adds its information from the source to the interview; you can complete it and add relations, for example a benchmark that instantiates it. Answer all questions not marked as optional, so that the algorithmic task can be exported.&lt;/p&gt;&lt;p&gt;In the dropdowns, each item shows its label and description, and the colour shows its source (MaRDI Portal, Wikidata, this documentation). After choosing one, &lt;strong&gt;wait&lt;/strong&gt; until its information has been added.&lt;/p&gt;&lt;p&gt;The information an algorithmic task already has on the MaRDI Portal cannot be changed or deleted with MaRDMO, only completed.&lt;/p&gt;&lt;p&gt;The video &lt;a href="https://www.youtube.com/watch?v=UOtLELvv4No&amp;list=PLgoPZ7uPWbo-aC9pnVMYRZYM3iygBYWwn&amp;index=2"&gt;Algorithmic Task&lt;/a&gt; shows how to document one.&lt;/p&gt;&lt;/details&gt;</help>
+		<verbose_name lang="en">Add algorithmic task</verbose_name>
 		<title lang="de">Algorithmische Aufgabe</title>
-		<short_title lang="de">Aufgabe</short_title>
-		<help lang="de">&lt;p&gt;Auf dieser Seite können neue Aufgaben definiert oder bereits bestehende Aufgaben aus dem MaRDI Portal oder Wikidata ausgewählt werden. Wird eine bestehende Aufgabe ausgewählt, werden alle verfügbaren Informationen aus der jeweiligen Quelle abgerufen und in das Interview integriert. Die abgerufenen Informationen können ergänzt und um neue Relationen erweitert werden (z.&amp;nbsp;B. instanziierte Benchmarks).&lt;/p&gt;
-
-&lt;p&gt;Bestehende Aufgaben können nicht nur erweitert, sondern auch als Vorlage für neue Aufgaben verwendet werden. Hierfür ist es erforderlich, nach dem Abruf der Informationen den Bezug zur externen Quelle zu entfernen.&lt;/p&gt;
-
-&lt;p&gt;Für einen reibungslosen Export in das MaRDI Portal müssen alle &lt;strong&gt;nicht-optionalen&lt;/strong&gt; Fragen vollständig beantwortet sein.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Hinweis:&lt;/strong&gt; Wird eine Aufgabe aus dem MaRDI Portal ausgewählt und nicht als Vorlage verwendet, können bestehende Informationen über MaRDMO &lt;u&gt;nicht&lt;/u&gt; editiert oder gelöscht werden. Änderungen oder Löschungen, die dennoch vorgenommen werden, werden ignoriert oder zusätzlich zu den bestehenden Informationen im MaRDI Portal angezeigt.&lt;/p&gt;
-
-&lt;p&gt;Sehen Sie sich &lt;a href="https://www.youtube.com/watch?v=UOtLELvv4No&amp;list=PLgoPZ7uPWbo-aC9pnVMYRZYM3iygBYWwn&amp;index=2"&gt;Algorithmic Task&lt;/a&gt; an in dem die Dokumentation vorgestellt wird.&lt;/p&gt;</help>
-		<verbose_name lang="de">Algorithmische Aufgabe Hinzufügen</verbose_name>
+		<short_title lang="de">Algorithmische Aufgabe</short_title>
+		<help lang="de">&lt;details&gt;&lt;summary&gt;Dokumentieren Sie eine neue algorithmische Aufgabe, oder wählen Sie eine aus dem MaRDI Portal oder Wikidata aus und ergänzen Sie sie.&lt;/summary&gt;&lt;p&gt;Wird eine bestehende algorithmische Aufgabe ausgewählt, werden ihre Angaben aus der Quelle in das Interview übernommen; Sie können sie ergänzen und Beziehungen hinzufügen, zum Beispiel einen Benchmark, der sie instanziiert. Beantworten Sie alle Fragen, die nicht als optional markiert sind, damit die algorithmische Aufgabe exportiert werden kann.&lt;/p&gt;&lt;p&gt;In den Auswahllisten zeigt jeder Eintrag Name und Beschreibung, die Farbe zeigt die Herkunft (MaRDI Portal, Wikidata, diese Dokumentation). &lt;strong&gt;Warten&lt;/strong&gt; Sie nach der Auswahl, bis die Angaben übernommen sind.&lt;/p&gt;&lt;p&gt;Was eine algorithmische Aufgabe im MaRDI Portal schon hat, kann mit MaRDMO nicht geändert oder gelöscht, nur ergänzt werden.&lt;/p&gt;&lt;p&gt;Das Video &lt;a href="https://www.youtube.com/watch?v=UOtLELvv4No&amp;list=PLgoPZ7uPWbo-aC9pnVMYRZYM3iygBYWwn&amp;index=2"&gt;Algorithmic Task&lt;/a&gt; zeigt, wie eine algorithmische Aufgabe dokumentiert wird.&lt;/p&gt;&lt;/details&gt;</help>
+		<verbose_name lang="de">Algorithmische Aufgabe hinzufügen</verbose_name>
 		<questionsets>
 			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/problem-algorithm/information" order="1"/>
 			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/problem-algorithm/problem-to-problem" order="2"/>
@@ -425,10 +341,10 @@
 		<dc:comment/>
 		<attribute/>
 		<is_collection>False</is_collection>
-		<title lang="en">Algorithmic Task Information</title>
+		<title lang="en">Algorithmic task information</title>
 		<help lang="en"/>
 		<verbose_name lang="en"/>
-		<title lang="de">Algorithmische Aufgabe Information</title>
+		<title lang="de">Angaben zur algorithmischen Aufgabe</title>
 		<help lang="de"/>
 		<verbose_name lang="de"/>
 		<questionsets/>
@@ -446,15 +362,11 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/problem/name"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">&lt;p&gt;Changing the name changes it in all relations to this task. To document another task, add a new tab.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; If you use the task as a template, don’t forget to update the name.&lt;/p&gt;</help>
-		<text lang="en">Name of the Algorithmic Task</text>
+		<help lang="en">&lt;p&gt;A new name changes the algorithmic task's name everywhere it is related.&lt;/p&gt;</help>
+		<text lang="en">Name of the algorithmic task</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">&lt;p&gt;Eine Änderung des Namens ändert ihn in allen Beziehungen zu dieser Aufgabe. Um eine andere Aufgabe zu dokumentieren, fügen Sie einen neuen Tab hinzu.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Hinweis:&lt;/strong&gt; Wenn Sie die Aufgabe als Vorlage verwenden, denken Sie daran, den Namen anzupassen.&lt;/p&gt;</help>
+		<help lang="de">&lt;p&gt;Ein neuer Name ändert den Namen der algorithmischen Aufgabe überall, wo sie verknüpft ist.&lt;/p&gt;</help>
 		<text lang="de">Name der algorithmischen Aufgabe</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -477,15 +389,11 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/problem/description"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">&lt;p&gt;Short description of 2–12 words (max. 250 characters), lowercase only except for proper names, minimal punctuation.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; If you use the task as a template, don’t forget to update the short description.&lt;/p&gt;</help>
-		<text lang="en">Short Description of the Algorithmic Task</text>
+		<help lang="en">&lt;p&gt;2–12 words (at most 250 characters), lowercase except proper names, little punctuation.&lt;/p&gt;</help>
+		<text lang="en">Short description of the algorithmic task</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">&lt;p&gt;Kurze Beschreibung mit 2–12 Wörtern (max. 250 Zeichen), nur Kleinschreibung außer bei Eigennamen, minimale Zeichensetzung.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Hinweis:&lt;/strong&gt; Wenn Sie die Aufgabe als Vorlage verwenden, denken Sie daran, die Kurzbeschreibung anzupassen.&lt;/p&gt;</help>
+		<help lang="de">&lt;p&gt;2–12 Wörter (höchstens 250 Zeichen), klein geschrieben außer Eigennamen, wenig Satzzeichen.&lt;/p&gt;</help>
 		<text lang="de">Kurze Beschreibung der algorithmischen Aufgabe</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -508,14 +416,14 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/problem/benchmark-relatant"/>
 		<is_collection>True</is_collection>
 		<is_optional>True</is_optional>
-		<help lang="en">&lt;p&gt;Choose one or more benchmarks. For all benchmarks &lt;em&gt;label (description)&lt;/em&gt; is provided; the coloured badge shows where it comes from. If a benchmark is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate benchmark is present in the MaRDI Portal or Wikidata, type its name and select it; its short description is entered on its page.&lt;/p&gt;</help>
-		<text lang="en">Benchmark instantiating the Algorithmic Task</text>
+		<help lang="en">&lt;p&gt;If a benchmark is neither on the MaRDI Portal nor on Wikidata, type its name, select it, and enter its short description on its page.&lt;/p&gt;</help>
+		<text lang="en">Benchmarks that instantiate the algorithmic task</text>
 		<default_text lang="en"/>
-		<verbose_name lang="en"/>
-		<help lang="de">&lt;p&gt;Wählen Sie einen oder mehrere Benchmarks aus. Für alle Benchmarks wird &lt;em&gt;Name (Beschreibung)&lt;/em&gt; angegeben; die farbige Markierung zeigt die Herkunft. Wenn ein Benchmark ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls kein passender Benchmark im MaRDI Portal oder Wikidata vorhanden ist, geben Sie den Namen ein und wählen Sie ihn aus; die Kurzbeschreibung tragen Sie auf der zugehörigen Seite ein.&lt;/p&gt;</help>
-		<text lang="de">Benchmark welcher die algorithmische Aufgabe instanziiert</text>
+		<verbose_name lang="en">Add benchmark</verbose_name>
+		<help lang="de">&lt;p&gt;Gibt es einen Benchmark weder im MaRDI Portal noch in Wikidata, tippen Sie seinen Namen ein, wählen ihn aus und geben seine Kurzbeschreibung auf seiner Seite an.&lt;/p&gt;</help>
+		<text lang="de">Benchmarks, die die algorithmische Aufgabe instanziieren</text>
 		<default_text lang="de"/>
-		<verbose_name lang="de"/>
+		<verbose_name lang="de">Benchmark hinzufügen</verbose_name>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>select</widget_type>
@@ -536,12 +444,12 @@
 		<dc:comment/>
 		<attribute/>
 		<is_collection>True</is_collection>
-		<title lang="en">Algorithmic Task - Algorithmic Task Relations</title>
-		<help lang="en">&lt;p&gt;To relate the task with other tasks, select additional tasks and specify the relations.&lt;/p&gt;</help>
-		<verbose_name lang="en">Add Algorithmic Task Relation</verbose_name>
-		<title lang="de">Algorithmische Aufgabe - Algorithmische Aufgabe Beziehungen</title>
-		<help lang="de">&lt;p&gt;Um die Aufgabe mit anderen Aufgaben zu verknüpfen, wählen Sie weitere Aufgaben aus und geben Sie die Relationen an.&lt;/p&gt;</help>
-		<verbose_name lang="de">Algorithmische Aufgabe Relation Hinzufügen</verbose_name>
+		<title lang="en">Relations to other algorithmic tasks</title>
+		<help lang="en">&lt;details&gt;&lt;summary&gt;Relate the task to the tasks it specializes or that specialize it.&lt;/summary&gt;&lt;p&gt;↗ next to a relation opens its definition on the MaRDI Portal.&lt;/p&gt;&lt;/details&gt;</help>
+		<verbose_name lang="en">Add relation</verbose_name>
+		<title lang="de">Beziehungen zu anderen algorithmischen Aufgaben</title>
+		<help lang="de">&lt;details&gt;&lt;summary&gt;Verknüpfen Sie die Aufgabe mit den Aufgaben, die sie spezialisiert oder die sie spezialisieren.&lt;/summary&gt;&lt;p&gt;↗ neben einer Relation öffnet ihre Definition im MaRDI Portal.&lt;/p&gt;&lt;/details&gt;</help>
+		<verbose_name lang="de">Beziehung hinzufügen</verbose_name>
 		<questionsets/>
 		<questions>
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/problem-algorithm/problem-to-problem/problem-relation" order="1"/>
@@ -557,7 +465,7 @@
 		<is_collection>False</is_collection>
 		<is_optional>True</is_optional>
 		<help lang="en"/>
-		<text lang="en">The Algorithmic Task...</text>
+		<text lang="en">The algorithmic task...</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
@@ -585,14 +493,14 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/problem/problem-relatant"/>
 		<is_collection>True</is_collection>
 		<is_optional>True</is_optional>
-		<help lang="en">&lt;p&gt;Choose one or more tasks to be linked by the selected relation. For all tasks &lt;em&gt;label (description)&lt;/em&gt; is provided; the coloured badge shows where it comes from. Only tasks from the MaRDI Portal and those selected or defined within the interview can be chosen.&lt;/p&gt;</help>
-		<text lang="en">...another Algorithmic Task.</text>
+		<help lang="en">&lt;p&gt;Only tasks of the MaRDI Portal and of this documentation: add a new task as a tab of its own first.&lt;/p&gt;</help>
+		<text lang="en">...another algorithmic task.</text>
 		<default_text lang="en"/>
-		<verbose_name lang="en">Add Algorithmic Task</verbose_name>
-		<help lang="de">&lt;p&gt;Wählen Sie eine oder mehrere Aufgaben aus, die über die ausgewählte Relation verknüpft werden sollen. Für alle Aufgaben wird &lt;em&gt;Name (Beschreibung)&lt;/em&gt; angegeben; die farbige Markierung zeigt die Herkunft. Es können nur Aufgaben aus dem MaRDI Portal sowie solche ausgewählt oder definiert werden, die im Interview verwendet werden.&lt;/p&gt;</help>
+		<verbose_name lang="en">Add algorithmic task</verbose_name>
+		<help lang="de">&lt;p&gt;Nur Aufgaben aus dem MaRDI Portal und aus dieser Dokumentation: Legen Sie eine neue Aufgabe zuerst als eigenen Tab an.&lt;/p&gt;</help>
 		<text lang="de">...eine weitere algorithmische Aufgabe.</text>
 		<default_text lang="de"/>
-		<verbose_name lang="de">Algorithmische Aufgabe Hinzufügen</verbose_name>
+		<verbose_name lang="de">Algorithmische Aufgabe hinzufügen</verbose_name>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>select</widget_type>
@@ -614,16 +522,12 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/problem/id"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">&lt;p&gt;For all tasks &lt;em&gt;label (description)&lt;/em&gt; is provided; the coloured badge shows where it comes from. If a task is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate task is present in the MaRDI Portal or Wikidata, choose &lt;em&gt;new item&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; To use an existing task as a template, first select the task, wait for the information to load, and then change the answer to &lt;em&gt;new item&lt;/em&gt; to remove the external reference.&lt;/p&gt;</help>
-		<text lang="en">Select an Algorithmic Task related to the Algorithm!</text>
+		<help lang="en">&lt;details&gt;&lt;summary&gt;If it is neither on the MaRDI Portal nor on Wikidata, choose &lt;em&gt;new item&lt;/em&gt;.&lt;/summary&gt;&lt;p&gt;To use an existing algorithmic task as a template, select it, wait until its information has been added, and then choose &lt;em&gt;new item&lt;/em&gt;: the information stays, the reference to the source is removed. Then give the new algorithmic task its own name and short description.&lt;/p&gt;&lt;/details&gt;</help>
+		<text lang="en">Select the algorithmic task</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">&lt;p&gt;Für alle Aufgaben wird &lt;em&gt;Name (Beschreibung)&lt;/em&gt; angegeben; die farbige Markierung zeigt die Herkunft. Wenn eine Aufgabe ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls keine passende Aufgabe im MaRDI Portal oder Wikidata vorhanden ist, wählen Sie &lt;em&gt;new item&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Hinweis:&lt;/strong&gt; Um eine bestehende Aufgabe als Vorlage zu verwenden, wählen Sie zunächst die Aufgabe aus, warten Sie, bis alle Informationen geladen wurden, und setzen Sie anschließend die Antwort auf &lt;em&gt;new item&lt;/em&gt;, um den Bezug zur externen Quelle zu entfernen.&lt;/p&gt;</help>
-		<text lang="de">Wählen Sie eine algorithmische Aufgabe aus, die mit dem Algorithmus im Zusammenhang steht!</text>
+		<help lang="de">&lt;details&gt;&lt;summary&gt;Gibt es sie weder im MaRDI Portal noch in Wikidata, wählen Sie &lt;em&gt;new item&lt;/em&gt;.&lt;/summary&gt;&lt;p&gt;Um eine bestehende algorithmische Aufgabe als Vorlage zu verwenden, wählen Sie sie aus, warten Sie, bis ihre Angaben übernommen sind, und wählen Sie dann &lt;em&gt;new item&lt;/em&gt;: Die Angaben bleiben, der Bezug zur Quelle wird entfernt. Geben Sie der neuen algorithmischen Aufgabe dann einen eigenen Namen und eine eigene Kurzbeschreibung.&lt;/p&gt;&lt;/details&gt;</help>
+		<text lang="de">Wählen Sie die algorithmische Aufgabe aus</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -648,28 +552,12 @@
 		<is_collection>True</is_collection>
 		<title lang="en">Software</title>
 		<short_title lang="en">Software</short_title>
-		<help lang="en">&lt;p&gt;On this page, you can define new software or select existing ones from the MaRDI Portal or Wikidata. When an existing software is selected, all available information from the relevant source is retrieved and integrated into the interview. Retrieved data can be completed and extended with new relations (e.g., tested benchmarks).&lt;/p&gt;
-
-&lt;p&gt;In addition to enhancing existing software, it can also serve as templates for creating new ones. To use a software as a template, the reference to the external source must be removed after importing the available information.&lt;/p&gt;
-
-&lt;p&gt;For a smooth export to the MaRDI Portal, all &lt;strong&gt;non-optional&lt;/strong&gt; questions must be answered completely.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; If a software is selected from the MaRDI Portal and not used as a template, its existing information &lt;u&gt;cannot&lt;/u&gt; be edited or deleted via MaRDMO. Any changes or deletions made regardless will be ignored or shown alongside the original information in the MaRDI Portal.&lt;/p&gt;
-
-&lt;p&gt;Check out &lt;a href="https://www.youtube.com/watch?v=p01PcZ8VajY&amp;list=PLgoPZ7uPWbo-aC9pnVMYRZYM3iygBYWwn&amp;index=3"&gt;Software&lt;/a&gt; showcasing the documentation.&lt;/p&gt;</help>
-		<verbose_name lang="en">Add Software</verbose_name>
+		<help lang="en">&lt;details&gt;&lt;summary&gt;Document a new software, or select one from the MaRDI Portal or Wikidata and complete it.&lt;/summary&gt;&lt;p&gt;Selecting an existing software adds its information from the source to the interview; you can complete it and add relations, for example its programming languages or a benchmark it is tested on. Answer all questions not marked as optional, so that the software can be exported.&lt;/p&gt;&lt;p&gt;In the dropdowns, each item shows its label and description, and the colour shows its source (MaRDI Portal, Wikidata, this documentation). After choosing one, &lt;strong&gt;wait&lt;/strong&gt; until its information has been added.&lt;/p&gt;&lt;p&gt;The information a software already has on the MaRDI Portal cannot be changed or deleted with MaRDMO, only completed.&lt;/p&gt;&lt;p&gt;The video &lt;a href="https://www.youtube.com/watch?v=p01PcZ8VajY&amp;list=PLgoPZ7uPWbo-aC9pnVMYRZYM3iygBYWwn&amp;index=3"&gt;Software&lt;/a&gt; shows how to document one.&lt;/p&gt;&lt;/details&gt;</help>
+		<verbose_name lang="en">Add software</verbose_name>
 		<title lang="de">Software</title>
 		<short_title lang="de">Software</short_title>
-		<help lang="de">&lt;p&gt;Auf dieser Seite kann neue Software definiert oder bereits bestehende Software aus dem MaRDI Portal oder Wikidata ausgewählt werden. Wird eine bestehende Software ausgewählt, werden alle verfügbaren Informationen aus der jeweiligen Quelle abgerufen und in das Interview integriert. Die abgerufenen Informationen können ergänzt und um neue Relationen erweitert werden (z.&amp;nbsp;B. getestete Benchmarks).&lt;/p&gt;
-
-&lt;p&gt;Bestehende Software kann nicht nur erweitert, sondern auch als Vorlage für neue Software verwendet werden. Hierfür ist es erforderlich, nach dem Abruf der Informationen den Bezug zur externen Quelle zu entfernen.&lt;/p&gt;
-
-&lt;p&gt;Für einen reibungslosen Export in das MaRDI Portal müssen alle &lt;strong&gt;nicht-optionalen&lt;/strong&gt; Fragen vollständig beantwortet sein.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Hinweis:&lt;/strong&gt; Wird eine Software aus dem MaRDI Portal ausgewählt und nicht als Vorlage verwendet, können bestehende Informationen über MaRDMO &lt;u&gt;nicht&lt;/u&gt; editiert oder gelöscht werden. Änderungen oder Löschungen, die dennoch vorgenommen werden, werden ignoriert oder zusätzlich zu den bestehenden Informationen im MaRDI Portal angezeigt.&lt;/p&gt;
-
-&lt;p&gt;Sehen Sie sich &lt;a href="https://www.youtube.com/watch?v=p01PcZ8VajY&amp;list=PLgoPZ7uPWbo-aC9pnVMYRZYM3iygBYWwn&amp;index=3"&gt;Software&lt;/a&gt; an in dem die Dokumentation vorgestellt wird.&lt;/p&gt;</help>
-		<verbose_name lang="de">Software Hinzufügen</verbose_name>
+		<help lang="de">&lt;details&gt;&lt;summary&gt;Dokumentieren Sie eine neue Software, oder wählen Sie eine aus dem MaRDI Portal oder Wikidata aus und ergänzen Sie sie.&lt;/summary&gt;&lt;p&gt;Wird eine bestehende Software ausgewählt, werden ihre Angaben aus der Quelle in das Interview übernommen; Sie können sie ergänzen und Beziehungen hinzufügen, zum Beispiel ihre Programmiersprachen oder einen Benchmark, an dem sie getestet wird. Beantworten Sie alle Fragen, die nicht als optional markiert sind, damit die Software exportiert werden kann.&lt;/p&gt;&lt;p&gt;In den Auswahllisten zeigt jeder Eintrag Name und Beschreibung, die Farbe zeigt die Herkunft (MaRDI Portal, Wikidata, diese Dokumentation). &lt;strong&gt;Warten&lt;/strong&gt; Sie nach der Auswahl, bis die Angaben übernommen sind.&lt;/p&gt;&lt;p&gt;Was eine Software im MaRDI Portal schon hat, kann mit MaRDMO nicht geändert oder gelöscht, nur ergänzt werden.&lt;/p&gt;&lt;p&gt;Das Video &lt;a href="https://www.youtube.com/watch?v=p01PcZ8VajY&amp;list=PLgoPZ7uPWbo-aC9pnVMYRZYM3iygBYWwn&amp;index=3"&gt;Software&lt;/a&gt; zeigt, wie eine Software dokumentiert wird.&lt;/p&gt;&lt;/details&gt;</help>
+		<verbose_name lang="de">Software hinzufügen</verbose_name>
 		<questionsets>
 			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/software/information" order="1"/>
 		</questionsets>
@@ -684,10 +572,10 @@
 		<dc:comment/>
 		<attribute/>
 		<is_collection>False</is_collection>
-		<title lang="en">Software Information</title>
+		<title lang="en">Software information</title>
 		<help lang="en"/>
 		<verbose_name lang="en"/>
-		<title lang="de">Software Information</title>
+		<title lang="de">Angaben zur Software</title>
 		<help lang="de"/>
 		<verbose_name lang="de"/>
 		<questionsets/>
@@ -708,16 +596,12 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/software/name"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">&lt;p&gt;Changing the name changes it in all relations to this software. To document another software, add a new tab.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; If you use the software as a template, don’t forget to update the name.&lt;/p&gt;</help>
-		<text lang="en">Name of the Software.</text>
+		<help lang="en">&lt;p&gt;A new name changes the software's name everywhere it is related.&lt;/p&gt;</help>
+		<text lang="en">Name of the software</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">&lt;p&gt;Eine Änderung des Namens ändert ihn in allen Beziehungen zu dieser Software. Um eine andere Software zu dokumentieren, fügen Sie einen neuen Tab hinzu.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Hinweis:&lt;/strong&gt; Wenn Sie die Software als Vorlage verwenden, denken Sie daran, den Namen anzupassen.&lt;/p&gt;</help>
-		<text lang="de">Namen der Software</text>
+		<help lang="de">&lt;p&gt;Ein neuer Name ändert den Namen der Software überall, wo sie verknüpft ist.&lt;/p&gt;</help>
+		<text lang="de">Name der Software</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -739,15 +623,11 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/software/description"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">&lt;p&gt;Short description of 2–12 words (max. 250 characters), lowercase only except for proper names, minimal punctuation.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; If you use the software as a template, don’t forget to update the short description.&lt;/p&gt;</help>
-		<text lang="en">Short Description of the Software</text>
+		<help lang="en">&lt;p&gt;2–12 words (at most 250 characters), lowercase except proper names, little punctuation.&lt;/p&gt;</help>
+		<text lang="en">Short description of the software</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">&lt;p&gt;Kurze Beschreibung mit 2–12 Wörtern (max. 250 Zeichen), nur Kleinschreibung außer bei Eigennamen, minimale Zeichensetzung.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Hinweis:&lt;/strong&gt; Wenn Sie die Software als Vorlage verwenden, denken Sie daran, die Kurzbeschreibung anzupassen.&lt;/p&gt;</help>
+		<help lang="de">&lt;p&gt;2–12 Wörter (höchstens 250 Zeichen), klein geschrieben außer Eigennamen, wenig Satzzeichen.&lt;/p&gt;</help>
 		<text lang="de">Kurze Beschreibung der Software</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -770,12 +650,12 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/software/reference"/>
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">Provided Prefixes are: 'doi:', 'swmath:', 'url:'.</help>
-		<text lang="en">Reference of the Software.</text>
+		<help lang="en">&lt;details&gt;&lt;summary&gt;Tick at least one reference and enter its value.&lt;/summary&gt;&lt;p&gt;A DOI (&lt;code&gt;10.1000/xyz123&lt;/code&gt;), a swMATH ID (digits only, for example &lt;code&gt;825&lt;/code&gt;), a URL that describes the software, or the URL of its source code repository.&lt;/p&gt;&lt;/details&gt;</help>
+		<text lang="en">References of the software</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Verfügbare Präfixe sind: 'doi:', 'swmath:', 'url:'.</help>
-		<text lang="de">Referenz der Software</text>
+		<help lang="de">&lt;details&gt;&lt;summary&gt;Kreuzen Sie mindestens eine Referenz an und geben Sie ihren Wert ein.&lt;/summary&gt;&lt;p&gt;Eine DOI (&lt;code&gt;10.1000/xyz123&lt;/code&gt;), eine swMATH-ID (nur Ziffern, zum Beispiel &lt;code&gt;825&lt;/code&gt;), eine URL, die die Software beschreibt, oder die URL ihres Quellcode-Repositorys.&lt;/p&gt;&lt;/details&gt;</help>
+		<text lang="de">Referenzen der Software</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -799,14 +679,14 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/software/programming-language-relatant"/>
 		<is_collection>True</is_collection>
 		<is_optional>True</is_optional>
-		<help lang="en">&lt;p&gt;Choose one or more languages. For all languages &lt;em&gt;label (description)&lt;/em&gt; is provided; the coloured badge shows where it comes from. If a language is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate language is present in the MaRDI Portal or Wikidata, type its name and select it. MaRDMO adds the short description &lt;em&gt;programming language&lt;/em&gt;.&lt;/p&gt;</help>
-		<text lang="en">Language the Software is Programmed in?</text>
+		<help lang="en">&lt;p&gt;If a programming language is neither on the MaRDI Portal nor on Wikidata, type its name, select it, and enter its short description on its page.&lt;/p&gt;</help>
+		<text lang="en">Programming languages of the software</text>
 		<default_text lang="en"/>
-		<verbose_name lang="en">Add Programming Language</verbose_name>
-		<help lang="de">&lt;p&gt;Wählen Sie eine oder mehrere Sprachen aus. Für alle Sprachen wird &lt;em&gt;Name (Beschreibung)&lt;/em&gt; angegeben; die farbige Markierung zeigt die Herkunft. Wenn eine Sprache ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls keine passende Sprache im MaRDI Portal oder Wikidata vorhanden ist, geben Sie den Namen ein und wählen Sie ihn aus. MaRDMO ergänzt die Kurzbeschreibung &lt;em&gt;programming language&lt;/em&gt;.&lt;/p&gt;</help>
-		<text lang="de">Sprache in der die Software programmiert ist.</text>
+		<verbose_name lang="en">Add programming language</verbose_name>
+		<help lang="de">&lt;p&gt;Gibt es eine Programmiersprache weder im MaRDI Portal noch in Wikidata, tippen Sie ihren Namen ein, wählen ihn aus und geben ihre Kurzbeschreibung auf ihrer Seite an.&lt;/p&gt;</help>
+		<text lang="de">Programmiersprachen der Software</text>
 		<default_text lang="de"/>
-		<verbose_name lang="de">Programmiersprache Hinzufügen</verbose_name>
+		<verbose_name lang="de">Programmiersprache hinzufügen</verbose_name>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>select</widget_type>
@@ -828,14 +708,14 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/software/dependency-relatant"/>
 		<is_collection>True</is_collection>
 		<is_optional>True</is_optional>
-		<help lang="en">&lt;p&gt;Choose one or more dependencies. For all dependencies &lt;em&gt;label (description)&lt;/em&gt; is provided; the coloured badge shows where it comes from. If a dependency is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate dependency is present in the MaRDI Portal or Wikidata, type its name and select it; its short description is entered on its page.&lt;/p&gt;</help>
-		<text lang="en">Software Dependency of the Software?</text>
+		<help lang="en">&lt;p&gt;If software is neither on the MaRDI Portal nor on Wikidata, type its name, select it, and enter its short description on its page.&lt;/p&gt;</help>
+		<text lang="en">Software the software depends on</text>
 		<default_text lang="en"/>
-		<verbose_name lang="en">Add Software</verbose_name>
-		<help lang="de">&lt;p&gt;Wählen Sie eine oder mehrere Abhängigkeiten aus. Für alle Abhängigkeiten wird &lt;em&gt;Name (Beschreibung)&lt;/em&gt; angegeben; die farbige Markierung zeigt die Herkunft. Wenn eine Abhängigkeit ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls keine passende Abhängigkeit im MaRDI Portal oder Wikidata vorhanden ist, geben Sie den Namen ein und wählen Sie ihn aus; die Kurzbeschreibung tragen Sie auf der zugehörigen Seite ein.&lt;/p&gt;</help>
-		<text lang="de">Software-Abhängigkeit der Software?</text>
+		<verbose_name lang="en">Add software</verbose_name>
+		<help lang="de">&lt;p&gt;Gibt es eine Software weder im MaRDI Portal noch in Wikidata, tippen Sie ihren Namen ein, wählen ihn aus und geben ihre Kurzbeschreibung auf ihrer Seite an.&lt;/p&gt;</help>
+		<text lang="de">Software, von der die Software abhängt</text>
 		<default_text lang="de"/>
-		<verbose_name lang="de">Software Hinzufügen</verbose_name>
+		<verbose_name lang="de">Software hinzufügen</verbose_name>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>select</widget_type>
@@ -857,14 +737,14 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/software/benchmark-relatant"/>
 		<is_collection>True</is_collection>
 		<is_optional>True</is_optional>
-		<help lang="en">&lt;p&gt;Choose one or more benchmarks. For all benchmarks &lt;em&gt;label (description)&lt;/em&gt; is provided; the coloured badge shows where it comes from. If a benchmark is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate benchmark is present in the MaRDI Portal or Wikidata, type its name and select it; its short description is entered on its page.&lt;/p&gt;</help>
-		<text lang="en">Benchmark tested by the Software</text>
+		<help lang="en">&lt;p&gt;If a benchmark is neither on the MaRDI Portal nor on Wikidata, type its name, select it, and enter its short description on its page.&lt;/p&gt;</help>
+		<text lang="en">Benchmarks tested by the software</text>
 		<default_text lang="en"/>
-		<verbose_name lang="en">Add Benchmark</verbose_name>
-		<help lang="de">&lt;p&gt;Wählen Sie einen oder mehrere Benchmarks aus. Für alle Benchmarks wird &lt;em&gt;Name (Beschreibung)&lt;/em&gt; angegeben; die farbige Markierung zeigt die Herkunft. Wenn ein Benchmark ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls kein passender Benchmark im MaRDI Portal oder Wikidata vorhanden ist, geben Sie den Namen ein und wählen Sie ihn aus; die Kurzbeschreibung tragen Sie auf der zugehörigen Seite ein.&lt;/p&gt;</help>
-		<text lang="de">Benchmark welcher durch die Software getestet wird</text>
+		<verbose_name lang="en">Add benchmark</verbose_name>
+		<help lang="de">&lt;p&gt;Gibt es einen Benchmark weder im MaRDI Portal noch in Wikidata, tippen Sie seinen Namen ein, wählen ihn aus und geben seine Kurzbeschreibung auf seiner Seite an.&lt;/p&gt;</help>
+		<text lang="de">Benchmarks, die die Software testet</text>
 		<default_text lang="de"/>
-		<verbose_name lang="de">Benchmark Hinzufügen</verbose_name>
+		<verbose_name lang="de">Benchmark hinzufügen</verbose_name>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>select</widget_type>
@@ -886,16 +766,12 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/software/id"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">&lt;p&gt;For all software &lt;em&gt;label (description)&lt;/em&gt; is provided; the coloured badge shows where it comes from. If a software is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate software is present in the MaRDI Portal or Wikidata, choose &lt;em&gt;new item&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; To use an existing software as a template, first select the software, wait for the information to load, and then change the answer to &lt;em&gt;new item&lt;/em&gt; to remove the external reference.&lt;/p&gt;</help>
-		<text lang="en">Select a Software!</text>
+		<help lang="en">&lt;details&gt;&lt;summary&gt;If it is neither on the MaRDI Portal nor on Wikidata, choose &lt;em&gt;new item&lt;/em&gt;.&lt;/summary&gt;&lt;p&gt;To use an existing software as a template, select it, wait until its information has been added, and then choose &lt;em&gt;new item&lt;/em&gt;: the information stays, the reference to the source is removed. Then give the new software its own name and short description.&lt;/p&gt;&lt;/details&gt;</help>
+		<text lang="en">Select the software</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">&lt;p&gt;Für alle Software wird &lt;em&gt;Name (Beschreibung)&lt;/em&gt; angegeben; die farbige Markierung zeigt die Herkunft. Wenn eine Software ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls keine passende Software im MaRDI Portal oder Wikidata vorhanden ist, wählen Sie &lt;em&gt;new item&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Hinweis:&lt;/strong&gt; Um eine bestehende Software als Vorlage zu verwenden, wählen Sie zunächst die Software aus, warten Sie, bis alle Informationen geladen wurden, und setzen Sie anschließend die Antwort auf &lt;em&gt;new item&lt;/em&gt;, um den Bezug zur externen Quelle zu entfernen.&lt;/p&gt;</help>
-		<text lang="de">Wählen Sie eine Software aus!</text>
+		<help lang="de">&lt;details&gt;&lt;summary&gt;Gibt es sie weder im MaRDI Portal noch in Wikidata, wählen Sie &lt;em&gt;new item&lt;/em&gt;.&lt;/summary&gt;&lt;p&gt;Um eine bestehende Software als Vorlage zu verwenden, wählen Sie sie aus, warten Sie, bis ihre Angaben übernommen sind, und wählen Sie dann &lt;em&gt;new item&lt;/em&gt;: Die Angaben bleiben, der Bezug zur Quelle wird entfernt. Geben Sie der neuen Software dann einen eigenen Namen und eine eigene Kurzbeschreibung.&lt;/p&gt;&lt;/details&gt;</help>
+		<text lang="de">Wählen Sie die Software aus</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -920,28 +796,12 @@
 		<is_collection>True</is_collection>
 		<title lang="en">Benchmark</title>
 		<short_title lang="en">Benchmark</short_title>
-		<help lang="en">&lt;p&gt;On this page, you can define new benchmarks or select existing ones from the MaRDI Portal or Wikidata. When an existing benchmark is selected, all available information from the relevant source is retrieved and integrated into the interview. Retrieved data can be completed.&lt;/p&gt;
-
-&lt;p&gt;In addition to enhancing existing benchmarks, they can also serve as templates for creating new ones. To use a benchmark as a template, the reference to the external source must be removed after importing the available information.&lt;/p&gt;
-
-&lt;p&gt;For a smooth export to the MaRDI Portal, all &lt;strong&gt;non-optional&lt;/strong&gt; questions must be answered completely.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; If a benchmark is selected from the MaRDI Portal and not used as a template, its existing information &lt;u&gt;cannot&lt;/u&gt; be edited or deleted via MaRDMO. Any changes or deletions made regardless will be ignored or shown alongside the original information in the MaRDI Portal.&lt;/p&gt;
-
-&lt;p&gt;Check out &lt;a href="https://www.youtube.com/watch?v=a3qRyd_4IWA&amp;list=PLgoPZ7uPWbo-aC9pnVMYRZYM3iygBYWwn&amp;index=4"&gt;Benchmark&lt;/a&gt; showcasing the documentation.&lt;/p&gt;</help>
-		<verbose_name lang="en">Add Benchmark</verbose_name>
+		<help lang="en">&lt;details&gt;&lt;summary&gt;Document a new benchmark, or select one from the MaRDI Portal or Wikidata and complete it.&lt;/summary&gt;&lt;p&gt;Selecting an existing benchmark adds its information from the source to the interview; you can complete it and add relations. Answer all questions not marked as optional, so that the benchmark can be exported.&lt;/p&gt;&lt;p&gt;In the dropdowns, each item shows its label and description, and the colour shows its source (MaRDI Portal, Wikidata, this documentation). After choosing one, &lt;strong&gt;wait&lt;/strong&gt; until its information has been added.&lt;/p&gt;&lt;p&gt;The information a benchmark already has on the MaRDI Portal cannot be changed or deleted with MaRDMO, only completed.&lt;/p&gt;&lt;p&gt;The video &lt;a href="https://www.youtube.com/watch?v=a3qRyd_4IWA&amp;list=PLgoPZ7uPWbo-aC9pnVMYRZYM3iygBYWwn&amp;index=4"&gt;Benchmark&lt;/a&gt; shows how to document one.&lt;/p&gt;&lt;/details&gt;</help>
+		<verbose_name lang="en">Add benchmark</verbose_name>
 		<title lang="de">Benchmark</title>
 		<short_title lang="de">Benchmark</short_title>
-		<help lang="de">&lt;p&gt;Auf dieser Seite können neue Benchmarks definiert oder bereits bestehende Benchmarks aus dem MaRDI Portal oder Wikidata ausgewählt werden. Wird ein bestehender Benchmark ausgewählt, werden alle verfügbaren Informationen aus der jeweiligen Quelle abgerufen und in das Interview integriert. Die abgerufenen Informationen können ergänzt werden.&lt;/p&gt;
-
-&lt;p&gt;Bestehende Benchmarks können nicht nur erweitert, sondern auch als Vorlage für neue Benchmarks verwendet werden. Hierfür ist es erforderlich, nach dem Abruf der Informationen den Bezug zur externen Quelle zu entfernen.&lt;/p&gt;
-
-&lt;p&gt;Für einen reibungslosen Export in das MaRDI Portal müssen alle &lt;strong&gt;nicht-optionalen&lt;/strong&gt; Fragen vollständig beantwortet sein.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Hinweis:&lt;/strong&gt; Wird ein Benchmark aus dem MaRDI Portal ausgewählt und nicht als Vorlage verwendet, können bestehende Informationen über MaRDMO &lt;u&gt;nicht&lt;/u&gt; editiert oder gelöscht werden. Änderungen oder Löschungen, die dennoch vorgenommen werden, werden ignoriert oder zusätzlich zu den bestehenden Informationen im MaRDI Portal angezeigt.&lt;/p&gt;
-
-&lt;p&gt;Sehen Sie sich &lt;a href="https://www.youtube.com/watch?v=a3qRyd_4IWA&amp;list=PLgoPZ7uPWbo-aC9pnVMYRZYM3iygBYWwn&amp;index=4"&gt;Benchmark&lt;/a&gt; an in dem die Dokumentation vorgestellt wird.&lt;/p&gt;</help>
-		<verbose_name lang="de">Benchmark Hinzufügen</verbose_name>
+		<help lang="de">&lt;details&gt;&lt;summary&gt;Dokumentieren Sie einen neuen Benchmark, oder wählen Sie einen aus dem MaRDI Portal oder Wikidata aus und ergänzen Sie ihn.&lt;/summary&gt;&lt;p&gt;Wird ein bestehender Benchmark ausgewählt, werden seine Angaben aus der Quelle in das Interview übernommen; Sie können ihn ergänzen und Beziehungen hinzufügen. Beantworten Sie alle Fragen, die nicht als optional markiert sind, damit der Benchmark exportiert werden kann.&lt;/p&gt;&lt;p&gt;In den Auswahllisten zeigt jeder Eintrag Name und Beschreibung, die Farbe zeigt die Herkunft (MaRDI Portal, Wikidata, diese Dokumentation). &lt;strong&gt;Warten&lt;/strong&gt; Sie nach der Auswahl, bis die Angaben übernommen sind.&lt;/p&gt;&lt;p&gt;Was ein Benchmark im MaRDI Portal schon hat, kann mit MaRDMO nicht geändert oder gelöscht, nur ergänzt werden.&lt;/p&gt;&lt;p&gt;Das Video &lt;a href="https://www.youtube.com/watch?v=a3qRyd_4IWA&amp;list=PLgoPZ7uPWbo-aC9pnVMYRZYM3iygBYWwn&amp;index=4"&gt;Benchmark&lt;/a&gt; zeigt, wie ein Benchmark dokumentiert wird.&lt;/p&gt;&lt;/details&gt;</help>
+		<verbose_name lang="de">Benchmark hinzufügen</verbose_name>
 		<questionsets>
 			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/benchmark/information" order="1"/>
 		</questionsets>
@@ -956,10 +816,10 @@
 		<dc:comment/>
 		<attribute/>
 		<is_collection>False</is_collection>
-		<title lang="en">Benchmark Information</title>
+		<title lang="en">Benchmark information</title>
 		<help lang="en"/>
 		<verbose_name lang="en"/>
-		<title lang="de">Benchmark Information</title>
+		<title lang="de">Angaben zum Benchmark</title>
 		<help lang="de"/>
 		<verbose_name lang="de"/>
 		<questionsets/>
@@ -977,15 +837,11 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/benchmark/name"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">&lt;p&gt;Changing the name changes it in all relations to this benchmark. To document another benchmark, add a new tab.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; If you use the benchmark as a template, don’t forget to update the name.&lt;/p&gt;</help>
-		<text lang="en">Name of the Benschmark</text>
+		<help lang="en">&lt;p&gt;A new name changes the benchmark's name everywhere it is related.&lt;/p&gt;</help>
+		<text lang="en">Name of the benchmark</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">&lt;p&gt;Eine Änderung des Namens ändert ihn in allen Beziehungen zu diesem Benchmark. Um einen anderen Benchmark zu dokumentieren, fügen Sie einen neuen Tab hinzu.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Hinweis:&lt;/strong&gt; Wenn Sie den Benchmark als Vorlage verwenden, denken Sie daran, den Namen anzupassen.&lt;/p&gt;</help>
+		<help lang="de">&lt;p&gt;Ein neuer Name ändert den Namen des Benchmarks überall, wo er verknüpft ist.&lt;/p&gt;</help>
 		<text lang="de">Name des Benchmarks</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -1008,15 +864,11 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/benchmark/description"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">&lt;p&gt;Short description of 2–12 words (max. 250 characters), lowercase only except for proper names, minimal punctuation.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; If you use the benchmark as a template, don’t forget to update the short description.&lt;/p&gt;</help>
-		<text lang="en">Short Description of the Benchmark</text>
+		<help lang="en">&lt;p&gt;2–12 words (at most 250 characters), lowercase except proper names, little punctuation.&lt;/p&gt;</help>
+		<text lang="en">Short description of the benchmark</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">&lt;p&gt;Kurze Beschreibung mit 2–12 Wörtern (max. 250 Zeichen), nur Kleinschreibung außer bei Eigennamen, minimale Zeichensetzung.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Hinweis:&lt;/strong&gt; Wenn Sie den Benchmark als Vorlage verwenden, denken Sie daran, die Kurzbeschreibung anzupassen.&lt;/p&gt;</help>
+		<help lang="de">&lt;p&gt;2–12 Wörter (höchstens 250 Zeichen), klein geschrieben außer Eigennamen, wenig Satzzeichen.&lt;/p&gt;</help>
 		<text lang="de">Kurze Beschreibung des Benchmarks</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -1039,12 +891,12 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/benchmark/reference"/>
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">Provided Prefixes are: 'doi:', 'morwiki'.</help>
-		<text lang="en">Reference of the Benchmark</text>
+		<help lang="en">&lt;details&gt;&lt;summary&gt;Tick at least one reference and enter its value.&lt;/summary&gt;&lt;p&gt;A DOI (&lt;code&gt;10.1000/xyz123&lt;/code&gt;), a MORwiki ID (for example &lt;code&gt;Battery_pack&lt;/code&gt;), a URL that describes the benchmark, or the URL of its source code repository.&lt;/p&gt;&lt;/details&gt;</help>
+		<text lang="en">References of the benchmark</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Verfügbare Präfixe sind: 'doi:', 'morwiki:'</help>
-		<text lang="de">Referenz des Benchmarks</text>
+		<help lang="de">&lt;details&gt;&lt;summary&gt;Kreuzen Sie mindestens eine Referenz an und geben Sie ihren Wert ein.&lt;/summary&gt;&lt;p&gt;Eine DOI (&lt;code&gt;10.1000/xyz123&lt;/code&gt;), eine MORwiki-ID (zum Beispiel &lt;code&gt;Battery_pack&lt;/code&gt;), eine URL, die den Benchmark beschreibt, oder die URL seines Quellcode-Repositorys.&lt;/p&gt;&lt;/details&gt;</help>
+		<text lang="de">Referenzen des Benchmarks</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -1068,16 +920,12 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/benchmark/id"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">&lt;p&gt;For all benchmarks &lt;em&gt;label (description)&lt;/em&gt; is provided; the coloured badge shows where it comes from. If a benchmark is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate benchmark is present in the MaRDI Portal or Wikidata, choose &lt;em&gt;new item&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; To use an existing benchmark as a template, first select the benchmark, wait for the information to load, and then change the answer to &lt;em&gt;new item&lt;/em&gt; to remove the external reference.&lt;/p&gt;</help>
-		<text lang="en">Select a Benchmark related to the Algorithm!</text>
+		<help lang="en">&lt;details&gt;&lt;summary&gt;If it is neither on the MaRDI Portal nor on Wikidata, choose &lt;em&gt;new item&lt;/em&gt;.&lt;/summary&gt;&lt;p&gt;To use an existing benchmark as a template, select it, wait until its information has been added, and then choose &lt;em&gt;new item&lt;/em&gt;: the information stays, the reference to the source is removed. Then give the new benchmark its own name and short description.&lt;/p&gt;&lt;/details&gt;</help>
+		<text lang="en">Select the benchmark</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">&lt;p&gt;Für alle Benchmarks wird &lt;em&gt;Name (Beschreibung)&lt;/em&gt; angegeben; die farbige Markierung zeigt die Herkunft. Wenn ein Benchmark ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls kein passender Benchmark im MaRDI Portal oder Wikidata vorhanden ist, wählen Sie &lt;em&gt;new item&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Hinweis:&lt;/strong&gt; Um einen bestehenden Benchmark als Vorlage zu verwenden, wählen Sie zunächst den Benchmark aus, warten Sie, bis alle Informationen geladen wurden, und setzen Sie anschließend die Antwort auf &lt;em&gt;new item&lt;/em&gt;, um den Bezug zur externen Quelle zu entfernen.&lt;/p&gt;</help>
-		<text lang="de">Wählen Sie einen Benchmark aus der mit dem Algorithmus im Zusammenhang steht!</text>
+		<help lang="de">&lt;details&gt;&lt;summary&gt;Gibt es den Benchmark weder im MaRDI Portal noch in Wikidata, wählen Sie &lt;em&gt;new item&lt;/em&gt;.&lt;/summary&gt;&lt;p&gt;Um einen bestehenden Benchmark als Vorlage zu verwenden, wählen Sie ihn aus, warten Sie, bis seine Angaben übernommen sind, und wählen Sie dann &lt;em&gt;new item&lt;/em&gt;: Die Angaben bleiben, der Bezug zur Quelle wird entfernt. Geben Sie dem neuen Benchmark dann einen eigenen Namen und eine eigene Kurzbeschreibung.&lt;/p&gt;&lt;/details&gt;</help>
+		<text lang="de">Wählen Sie den Benchmark aus</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -1114,20 +962,12 @@
 		<is_collection>True</is_collection>
 		<title lang="en">Publication</title>
 		<short_title lang="en">Publication</short_title>
-		<help lang="en">&lt;p&gt;On this page, you can define new publications or select existing ones from the MaRDI Portal or Wikidata. When an existing publication is selected, all available information from the relevant source is retrieved and integrated into the interview. Retrieved data can be extended with new relations (e.g., connections to algorithm entities).&lt;/p&gt;
-
-&lt;p&gt;For a smooth export to the MaRDI Portal, all &lt;strong&gt;non-optional&lt;/strong&gt; questions must be answered completely.&lt;/p&gt;
-
-&lt;p&gt;Check out &lt;a href="https://www.youtube.com/watch?v=ES2vrQMvh40&amp;list=PLgoPZ7uPWbo-aC9pnVMYRZYM3iygBYWwn&amp;index=5"&gt;Publication&lt;/a&gt; showcasing the documentation.&lt;/p&gt;</help>
-		<verbose_name lang="en"/>
+		<help lang="en">&lt;details&gt;&lt;summary&gt;Add the publications about the algorithm and say what each one does with the items of this documentation.&lt;/summary&gt;&lt;p&gt;A publication is selected by its identifier; MaRDMO looks up its data. Answer all questions not marked as optional, so that the publication can be exported.&lt;/p&gt;&lt;p&gt;The video &lt;a href="https://www.youtube.com/watch?v=ES2vrQMvh40&amp;list=PLgoPZ7uPWbo-aC9pnVMYRZYM3iygBYWwn&amp;index=5"&gt;Publication&lt;/a&gt; shows how to add one.&lt;/p&gt;&lt;/details&gt;</help>
+		<verbose_name lang="en">Add publication</verbose_name>
 		<title lang="de">Publikation</title>
 		<short_title lang="de">Publikation</short_title>
-		<help lang="de">&lt;p&gt;Auf dieser Seite können neue Publikationen definiert oder bereits bestehende Publikationen aus dem MaRDI Portal oder Wikidata ausgewählt werden. Wird eine bestehende Publikation ausgewählt, werden alle verfügbaren Informationen aus der jeweiligen Quelle abgerufen und in das Interview integriert. Die abgerufenen Informationen können um neue Relationen erweitert werden (z.&amp;nbsp;B. Verbindungen zu verschiedenen Algorithmus-Entitäten).&lt;/p&gt;
-
-&lt;p&gt;Für einen reibungslosen Export in das MaRDI Portal müssen alle &lt;strong&gt;nicht-optionalen&lt;/strong&gt; Fragen vollständig beantwortet sein.&lt;/p&gt;
-
-&lt;p&gt;Sehen Sie sich &lt;a href="https://www.youtube.com/watch?v=ES2vrQMvh40&amp;list=PLgoPZ7uPWbo-aC9pnVMYRZYM3iygBYWwn&amp;index=5"&gt;Publication&lt;/a&gt; an in dem die Dokumentation vorgestellt wird.&lt;/p&gt;</help>
-		<verbose_name lang="de"/>
+		<help lang="de">&lt;details&gt;&lt;summary&gt;Fügen Sie die Publikationen über den Algorithmus hinzu und geben Sie an, was jede mit den Einträgen dieser Dokumentation macht.&lt;/summary&gt;&lt;p&gt;Eine Publikation wird über ihren Identifikator ausgewählt; MaRDMO sucht ihre Angaben. Beantworten Sie alle Fragen, die nicht als optional markiert sind, damit die Publikation exportiert werden kann.&lt;/p&gt;&lt;p&gt;Das Video &lt;a href="https://www.youtube.com/watch?v=ES2vrQMvh40&amp;list=PLgoPZ7uPWbo-aC9pnVMYRZYM3iygBYWwn&amp;index=5"&gt;Publication&lt;/a&gt; zeigt, wie eine Publikation hinzugefügt wird.&lt;/p&gt;&lt;/details&gt;</help>
+		<verbose_name lang="de">Publikation hinzufügen</verbose_name>
 		<questionsets>
 			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/publication/publication-to-algorithm" order="3"/>
 			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/publication/publication-to-benchmark-or-software" order="4"/>
@@ -1143,12 +983,12 @@
 		<dc:comment/>
 		<attribute/>
 		<is_collection>True</is_collection>
-		<title lang="en">Publication - Algorithm Relations</title>
-		<help lang="en">&lt;p&gt;To relate the publication with algorithms, select algorithms and specify the relations.&lt;/p&gt;</help>
-		<verbose_name lang="en">Add Publication Relation</verbose_name>
-		<title lang="de">Publikation - Algorithmus Beziehungen</title>
-		<help lang="de">&lt;p&gt;Um die Publikation mit Algorithmen zu verknüpfen, wählen Sie Algorithmen aus und geben Sie die Relationen an.&lt;/p&gt;</help>
-		<verbose_name lang="de">Publikation Relation Hinzufügen</verbose_name>
+		<title lang="en">Relations to algorithms</title>
+		<help lang="en">&lt;details&gt;&lt;summary&gt;Say what the publication does with algorithms: it analyzes, applies, invents, studies or surveys them.&lt;/summary&gt;&lt;p&gt;↗ next to a relation opens its definition on the MaRDI Portal.&lt;/p&gt;&lt;/details&gt;</help>
+		<verbose_name lang="en">Add relation</verbose_name>
+		<title lang="de">Beziehungen zu Algorithmen</title>
+		<help lang="de">&lt;details&gt;&lt;summary&gt;Geben Sie an, was die Publikation mit Algorithmen macht: Sie analysiert, wendet an, erfindet, untersucht sie oder gibt einen Überblick über sie.&lt;/summary&gt;&lt;p&gt;↗ neben einer Relation öffnet ihre Definition im MaRDI Portal.&lt;/p&gt;&lt;/details&gt;</help>
+		<verbose_name lang="de">Beziehung hinzufügen</verbose_name>
 		<questionsets/>
 		<questions>
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/publication/algorithm-relation" order="2"/>
@@ -1164,11 +1004,11 @@
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
-		<text lang="en">The Publication...</text>
+		<text lang="en">The publication...</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
-		<text lang="de">Der Algorithmus...</text>
+		<text lang="de">Die Publikation...</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -1192,14 +1032,14 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/publication/algorithm-relatant"/>
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">&lt;p&gt;Choose one or more algorithms to be linked by the selected relation. For all algorithms &lt;em&gt;label (description)&lt;/em&gt; is provided; the coloured badge shows where it comes from. Only algorithms from the MaRDI Portal and those selected or defined within the interview can be chosen.&lt;/p&gt;</help>
-		<text lang="en">...an Algorithm.</text>
+		<help lang="en">&lt;p&gt;Only algorithms of the MaRDI Portal and of this documentation: add a new algorithm as a tab of its own first.&lt;/p&gt;</help>
+		<text lang="en">...an algorithm.</text>
 		<default_text lang="en"/>
-		<verbose_name lang="en">Add Algorithm</verbose_name>
-		<help lang="de">&lt;p&gt;Wählen Sie einen oder mehrere Algorithmen aus, die über die ausgewählte Relation verknüpft werden sollen. Für alle Algorithmen wird &lt;em&gt;Name (Beschreibung)&lt;/em&gt; angegeben; die farbige Markierung zeigt die Herkunft. Es können nur Algorithmen aus dem MaRDI Portal sowie solche ausgewählt oder definiert werden, die im Interview verwendet werden.&lt;/p&gt;</help>
+		<verbose_name lang="en">Add algorithm</verbose_name>
+		<help lang="de">&lt;p&gt;Nur Algorithmen aus dem MaRDI Portal und aus dieser Dokumentation: Legen Sie einen neuen Algorithmus zuerst als eigenen Tab an.&lt;/p&gt;</help>
 		<text lang="de">...einen Algorithmus.</text>
 		<default_text lang="de"/>
-		<verbose_name lang="de">Algorithmus Hinzufügen</verbose_name>
+		<verbose_name lang="de">Algorithmus hinzufügen</verbose_name>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>select</widget_type>
@@ -1220,12 +1060,12 @@
 		<dc:comment/>
 		<attribute/>
 		<is_collection>True</is_collection>
-		<title lang="en">Publication - Benchmark or Software Relations</title>
-		<help lang="en">&lt;p&gt;To relate the publication with benchmarks or software, select benchmarks or software and specify the relations.&lt;/p&gt;</help>
-		<verbose_name lang="en">Add Publication Relation</verbose_name>
-		<title lang="de">Publikation - Benchmark oder Software Beziehungen</title>
-		<help lang="de">&lt;p&gt;Um die Publikation mit Benchmarks oder Software zu verknüpfen, wählen Sie Benchmarks oder Software aus und geben Sie die Relationen an.&lt;/p&gt;</help>
-		<verbose_name lang="de">Publikation Relation Hinzufügen</verbose_name>
+		<title lang="en">Relations to benchmarks and software</title>
+		<help lang="en">&lt;details&gt;&lt;summary&gt;Say what the publication does with benchmarks or software: it documents or uses them.&lt;/summary&gt;&lt;p&gt;↗ next to a relation opens its definition on the MaRDI Portal.&lt;/p&gt;&lt;/details&gt;</help>
+		<verbose_name lang="en">Add relation</verbose_name>
+		<title lang="de">Beziehungen zu Benchmarks und Software</title>
+		<help lang="de">&lt;details&gt;&lt;summary&gt;Geben Sie an, was die Publikation mit Benchmarks oder Software macht: Sie dokumentiert oder verwendet sie.&lt;/summary&gt;&lt;p&gt;↗ neben einer Relation öffnet ihre Definition im MaRDI Portal.&lt;/p&gt;&lt;/details&gt;</help>
+		<verbose_name lang="de">Beziehung hinzufügen</verbose_name>
 		<questionsets/>
 		<questions>
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/publication/documents-uses-relation" order="0"/>
@@ -1241,7 +1081,7 @@
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
-		<text lang="en">The Publication...</text>
+		<text lang="en">The publication...</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
@@ -1269,14 +1109,14 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/publication/benchmark-or-software-relatant"/>
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">&lt;p&gt;Choose one or more benchmarks or software to be linked by the selected relation. For all benchmarks or software &lt;em&gt;label (description)&lt;/em&gt; is provided; the coloured badge shows where it comes from. Only benchmarks or software from the MaRDI Portal and those selected or defined within the interview can be chosen.&lt;/p&gt;</help>
-		<text lang="en">...a Benchmark or Software.</text>
+		<help lang="en">&lt;p&gt;Only benchmarks and software of the MaRDI Portal and of this documentation: add a new one as a tab of its own first.&lt;/p&gt;</help>
+		<text lang="en">...a benchmark or software.</text>
 		<default_text lang="en"/>
-		<verbose_name lang="en">Add Benchmark or Software</verbose_name>
-		<help lang="de">&lt;p&gt;Wählen Sie einen oder mehrere Benchmarks oder Software aus, die über die ausgewählte Relation verknüpft werden sollen. Für alle Benchmarks oder Software wird &lt;em&gt;Name (Beschreibung)&lt;/em&gt; angegeben; die farbige Markierung zeigt die Herkunft. Es können nur Benchmarks oder Software aus dem MaRDI Portal sowie solche ausgewählt oder definiert werden, die im Interview verwendet werden.&lt;/p&gt;</help>
-		<text lang="de">...einen Benchmark oder Software.</text>
+		<verbose_name lang="en">Add benchmark or software</verbose_name>
+		<help lang="de">&lt;p&gt;Nur Benchmarks und Software aus dem MaRDI Portal und aus dieser Dokumentation: Legen Sie einen neuen Eintrag zuerst als eigenen Tab an.&lt;/p&gt;</help>
+		<text lang="de">...einen Benchmark oder eine Software.</text>
 		<default_text lang="de"/>
-		<verbose_name lang="de">Benchmark oder Software Hinzufügen</verbose_name>
+		<verbose_name lang="de">Benchmark oder Software hinzufügen</verbose_name>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>select</widget_type>
