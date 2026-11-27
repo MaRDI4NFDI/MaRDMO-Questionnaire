@@ -2593,12 +2593,12 @@
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/publication/id"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">&lt;p&gt;Type the identifier of the publication with its prefix. Possible identifiers:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;doi:&lt;/em&gt; followed by the DOI (e.g. &lt;em&gt;doi:10.1000/xyz123&lt;/em&gt;)&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;A publication that is on the MaRDI Portal or Wikidata is offered as it is there; the coloured badge shows where it comes from. Otherwise choose the identifier itself, marked &lt;em&gt;new&lt;/em&gt;: MaRDMO looks up title, authors and journal in the background. An identifier that is not valid is refused.&lt;/p&gt;</help>
-		<text lang="en">Select a Publication by its Identifier!</text>
+		<help lang="en">&lt;details&gt;&lt;summary&gt;Type the identifier with its prefix, for example &lt;em&gt;doi:10.1000/xyz123&lt;/em&gt;.&lt;/summary&gt;&lt;p&gt;A publication on the MaRDI Portal or Wikidata is offered as it is there; the colour shows its source. Otherwise choose the identifier itself, marked &lt;em&gt;new&lt;/em&gt;: MaRDMO looks up title, authors and journal in the background. An identifier that is not valid is refused.&lt;/p&gt;&lt;/details&gt;</help>
+		<text lang="en">Select the publication by its identifier</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">&lt;p&gt;Geben Sie den Identifikator der Publikation mit seinem Präfix ein. Mögliche Identifikatoren:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;doi:&lt;/em&gt; gefolgt von der DOI (z.&amp;nbsp;B. &lt;em&gt;doi:10.1000/xyz123&lt;/em&gt;)&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Eine Publikation, die es im MaRDI Portal oder in Wikidata gibt, wird so angeboten, wie sie dort ist; die farbige Markierung zeigt die Herkunft. Andernfalls wählen Sie den Identifikator selbst, markiert als &lt;em&gt;new&lt;/em&gt;: MaRDMO sucht Titel, Autoren und Zeitschrift im Hintergrund. Ein ungültiger Identifikator wird abgelehnt.&lt;/p&gt;</help>
-		<text lang="de">Wählen Sie eine Publikation über ihren Identifikator aus!</text>
+		<help lang="de">&lt;details&gt;&lt;summary&gt;Geben Sie den Identifikator mit seinem Präfix ein, zum Beispiel &lt;em&gt;doi:10.1000/xyz123&lt;/em&gt;.&lt;/summary&gt;&lt;p&gt;Eine Publikation im MaRDI Portal oder in Wikidata wird so angeboten, wie sie dort ist; die Farbe zeigt die Herkunft. Andernfalls wählen Sie den Identifikator selbst, markiert als &lt;em&gt;new&lt;/em&gt;: MaRDMO sucht Titel, Autoren und Zeitschrift im Hintergrund. Ein ungültiger Identifikator wird abgelehnt.&lt;/p&gt;&lt;/details&gt;</help>
+		<text lang="de">Wählen Sie die Publikation über ihren Identifikator aus</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>

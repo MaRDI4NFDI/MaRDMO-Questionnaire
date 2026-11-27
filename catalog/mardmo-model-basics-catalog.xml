@@ -6,21 +6,9 @@
 		<dc:comment/>
 		<order>0</order>
 		<title lang="en">MaRDMO: Basic Questionnaire for Mathematical Models</title>
-		<help lang="en">&lt;p&gt;
-This catalog provides a lightweight and streamlined way to document mathematical models using selected parts of the MathModDB ontology. It is designed for quick and straightforward documentation and focuses on essential information such as the model itself, related computational tasks, formulas, research problems, and publications. Existing entries from the MaRDI Portal or Wikidata can be reused, or new ones can be created as needed. The catalog follows the FAIR principles to support findable, accessible, interoperable, and reusable model descriptions and is part of the MaRDMO project within the MaRDI initiative. Completed documentations can be exported directly to the MaRDI Portal.
-&lt;/p&gt;
-
-&lt;p&gt;
-Check out &lt;a href="https://www.youtube.com/watch?v=UmbBNUZJ994&amp;list=PLgoPZ7uPWbo-jqDXzx4fSm_4JyAYEMPjn"&gt;MaRDMO Model Documentation&lt;/a&gt;. The video demonstrates documentation using the &lt;em&gt;complete model catalog&lt;/em&gt;, including export to the MaRDI Portal.
-&lt;/p&gt;</help>
+		<help lang="en">&lt;p&gt;Documents the essentials of mathematical models with selected parts of the MathModDB ontology: the model, its computational tasks, formulas (described in words), research problems and publications, taken from the MaRDI Portal or Wikidata or described anew, and exports them to the MaRDI Portal. Following the FAIR principles, it makes models findable, accessible, interoperable and reusable. For a detailed documentation, use the catalog &lt;em&gt;MaRDMO: Questionnaire for Mathematical Models&lt;/em&gt;.&lt;/p&gt;&lt;p&gt;The video &lt;a href="https://www.youtube.com/watch?v=UmbBNUZJ994&amp;list=PLgoPZ7uPWbo-jqDXzx4fSm_4JyAYEMPjn"&gt;MaRDMO Model Documentation&lt;/a&gt; shows a documentation with the complete catalog and its export.&lt;/p&gt;</help>
 		<title lang="de">MaRDMO: Basis-Fragenkatalog für mathematische Modelle</title>
-		<help lang="de">&lt;p&gt;
-Dieser Katalog bietet eine schlanke und vereinfachte Möglichkeit, mathematische Modelle mithilfe ausgewählter Teile der MathModDB-Ontologie zu dokumentieren. Er ist auf eine schnelle und unkomplizierte Erfassung ausgelegt und konzentriert sich auf grundlegende Informationen wie das Modell selbst, zugehörige Berechnungsaufgaben, Formeln, Forschungsprobleme und Publikationen. Bestehende Einträge aus dem MaRDI-Portal oder Wikidata können wiederverwendet oder bei Bedarf neu erstellt werden. Der Katalog folgt den FAIR-Prinzipien, um Modelle auffindbar, zugänglich, interoperabel und wiederverwendbar zu machen, und ist Teil des MaRDMO-Projekts innerhalb der MaRDI-Initiative. Abgeschlossene Dokumentationen können direkt in das MaRDI-Portal exportiert werden.
-&lt;/p&gt;
-
-&lt;p&gt;
-Sehen Sie sich &lt;a href="https://www.youtube.com/watch?v=UmbBNUZJ994&amp;list=PLgoPZ7uPWbo-jqDXzx4fSm_4JyAYEMPjn"&gt;MaRDMO Model Documentation&lt;/a&gt; an. Das Video zeigt die Dokumentation anhand des &lt;em&gt;vollständigen Modellkatalogs&lt;/em&gt;, einschließlich des Exports in das MaRDI-Portal.
-&lt;/p&gt;</help>
+		<help lang="de">&lt;p&gt;Dokumentiert das Wesentliche mathematischer Modelle mit ausgewählten Teilen der MathModDB-Ontologie: das Modell, seine Berechnungsaufgaben, Formeln (in Worten beschrieben), Forschungsprobleme und Publikationen, übernommen aus dem MaRDI Portal oder Wikidata oder neu beschrieben, und exportiert sie in das MaRDI Portal. Den FAIR-Prinzipien folgend macht er Modelle auffindbar, zugänglich, interoperabel und wiederverwendbar. Für eine detaillierte Dokumentation verwenden Sie den Katalog &lt;em&gt;MaRDMO: Fragenkatalog für mathematische Modelle&lt;/em&gt;.&lt;/p&gt;&lt;p&gt;Das Video &lt;a href="https://www.youtube.com/watch?v=UmbBNUZJ994&amp;list=PLgoPZ7uPWbo-jqDXzx4fSm_4JyAYEMPjn"&gt;MaRDMO Model Documentation&lt;/a&gt; zeigt eine Dokumentation mit dem vollständigen Katalog und ihren Export.&lt;/p&gt;</help>
 		<sections>
 			<section dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model-documentation-basics" order="1"/>
 			<section dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/publication-model" order="2"/>
@@ -48,51 +36,13 @@ Sehen Sie sich &lt;a href="https://www.youtube.com/watch?v=UmbBNUZJ994&amp;list=
 		<dc:comment/>
 		<attribute/>
 		<is_collection>False</is_collection>
-		<title lang="en">Welcome to the Basic MathModDB Interview</title>
+		<title lang="en">Welcome to the basic MathModDB interview</title>
 		<short_title lang="en">Introduction</short_title>
-		<help lang="en">&lt;p&gt;This guided interview helps you document the basic information of mathematical models using the &lt;em&gt;&lt;a href="https://mardi4nfdi.github.io/MathModDB/" target="_blank"&gt;MathModDB ontology&lt;/a&gt;&lt;/em&gt;.&lt;/p&gt;
-  &lt;p&gt;The interview is structured by selected classes of the ontology:&lt;/p&gt; 
-&lt;ul&gt; 
-&lt;li&gt;&lt;em&gt;Mathematical Model&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Computational Task&lt;/em&gt;&lt;/li&gt; 
-&lt;li&gt;&lt;em&gt;Formula&lt;/em&gt;&lt;/li&gt; 
-&lt;li&gt;&lt;em&gt;Research Problem&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Publication&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;For a detailed documentation use the &lt;em&gt;MaRDMO: Questionnaire for Mathematical Models&lt;/em&gt; Catalogue.&lt;/p&gt;
-  &lt;p&gt;For each class, you can reuse existing entries from the &lt;em&gt;&lt;a href="https://portal.mardi4nfdi.de/" target="_blank"&gt;MaRDI Portal&lt;/a&gt;&lt;/em&gt; or &lt;em&gt;&lt;a href="https://www.wikidata.org/" target="_blank"&gt;Wikidata&lt;/a&gt;&lt;/em&gt;, or define new ones.&lt;/p&gt;
-  &lt;p&gt;The interview supports three main use cases:&lt;/p&gt;
-  &lt;ul&gt;
-    &lt;li&gt;Documenting a new mathematical model&lt;/li&gt;
-    &lt;li&gt;Adding a research problem to an existing model&lt;/li&gt;
-    &lt;li&gt;Adding a computational task to an existing model&lt;/li&gt;
-  &lt;/ul&gt;
-  &lt;p&gt;All information is structured to support the FAIR principles — making your models &lt;strong&gt;Findable, Accessible, Interoperable, and Reusable&lt;/strong&gt;.&lt;/p&gt;
-  &lt;p&gt;This catalog is part of &lt;strong&gt;&lt;a href="https://github.com/MarcoReidelbach/MaRDMO-Plugin" target="_blank"&gt;MaRDMO&lt;/a&gt;&lt;/strong&gt; and developed within Task Area 4 of the &lt;strong&gt;&lt;a href="https://www.mardi4nfdi.de/" target="_blank"&gt;Mathematical Research Data Initiative (MaRDI)&lt;/a&gt;&lt;/strong&gt;. It aims to help researchers across all disciplines to systematically document their mathematical research data.&lt;/p&gt;</help>
+		<help lang="en">&lt;p&gt;This interview documents the essentials of mathematical models with selected parts of the &lt;a href="https://mardi4nfdi.github.io/MathModDB/" target="_blank"&gt;MathModDB ontology&lt;/a&gt;, so that they can be found and reused on the &lt;a href="https://portal.mardi4nfdi.de/" target="_blank"&gt;MaRDI Portal&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;You can document a model from scratch, or start from one that is already on the MaRDI Portal and add what is missing, for example a research problem it models or a computational task it is used for.&lt;/p&gt;&lt;p&gt;The interview follows the parts of a model: the model itself, its computational tasks and formulas, the research problems it addresses, and the publications about it. A formula is described in words here; for its notation and quantities, use the catalog &lt;em&gt;MaRDMO: Questionnaire for Mathematical Models&lt;/em&gt;. Each part can be taken from the MaRDI Portal or &lt;a href="https://www.wikidata.org/" target="_blank"&gt;Wikidata&lt;/a&gt;, or described anew. A finished documentation is checked and exported to the MaRDI Portal in one step.&lt;/p&gt;&lt;p&gt;All information follows the FAIR principles: it makes your models &lt;strong&gt;findable, accessible, interoperable and reusable&lt;/strong&gt;.&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.com/MaRDI4NFDI/MaRDMO-Plugin" target="_blank"&gt;MaRDMO&lt;/a&gt; is developed in Task Area 4 of the &lt;a href="https://www.mardi4nfdi.de/" target="_blank"&gt;Mathematical Research Data Initiative (MaRDI)&lt;/a&gt; to help researchers of all disciplines document their mathematical research data.&lt;/p&gt;</help>
 		<verbose_name lang="en"/>
 		<title lang="de">Willkommen zum Basis-MathModDB-Interview</title>
 		<short_title lang="de">Einführung</short_title>
-		<help lang="de">&lt;p&gt;Dieses geführte Interview unterstützt Sie bei der Dokumentation der Basis-Informationen mathematischer Modelle mithilfe der &lt;em&gt;&lt;a href="https://mardi4nfdi.github.io/MathModDB/" target="_blank"&gt;MathModDB-Ontologie&lt;/a&gt;&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;Das Interview orientiert sich an ausgewählten Klassen der Ontologie:&lt;/p&gt; 
-&lt;ul&gt; 
-&lt;li&gt;&lt;em&gt;Mathematisches Modell&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Berechnungsaufgabe&lt;/em&gt;&lt;/li&gt; 
-&lt;li&gt;&lt;em&gt;Formel&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Quantität[sart]&lt;/em&gt;&lt;/li&gt; 
-&lt;li&gt;&lt;em&gt;Forschungsproblem&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Akademische Disziplin&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Publikation&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Für eine detaillierte Dokumentation verwenden Sie den &lt;em&gt;MaRDMO: Fragenkatalog für mathematische Modelle&lt;/em&gt; Katalog&lt;/p&gt;
-&lt;p&gt;Für jede Klasse können vorhandene Einträge aus dem &lt;em&gt;&lt;a href="https://portal.mardi4nfdi.de/" target="_blank"&gt;MaRDI-Portal&lt;/a&gt;&lt;/em&gt; oder &lt;em&gt;&lt;a href="https://www.wikidata.org/" target="_blank"&gt;Wikidata&lt;/a&gt;&lt;/em&gt; wiederverwendet oder neue Einträge definiert werden.&lt;/p&gt;
-&lt;p&gt;Das Interview unterstützt drei Hauptanwendungsfälle:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Dokumentation eines neuen mathematischen Modells&lt;/li&gt;
-  &lt;li&gt;Hinzufügen eines Forschungsproblems zu einem bestehenden Modell&lt;/li&gt;
-  &lt;li&gt;Hinzufügen einer Berechnungsaufgabe zu einem bestehenden Modell&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Alle Informationen sind gemäß den FAIR-Prinzipien strukturiert – Ihre Modelle werden dadurch &lt;strong&gt;auffindbar, zugänglich, interoperabel und wiederverwendbar&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;Dieser Katalog ist Teil von &lt;strong&gt;&lt;a href="https://github.com/MarcoReidelbach/MaRDMO-Plugin" target="_blank"&gt;MaRDMO&lt;/a&gt;&lt;/strong&gt; und wird im Rahmen der Task Area 4 der &lt;strong&gt;&lt;a href="https://www.mardi4nfdi.de/" target="_blank"&gt;Mathematical Research Data Initiative (MaRDI)&lt;/a&gt;&lt;/strong&gt; entwickelt. Ziel ist es, Forschende aller Disziplinen bei der systematischen Dokumentation mathematischer Forschungsdaten zu unterstützen.&lt;/p&gt;</help>
+		<help lang="de">&lt;p&gt;Dieses Interview dokumentiert das Wesentliche mathematischer Modelle mit ausgewählten Teilen der &lt;a href="https://mardi4nfdi.github.io/MathModDB/" target="_blank"&gt;MathModDB-Ontologie&lt;/a&gt;, damit sie im &lt;a href="https://portal.mardi4nfdi.de/" target="_blank"&gt;MaRDI Portal&lt;/a&gt; gefunden und wiederverwendet werden können.&lt;/p&gt;&lt;p&gt;Sie können ein Modell von Grund auf dokumentieren oder von einem ausgehen, das schon im MaRDI Portal ist, und ergänzen, was fehlt, zum Beispiel ein Forschungsproblem, das es modelliert, oder eine Berechnungsaufgabe, für die es verwendet wird.&lt;/p&gt;&lt;p&gt;Das Interview folgt den Teilen eines Modells: dem Modell selbst, seinen Berechnungsaufgaben und Formeln, den Forschungsproblemen, die es behandelt, und den Publikationen darüber. Eine Formel wird hier in Worten beschrieben; für ihre Notation und Quantitäten verwenden Sie den Katalog &lt;em&gt;MaRDMO: Fragenkatalog für mathematische Modelle&lt;/em&gt;. Jeder Teil kann aus dem MaRDI Portal oder &lt;a href="https://www.wikidata.org/" target="_blank"&gt;Wikidata&lt;/a&gt; übernommen oder neu beschrieben werden. Eine fertige Dokumentation wird in einem Schritt geprüft und in das MaRDI Portal exportiert.&lt;/p&gt;&lt;p&gt;Alle Angaben folgen den FAIR-Prinzipien: Ihre Modelle werden &lt;strong&gt;auffindbar, zugänglich, interoperabel und wiederverwendbar&lt;/strong&gt;.&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.com/MaRDI4NFDI/MaRDMO-Plugin" target="_blank"&gt;MaRDMO&lt;/a&gt; wird in der Task Area 4 der &lt;a href="https://www.mardi4nfdi.de/" target="_blank"&gt;Mathematical Research Data Initiative (MaRDI)&lt;/a&gt; entwickelt, um Forschende aller Disziplinen bei der Dokumentation ihrer mathematischen Forschungsdaten zu unterstützen.&lt;/p&gt;</help>
 		<verbose_name lang="de"/>
 		<questionsets/>
 		<questions/>
@@ -104,30 +54,14 @@ Sehen Sie sich &lt;a href="https://www.youtube.com/watch?v=UmbBNUZJ994&amp;list=
 		<dc:comment/>
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/model"/>
 		<is_collection>True</is_collection>
-		<title lang="en">Mathematical Model</title>
-		<short_title lang="en">Model</short_title>
-		<help lang="en">&lt;p&gt;On this page, you can define new models or select existing ones from the MaRDI Portal or Wikidata. When an existing model is selected, all available information from the relevant source is retrieved and integrated into the interview. Retrieved data can be completed and extended with new relations (e.g., a newly modeled problem or an additional task).&lt;/p&gt;
-
-&lt;p&gt;In addition to enhancing existing models, they can also serve as templates for creating new ones. To use a model as a template, the reference to the external source must be removed after importing the available information.&lt;/p&gt;
-
-&lt;p&gt;For a smooth export to the MaRDI Portal, all &lt;strong&gt;non-optional&lt;/strong&gt; questions must be answered completely.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; If a model is selected from the MaRDI Portal and not used as a template, its existing information &lt;u&gt;cannot&lt;/u&gt; be edited or deleted via MaRDMO. Any changes or deletions made regardless will be ignored or shown alongside the original information in the MaRDI Portal.&lt;/p&gt;
-
-&lt;p&gt;Check out &lt;a href="https://www.youtube.com/watch?v=UmbBNUZJ994&amp;t=3s"&gt;Mathematical Model&lt;/a&gt; showcasing the documentation.&lt;/p&gt;</help>
-		<verbose_name lang="en">Add Mathematical Model</verbose_name>
+		<title lang="en">Mathematical model</title>
+		<short_title lang="en">Mathematical model</short_title>
+		<help lang="en">&lt;details&gt;&lt;summary&gt;Document a new mathematical model, or select one from the MaRDI Portal or Wikidata and complete it.&lt;/summary&gt;&lt;p&gt;Selecting an existing mathematical model adds its information from the source to the interview; you can complete it and add relations, for example a research problem it models or a computational task that uses it. Answer all questions not marked as optional, so that the mathematical model can be exported.&lt;/p&gt;&lt;p&gt;In the dropdowns, each item shows its label and description, and the colour shows its source (MaRDI Portal, Wikidata, this documentation). After choosing one, &lt;strong&gt;wait&lt;/strong&gt; until its information has been added.&lt;/p&gt;&lt;p&gt;The information a mathematical model already has on the MaRDI Portal cannot be changed or deleted with MaRDMO, only completed.&lt;/p&gt;&lt;p&gt;The video &lt;a href="https://www.youtube.com/watch?v=UmbBNUZJ994&amp;t=3s"&gt;Mathematical Model&lt;/a&gt; shows how to document one.&lt;/p&gt;&lt;/details&gt;</help>
+		<verbose_name lang="en">Add mathematical model</verbose_name>
 		<title lang="de">Mathematisches Modell</title>
-		<short_title lang="de">Modell</short_title>
-		<help lang="de">&lt;p&gt;Auf dieser Seite können neue Modelle definiert oder bereits bestehende Modelle aus dem MaRDI Portal oder Wikidata ausgewählt werden. Wird ein bestehendes Modell ausgewählt, werden alle verfügbaren Informationen aus der jeweiligen Quelle abgerufen und in das Interview integriert. Die abgerufenen Informationen können ergänzt und um neue Relationen erweitert werden (z.&amp;nbsp;B. ein neues modelliertes Forschungsproblem oder eine zusätzliche verwendete Berechnungsaufgabe).&lt;/p&gt;
-
-&lt;p&gt;Bestehende Modelle können nicht nur erweitert, sondern auch als Vorlage für neue Modelle verwendet werden. Hierfür ist es erforderlich, nach dem Abruf der Informationen den Bezug zur externen Quelle zu entfernen.&lt;/p&gt;
-
-&lt;p&gt;Für einen reibungslosen Export in das MaRDI Portal müssen alle &lt;strong&gt;nicht-optionalen&lt;/strong&gt; Fragen vollständig beantwortet sein.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Hinweis:&lt;/strong&gt; Wird ein Modell aus dem MaRDI Portal ausgewählt und nicht als Vorlage verwendet, können bestehende Informationen über MaRDMO &lt;u&gt;nicht&lt;/u&gt; editiert oder gelöscht werden. Änderungen oder Löschungen, die dennoch vorgenommen werden, werden ignoriert oder zusätzlich zu den bestehenden Informationen im MaRDI Portal angezeigt.&lt;/p&gt;
-
-&lt;p&gt;Sehen Sie sich &lt;a href="https://www.youtube.com/watch?v=UmbBNUZJ994&amp;t=3s"&gt;Mathematical Model&lt;/a&gt; an in dem die Dokumentation vorgestellt wird.&lt;/p&gt;</help>
-		<verbose_name lang="de">Mathematisches Modell Hinzufügen</verbose_name>
+		<short_title lang="de">Mathematisches Modell</short_title>
+		<help lang="de">&lt;details&gt;&lt;summary&gt;Dokumentieren Sie ein neues mathematisches Modell, oder wählen Sie eines aus dem MaRDI Portal oder Wikidata aus und ergänzen Sie es.&lt;/summary&gt;&lt;p&gt;Wird ein bestehendes mathematisches Modell ausgewählt, werden seine Angaben aus der Quelle in das Interview übernommen; Sie können es ergänzen und Beziehungen hinzufügen, zum Beispiel ein Forschungsproblem, das es modelliert, oder eine Berechnungsaufgabe, die es verwendet. Beantworten Sie alle Fragen, die nicht als optional markiert sind, damit das mathematische Modell exportiert werden kann.&lt;/p&gt;&lt;p&gt;In den Auswahllisten zeigt jeder Eintrag Name und Beschreibung, die Farbe zeigt die Herkunft (MaRDI Portal, Wikidata, diese Dokumentation). &lt;strong&gt;Warten&lt;/strong&gt; Sie nach der Auswahl, bis die Angaben übernommen sind.&lt;/p&gt;&lt;p&gt;Was ein mathematisches Modell im MaRDI Portal schon hat, kann mit MaRDMO nicht geändert oder gelöscht, nur ergänzt werden.&lt;/p&gt;&lt;p&gt;Das Video &lt;a href="https://www.youtube.com/watch?v=UmbBNUZJ994&amp;t=3s"&gt;Mathematical Model&lt;/a&gt; zeigt, wie ein mathematisches Modell dokumentiert wird.&lt;/p&gt;&lt;/details&gt;</help>
+		<verbose_name lang="de">Mathematisches Modell hinzufügen</verbose_name>
 		<questionsets>
 			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/information-basics" order="1"/>
 			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model-to-model" order="3"/>
@@ -143,21 +77,21 @@ Sehen Sie sich &lt;a href="https://www.youtube.com/watch?v=UmbBNUZJ994&amp;list=
 		<dc:comment/>
 		<attribute/>
 		<is_collection>False</is_collection>
-		<title lang="en">Mathematical Model Information</title>
+		<title lang="en">Mathematical model information</title>
 		<help lang="en"/>
 		<verbose_name lang="en"/>
-		<title lang="de">Mathematisches Modell Informationen</title>
+		<title lang="de">Angaben zum mathematischen Modell</title>
 		<help lang="de"/>
 		<verbose_name lang="de"/>
 		<questionsets>
-			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model-to-formulation-basics" order="6"/>
+			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model-to-formulation-basics" order="4"/>
 		</questionsets>
 		<questions>
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/information/name" order="0"/>
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/information/description" order="1"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/information/properties" order="3"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/information/problem-relatant" order="4"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/information/task-relatant" order="5"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/information/properties" order="5"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/information/problem-relatant" order="2"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/information/task-relatant" order="3"/>
 		</questions>
 		<conditions/>
 	</questionset>
@@ -167,12 +101,12 @@ Sehen Sie sich &lt;a href="https://www.youtube.com/watch?v=UmbBNUZJ994&amp;list=
 		<dc:comment/>
 		<attribute/>
 		<is_collection>True</is_collection>
-		<title lang="en">Mathematical Model - Formula Relations</title>
-		<help lang="en">&lt;p&gt;To add formulas to the model, select or define a formula and specify its role.&lt;/p&gt;</help>
-		<verbose_name lang="en">Add Formula Relation</verbose_name>
-		<title lang="de">Mathematisches Modell - Formel Beziehungen</title>
-		<help lang="de">&lt;p&gt;Um Formeln zum Modell hinzuzufügen, wählen oder definieren Sie einn Formel und geben Sie dessen Rolle an.&lt;/p&gt;</help>
-		<verbose_name lang="de">Mathematische Formel Relation Hinzufügen</verbose_name>
+		<title lang="en">Relations to formulas</title>
+		<help lang="en">&lt;details&gt;&lt;summary&gt;Add the formulas of the model and the role each one has in it.&lt;/summary&gt;&lt;p&gt;A formula is an assumption of the model or part of it, without a specific role or with one (boundary condition, governing equation, analytical solution, …). ↗ next to a relation opens its definition on the MaRDI Portal.&lt;/p&gt;&lt;/details&gt;</help>
+		<verbose_name lang="en">Add relation</verbose_name>
+		<title lang="de">Beziehungen zu Formeln</title>
+		<help lang="de">&lt;details&gt;&lt;summary&gt;Fügen Sie die Formeln des Modells hinzu und die Rolle, die jede darin hat.&lt;/summary&gt;&lt;p&gt;Eine Formel ist eine Annahme des Modells oder ein Teil davon, ohne bestimmte Rolle oder mit einer (Randbedingung, Grundgleichung, analytische Lösung, …). ↗ neben einer Relation öffnet ihre Definition im MaRDI Portal.&lt;/p&gt;&lt;/details&gt;</help>
+		<verbose_name lang="de">Beziehung hinzufügen</verbose_name>
 		<questionsets/>
 		<questions>
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/information/model-to-formulation/model-relation" order="0"/>
@@ -187,11 +121,11 @@ Sehen Sie sich &lt;a href="https://www.youtube.com/watch?v=UmbBNUZJ994&amp;list=
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/model/formulation-relation"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">&lt;p&gt;Use &lt;em&gt;assumes&lt;/em&gt; for assumptions, &lt;em&gt;contains&lt;/em&gt; for formulas without a specific role, and the other relations for formulas with dedicated roles.&lt;/p&gt;</help>
-		<text lang="en">The Mathematical Model...</text>
+		<help lang="en"/>
+		<text lang="en">The mathematical model...</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">&lt;p&gt;Verwenden Sie &lt;em&gt;nimmt an&lt;/em&gt; für Annahmen, &lt;em&gt;beinhaltet&lt;/em&gt; für Formeln ohne spezifische Rolle und die anderen Relationen für Formeln mit festgelegter Rolle.&lt;/p&gt;</help>
+		<help lang="de"/>
 		<text lang="de">Das mathematische Modell...</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -216,14 +150,14 @@ Sehen Sie sich &lt;a href="https://www.youtube.com/watch?v=UmbBNUZJ994&amp;list=
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/model/formulation-relatant"/>
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">&lt;p&gt;Choose one or more formulas to be linked by the selected relation. For all formulas &lt;em&gt;label (description)&lt;/em&gt; is provided; the coloured badge shows where it comes from. If a formula is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate formula is present in the MaRDI Portal or Wikidata, type its name and select it; its short description is entered on its page.&lt;/p&gt;</help>
-		<text lang="en">...a Formula.</text>
+		<help lang="en">&lt;p&gt;If a formula is neither on the MaRDI Portal nor on Wikidata, type its name, select it, and enter its short description on its page.&lt;/p&gt;</help>
+		<text lang="en">...a formula.</text>
 		<default_text lang="en"/>
-		<verbose_name lang="en">Add Formula</verbose_name>
-		<help lang="de">&lt;p&gt;Wählen Sie eine oder mehrere Formeln aus, die über die ausgewählte Relation verknüpft werden sollen. Für alle Formeln wird &lt;em&gt;Name (Beschreibung)&lt;/em&gt; angegeben; die farbige Markierung zeigt die Herkunft. Wenn eine Formel ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls keine passende Formel im MaRDI Portal oder Wikidata vorhanden ist, geben Sie den Namen ein und wählen Sie ihn aus; die Kurzbeschreibung tragen Sie auf der zugehörigen Seite ein.&lt;/p&gt;</help>
-		<text lang="de">...eine mathematische Formel.</text>
+		<verbose_name lang="en">Add formula</verbose_name>
+		<help lang="de">&lt;p&gt;Gibt es eine Formel weder im MaRDI Portal noch in Wikidata, tippen Sie ihren Namen ein, wählen ihn aus und geben ihre Kurzbeschreibung auf ihrer Seite an.&lt;/p&gt;</help>
+		<text lang="de">...eine Formel.</text>
 		<default_text lang="de"/>
-		<verbose_name lang="de">Mathematische Formel Hinzufügen</verbose_name>
+		<verbose_name lang="de">Formel hinzufügen</verbose_name>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>select</widget_type>
@@ -245,15 +179,11 @@ Sehen Sie sich &lt;a href="https://www.youtube.com/watch?v=UmbBNUZJ994&amp;list=
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/model/name"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">&lt;p&gt;Changing the name changes it in all relations to this model. To document another model, add a new tab.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; If you use the model as a template, don’t forget to update the name.&lt;/p&gt;</help>
-		<text lang="en">Name of the Mathematical Model.</text>
+		<help lang="en">&lt;p&gt;A new name changes the mathematical model's name everywhere it is related.&lt;/p&gt;</help>
+		<text lang="en">Name of the mathematical model</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">&lt;p&gt;Eine Änderung des Namens ändert ihn in allen Beziehungen zu diesem Modell. Um ein anderes Modell zu dokumentieren, fügen Sie einen neuen Tab hinzu.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Hinweis:&lt;/strong&gt; Wenn Sie das Modell als Vorlage verwenden, denken Sie daran, den Namen anzupassen.&lt;/p&gt;</help>
+		<help lang="de">&lt;p&gt;Ein neuer Name ändert den Namen des mathematischen Modells überall, wo es verknüpft ist.&lt;/p&gt;</help>
 		<text lang="de">Name des mathematischen Modells</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -276,15 +206,11 @@ Sehen Sie sich &lt;a href="https://www.youtube.com/watch?v=UmbBNUZJ994&amp;list=
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/model/description"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">&lt;p&gt;Short description of 2–12 words (max. 250 characters), lowercase only except for proper names, minimal punctuation.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; If you use the model as a template, don’t forget to update the short description.&lt;/p&gt;</help>
-		<text lang="en">Short Description of the Mathematical Model</text>
+		<help lang="en">&lt;p&gt;2–12 words (at most 250 characters), lowercase except proper names, little punctuation.&lt;/p&gt;</help>
+		<text lang="en">Short description of the mathematical model</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">&lt;p&gt;Kurze Beschreibung mit 2–12 Wörtern (max. 250 Zeichen), nur Kleinschreibung außer bei Eigennamen, minimale Zeichensetzung.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Hinweis:&lt;/strong&gt; Wenn Sie das Modell als Vorlage verwenden, denken Sie daran, die Kurzbeschreibung anzupassen.&lt;/p&gt;</help>
+		<help lang="de">&lt;p&gt;2–12 Wörter (höchstens 250 Zeichen), klein geschrieben außer Eigennamen, wenig Satzzeichen.&lt;/p&gt;</help>
 		<text lang="de">Kurze Beschreibung des mathematischen Modells</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -307,14 +233,14 @@ Sehen Sie sich &lt;a href="https://www.youtube.com/watch?v=UmbBNUZJ994&amp;list=
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/model/properties"/>
 		<is_collection>True</is_collection>
 		<is_optional>True</is_optional>
-		<help lang="en">&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Selecting contradictory properties prevents a successful export.&lt;/p&gt;</help>
-		<text lang="en">Properties of the Mathematical Model</text>
+		<help lang="en"/>
+		<text lang="en">Properties of the mathematical model</text>
 		<default_text lang="en"/>
-		<verbose_name lang="en">Add Property</verbose_name>
-		<help lang="de">&lt;p&gt;&lt;strong&gt;Hinweis:&lt;/strong&gt; Die Auswahl widersprüchlicher Eigenschaften verhindert den Export.&lt;/p&gt;</help>
+		<verbose_name lang="en">Add property</verbose_name>
+		<help lang="de"/>
 		<text lang="de">Eigenschaften des mathematischen Modells</text>
 		<default_text lang="de"/>
-		<verbose_name lang="de">Eigenschaft Hinzufügen</verbose_name>
+		<verbose_name lang="de">Eigenschaft hinzufügen</verbose_name>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>select</widget_type>
@@ -336,14 +262,14 @@ Sehen Sie sich &lt;a href="https://www.youtube.com/watch?v=UmbBNUZJ994&amp;list=
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/model/problem-relatant"/>
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">&lt;p&gt;Choose one or more problems. For all problems &lt;em&gt;label (description)&lt;/em&gt; is provided; the coloured badge shows where it comes from. If a problem is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate problem is present in the MaRDI Portal or Wikidata, type its name and select it; its short description is entered on its page.&lt;/p&gt;</help>
-		<text lang="en">Research Problem modelled by the Mathematical Model?</text>
+		<help lang="en">&lt;p&gt;If a research problem is neither on the MaRDI Portal nor on Wikidata, type its name, select it, and enter its short description on its page.&lt;/p&gt;</help>
+		<text lang="en">Research problems modelled by the mathematical model</text>
 		<default_text lang="en"/>
-		<verbose_name lang="en">Add Research Problem</verbose_name>
-		<help lang="de">&lt;p&gt;Wählen Sie ein oder mehrere Probleme aus. Für alle Probleme wird &lt;em&gt;Name (Beschreibung)&lt;/em&gt; angegeben; die farbige Markierung zeigt die Herkunft. Wenn ein Problem ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls kein passendes Problem im MaRDI Portal oder Wikidata vorhanden ist, geben Sie den Namen ein und wählen Sie ihn aus; die Kurzbeschreibung tragen Sie auf der zugehörigen Seite ein.&lt;/p&gt;</help>
-		<text lang="de">Forschungsproblem welches durch das mathematische Modell modelliert wird?</text>
+		<verbose_name lang="en">Add research problem</verbose_name>
+		<help lang="de">&lt;p&gt;Gibt es ein Forschungsproblem weder im MaRDI Portal noch in Wikidata, tippen Sie seinen Namen ein, wählen ihn aus und geben seine Kurzbeschreibung auf seiner Seite an.&lt;/p&gt;</help>
+		<text lang="de">Forschungsprobleme, die das mathematische Modell modelliert</text>
 		<default_text lang="de"/>
-		<verbose_name lang="de">Forschungsproblem Hinzufügen</verbose_name>
+		<verbose_name lang="de">Forschungsproblem hinzufügen</verbose_name>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>select</widget_type>
@@ -365,14 +291,14 @@ Sehen Sie sich &lt;a href="https://www.youtube.com/watch?v=UmbBNUZJ994&amp;list=
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/model/task-relatant"/>
 		<is_collection>True</is_collection>
 		<is_optional>True</is_optional>
-		<help lang="en">&lt;p&gt;Choose one or more tasks. For all tasks &lt;em&gt;label (description)&lt;/em&gt; is provided; the coloured badge shows where it comes from. If a task is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate task is present in the MaRDI Portal or Wikidata, type its name and select it; its short description is entered on its page.&lt;/p&gt;</help>
-		<text lang="en">Computational Task using the Mathematical Model?</text>
+		<help lang="en">&lt;p&gt;If a computational task is neither on the MaRDI Portal nor on Wikidata, type its name, select it, and enter its short description on its page.&lt;/p&gt;</help>
+		<text lang="en">Computational tasks that use the mathematical model</text>
 		<default_text lang="en"/>
-		<verbose_name lang="en">Add Computational Task</verbose_name>
-		<help lang="de">&lt;p&gt;Wählen Sie eine oder mehrere Aufgaben aus. Für alle Aufgaben wird &lt;em&gt;Name (Beschreibung)&lt;/em&gt; angegeben; die farbige Markierung zeigt die Herkunft. Wenn eine Aufgabe ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls keine passende Aufgabe im MaRDI Portal oder Wikidata vorhanden ist, geben Sie den Namen ein und wählen Sie ihn aus; die Kurzbeschreibung tragen Sie auf der zugehörigen Seite ein.&lt;/p&gt;</help>
-		<text lang="de">Berechnungsaufgabe die das mathematische Modell verwendet?</text>
+		<verbose_name lang="en">Add computational task</verbose_name>
+		<help lang="de">&lt;p&gt;Gibt es eine Berechnungsaufgabe weder im MaRDI Portal noch in Wikidata, tippen Sie ihren Namen ein, wählen ihn aus und geben ihre Kurzbeschreibung auf ihrer Seite an.&lt;/p&gt;</help>
+		<text lang="de">Berechnungsaufgaben, die das mathematische Modell verwenden</text>
 		<default_text lang="de"/>
-		<verbose_name lang="de">Berechnungsaufgabe Hinzufügen</verbose_name>
+		<verbose_name lang="de">Berechnungsaufgabe hinzufügen</verbose_name>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>select</widget_type>
@@ -393,12 +319,12 @@ Sehen Sie sich &lt;a href="https://www.youtube.com/watch?v=UmbBNUZJ994&amp;list=
 		<dc:comment/>
 		<attribute/>
 		<is_collection>True</is_collection>
-		<title lang="en">Mathematical Model - Mathematical Model Relations</title>
-		<help lang="en">&lt;p&gt;To relate the model with other models, select additional models and specify the relations.&lt;/p&gt;</help>
-		<verbose_name lang="en">Add Mathematical Model Relation</verbose_name>
-		<title lang="de">Mathematisches Modell - Mathematisches Modell Beziehungen</title>
-		<help lang="de">&lt;p&gt;Um das Modell mit anderen Modellen zu verknüpfen, wählen Sie weitere Modelle aus und geben Sie die Relationen an.&lt;/p&gt;</help>
-		<verbose_name lang="de">Mathematisches Modell Relation Hinzufügen</verbose_name>
+		<title lang="en">Relations to other mathematical models</title>
+		<help lang="en">&lt;details&gt;&lt;summary&gt;Relate the model to other models: the models it approximates, contains, discretizes, linearizes, specializes or is otherwise related to.&lt;/summary&gt;&lt;p&gt;↗ next to a relation opens its definition on the MaRDI Portal.&lt;/p&gt;&lt;/details&gt;</help>
+		<verbose_name lang="en">Add relation</verbose_name>
+		<title lang="de">Beziehungen zu anderen mathematischen Modellen</title>
+		<help lang="de">&lt;details&gt;&lt;summary&gt;Verknüpfen Sie das Modell mit anderen Modellen: mit den Modellen, die es approximiert, enthält, diskretisiert, linearisiert, spezialisiert oder mit denen es anders zusammenhängt.&lt;/summary&gt;&lt;p&gt;↗ neben einer Relation öffnet ihre Definition im MaRDI Portal.&lt;/p&gt;&lt;/details&gt;</help>
+		<verbose_name lang="de">Beziehung hinzufügen</verbose_name>
 		<questionsets/>
 		<questions>
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/model/model-to-model/model-relation" order="0"/>
@@ -415,7 +341,7 @@ Sehen Sie sich &lt;a href="https://www.youtube.com/watch?v=UmbBNUZJ994&amp;list=
 		<is_collection>False</is_collection>
 		<is_optional>True</is_optional>
 		<help lang="en"/>
-		<text lang="en">The Mathematical Model...</text>
+		<text lang="en">The mathematical model...</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
@@ -443,14 +369,14 @@ Sehen Sie sich &lt;a href="https://www.youtube.com/watch?v=UmbBNUZJ994&amp;list=
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/model/model-relatant"/>
 		<is_collection>True</is_collection>
 		<is_optional>True</is_optional>
-		<help lang="en">&lt;p&gt;Choose one or more models to be linked by the selected relation (including possible assumptions). For all models &lt;em&gt;label (description)&lt;/em&gt; is provided; the coloured badge shows where it comes from. Only models from the MaRDI Portal and those selected or defined within the interview can be chosen.&lt;/p&gt;</help>
-		<text lang="en">...another Mathematical Model.</text>
+		<help lang="en">&lt;p&gt;Only models of the MaRDI Portal and of this documentation: add a new model as a tab of its own first.&lt;/p&gt;</help>
+		<text lang="en">...another mathematical model.</text>
 		<default_text lang="en"/>
-		<verbose_name lang="en">Add Mathematical Model</verbose_name>
-		<help lang="de">&lt;p&gt;Wählen Sie einen oder mehrere Modelle aus, die über die ausgewählte Relation verknüpft werden sollen (einschließlich möglicher Annahmen). Für alle Modelle wird &lt;em&gt;Name (Beschreibung)&lt;/em&gt; angegeben; die farbige Markierung zeigt die Herkunft. Es können nur Modelle aus dem MaRDI-Portal sowie solche ausgewählt oder definiert werden, die im Interview verwendet werden.&lt;/p&gt;</help>
+		<verbose_name lang="en">Add mathematical model</verbose_name>
+		<help lang="de">&lt;p&gt;Nur Modelle aus dem MaRDI Portal und aus dieser Dokumentation: Legen Sie ein neues Modell zuerst als eigenen Tab an.&lt;/p&gt;</help>
 		<text lang="de">...ein weiteres mathematisches Modell.</text>
 		<default_text lang="de"/>
-		<verbose_name lang="de">Mathematisches Modell Hinzufügen</verbose_name>
+		<verbose_name lang="de">Mathematisches Modell hinzufügen</verbose_name>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>select</widget_type>
@@ -472,18 +398,14 @@ Sehen Sie sich &lt;a href="https://www.youtube.com/watch?v=UmbBNUZJ994&amp;list=
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/model/model-assumption"/>
 		<is_collection>True</is_collection>
 		<is_optional>True</is_optional>
-		<help lang="en">&lt;p&gt;The assumptions apply to all models of this relation. If different models need different assumptions, create a separate relation for each of them and remove the model from this one.&lt;/p&gt;
-
-&lt;p&gt;For all formulas &lt;em&gt;label (description)&lt;/em&gt; is provided; the coloured badge shows where it comes from. If a formula is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate formula is present in the MaRDI Portal or Wikidata, type its name and select it; its short description is entered on its page.&lt;/p&gt;</help>
-		<text lang="en">Assumption to reduce the general Mathematical Model to its specialized form(s).</text>
+		<help lang="en">&lt;details&gt;&lt;summary&gt;The assumptions apply to all models of this row.&lt;/summary&gt;&lt;p&gt;If different models need different assumptions, give each its own row. If an assumption is neither on the MaRDI Portal nor on Wikidata, type its name, select it, and enter its short description on its page.&lt;/p&gt;&lt;/details&gt;</help>
+		<text lang="en">Assumption to reduce the general mathematical model to its specialized form(s).</text>
 		<default_text lang="en"/>
-		<verbose_name lang="en">Add Formula</verbose_name>
-		<help lang="de">&lt;p&gt;Die Annahmen gelten für alle Modelle dieser Relation. Benötigen verschiedene Modelle unterschiedliche Annahmen, legen Sie für jedes eine eigene Relation an und entfernen Sie es aus dieser.&lt;/p&gt;
-
-&lt;p&gt;Für alle Formeln wird &lt;em&gt;Name (Beschreibung)&lt;/em&gt; angegeben; die farbige Markierung zeigt die Herkunft. Wenn eine Formel ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls keine passende Formel im MaRDI Portal oder Wikidata vorhanden ist, geben Sie den Namen ein und wählen Sie ihn aus; die Kurzbeschreibung tragen Sie auf der zugehörigen Seite ein.&lt;/p&gt;</help>
+		<verbose_name lang="en">Add formula</verbose_name>
+		<help lang="de">&lt;details&gt;&lt;summary&gt;Die Annahmen gelten für alle Modelle dieser Zeile.&lt;/summary&gt;&lt;p&gt;Brauchen verschiedene Modelle verschiedene Annahmen, geben Sie jedem eine eigene Zeile. Gibt es eine Annahme weder im MaRDI Portal noch in Wikidata, tippen Sie ihren Namen ein, wählen ihn aus und geben ihre Kurzbeschreibung auf ihrer Seite an.&lt;/p&gt;&lt;/details&gt;</help>
 		<text lang="de">Annahme zur Reduzierung des allgemeinen mathematischen Modells auf seine spezielle(n) Form(en).</text>
 		<default_text lang="de"/>
-		<verbose_name lang="de">Formel Hinzufügen</verbose_name>
+		<verbose_name lang="de">Formel hinzufügen</verbose_name>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>select</widget_type>
@@ -508,16 +430,12 @@ Sehen Sie sich &lt;a href="https://www.youtube.com/watch?v=UmbBNUZJ994&amp;list=
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/model/id"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">&lt;p&gt;For all models &lt;em&gt;label (description)&lt;/em&gt; is provided; the coloured badge shows where it comes from. If a model is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate model is present in the MaRDI Portal or Wikidata, choose &lt;em&gt;new item&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; To use an existing model as a template, first select the model, wait for the information to load, and then change the answer to &lt;em&gt;new item&lt;/em&gt; to remove the external reference.&lt;/p&gt;</help>
-		<text lang="en">Select a Mathematical Model!</text>
+		<help lang="en">&lt;details&gt;&lt;summary&gt;If it is neither on the MaRDI Portal nor on Wikidata, choose &lt;em&gt;new item&lt;/em&gt;.&lt;/summary&gt;&lt;p&gt;To use an existing mathematical model as a template, select it, wait until its information has been added, and then choose &lt;em&gt;new item&lt;/em&gt;: the information stays, the reference to the source is removed. Then give the new mathematical model its own name and short description.&lt;/p&gt;&lt;/details&gt;</help>
+		<text lang="en">Select the mathematical model</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">&lt;p&gt;Für alle Modelle wird &lt;em&gt;Name (Beschreibung)&lt;/em&gt; angegeben; die farbige Markierung zeigt die Herkunft. Wenn ein Modell ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls kein passendes Modell im MaRDI Portal oder Wikidata vorhanden ist, wählen Sie &lt;em&gt;new item&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Hinweis:&lt;/strong&gt; Um ein bestehendes Modell als Vorlage zu verwenden, wählen Sie zunächst das Modell aus, warten Sie, bis alle Informationen geladen wurden, und setzen Sie anschließend die Antwort auf &lt;em&gt;new item&lt;/em&gt;, um den Bezug zur externen Quelle zu entfernen.&lt;/p&gt;</help>
-		<text lang="de">Wählen Sie ein mathematisches Modell aus.</text>
+		<help lang="de">&lt;details&gt;&lt;summary&gt;Gibt es das mathematische Modell weder im MaRDI Portal noch in Wikidata, wählen Sie &lt;em&gt;new item&lt;/em&gt;.&lt;/summary&gt;&lt;p&gt;Um ein bestehendes mathematisches Modell als Vorlage zu verwenden, wählen Sie es aus, warten Sie, bis seine Angaben übernommen sind, und wählen Sie dann &lt;em&gt;new item&lt;/em&gt;: Die Angaben bleiben, der Bezug zur Quelle wird entfernt. Geben Sie dem neuen Modell dann einen eigenen Namen und eine eigene Kurzbeschreibung.&lt;/p&gt;&lt;/details&gt;</help>
+		<text lang="de">Wählen Sie das mathematische Modell aus</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -540,30 +458,14 @@ Sehen Sie sich &lt;a href="https://www.youtube.com/watch?v=UmbBNUZJ994&amp;list=
 		<dc:comment/>
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/task"/>
 		<is_collection>True</is_collection>
-		<title lang="en">Computational Task</title>
-		<short_title lang="en">Task</short_title>
-		<help lang="en">&lt;p&gt;On this page, you can define new tasks or select existing ones from the MaRDI Portal or Wikidata. When an existing task is selected, all available information from the relevant source is retrieved and integrated into the interview. Retrieved data can be completed and extended with new relations (e.g., connections to other tasks).&lt;/p&gt;
-
-&lt;p&gt;In addition to enhancing existing tasks, they can also serve as templates for creating new ones. To use a task as a template, the reference to the external source must be removed after importing the available information.&lt;/p&gt;
-
-&lt;p&gt;For a smooth export to the MaRDI Portal, all &lt;strong&gt;non-optional&lt;/strong&gt; questions must be answered completely.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; If a task is selected from the MaRDI Portal and not used as a template, its existing information &lt;u&gt;cannot&lt;/u&gt; be edited or deleted via MaRDMO. Any changes or deletions made regardless will be ignored or shown alongside the original information in the MaRDI Portal.&lt;/p&gt;
-
-&lt;p&gt;Check out &lt;a href="https://www.youtube.com/watch?v=bf--qp3g7aY&amp;t=8s"&gt;Computational Task&lt;/a&gt; showcasing the documentation.&lt;/p&gt;</help>
-		<verbose_name lang="en">Add Task</verbose_name>
+		<title lang="en">Computational task</title>
+		<short_title lang="en">Computational task</short_title>
+		<help lang="en">&lt;details&gt;&lt;summary&gt;Document a new computational task, or select one from the MaRDI Portal or Wikidata and complete it.&lt;/summary&gt;&lt;p&gt;Selecting an existing computational task adds its information from the source to the interview; you can complete it and add relations. Answer all questions not marked as optional, so that the computational task can be exported.&lt;/p&gt;&lt;p&gt;In the dropdowns, each item shows its label and description, and the colour shows its source (MaRDI Portal, Wikidata, this documentation). After choosing one, &lt;strong&gt;wait&lt;/strong&gt; until its information has been added.&lt;/p&gt;&lt;p&gt;The information a computational task already has on the MaRDI Portal cannot be changed or deleted with MaRDMO, only completed.&lt;/p&gt;&lt;p&gt;The video &lt;a href="https://www.youtube.com/watch?v=bf--qp3g7aY&amp;t=8s"&gt;Computational Task&lt;/a&gt; shows how to document one.&lt;/p&gt;&lt;/details&gt;</help>
+		<verbose_name lang="en">Add computational task</verbose_name>
 		<title lang="de">Berechnungsaufgabe</title>
-		<short_title lang="de">Aufgabe</short_title>
-		<help lang="de">&lt;p&gt;Auf dieser Seite können neue Aufgaben definiert oder bereits bestehende Aufgaben aus dem MaRDI Portal oder Wikidata ausgewählt werden. Wird eine bestehende Aufgabe ausgewählt, werden alle verfügbaren Informationen aus der jeweiligen Quelle abgerufen und in das Interview integriert. Die abgerufenen Informationen können ergänzt und um neue Relationen erweitert werden (z.&amp;nbsp;B. Verbindungen zu anderen Aufgaben).&lt;/p&gt;
-
-&lt;p&gt;Bestehende Aufgaben können nicht nur erweitert, sondern auch als Vorlage für neue Aufgaben verwendet werden. Hierfür ist es erforderlich, nach dem Abruf der Informationen den Bezug zur externen Quelle zu entfernen.&lt;/p&gt;
-
-&lt;p&gt;Für einen reibungslosen Export in das MaRDI Portal müssen alle &lt;strong&gt;nicht-optionalen&lt;/strong&gt; Fragen vollständig beantwortet sein.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Hinweis:&lt;/strong&gt; Wird eine Aufgabe aus dem MaRDI Portal ausgewählt und nicht als Vorlage verwendet, können bestehende Informationen über MaRDMO &lt;u&gt;nicht&lt;/u&gt; editiert oder gelöscht werden. Änderungen oder Löschungen, die dennoch vorgenommen werden, werden ignoriert oder zusätzlich zu den bestehenden Informationen im MaRDI Portal angezeigt.&lt;/p&gt;
-
-&lt;p&gt;Sehen Sie sich &lt;a href="https://www.youtube.com/watch?v=bf--qp3g7aY&amp;t=8s"&gt;Computational Task&lt;/a&gt; an in dem die Dokumentation vorgestellt wird..&lt;/p&gt;</help>
-		<verbose_name lang="de">Berechnungsaufgabe Hinzufügen</verbose_name>
+		<short_title lang="de">Berechnungsaufgabe</short_title>
+		<help lang="de">&lt;details&gt;&lt;summary&gt;Dokumentieren Sie eine neue Berechnungsaufgabe, oder wählen Sie eine aus dem MaRDI Portal oder Wikidata aus und ergänzen Sie sie.&lt;/summary&gt;&lt;p&gt;Wird eine bestehende Berechnungsaufgabe ausgewählt, werden ihre Angaben aus der Quelle in das Interview übernommen; Sie können sie ergänzen und Beziehungen hinzufügen. Beantworten Sie alle Fragen, die nicht als optional markiert sind, damit die Berechnungsaufgabe exportiert werden kann.&lt;/p&gt;&lt;p&gt;In den Auswahllisten zeigt jeder Eintrag Name und Beschreibung, die Farbe zeigt die Herkunft (MaRDI Portal, Wikidata, diese Dokumentation). &lt;strong&gt;Warten&lt;/strong&gt; Sie nach der Auswahl, bis die Angaben übernommen sind.&lt;/p&gt;&lt;p&gt;Was eine Berechnungsaufgabe im MaRDI Portal schon hat, kann mit MaRDMO nicht geändert oder gelöscht, nur ergänzt werden.&lt;/p&gt;&lt;p&gt;Das Video &lt;a href="https://www.youtube.com/watch?v=bf--qp3g7aY&amp;t=8s"&gt;Computational Task&lt;/a&gt; zeigt, wie eine Berechnungsaufgabe dokumentiert wird.&lt;/p&gt;&lt;/details&gt;</help>
+		<verbose_name lang="de">Berechnungsaufgabe hinzufügen</verbose_name>
 		<questionsets>
 			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/task/information-basics" order="1"/>
 			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/task/task-to-task" order="2"/>
@@ -579,14 +481,14 @@ Sehen Sie sich &lt;a href="https://www.youtube.com/watch?v=UmbBNUZJ994&amp;list=
 		<dc:comment/>
 		<attribute/>
 		<is_collection>False</is_collection>
-		<title lang="en">Computational Task Information</title>
+		<title lang="en">Computational task information</title>
 		<help lang="en"/>
 		<verbose_name lang="en"/>
-		<title lang="de">Berechnungsaufgabe Informationen</title>
+		<title lang="de">Angaben zur Berechnungsaufgabe</title>
 		<help lang="de"/>
 		<verbose_name lang="de"/>
 		<questionsets>
-			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/task/information/task-to-formulation" order="4"/>
+			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/task/information/task-to-formulation" order="2"/>
 		</questionsets>
 		<questions>
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/task/information/name" order="0"/>
@@ -601,12 +503,12 @@ Sehen Sie sich &lt;a href="https://www.youtube.com/watch?v=UmbBNUZJ994&amp;list=
 		<dc:comment/>
 		<attribute/>
 		<is_collection>True</is_collection>
-		<title lang="en">Formula Relations</title>
-		<help lang="en">&lt;p&gt;To add formulas to the task, select or define a formula and specify its role.&lt;/p&gt;</help>
-		<verbose_name lang="en">Add Formula Relation</verbose_name>
-		<title lang="de">Formel Beziehungen</title>
-		<help lang="de">&lt;p&gt;Um Formeln zur Aufgabe hinzuzufügen, wählen oder definieren Sie eine Formel und geben Sie dessen Rolle an.&lt;/p&gt;</help>
-		<verbose_name lang="de">Formel Relation Hinzufügen</verbose_name>
+		<title lang="en">Relations to formulas</title>
+		<help lang="en">&lt;details&gt;&lt;summary&gt;Add the formulas of the task and the role each one has in it.&lt;/summary&gt;&lt;p&gt;A formula is an assumption of the task or part of it, without a specific role or with one (boundary condition, governing equation, analytical solution, …). ↗ next to a relation opens its definition on the MaRDI Portal.&lt;/p&gt;&lt;/details&gt;</help>
+		<verbose_name lang="en">Add relation</verbose_name>
+		<title lang="de">Beziehungen zu Formeln</title>
+		<help lang="de">&lt;details&gt;&lt;summary&gt;Fügen Sie die Formeln der Aufgabe hinzu und die Rolle, die jede darin hat.&lt;/summary&gt;&lt;p&gt;Eine Formel ist eine Annahme der Aufgabe oder ein Teil davon, ohne bestimmte Rolle oder mit einer (Randbedingung, Grundgleichung, analytische Lösung, …). ↗ neben einer Relation öffnet ihre Definition im MaRDI Portal.&lt;/p&gt;&lt;/details&gt;</help>
+		<verbose_name lang="de">Beziehung hinzufügen</verbose_name>
 		<questionsets/>
 		<questions>
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/task/information/task-to-formulation/relation" order="0"/>
@@ -621,11 +523,11 @@ Sehen Sie sich &lt;a href="https://www.youtube.com/watch?v=UmbBNUZJ994&amp;list=
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/task/formulation-relation"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">&lt;p&gt;Use &lt;em&gt;assumes&lt;/em&gt; for assumptions, &lt;em&gt;contains&lt;/em&gt; for formulas without a specific role, and the other relations for formulas with dedicated roles.&lt;/p&gt;</help>
-		<text lang="en">The Computational Task...</text>
+		<help lang="en"/>
+		<text lang="en">The computational task...</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">&lt;p&gt;Verwenden Sie &lt;em&gt;nimmt an&lt;/em&gt; für Annahmen, &lt;em&gt;beinhaltet&lt;/em&gt; für Formeln ohne spezifische Rolle und die anderen Relationen für Formeln mit festgelegter Rolle.&lt;/p&gt;</help>
+		<help lang="de"/>
 		<text lang="de">Die Berechnungsaufgabe...</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -650,14 +552,14 @@ Sehen Sie sich &lt;a href="https://www.youtube.com/watch?v=UmbBNUZJ994&amp;list=
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/task/formulation-relatant"/>
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">&lt;p&gt;Choose one or more formulas to be linked by the selected relation. For all formulas &lt;em&gt;label (description)&lt;/em&gt; is provided; the coloured badge shows where it comes from. If a formula is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate formula is present in the MaRDI Portal or Wikidata, type its name and select it; its short description is entered on its page.&lt;/p&gt;</help>
-		<text lang="en">...a Formula.</text>
+		<help lang="en">&lt;p&gt;If a formula is neither on the MaRDI Portal nor on Wikidata, type its name, select it, and enter its short description on its page.&lt;/p&gt;</help>
+		<text lang="en">...a formula.</text>
 		<default_text lang="en"/>
-		<verbose_name lang="en">Add Formula</verbose_name>
-		<help lang="de">&lt;p&gt;Wählen Sie eine oder mehrere Formeln aus, die über die ausgewählte Relation verknüpft werden sollen. Für alle Formeln wird &lt;em&gt;Name (Beschreibung)&lt;/em&gt; angegeben; die farbige Markierung zeigt die Herkunft. Wenn eine Formel ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls keine passende Formel im MaRDI Portal oder Wikidata vorhanden ist, geben Sie den Namen ein und wählen Sie ihn aus; die Kurzbeschreibung tragen Sie auf der zugehörigen Seite ein.&lt;/p&gt;</help>
+		<verbose_name lang="en">Add formula</verbose_name>
+		<help lang="de">&lt;p&gt;Gibt es eine Formel weder im MaRDI Portal noch in Wikidata, tippen Sie ihren Namen ein, wählen ihn aus und geben ihre Kurzbeschreibung auf ihrer Seite an.&lt;/p&gt;</help>
 		<text lang="de">...eine Formel.</text>
 		<default_text lang="de"/>
-		<verbose_name lang="de">Formeln Hinzufügen</verbose_name>
+		<verbose_name lang="de">Formel hinzufügen</verbose_name>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>select</widget_type>
@@ -679,16 +581,12 @@ Sehen Sie sich &lt;a href="https://www.youtube.com/watch?v=UmbBNUZJ994&amp;list=
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/task/name"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">&lt;p&gt;Changing the name changes it in all relations to this task. To document another task, add a new tab.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; If you use the task as a template, don’t forget to update the name.&lt;/p&gt;</help>
-		<text lang="en">Name of the Computational Task</text>
+		<help lang="en">&lt;p&gt;A new name changes the computational task's name everywhere it is related.&lt;/p&gt;</help>
+		<text lang="en">Name of the computational task</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">&lt;p&gt;Eine Änderung des Namens ändert ihn in allen Beziehungen zu dieser Aufgabe. Um eine andere Aufgabe zu dokumentieren, fügen Sie einen neuen Tab hinzu.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Hinweis:&lt;/strong&gt; Wenn Sie die Aufgabe als Vorlage verwenden, denken Sie daran, den Namen anzupassen.&lt;/p&gt;</help>
-		<text lang="de">Name der Berechnungsufgabe</text>
+		<help lang="de">&lt;p&gt;Ein neuer Name ändert den Namen der Berechnungsaufgabe überall, wo sie verknüpft ist.&lt;/p&gt;</help>
+		<text lang="de">Name der Berechnungsaufgabe</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -710,15 +608,11 @@ Sehen Sie sich &lt;a href="https://www.youtube.com/watch?v=UmbBNUZJ994&amp;list=
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/task/description"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">&lt;p&gt;Short description of 2–12 words (max. 250 characters), lowercase only except for proper names, minimal punctuation.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; If you use the task as a template, don’t forget to update the short description.&lt;/p&gt;</help>
-		<text lang="en">Short Description of the Computational Task</text>
+		<help lang="en">&lt;p&gt;2–12 words (at most 250 characters), lowercase except proper names, little punctuation.&lt;/p&gt;</help>
+		<text lang="en">Short description of the computational task</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">&lt;p&gt;Kurze Beschreibung mit 2–12 Wörtern (max. 250 Zeichen), nur Kleinschreibung außer bei Eigennamen, minimale Zeichensetzung.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Hinweis:&lt;/strong&gt; Wenn Sie die Aufgabe als Vorlage verwenden, denken Sie daran, die Kurzbeschreibung anzupassen.&lt;/p&gt;</help>
+		<help lang="de">&lt;p&gt;2–12 Wörter (höchstens 250 Zeichen), klein geschrieben außer Eigennamen, wenig Satzzeichen.&lt;/p&gt;</help>
 		<text lang="de">Kurze Beschreibung der Berechnungsaufgabe</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -741,14 +635,14 @@ Sehen Sie sich &lt;a href="https://www.youtube.com/watch?v=UmbBNUZJ994&amp;list=
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/task/properties"/>
 		<is_collection>True</is_collection>
 		<is_optional>True</is_optional>
-		<help lang="en">&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Selecting contradictory properties prevents a successful export.&lt;/p&gt;</help>
-		<text lang="en">Properties of the Computational Task</text>
+		<help lang="en"/>
+		<text lang="en">Properties of the computational task</text>
 		<default_text lang="en"/>
-		<verbose_name lang="en">Add Property</verbose_name>
-		<help lang="de">&lt;p&gt;&lt;strong&gt;Hinweis:&lt;/strong&gt; Die Auswahl widersprüchlicher Eigenschaften verhindert den Export.&lt;/p&gt;</help>
+		<verbose_name lang="en">Add property</verbose_name>
+		<help lang="de"/>
 		<text lang="de">Eigenschaften der Berechnungsaufgabe</text>
 		<default_text lang="de"/>
-		<verbose_name lang="de">Eigenschaft Hinzufügen</verbose_name>
+		<verbose_name lang="de">Eigenschaft hinzufügen</verbose_name>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>select</widget_type>
@@ -769,12 +663,12 @@ Sehen Sie sich &lt;a href="https://www.youtube.com/watch?v=UmbBNUZJ994&amp;list=
 		<dc:comment/>
 		<attribute/>
 		<is_collection>True</is_collection>
-		<title lang="en">Computational Task Relations</title>
-		<help lang="en">&lt;p&gt;To relate the task with other tasks, select additional tasks and specify the relations.&lt;/p&gt;</help>
-		<verbose_name lang="en">Add Computational Task Relation</verbose_name>
-		<title lang="de">Berechnungsaufgabe Beziehungen</title>
-		<help lang="de">&lt;p&gt;Um die Aufgabe mit anderen Aufgaben zu verknüpfen, wählen Sie weitere Aufgaben aus und geben Sie die Relationen an.&lt;/p&gt;</help>
-		<verbose_name lang="de">Berechnungsaufgabe Relation Hinzufügen</verbose_name>
+		<title lang="en">Relations to other computational tasks</title>
+		<help lang="en">&lt;details&gt;&lt;summary&gt;Relate the task to other tasks: the tasks it approximates, contains, discretizes, linearizes, specializes or is otherwise related to.&lt;/summary&gt;&lt;p&gt;↗ next to a relation opens its definition on the MaRDI Portal.&lt;/p&gt;&lt;/details&gt;</help>
+		<verbose_name lang="en">Add relation</verbose_name>
+		<title lang="de">Beziehungen zu anderen Berechnungsaufgaben</title>
+		<help lang="de">&lt;details&gt;&lt;summary&gt;Verknüpfen Sie die Aufgabe mit anderen Aufgaben: mit den Aufgaben, die sie approximiert, enthält, diskretisiert, linearisiert, spezialisiert oder mit denen sie anders zusammenhängt.&lt;/summary&gt;&lt;p&gt;↗ neben einer Relation öffnet ihre Definition im MaRDI Portal.&lt;/p&gt;&lt;/details&gt;</help>
+		<verbose_name lang="de">Beziehung hinzufügen</verbose_name>
 		<questionsets/>
 		<questions>
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/task/task-to-task/relation" order="0"/>
@@ -791,7 +685,7 @@ Sehen Sie sich &lt;a href="https://www.youtube.com/watch?v=UmbBNUZJ994&amp;list=
 		<is_collection>False</is_collection>
 		<is_optional>True</is_optional>
 		<help lang="en"/>
-		<text lang="en">The Computational Task...</text>
+		<text lang="en">The computational task...</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
@@ -819,14 +713,14 @@ Sehen Sie sich &lt;a href="https://www.youtube.com/watch?v=UmbBNUZJ994&amp;list=
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/task/task-relatant"/>
 		<is_collection>True</is_collection>
 		<is_optional>True</is_optional>
-		<help lang="en">&lt;p&gt;Choose one or more tasks to be linked by the selected relation (including possible assumptions or order numbers). For all tasks &lt;em&gt;label (description)&lt;/em&gt; is provided; the coloured badge shows where it comes from. Only tasks from the MaRDI Portal and those selected or defined within the interview can be chosen.&lt;/p&gt;</help>
-		<text lang="en">...another Computational Task.</text>
+		<help lang="en">&lt;p&gt;Only tasks of the MaRDI Portal and of this documentation: add a new task as a tab of its own first.&lt;/p&gt;</help>
+		<text lang="en">...another computational task.</text>
 		<default_text lang="en"/>
-		<verbose_name lang="en">Add Computational Task</verbose_name>
-		<help lang="de">&lt;p&gt;Wählen Sie eine oder mehrere Aufgaben aus, die über die ausgewählte Relation verknüpft werden sollen (einschließlich möglicher Annahmen oder Ordnungszahlen). Für alle Aufgaben wird &lt;em&gt;Name (Beschreibung)&lt;/em&gt; angegeben; die farbige Markierung zeigt die Herkunft. Es können nur Aufgaben aus dem MaRDI-Portal sowie solche ausgewählt oder definiert werden, die im Interview verwendet werden.&lt;/p&gt;</help>
-		<text lang="de">...eine weitere Aufgabe.</text>
+		<verbose_name lang="en">Add computational task</verbose_name>
+		<help lang="de">&lt;p&gt;Nur Aufgaben aus dem MaRDI Portal und aus dieser Dokumentation: Legen Sie eine neue Aufgabe zuerst als eigenen Tab an.&lt;/p&gt;</help>
+		<text lang="de">...eine weitere Berechnungsaufgabe.</text>
 		<default_text lang="de"/>
-		<verbose_name lang="de">Berechnungsaufgabe Hinzufügen</verbose_name>
+		<verbose_name lang="de">Berechnungsaufgabe hinzufügen</verbose_name>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>select</widget_type>
@@ -848,18 +742,14 @@ Sehen Sie sich &lt;a href="https://www.youtube.com/watch?v=UmbBNUZJ994&amp;list=
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/task/task-assumption"/>
 		<is_collection>True</is_collection>
 		<is_optional>True</is_optional>
-		<help lang="en">&lt;p&gt;The assumptions apply to all tasks of this relation. If different tasks need different assumptions, create a separate relation for each of them and remove the task from this one.&lt;/p&gt;
-
-&lt;p&gt;For all formulas &lt;em&gt;label (description)&lt;/em&gt; is provided; the coloured badge shows where it comes from. If a formula is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate formula is present in the MaRDI Portal or Wikidata, type its name and select it; its short description is entered on its page.&lt;/p&gt;</help>
-		<text lang="en">Assumption to reduce the general Computational Task to its specialized form(s).</text>
+		<help lang="en">&lt;details&gt;&lt;summary&gt;The assumptions apply to all tasks of this row.&lt;/summary&gt;&lt;p&gt;If different tasks need different assumptions, give each its own row. If an assumption is neither on the MaRDI Portal nor on Wikidata, type its name, select it, and enter its short description on its page.&lt;/p&gt;&lt;/details&gt;</help>
+		<text lang="en">Assumption to reduce the general computational task to its specialized form(s).</text>
 		<default_text lang="en"/>
-		<verbose_name lang="en">Add Formula</verbose_name>
-		<help lang="de">&lt;p&gt;Die Annahmen gelten für alle Aufgaben dieser Relation. Benötigen verschiedene Aufgaben unterschiedliche Annahmen, legen Sie für jede eine eigene Relation an und entfernen Sie sie aus dieser.&lt;/p&gt;
-
-&lt;p&gt;Für alle Formeln wird &lt;em&gt;Name (Beschreibung)&lt;/em&gt; angegeben; die farbige Markierung zeigt die Herkunft. Wenn eine Formel ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls keine passende Formel im MaRDI Portal oder Wikidata vorhanden ist, geben Sie den Namen ein und wählen Sie ihn aus; die Kurzbeschreibung tragen Sie auf der zugehörigen Seite ein.&lt;/p&gt;</help>
-		<text lang="de">Annahme zur Reduzierung der allgemeinen Berechnungsaufgabe auf seine spezielle(n) Form(en).</text>
+		<verbose_name lang="en">Add formula</verbose_name>
+		<help lang="de">&lt;details&gt;&lt;summary&gt;Die Annahmen gelten für alle Aufgaben dieser Zeile.&lt;/summary&gt;&lt;p&gt;Brauchen verschiedene Aufgaben verschiedene Annahmen, geben Sie jeder eine eigene Zeile. Gibt es eine Annahme weder im MaRDI Portal noch in Wikidata, tippen Sie ihren Namen ein, wählen ihn aus und geben ihre Kurzbeschreibung auf ihrer Seite an.&lt;/p&gt;&lt;/details&gt;</help>
+		<text lang="de">Annahme zur Reduzierung der allgemeinen Berechnungsaufgabe auf ihre spezielle(n) Form(en).</text>
 		<default_text lang="de"/>
-		<verbose_name lang="de">Formel Hinzufügen</verbose_name>
+		<verbose_name lang="de">Formel hinzufügen</verbose_name>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>select</widget_type>
@@ -884,16 +774,12 @@ Sehen Sie sich &lt;a href="https://www.youtube.com/watch?v=UmbBNUZJ994&amp;list=
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/task/id"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">&lt;p&gt;For all tasks &lt;em&gt;label (description)&lt;/em&gt; is provided; the coloured badge shows where it comes from. If a task is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate task is present in the MaRDI Portal or Wikidata, choose &lt;em&gt;new item&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; To use an existing task as a template, first select the task, wait for the information to load, and then change the answer to &lt;em&gt;new item&lt;/em&gt; to remove the external reference.&lt;/p&gt;</help>
-		<text lang="en">Select a Computational Task related to the Mathematical Model!</text>
+		<help lang="en">&lt;details&gt;&lt;summary&gt;If it is neither on the MaRDI Portal nor on Wikidata, choose &lt;em&gt;new item&lt;/em&gt;.&lt;/summary&gt;&lt;p&gt;To use an existing computational task as a template, select it, wait until its information has been added, and then choose &lt;em&gt;new item&lt;/em&gt;: the information stays, the reference to the source is removed. Then give the new computational task its own name and short description.&lt;/p&gt;&lt;/details&gt;</help>
+		<text lang="en">Select the computational task</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">&lt;p&gt;Für alle Aufgaben wird &lt;em&gt;Name (Beschreibung)&lt;/em&gt; angegeben; die farbige Markierung zeigt die Herkunft. Wenn eine Aufgabe ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls keine passende Aufgabe im MaRDI Portal oder Wikidata vorhanden ist, wählen Sie &lt;em&gt;new item&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Hinweis:&lt;/strong&gt; Um eine bestehende Aufgabe als Vorlage zu verwenden, wählen Sie zunächst die Aufgabe aus, warten Sie, bis alle Informationen geladen wurden, und setzen Sie anschließend die Antwort auf &lt;em&gt;new item&lt;/em&gt;, um den Bezug zur externen Quelle zu entfernen.&lt;/p&gt;</help>
-		<text lang="de">Wählen Sie eine Berechnungsaufgabe die mit dem mathematischen Modell im Zusammenhang steht!</text>
+		<help lang="de">&lt;details&gt;&lt;summary&gt;Gibt es sie weder im MaRDI Portal noch in Wikidata, wählen Sie &lt;em&gt;new item&lt;/em&gt;.&lt;/summary&gt;&lt;p&gt;Um eine bestehende Berechnungsaufgabe als Vorlage zu verwenden, wählen Sie sie aus, warten Sie, bis ihre Angaben übernommen sind, und wählen Sie dann &lt;em&gt;new item&lt;/em&gt;: Die Angaben bleiben, der Bezug zur Quelle wird entfernt. Geben Sie der neuen Berechnungsaufgabe dann einen eigenen Namen und eine eigene Kurzbeschreibung.&lt;/p&gt;&lt;/details&gt;</help>
+		<text lang="de">Wählen Sie die Berechnungsaufgabe aus</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -919,7 +805,7 @@ Sehen Sie sich &lt;a href="https://www.youtube.com/watch?v=UmbBNUZJ994&amp;list=
 		<title lang="en">Formula</title>
 		<short_title lang="en">Formula</short_title>
 		<help lang="en">&lt;details&gt;&lt;summary&gt;Document a new formula, or select one from the MaRDI Portal or Wikidata and complete it.&lt;/summary&gt;&lt;p&gt;Selecting an existing formula adds its information from the source to the interview; you can complete it and add relations. Answer all questions not marked as optional, so that the formula can be exported.&lt;/p&gt;&lt;p&gt;In the dropdowns, each item shows its label and description, and the colour shows its source (MaRDI Portal, Wikidata, this documentation). After choosing one, &lt;strong&gt;wait&lt;/strong&gt; until its information has been added.&lt;/p&gt;&lt;p&gt;The information a formula already has on the MaRDI Portal cannot be changed or deleted with MaRDMO, only completed.&lt;/p&gt;&lt;p&gt;The video &lt;a href="https://www.youtube.com/watch?v=NpdyXsvlSKo"&gt;Formula&lt;/a&gt; shows how to document one.&lt;/p&gt;&lt;/details&gt;</help>
-		<verbose_name lang="en">Add Formula</verbose_name>
+		<verbose_name lang="en">Add formula</verbose_name>
 		<title lang="de">Formel</title>
 		<short_title lang="de">Formel</short_title>
 		<help lang="de">&lt;details&gt;&lt;summary&gt;Dokumentieren Sie eine neue Formel, oder wählen Sie eine aus dem MaRDI Portal oder Wikidata aus und ergänzen Sie sie.&lt;/summary&gt;&lt;p&gt;Wird eine bestehende Formel ausgewählt, werden ihre Angaben aus der Quelle in das Interview übernommen; Sie können sie ergänzen und Beziehungen hinzufügen. Beantworten Sie alle Fragen, die nicht als optional markiert sind, damit die Formel exportiert werden kann.&lt;/p&gt;&lt;p&gt;In den Auswahllisten zeigt jeder Eintrag Name und Beschreibung, die Farbe zeigt die Herkunft (MaRDI Portal, Wikidata, diese Dokumentation). &lt;strong&gt;Warten&lt;/strong&gt; Sie nach der Auswahl, bis die Angaben übernommen sind.&lt;/p&gt;&lt;p&gt;Was eine Formel im MaRDI Portal schon hat, kann mit MaRDMO nicht geändert oder gelöscht, nur ergänzt werden.&lt;/p&gt;&lt;p&gt;Das Video &lt;a href="https://www.youtube.com/watch?v=NpdyXsvlSKo"&gt;Formula&lt;/a&gt; zeigt, wie eine Formel dokumentiert wird.&lt;/p&gt;&lt;/details&gt;</help>
@@ -939,7 +825,7 @@ Sehen Sie sich &lt;a href="https://www.youtube.com/watch?v=UmbBNUZJ994&amp;list=
 		<dc:comment/>
 		<attribute/>
 		<is_collection>False</is_collection>
-		<title lang="en">Formula Information</title>
+		<title lang="en">Formula information</title>
 		<help lang="en"/>
 		<verbose_name lang="en"/>
 		<title lang="de">Angaben zur Formel</title>
@@ -949,8 +835,8 @@ Sehen Sie sich &lt;a href="https://www.youtube.com/watch?v=UmbBNUZJ994&amp;list=
 		<questions>
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/formulation/information/name" order="0"/>
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/formulation/information/description" order="1"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/formulation/information/properties" order="2"/>
-			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/formulation/reference" order="3"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/formulation/information/properties" order="3"/>
+			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/formulation/reference" order="2"/>
 		</questions>
 		<conditions/>
 	</questionset>
@@ -962,7 +848,7 @@ Sehen Sie sich &lt;a href="https://www.youtube.com/watch?v=UmbBNUZJ994&amp;list=
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en">&lt;p&gt;A new name changes the formula's name everywhere it is related.&lt;/p&gt;</help>
-		<text lang="en">Name of the Formula</text>
+		<text lang="en">Name of the formula</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de">&lt;p&gt;Ein neuer Name ändert den Namen der Formel überall, wo sie verknüpft ist.&lt;/p&gt;</help>
@@ -989,7 +875,7 @@ Sehen Sie sich &lt;a href="https://www.youtube.com/watch?v=UmbBNUZJ994&amp;list=
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en">&lt;p&gt;2–12 words (at most 250 characters), lowercase except proper names, little punctuation.&lt;/p&gt;</help>
-		<text lang="en">Short Description of the Formula</text>
+		<text lang="en">Short description of the formula</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de">&lt;p&gt;2–12 Wörter (höchstens 250 Zeichen), klein geschrieben außer Eigennamen, wenig Satzzeichen.&lt;/p&gt;</help>
@@ -1016,9 +902,9 @@ Sehen Sie sich &lt;a href="https://www.youtube.com/watch?v=UmbBNUZJ994&amp;list=
 		<is_collection>True</is_collection>
 		<is_optional>True</is_optional>
 		<help lang="en"/>
-		<text lang="en">Properties of the Formula</text>
+		<text lang="en">Properties of the formula</text>
 		<default_text lang="en"/>
-		<verbose_name lang="en">Add Property</verbose_name>
+		<verbose_name lang="en">Add property</verbose_name>
 		<help lang="de"/>
 		<text lang="de">Eigenschaften der Formel</text>
 		<default_text lang="de"/>
@@ -1044,19 +930,11 @@ Sehen Sie sich &lt;a href="https://www.youtube.com/watch?v=UmbBNUZJ994&amp;list=
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/formulation/reference"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">&lt;p&gt;
-  Formulas that are &lt;strong&gt;not&lt;/strong&gt; selected from the MaRDI Portal or Wikidata
-  must be uniquely identifiable, for example by providing the DOI of the publication
-  and the number of the corresponding Formula within that publication.
-&lt;/p&gt;</help>
-		<text lang="en">Reference of the Formula</text>
+		<help lang="en">&lt;p&gt;Make the formula uniquely identifiable, for example by the DOI of the publication and the number of the formula in it.&lt;/p&gt;</help>
+		<text lang="en">Reference of the formula</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">&lt;p&gt;
-  Formeln, die &lt;strong&gt;nicht&lt;/strong&gt; aus dem MaRDI-Portal oder aus Wikidata
-  ausgewählt wurden, müssen eindeutig identifizierbar sein, beispielsweise durch
-  Angabe des DOI der Publikation und der Nummer der Formel innerhalb dieser Publikation.
-&lt;/p&gt;</help>
+		<help lang="de">&lt;p&gt;Machen Sie die Formel eindeutig identifizierbar, zum Beispiel durch die DOI der Publikation und die Nummer der Formel darin.&lt;/p&gt;</help>
 		<text lang="de">Referenz der Formel</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -1070,7 +948,9 @@ Sehen Sie sich &lt;a href="https://www.youtube.com/watch?v=UmbBNUZJ994&amp;list=
 		<unit/>
 		<width/>
 		<optionsets/>
-		<conditions/>
+		<conditions>
+			<condition dc:uri="https://rdmo.mardi4nfdi.de/terms/conditions/formulation-is-new-item"/>
+		</conditions>
 	</question>
 	<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/formulation/formulation-to-formulation">
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
@@ -1078,10 +958,10 @@ Sehen Sie sich &lt;a href="https://www.youtube.com/watch?v=UmbBNUZJ994&amp;list=
 		<dc:comment/>
 		<attribute/>
 		<is_collection>True</is_collection>
-		<title lang="en">Formula - Formula Relations</title>
+		<title lang="en">Relations to other formulas</title>
 		<help lang="en">&lt;details&gt;&lt;summary&gt;Relate the formula to other formulas: its parts and the formulas it is derived from or turned into.&lt;/summary&gt;&lt;p&gt;Parts are assumptions, contained formulas and conditions. The other relations say how two formulas are connected: one approximates, discretizes, linearizes, nondimensionalizes or specializes the other, is its weak formulation, or is similar to it. ↗ next to a relation opens its definition on the MaRDI Portal.&lt;/p&gt;&lt;/details&gt;</help>
-		<verbose_name lang="en">Add Formula Relation</verbose_name>
-		<title lang="de">Formel - Formel Beziehungen</title>
+		<verbose_name lang="en">Add relation</verbose_name>
+		<title lang="de">Beziehungen zu anderen Formeln</title>
 		<help lang="de">&lt;details&gt;&lt;summary&gt;Verknüpfen Sie die Formel mit anderen Formeln: mit ihren Teilen und mit den Formeln, aus denen sie hervorgeht oder in die sie überführt wird.&lt;/summary&gt;&lt;p&gt;Teile sind Annahmen, enthaltene Formeln und Bedingungen. Die anderen Relationen sagen, wie zwei Formeln zusammenhängen: Eine approximiert, diskretisiert, linearisiert, entdimensionalisiert oder spezialisiert die andere, ist ihre schwache Formulierung oder ist ihr ähnlich. ↗ neben einer Relation öffnet ihre Definition im MaRDI Portal.&lt;/p&gt;&lt;/details&gt;</help>
 		<verbose_name lang="de">Beziehung hinzufügen</verbose_name>
 		<questionsets/>
@@ -1100,7 +980,7 @@ Sehen Sie sich &lt;a href="https://www.youtube.com/watch?v=UmbBNUZJ994&amp;list=
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en"/>
-		<text lang="en">The Formula...</text>
+		<text lang="en">The formula...</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
@@ -1128,14 +1008,14 @@ Sehen Sie sich &lt;a href="https://www.youtube.com/watch?v=UmbBNUZJ994&amp;list=
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/formulation/formulation-relatant"/>
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">&lt;p&gt;Only formulas of the MaRDI Portal and of this documentation: add a new formula as a page of its own first.&lt;/p&gt;</help>
-		<text lang="en">...another Formula.</text>
+		<help lang="en">&lt;p&gt;Only formulas of the MaRDI Portal and of this documentation: add a new formula as a tab of its own first.&lt;/p&gt;</help>
+		<text lang="en">...another formula.</text>
 		<default_text lang="en"/>
-		<verbose_name lang="en">Add Formula</verbose_name>
-		<help lang="de">&lt;p&gt;Nur Formeln aus dem MaRDI Portal und aus dieser Dokumentation: Legen Sie eine neue Formel zuerst als eigene Seite an.&lt;/p&gt;</help>
+		<verbose_name lang="en">Add formula</verbose_name>
+		<help lang="de">&lt;p&gt;Nur Formeln aus dem MaRDI Portal und aus dieser Dokumentation: Legen Sie eine neue Formel zuerst als eigenen Tab an.&lt;/p&gt;</help>
 		<text lang="de">...eine weitere Formel.</text>
 		<default_text lang="de"/>
-		<verbose_name lang="de">Formel Hinzufügen</verbose_name>
+		<verbose_name lang="de">Formel hinzufügen</verbose_name>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>select</widget_type>
@@ -1158,13 +1038,13 @@ Sehen Sie sich &lt;a href="https://www.youtube.com/watch?v=UmbBNUZJ994&amp;list=
 		<is_collection>True</is_collection>
 		<is_optional>True</is_optional>
 		<help lang="en">&lt;details&gt;&lt;summary&gt;The assumptions apply to all formulas of this row.&lt;/summary&gt;&lt;p&gt;If different formulas need different assumptions, give each its own row. If an assumption is neither on the MaRDI Portal nor on Wikidata, type its name, select it, and enter its short description on its page.&lt;/p&gt;&lt;/details&gt;</help>
-		<text lang="en">Assumption to reduce the general Formula to its specialized form(s).</text>
+		<text lang="en">Assumption to reduce the general formula to its specialized form(s).</text>
 		<default_text lang="en"/>
-		<verbose_name lang="en">Add Formula</verbose_name>
+		<verbose_name lang="en">Add formula</verbose_name>
 		<help lang="de">&lt;details&gt;&lt;summary&gt;Die Annahmen gelten für alle Formeln dieser Zeile.&lt;/summary&gt;&lt;p&gt;Brauchen verschiedene Formeln verschiedene Annahmen, geben Sie jeder eine eigene Zeile. Gibt es eine Annahme weder im MaRDI Portal noch in Wikidata, tippen Sie ihren Namen ein, wählen ihn aus und geben ihre Kurzbeschreibung auf ihrer Seite an.&lt;/p&gt;&lt;/details&gt;</help>
 		<text lang="de">Annahme zur Reduzierung der allgemeinen Formel auf ihre spezielle(n) Form(en).</text>
 		<default_text lang="de"/>
-		<verbose_name lang="de">Formel Hinzufügen</verbose_name>
+		<verbose_name lang="de">Formel hinzufügen</verbose_name>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>select</widget_type>
@@ -1190,7 +1070,7 @@ Sehen Sie sich &lt;a href="https://www.youtube.com/watch?v=UmbBNUZJ994&amp;list=
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en">&lt;details&gt;&lt;summary&gt;If it is neither on the MaRDI Portal nor on Wikidata, choose &lt;em&gt;new item&lt;/em&gt;.&lt;/summary&gt;&lt;p&gt;To use an existing formula as a template, select it, wait until its information has been added, and then choose &lt;em&gt;new item&lt;/em&gt;: the information stays, the reference to the source is removed. Then give the new formula its own name and short description.&lt;/p&gt;&lt;/details&gt;</help>
-		<text lang="en">Select the Formula</text>
+		<text lang="en">Select the formula</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de">&lt;details&gt;&lt;summary&gt;Gibt es sie weder im MaRDI Portal noch in Wikidata, wählen Sie &lt;em&gt;new item&lt;/em&gt;.&lt;/summary&gt;&lt;p&gt;Um eine bestehende Formel als Vorlage zu verwenden, wählen Sie sie aus, warten Sie, bis ihre Angaben übernommen sind, und wählen Sie dann &lt;em&gt;new item&lt;/em&gt;: Die Angaben bleiben, der Bezug zur Quelle wird entfernt. Geben Sie der neuen Formel dann einen eigenen Namen und eine eigene Kurzbeschreibung.&lt;/p&gt;&lt;/details&gt;</help>
@@ -1217,30 +1097,14 @@ Sehen Sie sich &lt;a href="https://www.youtube.com/watch?v=UmbBNUZJ994&amp;list=
 		<dc:comment/>
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/problem"/>
 		<is_collection>True</is_collection>
-		<title lang="en">Research Problem</title>
-		<short_title lang="en">Problem</short_title>
-		<help lang="en">&lt;p&gt;On this page, you can define new problems or select existing ones from the MaRDI Portal or Wikidata. When an existing problem is selected, all available information from the relevant source is retrieved and integrated into the interview. Retrieved data can be completed and extended with new relations (e.g., connections to other problems).&lt;/p&gt;
-
-&lt;p&gt;In addition to enhancing existing problems, they can also serve as templates for creating new ones. To use a problem as a template, the reference to the external source must be removed after importing the available information.&lt;/p&gt;
-
-&lt;p&gt;For a smooth export to the MaRDI Portal, all &lt;strong&gt;non-optional&lt;/strong&gt; questions must be answered completely.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; If a problem is selected from the MaRDI Portal and not used as a template, its existing information &lt;u&gt;cannot&lt;/u&gt; be edited or deleted via MaRDMO. Any changes or deletions made regardless will be ignored or shown alongside the original information in the MaRDI Portal.&lt;/p&gt;
-
-&lt;p&gt;Check out &lt;a href="https://www.youtube.com/watch?v=Llp5CiPkE0Y"&gt;Research Problem&lt;/a&gt; showcasing the documentation.&lt;/p&gt;</help>
-		<verbose_name lang="en">Add Research Problem</verbose_name>
+		<title lang="en">Research problem</title>
+		<short_title lang="en">Research problem</short_title>
+		<help lang="en">&lt;details&gt;&lt;summary&gt;Document a new research problem, or select one from the MaRDI Portal or Wikidata and complete it.&lt;/summary&gt;&lt;p&gt;Selecting an existing research problem adds its information from the source to the interview; you can complete it and add relations. Answer all questions not marked as optional, so that the research problem can be exported.&lt;/p&gt;&lt;p&gt;In the dropdowns, each item shows its label and description, and the colour shows its source (MaRDI Portal, Wikidata, this documentation). After choosing one, &lt;strong&gt;wait&lt;/strong&gt; until its information has been added.&lt;/p&gt;&lt;p&gt;The information a research problem already has on the MaRDI Portal cannot be changed or deleted with MaRDMO, only completed.&lt;/p&gt;&lt;p&gt;The video &lt;a href="https://www.youtube.com/watch?v=Llp5CiPkE0Y"&gt;Research Problem&lt;/a&gt; shows how to document one.&lt;/p&gt;&lt;/details&gt;</help>
+		<verbose_name lang="en">Add research problem</verbose_name>
 		<title lang="de">Forschungsproblem</title>
-		<short_title lang="de">Problem</short_title>
-		<help lang="de">&lt;p&gt;Auf dieser Seite können neue Probleme definiert oder bereits bestehende Probleme aus dem MaRDI Portal oder Wikidata ausgewählt werden. Wird ein bestehendes Problem ausgewählt, werden alle verfügbaren Informationen aus der jeweiligen Quelle abgerufen und in das Interview integriert. Die abgerufenen Informationen können ergänzt und um neue Relationen erweitert werden (z.&amp;nbsp;B. Verbindungen zu anderen Problemen).&lt;/p&gt;
-
-&lt;p&gt;Bestehende Probleme können nicht nur erweitert, sondern auch als Vorlage für neue Probleme verwendet werden. Hierfür ist es erforderlich, nach dem Abruf der Informationen den Bezug zur externen Quelle zu entfernen.&lt;/p&gt;
-
-&lt;p&gt;Für einen reibungslosen Export in das MaRDI Portal müssen alle &lt;strong&gt;nicht-optionalen&lt;/strong&gt; Fragen vollständig beantwortet sein.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Hinweis:&lt;/strong&gt; Wird ein Problem aus dem MaRDI Portal ausgewählt und nicht als Vorlage verwendet, können bestehende Informationen über MaRDMO &lt;u&gt;nicht&lt;/u&gt; editiert oder gelöscht werden. Änderungen oder Löschungen, die dennoch vorgenommen werden, werden ignoriert oder zusätzlich zu den bestehenden Informationen im MaRDI Portal angezeigt.&lt;/p&gt;
-
-&lt;p&gt;Sehen Sich sich &lt;a href="https://www.youtube.com/watch?v=Llp5CiPkE0Y"&gt;Research Problem&lt;/a&gt; an in dem die Dokumentation vorgestellt wird.&lt;/p&gt;</help>
-		<verbose_name lang="de">Forschungsproblem Hinzufügen</verbose_name>
+		<short_title lang="de">Forschungsproblem</short_title>
+		<help lang="de">&lt;details&gt;&lt;summary&gt;Dokumentieren Sie ein neues Forschungsproblem, oder wählen Sie eines aus dem MaRDI Portal oder Wikidata aus und ergänzen Sie es.&lt;/summary&gt;&lt;p&gt;Wird ein bestehendes Forschungsproblem ausgewählt, werden seine Angaben aus der Quelle in das Interview übernommen; Sie können es ergänzen und Beziehungen hinzufügen. Beantworten Sie alle Fragen, die nicht als optional markiert sind, damit das Forschungsproblem exportiert werden kann.&lt;/p&gt;&lt;p&gt;In den Auswahllisten zeigt jeder Eintrag Name und Beschreibung, die Farbe zeigt die Herkunft (MaRDI Portal, Wikidata, diese Dokumentation). &lt;strong&gt;Warten&lt;/strong&gt; Sie nach der Auswahl, bis die Angaben übernommen sind.&lt;/p&gt;&lt;p&gt;Was ein Forschungsproblem im MaRDI Portal schon hat, kann mit MaRDMO nicht geändert oder gelöscht, nur ergänzt werden.&lt;/p&gt;&lt;p&gt;Das Video &lt;a href="https://www.youtube.com/watch?v=Llp5CiPkE0Y"&gt;Research Problem&lt;/a&gt; zeigt, wie ein Forschungsproblem dokumentiert wird.&lt;/p&gt;&lt;/details&gt;</help>
+		<verbose_name lang="de">Forschungsproblem hinzufügen</verbose_name>
 		<questionsets>
 			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/problem/information-basics" order="1"/>
 			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/problem/problem-to-problem" order="2"/>
@@ -1256,10 +1120,10 @@ Sehen Sie sich &lt;a href="https://www.youtube.com/watch?v=UmbBNUZJ994&amp;list=
 		<dc:comment/>
 		<attribute/>
 		<is_collection>False</is_collection>
-		<title lang="en">Research Problem Information</title>
+		<title lang="en">Research problem information</title>
 		<help lang="en"/>
 		<verbose_name lang="en"/>
-		<title lang="de">Forschungsproblem Informationen</title>
+		<title lang="de">Angaben zum Forschungsproblem</title>
 		<help lang="de"/>
 		<verbose_name lang="de"/>
 		<questionsets/>
@@ -1276,15 +1140,11 @@ Sehen Sie sich &lt;a href="https://www.youtube.com/watch?v=UmbBNUZJ994&amp;list=
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/problem/name"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">&lt;p&gt;Changing the name changes it in all relations to this problem. To document another problem, add a new tab.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; If you use the problem as a template, don’t forget to update the name.&lt;/p&gt;</help>
-		<text lang="en">Name of the Research Problem</text>
+		<help lang="en">&lt;p&gt;A new name changes the research problem's name everywhere it is related.&lt;/p&gt;</help>
+		<text lang="en">Name of the research problem</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">&lt;p&gt;Eine Änderung des Namens ändert ihn in allen Beziehungen zu diesem Problem. Um ein anderes Problem zu dokumentieren, fügen Sie einen neuen Tab hinzu.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Hinweis:&lt;/strong&gt; Wenn Sie das Problem als Vorlage verwenden, denken Sie daran, den Namen anzupassen.&lt;/p&gt;</help>
+		<help lang="de">&lt;p&gt;Ein neuer Name ändert den Namen des Forschungsproblems überall, wo es verknüpft ist.&lt;/p&gt;</help>
 		<text lang="de">Name des Forschungsproblems</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -1307,15 +1167,11 @@ Sehen Sie sich &lt;a href="https://www.youtube.com/watch?v=UmbBNUZJ994&amp;list=
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/problem/description"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">&lt;p&gt;Short description of 2–12 words (max. 250 characters), lowercase only except for proper names, minimal punctuation.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; If you use the problem as a template, don’t forget to update the short description.&lt;/p&gt;</help>
-		<text lang="en">Short Description of the Research Problem</text>
+		<help lang="en">&lt;p&gt;2–12 words (at most 250 characters), lowercase except proper names, little punctuation.&lt;/p&gt;</help>
+		<text lang="en">Short description of the research problem</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">&lt;p&gt;Kurze Beschreibung mit 2–12 Wörtern (max. 250 Zeichen), nur Kleinschreibung außer bei Eigennamen, minimale Zeichensetzung.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Hinweis:&lt;/strong&gt; Wenn Sie das Problem als Vorlage verwenden, denken Sie daran, die Kurzbeschreibung anzupassen.&lt;/p&gt;</help>
+		<help lang="de">&lt;p&gt;2–12 Wörter (höchstens 250 Zeichen), klein geschrieben außer Eigennamen, wenig Satzzeichen.&lt;/p&gt;</help>
 		<text lang="de">Kurze Beschreibung des Forschungsproblems</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -1337,12 +1193,12 @@ Sehen Sie sich &lt;a href="https://www.youtube.com/watch?v=UmbBNUZJ994&amp;list=
 		<dc:comment/>
 		<attribute/>
 		<is_collection>True</is_collection>
-		<title lang="en">Research Problem - Research Problem Relations</title>
-		<help lang="en">&lt;p&gt;To relate the problem with other problems, select additional problems and specify the relations.&lt;/p&gt;</help>
-		<verbose_name lang="en">Add Research Problem Relation</verbose_name>
-		<title lang="de">Forschungsproblem - Forschungsproblem Beziehungen</title>
-		<help lang="de">&lt;p&gt;Um das Problem mit anderen Problemen zu verknüpfen, wählen Sie weitere Probleme aus und geben Sie die Relationen an.&lt;/p&gt;</help>
-		<verbose_name lang="de">Forschungsproblem Relation Hinzufügen</verbose_name>
+		<title lang="en">Relations to other research problems</title>
+		<help lang="en">&lt;details&gt;&lt;summary&gt;Relate the problem to other problems: the problems it specializes, that specialize it, or that are similar to it.&lt;/summary&gt;&lt;p&gt;↗ next to a relation opens its definition on the MaRDI Portal.&lt;/p&gt;&lt;/details&gt;</help>
+		<verbose_name lang="en">Add relation</verbose_name>
+		<title lang="de">Beziehungen zu anderen Forschungsproblemen</title>
+		<help lang="de">&lt;details&gt;&lt;summary&gt;Verknüpfen Sie das Problem mit anderen Problemen: mit den Problemen, die es spezialisiert, die es spezialisieren oder die ihm ähnlich sind.&lt;/summary&gt;&lt;p&gt;↗ neben einer Relation öffnet ihre Definition im MaRDI Portal.&lt;/p&gt;&lt;/details&gt;</help>
+		<verbose_name lang="de">Beziehung hinzufügen</verbose_name>
 		<questionsets/>
 		<questions>
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/problem/problem-to-problem/problem-relation" order="0"/>
@@ -1358,7 +1214,7 @@ Sehen Sie sich &lt;a href="https://www.youtube.com/watch?v=UmbBNUZJ994&amp;list=
 		<is_collection>False</is_collection>
 		<is_optional>True</is_optional>
 		<help lang="en"/>
-		<text lang="en">The Research Problem...</text>
+		<text lang="en">The research problem...</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de"/>
@@ -1386,14 +1242,14 @@ Sehen Sie sich &lt;a href="https://www.youtube.com/watch?v=UmbBNUZJ994&amp;list=
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/problem/problem-relatant"/>
 		<is_collection>True</is_collection>
 		<is_optional>True</is_optional>
-		<help lang="en">&lt;p&gt;Choose one or more problems to be linked by the selected relation. For all problems &lt;em&gt;label (description)&lt;/em&gt; is provided; the coloured badge shows where it comes from. Only problems from the MaRDI Portal and those selected or defined within the interview can be chosen.&lt;/p&gt;</help>
-		<text lang="en">...another Research Problem.</text>
+		<help lang="en">&lt;p&gt;Only problems of the MaRDI Portal and of this documentation: add a new problem as a tab of its own first.&lt;/p&gt;</help>
+		<text lang="en">...another research problem.</text>
 		<default_text lang="en"/>
-		<verbose_name lang="en">Add Research Problem</verbose_name>
-		<help lang="de">&lt;p&gt;Wählen Sie ein oder mehrere Probleme aus, die über die ausgewählte Relation verknüpft werden sollen. Für alle Probleme wird &lt;em&gt;Name (Beschreibung)&lt;/em&gt; angegeben; die farbige Markierung zeigt die Herkunft. Es können nur Probleme aus dem MaRDI-Portal sowie solche ausgewählt oder definiert werden, die im Interview verwendet werden.&lt;/p&gt;</help>
+		<verbose_name lang="en">Add research problem</verbose_name>
+		<help lang="de">&lt;p&gt;Nur Probleme aus dem MaRDI Portal und aus dieser Dokumentation: Legen Sie ein neues Problem zuerst als eigenen Tab an.&lt;/p&gt;</help>
 		<text lang="de">...ein weiteres Forschungsproblem.</text>
 		<default_text lang="de"/>
-		<verbose_name lang="de">Forschungsproblem Hinzufügen</verbose_name>
+		<verbose_name lang="de">Forschungsproblem hinzufügen</verbose_name>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>select</widget_type>
@@ -1415,16 +1271,12 @@ Sehen Sie sich &lt;a href="https://www.youtube.com/watch?v=UmbBNUZJ994&amp;list=
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/problem/id"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">&lt;p&gt;For all problems &lt;em&gt;label (description)&lt;/em&gt; is provided; the coloured badge shows where it comes from. If a problem is chosen, &lt;strong&gt;WAIT&lt;/strong&gt; until further information are added to the interview. If no appropriate problem is present in the MaRDI Portal or Wikidata, choose &lt;em&gt;new item&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; To use an existing problem as a template, first select the problem, wait for the information to load, and then change the answer to &lt;em&gt;new item&lt;/em&gt; to remove the external reference.&lt;/p&gt;</help>
-		<text lang="en">Select a Research Problem related to the Mathematical Model!</text>
+		<help lang="en">&lt;details&gt;&lt;summary&gt;If it is neither on the MaRDI Portal nor on Wikidata, choose &lt;em&gt;new item&lt;/em&gt;.&lt;/summary&gt;&lt;p&gt;To use an existing research problem as a template, select it, wait until its information has been added, and then choose &lt;em&gt;new item&lt;/em&gt;: the information stays, the reference to the source is removed. Then give the new research problem its own name and short description.&lt;/p&gt;&lt;/details&gt;</help>
+		<text lang="en">Select the research problem</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">&lt;p&gt;Für alle Probleme wird &lt;em&gt;Name (Beschreibung)&lt;/em&gt; angegeben; die farbige Markierung zeigt die Herkunft. Wenn ein Problem ausgewählt wird, &lt;strong&gt;WARTEN&lt;/strong&gt; Sie, bis weitere Informationen zum Interview hinzugefügt werden. Falls kein passendes Problem im MaRDI Portal oder Wikidata vorhanden ist, wählen Sie &lt;em&gt;new item&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Hinweis:&lt;/strong&gt; Um ein bestehendes Problem als Vorlage zu verwenden, wählen Sie zunächst das Problem aus, warten Sie, bis alle Informationen geladen wurden, und setzen Sie anschließend die Antwort auf &lt;em&gt;new item&lt;/em&gt;, um den Bezug zur externen Quelle zu entfernen.&lt;/p&gt;</help>
-		<text lang="de">Wählen Sie ein Forschungsproblem, das mit dem mathematischen Modell im Zusammenhang steht!</text>
+		<help lang="de">&lt;details&gt;&lt;summary&gt;Gibt es das Forschungsproblem weder im MaRDI Portal noch in Wikidata, wählen Sie &lt;em&gt;new item&lt;/em&gt;.&lt;/summary&gt;&lt;p&gt;Um ein bestehendes Forschungsproblem als Vorlage zu verwenden, wählen Sie es aus, warten Sie, bis seine Angaben übernommen sind, und wählen Sie dann &lt;em&gt;new item&lt;/em&gt;: Die Angaben bleiben, der Bezug zur Quelle wird entfernt. Geben Sie dem neuen Forschungsproblem dann einen eigenen Namen und eine eigene Kurzbeschreibung.&lt;/p&gt;&lt;/details&gt;</help>
+		<text lang="de">Wählen Sie das Forschungsproblem aus</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -1461,20 +1313,12 @@ Sehen Sie sich &lt;a href="https://www.youtube.com/watch?v=UmbBNUZJ994&amp;list=
 		<is_collection>True</is_collection>
 		<title lang="en">Publication</title>
 		<short_title lang="en">Publication</short_title>
-		<help lang="en">&lt;p&gt;On this page, you can define new publications or select existing ones from the MaRDI Portal, MathAlgoDB or Wikidata. When an existing publication is selected, all available information from the relevant source is retrieved and integrated into the interview. Retrieved data can be extended with new relations (e.g., connections to model entities).&lt;/p&gt;
-
-&lt;p&gt;For a smooth export to the MaRDI Portal, all &lt;strong&gt;non-optional&lt;/strong&gt; questions must be answered completely.&lt;/p&gt;
-
-&lt;p&gt;Check out &lt;a href="https://www.youtube.com/watch?v=qfb6xVytzZU"&gt;Publication&lt;/a&gt; showcasing the documentation.&lt;/p&gt;</help>
-		<verbose_name lang="en">Add Publication</verbose_name>
+		<help lang="en">&lt;details&gt;&lt;summary&gt;Add the publications about the model and say what each one does with the items of this documentation.&lt;/summary&gt;&lt;p&gt;A publication is selected by its identifier; MaRDMO looks up its data. Answer all questions not marked as optional, so that the publication can be exported.&lt;/p&gt;&lt;p&gt;The video &lt;a href="https://www.youtube.com/watch?v=qfb6xVytzZU"&gt;Publication&lt;/a&gt; shows how to add one.&lt;/p&gt;&lt;/details&gt;</help>
+		<verbose_name lang="en">Add publication</verbose_name>
 		<title lang="de">Publikation</title>
 		<short_title lang="de">Publikation</short_title>
-		<help lang="de">&lt;p&gt;Auf dieser Seite können neue Publikationen definiert oder bereits bestehende Publikationen aus dem MaRDI Portal, MathAlgoDB oder Wikidata ausgewählt werden. Wird eine bestehende Publikation ausgewählt, werden alle verfügbaren Informationen aus der jeweiligen Quelle abgerufen und in das Interview integriert. Die abgerufenen Informationen können um neue Relationen erweitert werden (z.&amp;nbsp;B. Verbindungen zu verschiedenen Modell-Entitäten).&lt;/p&gt;
-
-&lt;p&gt;Für einen reibungslosen Export in das MaRDI Portal müssen alle &lt;strong&gt;nicht-optionalen&lt;/strong&gt; Fragen vollständig beantwortet sein.&lt;/p&gt;
-
-&lt;p&gt;Sehen Sie sich &lt;a href="https://www.youtube.com/watch?v=qfb6xVytzZU"&gt;Publication&lt;/a&gt; an in dem die Dokumentation vorgestellt wird.&lt;/p&gt;</help>
-		<verbose_name lang="de">Publikation Hinzufügen</verbose_name>
+		<help lang="de">&lt;details&gt;&lt;summary&gt;Fügen Sie die Publikationen über das Modell hinzu und geben Sie an, was jede mit den Einträgen dieser Dokumentation macht.&lt;/summary&gt;&lt;p&gt;Eine Publikation wird über ihren Identifikator ausgewählt; MaRDMO sucht ihre Angaben. Beantworten Sie alle Fragen, die nicht als optional markiert sind, damit die Publikation exportiert werden kann.&lt;/p&gt;&lt;p&gt;Das Video &lt;a href="https://www.youtube.com/watch?v=qfb6xVytzZU"&gt;Publication&lt;/a&gt; zeigt, wie eine Publikation hinzugefügt wird.&lt;/p&gt;&lt;/details&gt;</help>
+		<verbose_name lang="de">Publikation hinzufügen</verbose_name>
 		<questionsets>
 			<questionset dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/publication/publication-to-entity" order="3"/>
 		</questionsets>
@@ -1489,12 +1333,12 @@ Sehen Sie sich &lt;a href="https://www.youtube.com/watch?v=UmbBNUZJ994&amp;list=
 		<dc:comment/>
 		<attribute/>
 		<is_collection>True</is_collection>
-		<title lang="en">Publication Relations</title>
-		<help lang="en">&lt;p&gt;To relate the publication with individual model entities, select the entities and specify the relations.&lt;/p&gt;</help>
-		<verbose_name lang="en">Add Publication Relation</verbose_name>
-		<title lang="de">Publikation Beziehungen</title>
-		<help lang="de">&lt;p&gt;Um die Publikation mit individuellen Entitäten des Modells zu verknüpfen, wählen Sie die Entitäten aus und geben Sie die Relationen an.&lt;/p&gt;</help>
-		<verbose_name lang="de">Publikation Relation Hinzufügen</verbose_name>
+		<title lang="en">Relations to the documented items</title>
+		<help lang="en">&lt;details&gt;&lt;summary&gt;Say what the publication does with the items of this documentation: it documents, invents, studies, surveys or uses them.&lt;/summary&gt;&lt;p&gt;↗ next to a relation opens its definition on the MaRDI Portal.&lt;/p&gt;&lt;/details&gt;</help>
+		<verbose_name lang="en">Add relation</verbose_name>
+		<title lang="de">Beziehungen zu den dokumentierten Einträgen</title>
+		<help lang="de">&lt;details&gt;&lt;summary&gt;Geben Sie an, was die Publikation mit den Einträgen dieser Dokumentation macht: Sie dokumentiert, erfindet, untersucht, gibt einen Überblick über sie oder verwendet sie.&lt;/summary&gt;&lt;p&gt;↗ neben einer Relation öffnet ihre Definition im MaRDI Portal.&lt;/p&gt;&lt;/details&gt;</help>
+		<verbose_name lang="de">Beziehung hinzufügen</verbose_name>
 		<questionsets/>
 		<questions>
 			<question dc:uri="https://rdmo.mardi4nfdi.de/terms/questions/mardmo/publication/entity-relation" order="0"/>
@@ -1538,14 +1382,14 @@ Sehen Sie sich &lt;a href="https://www.youtube.com/watch?v=UmbBNUZJ994&amp;list=
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/publication/entity-relatant"/>
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">&lt;p&gt;Choose one or more entities to be linked by the selected relation. For all entities &lt;em&gt;label (description)&lt;/em&gt; is provided; the coloured badge shows where it comes from. Only entities from the MaRDI Portal and those selected or defined within the interview can be chosen.&lt;/p&gt;</help>
-		<text lang="en">...a previously selected or defined entity of the mathematical model.</text>
+		<help lang="en">&lt;p&gt;Only items of the MaRDI Portal and of this documentation.&lt;/p&gt;</help>
+		<text lang="en">...an item of this documentation.</text>
 		<default_text lang="en"/>
-		<verbose_name lang="en">Add Entity of Model Mathematical</verbose_name>
-		<help lang="de">&lt;p&gt;Wählen Sie eine oder mehrere Entitäten aus, die über die ausgewählte Relation verknüpft werden sollen. Für alle Entitäten wird &lt;em&gt;Name (Beschreibung)&lt;/em&gt; angegeben; die farbige Markierung zeigt die Herkunft. Es können nur Entitäten aus dem MaRDI-Portal sowie solche ausgewählt oder definiert werden, die im Interview verwendet werden.&lt;/p&gt;</help>
-		<text lang="de">...eine zuvor ausgewählte oder definierte Entität des mathematischen Models.</text>
+		<verbose_name lang="en">Add item</verbose_name>
+		<help lang="de">&lt;p&gt;Nur Einträge aus dem MaRDI Portal und aus dieser Dokumentation.&lt;/p&gt;</help>
+		<text lang="de">...einen Eintrag dieser Dokumentation.</text>
 		<default_text lang="de"/>
-		<verbose_name lang="de">Entität des mathematischen Modells Hinzufügen</verbose_name>
+		<verbose_name lang="de">Eintrag hinzufügen</verbose_name>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>select</widget_type>
@@ -1567,12 +1411,12 @@ Sehen Sie sich &lt;a href="https://www.youtube.com/watch?v=UmbBNUZJ994&amp;list=
 		<attribute dc:uri="https://rdmo.mardi4nfdi.de/terms/domain/publication/id"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">&lt;p&gt;Type the identifier of the publication with its prefix. Possible identifiers:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;doi:&lt;/em&gt; followed by the DOI (e.g. &lt;em&gt;doi:10.1000/xyz123&lt;/em&gt;)&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;A publication that is on the MaRDI Portal or Wikidata is offered as it is there; the coloured badge shows where it comes from. Otherwise choose the identifier itself, marked &lt;em&gt;new&lt;/em&gt;: MaRDMO looks up title, authors and journal in the background. An identifier that is not valid is refused.&lt;/p&gt;</help>
-		<text lang="en">Select a Publication by its Identifier!</text>
+		<help lang="en">&lt;details&gt;&lt;summary&gt;Type the identifier with its prefix, for example &lt;em&gt;doi:10.1000/xyz123&lt;/em&gt;.&lt;/summary&gt;&lt;p&gt;A publication on the MaRDI Portal or Wikidata is offered as it is there; the colour shows its source. Otherwise choose the identifier itself, marked &lt;em&gt;new&lt;/em&gt;: MaRDMO looks up title, authors and journal in the background. An identifier that is not valid is refused.&lt;/p&gt;&lt;/details&gt;</help>
+		<text lang="en">Select the publication by its identifier</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">&lt;p&gt;Geben Sie den Identifikator der Publikation mit seinem Präfix ein. Mögliche Identifikatoren:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;doi:&lt;/em&gt; gefolgt von der DOI (z.&amp;nbsp;B. &lt;em&gt;doi:10.1000/xyz123&lt;/em&gt;)&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Eine Publikation, die es im MaRDI Portal oder in Wikidata gibt, wird so angeboten, wie sie dort ist; die farbige Markierung zeigt die Herkunft. Andernfalls wählen Sie den Identifikator selbst, markiert als &lt;em&gt;new&lt;/em&gt;: MaRDMO sucht Titel, Autoren und Zeitschrift im Hintergrund. Ein ungültiger Identifikator wird abgelehnt.&lt;/p&gt;</help>
-		<text lang="de">Wählen Sie eine Publikation über ihren Identifikator aus!</text>
+		<help lang="de">&lt;details&gt;&lt;summary&gt;Geben Sie den Identifikator mit seinem Präfix ein, zum Beispiel &lt;em&gt;doi:10.1000/xyz123&lt;/em&gt;.&lt;/summary&gt;&lt;p&gt;Eine Publikation im MaRDI Portal oder in Wikidata wird so angeboten, wie sie dort ist; die Farbe zeigt die Herkunft. Andernfalls wählen Sie den Identifikator selbst, markiert als &lt;em&gt;new&lt;/em&gt;: MaRDMO sucht Titel, Autoren und Zeitschrift im Hintergrund. Ein ungültiger Identifikator wird abgelehnt.&lt;/p&gt;&lt;/details&gt;</help>
+		<text lang="de">Wählen Sie die Publikation über ihren Identifikator aus</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
