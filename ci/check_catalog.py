@@ -10,7 +10,8 @@ Reports, and exits with 1 on
 - an element defined twice in one file, or differently in two files (RDMO
   imports one element per URI: the file imported last would win);
 - a widget type the released RDMO does not know (rdmo.questions.constants);
-- a text given in English or German only (title, text, help, ...).
+- a text given in English or German only (title, text, help, ...);
+- a text longer than RDMO allows (the short title of a page: 32 characters).
 
 Needs RDMO installed (pip install rdmo) for its widget types.
 '''
@@ -26,6 +27,8 @@ LANGUAGES = {'en', 'de'}
 # <parent> to one of its element's tag, a condition's <source> to an
 # attribute and its <target_option> to an option
 REFERENCE_TAGS = {'source': 'attribute', 'target_option': 'option'}
+# Lengths RDMO's models allow (rdmo.questions.models.Page.short_title); a longer text is not imported
+MAX_LENGTHS = {'short_title': 32}
 
 
 def widget_types():
@@ -72,6 +75,9 @@ def check(catalog):
             for child in element:
                 if child.get('lang') and (child.text or '').strip():
                     texts[child.tag].add(child.get('lang'))
+                if child.tag in MAX_LENGTHS and len((child.text or '').strip()) > MAX_LENGTHS[child.tag]:
+                    problems.append(f'{name}: {element.tag} {element.get(DC)} has a {child.tag} longer than '
+                                    f'{MAX_LENGTHS[child.tag]} characters ({child.get("lang")})')
             for field, languages in sorted(texts.items()):
                 if languages != LANGUAGES:
                     problems.append(f'{name}: {element.tag} {element.get(DC)} has its {field} only in '
