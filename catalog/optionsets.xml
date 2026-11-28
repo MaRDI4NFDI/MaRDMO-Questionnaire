@@ -390,7 +390,7 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>source-code-repository-url</uri_path>
 		<dc:comment/>
-		<text lang="en">Source Code Repository URL</text>
+		<text lang="en">Source code repository URL</text>
 		<help lang="en"/>
 		<default_text lang="en"/>
 		<view_text lang="en"/>
@@ -1354,7 +1354,7 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>mathmoddb/quantity-kind</uri_path>
 		<dc:comment/>
-		<text lang="en">Quantity Kind</text>
+		<text lang="en">Quantity kind</text>
 		<help lang="en"/>
 		<default_text lang="en"/>
 		<view_text lang="en"/>
@@ -1858,7 +1858,7 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>search-options/interdisciplinary-workflow</uri_path>
 		<dc:comment/>
-		<text lang="en">Interdisciplinary Workflow</text>
+		<text lang="en">Interdisciplinary workflow</text>
 		<help lang="en"/>
 		<default_text lang="en"/>
 		<view_text lang="en"/>
@@ -1872,7 +1872,7 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>search-options/mathematical-model</uri_path>
 		<dc:comment/>
-		<text lang="en">Mathematical Model</text>
+		<text lang="en">Mathematical model</text>
 		<help lang="en"/>
 		<default_text lang="en"/>
 		<view_text lang="en"/>
@@ -1929,11 +1929,11 @@
 		<uri_prefix>https://rdmo.mardi4nfdi.de/terms</uri_prefix>
 		<uri_path>swmath</uri_path>
 		<dc:comment/>
-		<text lang="en">swMath ID</text>
+		<text lang="en">swMATH ID</text>
 		<help lang="en"/>
 		<default_text lang="en"/>
 		<view_text lang="en"/>
-		<text lang="de">swMath ID</text>
+		<text lang="de">swMATH ID</text>
 		<help lang="de"/>
 		<default_text lang="de"/>
 		<view_text lang="de"/>
